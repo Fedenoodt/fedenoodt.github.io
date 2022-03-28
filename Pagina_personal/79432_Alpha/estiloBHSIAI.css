@@ -1,0 +1,31 @@
+* {
+	color: white;
+}
+
+body {
+	background-color: black;
+}
+
+h1 {
+	font-size: 45px;
+	margin:0 0;
+}
+
+.Emblema {
+	width: 300px;
+}
+
+.listaHorizontal {
+	display: inline-block;
+ 	margin: 0 30px;
+}
+
+.imgConfiguracion {
+	width: 100px;
+	height: 100px;
+	float: right;
+}
+.inicio{
+	float: right;
+	float: bottom;
+}

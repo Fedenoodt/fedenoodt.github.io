@@ -1,0 +1,53 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: Paladino Linotype;
+	color: rgb(255, 255, 255);
+}
+
+body {
+	background-repeat: no-repeat;
+	background-color: rgb(0, 0, 0);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.home {
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.in-flex {
+	flex: 1;
+	min-width: 225px;
+}
+.in-flex:first-child {
+	flex: 2;
+	background-color: rgba(0, 0, 0, 0.8);
+	margin: 20px;
+	margin-bottom: 0px;
+}
+
+.in-flex div {
+	padding: 25px;
+	background-color: rgba(0, 0, 0, 0.8);
+	margin: 20px;
+
+}
+
+.Portada {
+	width: 80%;
+	height: auto;
+	margin: 9.2%;
+}
+.Tomo1,
+.helpScroll1,
+.returnHome,
+.Titulo {
+	text-align: center;
+}
+
+.helpScroll1 {
+	text-align: center;
+}
+

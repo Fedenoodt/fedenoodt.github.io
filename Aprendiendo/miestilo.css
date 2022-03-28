@@ -1,0 +1,23 @@
+﻿a{color:orange;}
+h1{color:yellow;}
+.img-cabecera {align="center"}
+.Titulo{font-size: 450%}
+.Titulo{text-align: center;}
+.Fedenoodt{text-align: left;}
+.Profile{position: left}
+header {background-color: black }
+body {background-color: blue}
+p {color: white}
+ul{padding: 0 0
+	margin: 0 0;}
+ul{display: inline-block; text-align: left;}
+li {color: white;}
+h5 {color: yellow;}
+.intro{text-align: center}
+.intro{border-style: groove;}
+.intro{border-color: gray}
+.intro{border-width: medium;}
+.Sistema{border-style: groove;}
+.Sistema{border-color: gray}
+.SuperClass{background-color: black}
+.SuperClass{background-size: 100% 45%}

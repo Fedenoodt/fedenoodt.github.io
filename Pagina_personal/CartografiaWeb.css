@@ -1,0 +1,43 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: Paladino Linotype;
+	color: rgb(254, 255, 168);
+    position: absolute;
+}
+
+h1 {
+    font-size: 300px;
+}
+
+h2 {
+    font-size: 200px;
+}
+h3 {
+    font-size: 100px;
+}
+h4 {
+    font-size: 80px;
+}
+h5 {
+    font-size: 60px;
+}
+h6 {
+    font-size: 10px;
+}
+.CeroCero {
+    color: rgb(88, 12, 150);
+}
+
+.margen {
+    width: 100px;
+}
+
+.cuadrante {
+    width: 100px;
+    height: 100px;
+}
+
+body {
+    background-repeat: repeat;
+}

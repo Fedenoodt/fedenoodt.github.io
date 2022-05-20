@@ -1,3 +1,4 @@
+element.requestFullscreen()
 var timeDisplay = document.getElementById("time");
 
 

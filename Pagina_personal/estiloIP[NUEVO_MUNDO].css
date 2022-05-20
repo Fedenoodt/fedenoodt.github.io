@@ -1,0 +1,74 @@
+* {
+    padding:0px;
+    margin:0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-color: black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.imgAtajos {
+	float: right;
+	width: 100px;
+	height: 100px;
+}
+
+.fortressButton {
+    background-color: rgba(32, 203, 255, 0.5);
+}
+
+h1 {
+    font-size: 90px;
+}
+
+.warning {
+    color: crimson;
+}
+
+.sleeping {
+    color: rgb(0, 81, 255)
+}
+
+.bussy {
+    color: rgb(250, 193, 87)
+}
+
+.online {
+    color: white
+}
+
+h3 {
+    font-size: 70px;
+}
+
+h5 {
+    font-size: 40px;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex {
+    flex: 1;
+    min-width: 225px;
+}
+
+.in-flex:first-child{
+    flex: 2;
+    background-color: rgba(17, 95, 7, 0.5);
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.in-flex div {
+    padding: 25px;
+    background-color: rgba(17, 95, 7, 0.5);
+    margin: 20px;
+}

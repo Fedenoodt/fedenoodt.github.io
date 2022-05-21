@@ -18,13 +18,6 @@ body {
 	height: 100px;
 }
 
-.imgMapa {
-	float: right;
-	width: 100px;
-	height: 100px;
-	padding-right: 15px;
-}
-
 .fortressButton {
     background-color: rgba(32, 203, 255, 0.5);
 }

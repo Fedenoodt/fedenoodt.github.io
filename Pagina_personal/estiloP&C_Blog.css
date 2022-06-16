@@ -60,6 +60,10 @@ p {
 	background-color: rgba(43, 43, 43, 0.658);
 }
 
+.date-blogger #subtitulo {
+	float: right;
+}
+
 #insp {
 	background-image: url("inspiracion.png");
 }

@@ -24,7 +24,7 @@ p {
 	color: rgb(13, 36, 78);
 	margin: 15px;
 	font-size: 100%;
-    	transition: color 1.0s ease-in-out;
+    transition: color 1.0s ease-in-out;
 	transition: text-shadow 0.3s ease-in-out;
 }
 
@@ -32,7 +32,7 @@ p {
 	font-family: Fantasy;
 	color: rgb(15, 58, 139);
 	text-shadow: 2px 2px 4px rgb(255, 0, 0);
-    	transition: color 1.0s ease-in-out;
+    transition: color 1.0s ease-in-out;
 	transition: text-shadow 0.3s ease-in-out;
 }
 
@@ -45,7 +45,6 @@ p {
 
 .blogger-banner {
 	font-family: Fantasy;
-	min-width: 800px;
 	height: 110px;
 	margin: 0%;
 	background-color: rgba(45, 104, 216, 0.5);
@@ -62,7 +61,7 @@ p {
 }
 
 #insp {
-	background-image: url("Inspiracion.png");
+	background-image: url("inspiracion.png");
 }
 
 #desa {

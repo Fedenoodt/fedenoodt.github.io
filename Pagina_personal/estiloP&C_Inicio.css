@@ -4,12 +4,12 @@
 	font-family: Fantasy;
 	font-size: 113%;
 	color: rgb(13, 36, 78);
+	overflow: visible;
 }
 
 p {
 	text-align: justify;
 	text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
-	overflow: visible;
 }
 
 .Titulo {
@@ -17,21 +17,19 @@ p {
 	font-size: 150%;
 	text-align: center;
 	text-shadow: 5px 5px 8px rgb(146, 48, 212);
-	overflow: visible;
 }
 
 .contacto {
 	margin: 15px;
 	font-size: 100%;
-    	transition: color 1.0s ease-in-out;
+    transition: color 1.0s ease-in-out;
 	transition: text-shadow 0.3s ease-in-out;
-	overflow: visible;
 }
 
 .contacto:hover {
 	color: rgb(15, 58, 139);
 	text-shadow: 2px 2px 4px rgb(255, 0, 0);
-    	transition: color 1.0s ease-in-out;
+    transition: color 1.0s ease-in-out;
 	transition: text-shadow 0.3s ease-in-out;
 }
 
@@ -40,5 +38,4 @@ p {
 	font-size: 130%;
 	color: rgb(49, 48, 133);
 	text-shadow: rgba(0, 0, 0, 0);
-	overflow: visible;
 }

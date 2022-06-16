@@ -3,21 +3,20 @@
 }
 
 .barraAbertura {
-	min-width: 1300px;
+	min-width: 1000px;
 	position: fixed;
 	min-height: 60px; width: 100%;
 	max-height: 120px;
 	background-color: rgb(63, 144, 179);
 	margin-bottom: 10px;
-    	transition: background 1.0s ease-in-out;
+    transition: background 1.0s ease-in-out;
 	transition: box-shadow 0.6s ease-in-out;
-	overflow: auto;
 }
 
 .barraAbertura:hover {
 	background-color: rgb(47, 138, 177);
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
-    	transition: background 1.0s ease-in-out;
+    transition: background 1.0s ease-in-out;
 	transition: box-shadow 0.6s ease-in-out;
 }
 
@@ -46,7 +45,6 @@ h1 {}
 
 .barraAbertura a {
 	float: right;
-	min-width: 1000px;
 }
 
 h2 {font-size: 120%;}
@@ -64,20 +62,19 @@ body {
 }
 
 .intro {
-	min-width: 800px;
+	min-width: 100px;
 	padding: 20px;
-	background-color: rgba(45, 104, 216, 0.7);
+	background-color: rgba(45, 104, 216, 0.5);
 	margin: 20px;
 	margin-bottom: 10px;
 	border-style: ridge;
 	border-width: 1.8px;
 	border-color: rgba(0, 0, 0, 0);
 	display: inline-block;
-	overflow: hidden;
 }
 
 .contenedor {
-	min-width: 800px;
+	min-width: 100px;
 	padding: 20px;
 	background-color: rgba(121, 177, 119, 0.836);
     transition: background 1.0s ease-in-out;
@@ -88,11 +85,10 @@ body {
 	border-width: 1.8px;
 	border-color: rgba(0, 0, 0, 0);
 	display: inline-block;
-	overflow: visible;
 }
 
 .Blog {
-	min-width: 800px;
+	min-width: 100px;
 	padding: 0px;
 	margin: 20px;
 	margin-bottom: 10px;
@@ -111,21 +107,19 @@ body {
 
 .in-flex:first-child {
 	flex: 1;
-	min-width: 800px;
-	overflow: visible;
+	min-width: 100px;
 }
 .in-flex {
-	min-width: 800px;
+	min-width: 100px;
 	max-width: 50%;
 	flex: 2;
 	padding: 20px;
-	background-color: rgba(45, 104, 216, 0.7);
+	background-color: rgba(45, 104, 216, 0.5);
 	margin: 20px;
-	overflow: visible;
 }
 .contenedor:hover {
 	background-color: rgba(103, 131, 143, 0.836);
-    	transition: background 1.0s ease-in-out;
+    transition: background 1.0s ease-in-out;
 }
 
 a:link {

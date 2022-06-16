@@ -47,7 +47,7 @@ p {
 	font-family: Fantasy;
 	height: 110px;
 	margin: 0%;
-	background-color: rgba(45, 216, 179, 0.5);
+	background-color: rgba(45, 216, 207, 0.5);
 }
 
 .date-blogger {
@@ -55,27 +55,13 @@ p {
 	color: rgb(167, 167, 167);
 	text-shadow: 1px 1px 3px rgba(136, 136, 136, 0.5);
 	height: 37px;
-	max-height: 74px;
 	width:100%;
 	margin: 0%;
 	background-color: rgba(43, 43, 43, 0.658);
 }
 
-.date-blogger date {
-	float:left; 
-}
-
-.date-blogger subtitulo {
-	float: right;
-}
-
-
-.date-blogger p {
-	float: right;
-}
-
 #insp {
-	background-image: url("Inspiracion.png");
+	background-image: url("inspiracion.png");
 }
 
 #desa {

@@ -23,7 +23,7 @@ p {
 .contacto {
 	margin: 15px;
 	font-size: 100%;
-    transition: color 1.0s ease-in-out;
+    	transition: color 1.0s ease-in-out;
 	transition: text-shadow 0.3s ease-in-out;
 	overflow: visible;
 }
@@ -31,7 +31,7 @@ p {
 .contacto:hover {
 	color: rgb(15, 58, 139);
 	text-shadow: 2px 2px 4px rgb(255, 0, 0);
-    transition: color 1.0s ease-in-out;
+    	transition: color 1.0s ease-in-out;
 	transition: text-shadow 0.3s ease-in-out;
 }
 

@@ -88,7 +88,7 @@ body {
 	border-width: 1.8px;
 	border-color: rgba(0, 0, 0, 0);
 	display: inline-block;
-	overflow: hidden;
+	overflow: visible;
 }
 
 .Blog {
@@ -112,7 +112,7 @@ body {
 .in-flex:first-child {
 	flex: 1;
 	min-width: 800px;
-	overflow: hidden;
+	overflow: visible;
 }
 .in-flex {
 	min-width: 800px;
@@ -121,7 +121,7 @@ body {
 	padding: 20px;
 	background-color: rgba(45, 104, 216, 0.7);
 	margin: 20px;
-	overflow: hidden;
+	overflow: visible;
 }
 .contenedor:hover {
 	background-color: rgba(103, 131, 143, 0.836);

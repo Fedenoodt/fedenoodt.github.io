@@ -69,6 +69,11 @@ p {
 	float: right;
 }
 
+
+.date-blogger p {
+	float: right;
+}
+
 #insp {
 	background-image: url("Inspiracion.png");
 }

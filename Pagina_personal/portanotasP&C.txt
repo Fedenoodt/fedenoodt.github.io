@@ -1,5 +1,7 @@
         <div class="blogger">
-            <div class="date-blogger"><div>Miercoles, 15 de Junio de 2022</div></div>
-            <div class="texto"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore magni cum delectus inventore eveniet, debitis perspiciatis placeat id obcaecati eaque et voluptatum dolore minima officiis illo? Molestias, hic! Officia, atque.</p>
-            </div>
-		</div>
+            <div class="date-blogger"><a>DIA, # de MES de ANIO</a> <p>SUBTITULO</p></div>
+		    <div class="texto"><p>
+		    TEXTO DE NOTA
+		    </p>
+		    </div>
+	    </div>

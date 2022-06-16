@@ -1,5 +1,5 @@
         <div class="blogger">
-            <div class="date-blogger"><a> 	</a><a>DIA, # de MES de ANIO</a><p> 	</p><p>SUBTITULO</p></div>
+            <div class="date-blogger"><a>| DIA, # de MES de ANIO |</a><p>| SUBTITULO |</p></div>
 		    <div class="texto"><p>
 		    TEXTO DE NOTA
 		    </p>

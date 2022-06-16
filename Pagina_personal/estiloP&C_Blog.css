@@ -55,6 +55,7 @@ p {
 	color: rgb(167, 167, 167);
 	text-shadow: 1px 1px 3px rgba(136, 136, 136, 0.5);
 	height: 37px;
+	max-height: 74px;
 	width:100%;
 	margin: 0%;
 	background-color: rgba(43, 43, 43, 0.658);

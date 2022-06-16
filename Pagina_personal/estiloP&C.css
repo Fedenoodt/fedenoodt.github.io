@@ -46,6 +46,7 @@ h1 {}
 
 .barraAbertura a {
 	float: right;
+	min-width: 1000px;
 }
 
 h2 {font-size: 120%;}

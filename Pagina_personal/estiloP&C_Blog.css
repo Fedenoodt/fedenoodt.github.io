@@ -61,6 +61,10 @@ p {
 	background-color: rgba(43, 43, 43, 0.658);
 }
 
+.date-blogger date {
+	float:left; 
+}
+
 .date-blogger subtitulo {
 	float: right;
 }

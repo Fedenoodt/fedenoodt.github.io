@@ -53,6 +53,18 @@ a:link {
 	text-decoration: none;
   }
 
+#vinculo {
+    transition: text-shadow 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+}
+
+#vinculo:hover {
+    color: orange;
+    text-shadow: 5px 5px 10px rgb(49, 49, 49);
+    transition: color 0.5s ease-in-out;
+    transition: text-shadow 0.5s ease-in-out;
+}
+
   .listaHorizontal {
       display: inline-block;
        margin: 0 30px;
@@ -69,7 +81,7 @@ a:link {
 }
 
 .download:hover {
-	background-color: rgb(94, 203, 190);
+    background-color: rgb(94, 203, 190);
     transition: box-shadow 1.0s ease-in-out;
 }
 

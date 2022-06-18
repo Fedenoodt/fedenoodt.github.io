@@ -12,6 +12,12 @@ body {
     background-position: center;
 }
 
+.logo {
+	float: left;
+	width: 120px;
+	height: 120px;
+}
+
 .imgAtajos {
 	float: right;
 	width: 100px;

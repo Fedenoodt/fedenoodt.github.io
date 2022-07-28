@@ -12,6 +12,47 @@ body {
     background-position: center;
 }
 
+#minimalExpand_200 {
+    min-width: 200px;
+    min-height: 200px;
+}
+
+#minimalExpand_400 {
+    min-width: 400px;
+    min-height: 400px;
+}
+
+#minimalExpand_600 {
+    min-width: 600px;
+    min-height: 600px;
+}
+
+#minimalExpand_800 {
+    min-width: 800px;
+    min-height: 800px;
+}
+
+#tooFat_200 {
+    max-width: 200px;
+}
+
+#tooFat_400 {
+    max-width: 400px
+}
+
+#tooFat_600 {
+    max-width: 600px
+}
+
+#tooFat_800 {
+    max-width: 800px
+}
+
+.listaHorizontal {
+	display: inline-block;
+ 	margin: 5 6px;
+}
+
 .logo {
 	float: left;
 	width: 120px;
@@ -26,8 +67,7 @@ body {
 
 .volver {
 	float: left;
-	width: 100px;
-	height: 100px;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .fortressButton {
@@ -68,6 +108,8 @@ h5 {
 
 a {
     color: black;
+	text-shadow: 2px 2px 2px rgba(147, 182, 145, 1);
+	transition: text-shadow 0.6s ease-in-out;
 }
 
 a:link {
@@ -76,18 +118,50 @@ a:link {
 
 a:hover {
     color: rgb(77, 145, 74);
+	text-shadow: 2px 2px 2px rgba(147, 182, 145, 0);
+	transition: text-shadow 0.6s ease-in-out;
 }
 
 .buttonContainer {
-    padding: 0%;
+    transition: width 2s;
 }
 
-.buttonContainer:hover {
+#noOnesLand{
+    background-color: rgba(230, 183, 84, 0.884);
+}
+
+#swerterland{
+	background-color: rgba(107, 107, 107, 0.884);
+}
+
+#default:hover {
 	background-color: rgba(14, 78, 6, 0.65);
     transition: background 1.0s ease-in-out;
 	box-shadow: 0px 10px 1px rgba(77, 145, 74, 1);
 	transition: box-shadow 0.6s ease-in-out;
 }
+
+#noOnesLand:hover {
+    background-color: rgba(221, 178, 85, 0.884);
+    transition: background 1.0s ease-in-out;
+	box-shadow: 0px 10px 1px rgba(189, 150, 68, 0.884);
+	transition: box-shadow 0.6s ease-in-out;
+}
+#swerterland:hover {
+	background-color: rgba(94, 94, 94, 0.884);
+    transition: background 1.0s ease-in-out;
+	box-shadow: 0px 10px 1px rgba(114, 114, 114, 0.884);
+	transition: box-shadow 0.6s ease-in-out;
+}
+
+.slFlag {
+    float: left;
+}
+
+.slWarFlag {
+    float: right;
+}
+
 .home {
     display: flex;
     flex-wrap: wrap;

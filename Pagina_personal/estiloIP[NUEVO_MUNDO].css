@@ -24,6 +24,12 @@ body {
 	height: 100px;
 }
 
+.volver {
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
 .fortressButton {
     background-color: rgba(32, 203, 255, 0.5);
 }

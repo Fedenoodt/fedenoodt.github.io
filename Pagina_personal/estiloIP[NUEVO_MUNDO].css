@@ -66,6 +66,10 @@ h5 {
     font-size: 40px;
 }
 
+#button {
+    * : Black;
+}
+
 .home {
     display: flex;
     flex-wrap: wrap;

@@ -183,18 +183,18 @@ a:hover {
 .in-flex {
     flex: 1;
     min-width: 225px;
-    margin-bottom: 10px; 
 }
 
 .in-flex:first-child{
     flex: 2;
     background-color: rgba(17, 95, 7, 0.5);
     margin: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 10px; 
 }
 
 .in-flex div {
     padding: 25px;
     background-color: rgba(17, 95, 7, 0.5);
     margin: 20px;
+    margin-bottom: 10px; 
 }

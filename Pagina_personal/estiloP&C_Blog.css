@@ -12,12 +12,15 @@ p {
 }
 
 a {
+	transition: text-shadow 2.0s ease-out;
+	transition: color 2.0s ease-out;
 	color: rgba(196, 79, 225, 1);
 	text-shadow: 1px 1px 3px rgba(148, 112, 235, 1);
 }
 
 a:hover {
-	transition: text-shadow 0.6s ease-out;
+	transition: text-shadow 2.0s ease-out;
+	transition: color 2.0s ease-out;
 	color: rgba(60, 102, 255, 0.8);
 	text-shadow: 1px 1px 6px rgba(0, 216, 255, 1);
 }

@@ -1,0 +1,92 @@
+body {
+    background-color: #f7f8f8;
+};
+
+.bordeTitulo {
+    padding-top: 40px;
+    padding-left: 24px;
+    padding-bottom: 40px;
+    padding-right: 24px;
+}
+
+h1 {
+    color: #222;
+    font-weight: lighter;
+    font-family: 'Playfair Display', serif;
+    font-size: 46px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+};
+
+.top {
+    display: inline-block;
+}
+
+.barraNegra {
+    position: fixed;
+    color: #f7f8f8;
+    height: 80px;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+.hipervinculos {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+a:visited {
+    color: #b5b5b5;
+}
+a:hover {
+    color: #ffffff;
+}
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: none;
+}
+  
+.fondo {
+    position: fixed;
+    padding-top: 70px;
+    width: 100%;
+}
+
+.about {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #111;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.about:hover,
+.contact:hover {
+    color: gray;
+}
+
+.contact {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #111;
+    position: absolute;
+    top: 40px;
+    left: 90px;
+    
+}

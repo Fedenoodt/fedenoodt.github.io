@@ -148,13 +148,13 @@ a:hover {
 	transition: box-shadow 0.6s ease-in-out;
 }
 #swerterland:hover {
-	background: url("Swerterland recortada.png");
+	background: url("https://fedenoodt.github.io/Pagina_personal/Swerterland recortada.png");
     transition: background 1.0s ease-in-out;
 	box-shadow: 0px 10px 1px rgba(114, 114, 114, 0.884);
 	transition: box-shadow 0.6s ease-in-out;
 }
 #fortress:hover {
-	background: url("Bandera de La Fortaleza recortada.png");
+	background: url("https://fedenoodt.github.io/Pagina_personal/Bandera de La Fortaleza recortada.png");
     	transition: background 1.0s ease-in-out;
 	box-shadow: 0px 10px 1px rgba(114, 114, 114, 0.884);
 	transition: box-shadow 0.6s ease-in-out;

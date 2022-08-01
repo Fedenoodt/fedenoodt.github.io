@@ -64,11 +64,11 @@ a {
 	background-color: rgba(43, 43, 43, 0.658);
 }
 
-.date-blogger a {
+#L {
 	float: left;
 }
 
-.date-blogger p {
+#R {
 	float: right;
 }
 

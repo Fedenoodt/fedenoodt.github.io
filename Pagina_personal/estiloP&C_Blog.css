@@ -11,6 +11,11 @@ p {
 	text-shadow: 1px 1px 3px rgba(158, 158, 158, 0.5);
 }
 
+a {
+	color: rgba(196, 79, 225, 1);
+	text-shadow: 1px 1px 3px rgba(148, 112, 235, 1);
+}
+
 .Titulo {
 	font-family: Fantasy;
 	color: rgb(30, 13, 78);

@@ -180,14 +180,10 @@ a:hover {
     flex-wrap: wrap;
 }
 
-div {
-	padding:10px;
-	margin:10px;
-}
-
 .in-flex {
     flex: 1;
     min-width: 225px;
+    margin-bottom: 10px; 
 }
 
 .in-flex:first-child{

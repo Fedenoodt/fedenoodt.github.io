@@ -1,2 +1,2 @@
 let titi = prompt("Hola rancio")
-alert(titi)
+document.write(titi)

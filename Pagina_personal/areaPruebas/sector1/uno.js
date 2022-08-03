@@ -1,3 +1,3 @@
 let number = 10;
--number
-document.write(number)
+resultado = -number
+document.write(resultado)

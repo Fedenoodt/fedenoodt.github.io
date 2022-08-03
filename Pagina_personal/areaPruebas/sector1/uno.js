@@ -1,3 +1,3 @@
 let number = 10;
-resultado = -number
-document.write(resultado)
+let number2 = 12;
+document.write(number == number2)

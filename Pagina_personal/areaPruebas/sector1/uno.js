@@ -1,2 +1,3 @@
-titi = prompt("Hola rancio")
-document.write(titi)
+let number = 10;
+number += 5
+document.write(number)

@@ -1,2 +1,2 @@
-let titi = prompt("Hola rancio")
+titi = prompt("Hola rancio")
 document.write(titi)

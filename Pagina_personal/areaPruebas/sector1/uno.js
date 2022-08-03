@@ -1,1 +1,2 @@
-prompt("Hola rancio")
+let Ra = prompt("Hola rancio")
+alert(Ra)

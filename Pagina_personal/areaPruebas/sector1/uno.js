@@ -1,3 +1,3 @@
 let number = 10;
-number += 5
+number--
 document.write(number)

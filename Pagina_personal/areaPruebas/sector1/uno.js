@@ -1,2 +1,1 @@
-let frutas = ["banana", "manzana", "pera"];
-document.write(frutas)
+console.log("Hello, World!");

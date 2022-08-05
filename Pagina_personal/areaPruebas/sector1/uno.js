@@ -1,3 +1,2 @@
-let number = 10;
-let number2 = 12;
-document.write(number == number2)
+let frutas = ["banana", "manzana", "pera"];
+document.write(frutas)

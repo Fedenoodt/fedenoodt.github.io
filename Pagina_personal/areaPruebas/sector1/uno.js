@@ -18,3 +18,13 @@ console.log({
  'PrincipalType': 1,
  'Title': 'user2'
 });
+
+ // ejecuta esta función cuando se cargue el documento
+ window.onload = function() {
+
+   // crea dinámicamente un par de elementos HTML en una página vacia
+   var heading = document.createElement("h1");
+   var heading_text = document.createTextNode("el texto que desee");
+   heading.appendChild(heading_text);
+   document.body.appendChild(heading);
+}

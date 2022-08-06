@@ -1,9 +1,6 @@
-       // ejecuta esta función cuando se cargue el documento
-       window.onload = function() {
-
-         // crea dinámicamente un par de elementos HTML en una página vacia
-         var heading = document.createElement("h1");
-         var heading_text = document.createTextNode("el texto que desee");
-         heading.appendChild(heading_text);
-         document.body.appendChild(heading);
-      }
+function nuevoContenido() {
+alert("carga el contenido nuevo");
+document.open();
+document.write("<h1>Quita el contenido viejo - Agrega el contenido nuevo!</h1>");
+document.close();
+}

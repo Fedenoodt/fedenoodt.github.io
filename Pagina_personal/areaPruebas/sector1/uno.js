@@ -1,3 +1,5 @@
+document.getElementById("paragraph").textContent = "Hello, World";
+
 var foo = "bar";
 console.log(foo);
 

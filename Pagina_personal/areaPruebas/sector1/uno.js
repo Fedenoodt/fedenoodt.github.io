@@ -1,5 +1,10 @@
 document.getElementById("paragraph").textContent = "Hello, World";
 
+var element = document.createElement('p');
+element.textContent = "Hello, World";
+document.body.appendChild(element); //add the newly created element to the DOM
+
+
 var foo = "bar";
 console.log(foo);
 

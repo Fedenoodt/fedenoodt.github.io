@@ -35,3 +35,5 @@ console.log({
    heading.appendChild(heading_text);
    document.body.appendChild(heading);
 }
+
+console.log(document.html);

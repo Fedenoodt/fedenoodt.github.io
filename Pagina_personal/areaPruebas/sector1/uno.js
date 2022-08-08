@@ -36,4 +36,4 @@ console.log({
    document.body.appendChild(heading);
 }
 
-console.log(document.html);
+console.log(document.body);

@@ -1,4 +1,4 @@
-        <div class="blogger">
+        <div class="blogger" id = "nota">
             <div class="date-blogger"><p id= "L">| DIA, # de MES de ANIO |</p><p id= "R">| SUBTITULO |</p></div>
 		    <div class="texto"><p>
 		    TEXTO DE NOTA

@@ -57,3 +57,7 @@ text.style.fontSize = '50';
 text.textContent = 'Hello world!';
 svg.appendChild(text);
 document.body.appendChild(svg);
+
+var img = new Image();
+img.src = 'https://i.ytimg.com/vi/zecueq-mo4M/maxresdefault.jpg';
+document.body.appendChild(img);

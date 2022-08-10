@@ -62,6 +62,6 @@ var img = new Image();
 img.src = 'https://i.ytimg.com/vi/zecueq-mo4M/maxresdefault.jpg';
 document.body.appendChild(img);
 
-if(window.confirm("Are you sure you want to delete this?")) {
+if(var deleteConfirm = window.confirm("Are you sure you want to delete this?")) {
  deleteItem(itemId);
 }

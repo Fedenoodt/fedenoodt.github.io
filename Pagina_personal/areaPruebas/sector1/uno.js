@@ -61,3 +61,8 @@ document.body.appendChild(svg);
 var img = new Image();
 img.src = 'https://i.ytimg.com/vi/zecueq-mo4M/maxresdefault.jpg';
 document.body.appendChild(img);
+
+result = window.confirm(message);
+if(window.confirm("Are you sure you want to delete this?")) {
+ deleteItem(itemId);
+}

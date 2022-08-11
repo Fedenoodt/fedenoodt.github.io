@@ -65,3 +65,21 @@ document.body.appendChild(img);
 if(var deleteConfirm = window.confirm("Are you sure you want to delete this?")) {
  deleteItem(itemId);
 }
+
+var childWindow = window.open("https://fedenoodt.github.io/Pagina_personal/areaPruebas/sector1/dos.html", "_blank");
+<textarea id="text"></textarea>
+<button id="btn">Send Message</button>
+
+var btn = document.getElementById("btn"),
+ text = document.getElementById("text");
+btn.addEventListener("click", function () {
+ sendMessage(text.value);
+ text.value = "";
+});
+function sendMessage(message) {
+ if (!message || !message.length) return;
+ childWindow.postMessage(JSON.stringify({
+ message: message,
+ time: new Date()
+ }), 'https://fedenoodt.github.io/Pagina_personal/areaPruebas/sector1/dos.html');
+}

@@ -5,7 +5,7 @@
 	overflow: visible;
 }
 
-p {
+p, ol {
 	text-align: justify;
 	color: rgb(190, 190, 190);
 	text-shadow: 1px 1px 3px rgba(158, 158, 158, 0.5);

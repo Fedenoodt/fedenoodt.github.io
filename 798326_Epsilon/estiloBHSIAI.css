@@ -21,16 +21,14 @@ h1 {
 	color: white;
 }
 
-.good, .notGood {
-        font-size: 22px;
-}
-
 .good {
         color: rgba(0, 255, 0, 1);
+        font-size: 22px;
 }
 
 .notGoood {
         color: rgba(255, 0, 0, 1);
+        font-size: 22px;
 }
 
 .Emblema {

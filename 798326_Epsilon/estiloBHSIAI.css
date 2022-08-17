@@ -15,15 +15,15 @@ h1 {
 	margin: 0 0;
 }
 
-#good, #notGood {
+.good, .notGood {
         font-size: 25px;
 }
 
-#good {
+.good {
         color: rgba(0, 255, 0, 1);
 }
 
-#notGoood {
+.notGoood {
         color: rgba(255, 0, 0, 1);
 }
 

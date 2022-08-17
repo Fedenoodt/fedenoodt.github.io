@@ -15,6 +15,18 @@ h1 {
 	margin: 0 0;
 }
 
+#good, #notGood {
+        font-size: 25px;
+}
+
+#good {
+        color: rgba(0, 255, 0, 1);
+}
+
+#notGoood {
+        color: rgba(255, 0, 0, 1);
+}
+
 .Emblema {
 	width: 300px;
 }

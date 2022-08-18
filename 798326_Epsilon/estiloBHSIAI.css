@@ -1,9 +1,5 @@
-a .normal {
+* {
 	color: white;
-}
-
-.normal {
-	color: white; 
 }
 
 body {
@@ -13,44 +9,28 @@ body {
 h1 {
 	font-size: 45px;
 	margin:0 0;
-	color: white;
 }
 .tooBig {
 	font-size: 90px;
 	margin: 0 0;
-	color: white;
-}
-
-.good {
-        color: rgba(0, 255, 0, 1);
-        font-size: 22px;
-}
-
-.notGoood {
-        color: rgba(255, 0, 0, 1);
-        font-size: 22px;
 }
 
 .Emblema {
 	width: 300px;
-	color: white;
 }
 
 .megaEmblema {
 	width: 500px;
-	color: white;
 }
 
 .megaReloj {
 	font-size: 120px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: white;
 }
 
 .bloqueHora {
 	height: 800px;
-	color: white;
 }
 
 .listaHorizontal {
@@ -60,16 +40,13 @@ h1 {
 
 .atajos {
 	float: right;
-	color: white;
 }
 
 .imgAtajos {
 	width: 100px;
 	height: 100px;
-	color: white;
 }
 .inicio{
 	float: right;
 	float: bottom;
-	color: white;
 }

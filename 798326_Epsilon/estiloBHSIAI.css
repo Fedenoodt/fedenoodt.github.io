@@ -47,6 +47,15 @@ a .good {
 }
 
 
+a .notGood:link {
+	text-decoration: none;
+  }
+
+a .good:link {
+	text-decoration: none;
+  }
+
+
 
 .notGood {
         color: red;

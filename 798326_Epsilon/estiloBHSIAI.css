@@ -38,11 +38,11 @@ h1 {
  	margin: 0 30px;
 }
 
-a #notGood {
+a .notGood {
         color: red;
 }
 
-a #good {
+a .good {
         color: lightgreen;
 }
 

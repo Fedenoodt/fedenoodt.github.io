@@ -42,6 +42,10 @@ a #notGood {
         color: red;
 }
 
+a #good {
+        color: lightgreen;
+}
+
 .atajos {
 	float: right;
 }

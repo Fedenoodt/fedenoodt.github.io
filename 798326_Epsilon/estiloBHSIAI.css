@@ -50,10 +50,12 @@ a .good {
 
 .notGood {
         color: red;
+	text-decoration: none;
 }
 
 .good {
         color: lightgreen;
+	text-decoration: none;
 }
 
 .atajos {

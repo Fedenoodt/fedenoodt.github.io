@@ -38,6 +38,10 @@ h1 {
  	margin: 0 30px;
 }
 
+#notGood {
+        color: red;
+}
+
 .atajos {
 	float: right;
 }

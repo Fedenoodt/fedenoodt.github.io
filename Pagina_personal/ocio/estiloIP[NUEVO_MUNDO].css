@@ -1,51 +1,51 @@
 * {
-    padding:0px;
-    margin:0px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	padding:0px;
+	margin:0px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
-    background-repeat: no-repeat;
-    background-color: black;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+	background-repeat: no-repeat;
+	background-color: black;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
 }
 
 #minimalExpand_200 {
-    min-width: 200px;
-    min-height: 200px;
+	min-width: 200px;
+	min-height: 200px;
 }
 
 #minimalExpand_400 {
-    min-width: 400px;
-    min-height: 400px;
+	min-width: 400px;
+	min-height: 400px;
 }
 
 #minimalExpand_600 {
-    min-width: 600px;
-    min-height: 600px;
+	min-width: 600px;
+	min-height: 600px;
 }
 
 #minimalExpand_800 {
-    min-width: 800px;
-    min-height: 800px;
+	min-width: 800px;
+	min-height: 800px;
 }
 
 #tooFat_200 {
-    max-width: 200px;
+	max-width: 200px;
 }
 
 #tooFat_400 {
-    max-width: 400px
+	max-width: 400px
 }
 
 #tooFat_600 {
-    max-width: 600px
+	max-width: 600px
 }
 
 #tooFat_800 {
-    max-width: 800px
+	max-width: 800px
 }
 
 .listaHorizontal {
@@ -67,47 +67,47 @@ body {
 
 .volver {
 	float: left;
-    background-color: rgba(255, 255, 255, 0);
+        background-color: rgba(255, 255, 255, 0);
 }
 
 .fortressButton {
-    background-color: rgba(32, 203, 255, 0.5);
+	background-color: rgba(32, 203, 255, 0.5);
 }
 
 h1 {
-    font-size: 90px;
+	font-size: 90px;
 }
 
 .warning {
-    color: crimson;
+	color: crimson;
 }
 
 .sleeping {
-    color: rgb(0, 81, 255)
+	color: rgb(0, 81, 255)
 }
 
 .bussy {
-    color: rgb(250, 193, 87)
+	color: rgb(250, 193, 87)
 }
 
 .online {
-    color: white
+	color: white
 }
 
 h3 {
-    font-size: 70px;
+	font-size: 70px;
 }
 
 h4 {
-    font-size: 50px;
+	font-size: 50px;
 }
 
 h5 {
-    font-size: 40px;
+	font-size: 40px;
 }
 
 a {
-    color: black;
+	color: black;
 	text-shadow: 2px 2px 2px rgba(147, 182, 145, 1);
 	transition: text-shadow 0.6s ease-in-out;
 }
@@ -117,23 +117,24 @@ a:link {
   }
 
 a:hover {
-    color: rgb(77, 145, 74);
+	color: rgb(77, 145, 74);
 	text-shadow: 2px 2px 2px rgba(147, 182, 145, 0);
 	transition: text-shadow 0.6s ease-in-out;
 }
 
 hr {
-  border: 5px solid rgba(65, 126, 99, 1);
-  border-radius: 5px;
-  margin: 6px;
+	border: 5px solid rgba(65, 126, 99, 1);
+	border-radius: 5px;
+	margin: 6px;
 }
 
 .buttonContainer {
-    transition: width 2s;
+        transition: width 2s;
+	padding:26px;
 }
 
 #noOnesLand{
-    background-color: rgba(230, 183, 84, 0.884);
+        background-color: rgba(230, 183, 84, 0.884);
 }
 
 #swerterland{
@@ -142,20 +143,20 @@ hr {
 
 #default:hover {
 	background-color: rgba(14, 78, 6, 0.65);
-    transition: background 1.0s ease-in-out;
+        transition: background 1.0s ease-in-out;
 	box-shadow: 0px 10px 1px rgba(77, 145, 74, 1);
 	transition: box-shadow 0.6s ease-in-out;
 }
 
 #noOnesLand:hover {
-    background-color: rgba(221, 178, 85, 0.884);
-    transition: background 1.0s ease-in-out;
+        background-color: rgba(221, 178, 85, 0.884);
+        transition: background 1.0s ease-in-out;
 	box-shadow: 0px 10px 1px rgba(189, 150, 68, 0.884);
 	transition: box-shadow 0.6s ease-in-out;
 }
 #swerterland:hover {
 	background: url("https://fedenoodt.github.io/Pagina_personal/Swerterland recortada.png");
-    transition: background 1.0s ease-in-out;
+        transition: background 1.0s ease-in-out;
 	box-shadow: 0px 10px 1px rgba(114, 114, 114, 0.884);
 	transition: box-shadow 0.6s ease-in-out;
 }
@@ -168,41 +169,41 @@ hr {
 
 .firma:hover {
 	background-color: rgba(14, 78, 6, 0.65);
-    transition: background 1.0s ease-in-out;
+        transition: background 1.0s ease-in-out;
 	box-shadow: 0px 10px 1px rgba(77, 145, 74, 1);
 	transition: box-shadow 0.6s ease-in-out;
 }
 
 .slFlag, leftFlag {
-    float: left;
-    margin: 25px;
+	float: left;
+	margin: 25px;
 }
 
 .slWarFlag {
-    float: right;
-    margin: 25px;
+	float: right;
+	margin: 25px;
 }
 
 .home {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .in-flex {
-    flex: 1;
-    min-width: 225px;
+	flex: 1;
+	min-width: 225px;
 }
 
 .in-flex:first-child{
-    flex: 2;
-    background-color: rgba(17, 95, 7, 0.5);
-    padding:5px;
-    margin: 20px;
-    margin-bottom: 10px; 
+	flex: 2;
+	background-color: rgba(17, 95, 7, 0.5);
+	padding:5px;
+	margin: 20px;
+	margin-bottom: 10px; 
 }
 
 .in-flex div {
-    background-color: rgba(17, 95, 7, 0.5);
-    margin: 20px;
-    margin-bottom: 10px; 
+	background-color: rgba(17, 95, 7, 0.5);
+	margin: 20px;
+	margin-bottom: 10px; 
 }

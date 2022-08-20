@@ -122,6 +122,11 @@ a:hover {
 	transition: text-shadow 0.6s ease-in-out;
 }
 
+hr {
+  border: 5px solid rgba(65, 126, 99, 1);
+  border-radius: 5px;
+}
+
 .buttonContainer {
     transition: width 2s;
 }

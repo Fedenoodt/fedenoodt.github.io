@@ -191,7 +191,7 @@ hr {
 
 .in-flex {
 	flex: 1;
-	min-width: 225px;
+	min-width: 850px;
 }
 
 .in-flex:first-child{

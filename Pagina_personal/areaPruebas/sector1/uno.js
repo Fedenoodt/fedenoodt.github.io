@@ -1,5 +1,5 @@
 let frase = prompt("Ingrese la frase a mostrar en pantalla...");
 
-console.log(frase)
+console.log(%sfrase)
 
-document.write("<h1>Lo que escribiste: " + %s frase + "</h1>");
+document.write("<h1>Lo que escribiste: " + frase + "</h1>");

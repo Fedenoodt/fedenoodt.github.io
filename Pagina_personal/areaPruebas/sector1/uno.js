@@ -1,3 +1,2 @@
-let frase = "Estoy poniendo en practica mis conocimientos de JavaScript.";
-alert(frase);
+let frase = prompt("Ingrese la frase a mostrar en pantalla...");
 document.write(frase);

@@ -1,5 +1,6 @@
-let frase = prompt("Ingrese la frase a mostrar en pantalla...");
+Let humane = window.confirm("¿Es usted HuMaN0?")
 
-console.log("La frase que el usuario ingreso es: %s", frase)
-
-document.write("<h1>Lo que escribiste: " + frase + "</h1>");
+if humane:
+    document.write("¡Vamo' todav&iacute;a!")
+else:
+    document.write("INTRUSO. INTRUSO. INTRUSO.")

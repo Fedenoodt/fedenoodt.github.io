@@ -1,2 +1,1 @@
-abcde = "5000" == 5000;
-document.write(abcde);
+apendChild("<h1> HOLA </h1>")

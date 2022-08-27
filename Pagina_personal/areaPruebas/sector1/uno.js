@@ -1,5 +1,4 @@
-//Let humane = 
-console.log(confirm("¿Es usted HuMaN0?"));
-
-//if (humane) {document.write("¡Vamo' todav&iacute;a!")};
-//else {document.write("INTRUSO. INTRUSO. INTRUSO.")};
+if ("5000") == 5000:
+    document.write("Es verdad.")
+else:
+    document.write("noup.")

@@ -114,3 +114,11 @@ a:hover {
 .texto {
 	margin: 14px;
 }
+
+.formatoEsquema {
+        width: 680px;
+}
+
+.formatoHorario {
+        background: rgba(0, 0, 0, 0.5);
+}

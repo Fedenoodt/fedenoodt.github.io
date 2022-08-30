@@ -39,11 +39,3 @@ p {
 	color: rgb(49, 48, 133);
 	text-shadow: rgba(0, 0, 0, 0);
 }
-
-.formatoEsquema {
-        width: 680px;
-}
-
-.formatoHorario {
-        background: rgba(0, 0, 0, 0.5);
-}

@@ -1,4 +1,4 @@
-c = " " + prompt("Diga algo karnal");
+c = " " + prompt("Diga algo karnal").toString();
 
 a = function(c) {
     b = document.write(`GANEE ${+ c}`);

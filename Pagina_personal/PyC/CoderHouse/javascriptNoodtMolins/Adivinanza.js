@@ -76,4 +76,4 @@ if (vidas == 0) {
     valido = true;
 }
     // "Botón de volver a jugar".
-    document.write('<a href = "https://fedenoodt.github.io/Pagina_personal/areaPruebas/sector2/uno.html"><h1>Clic ac&aacute; para volver a jugar...</h1></a>'); 
+    document.write('<a href = "https://fedenoodt.github.io/Pagina_personal/PyC/CoderHouse/javascriptNoodtMolins/Adivinanza.html"><h1>Clic ac&aacute; para volver a jugar...</h1></a>'); 

@@ -25,8 +25,8 @@ gatosBebeBig = ((gatosBig * 100) / 5) + gatosBig;
 
 document.write(`<div><h2>Lista de productos:</h2>
 <ul>
-    <li>Comida de gato chico: $ ${gatosLittle}</li>
-    <li>Comida de gato mediano: $ ${gatosMid}</li>
-    <li>Comida de gato grande $ ${gatosBig}</li>`)
+    <li>Comida de gato chico: $${gatosLittle}</li>
+    <li>Comida de gato mediano: $${gatosMid}</li>
+    <li>Comida de gato grande $${gatosBig}</li>`)
 
 // Descuento = (productoActual * 100 ) / valorDescuento

@@ -5,3 +5,4 @@ hacerCosas = function() {
   document.write(valorA, valorB);
 }
 document.write(`<input type = "number" name =""></input>`);
+document.write(`<input type = "button" name =""></input>`);

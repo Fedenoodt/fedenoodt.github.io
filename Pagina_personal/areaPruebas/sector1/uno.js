@@ -4,6 +4,9 @@ hacerCosas = function() {
     let valorB = "Homo Sapiens Sapiens";
   document.write(valorA, valorB);
 }
-document.write(`<a class = "ejecutor" href=""><h1>BOTON</h1></a>`);
+touch = false;
+document.write(touch);
+document.write(`<a class = "ejecutor" href="touch = true;"><h1>BOTON</h1></a>`);
 seleccionador = document.querySelector("a");
-document.write(seleccionador)
+document.write(seleccionador);
+document.write(touch);

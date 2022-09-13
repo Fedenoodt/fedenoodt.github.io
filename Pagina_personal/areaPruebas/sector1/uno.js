@@ -1,10 +1,9 @@
-let textoIngresar = prompt("Ingrese un texto...")
 
-
-const contenedor = document.querySelector(.contenedor);
-const parafraseador = document.createElement("P");
-
-const textoIngresado = document.createTextNode(textoIngresar)
-
-parafraseador.apendChild(textoingresado)
-contenedor.apendChild(parafraseador)
+hacerCosas = function() {
+    let valorA = 85;
+    let valorB = "Homo Sapiens Sapiens";
+  document.write(valorA, valorB);
+}
+web = `<a class = "ejecutor" href=""></a>`;
+web.innerHTML;
+document.querySelector(.ejecutor);

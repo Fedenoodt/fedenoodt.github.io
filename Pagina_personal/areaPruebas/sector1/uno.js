@@ -5,4 +5,4 @@ hacerCosas = function() {
   document.write(valorA, valorB);
 }
 document.write(`<a class = "ejecutor" href=""></a>`);
-document.querySelector(.ejecutor);
+// document.querySelector(.ejecutor);

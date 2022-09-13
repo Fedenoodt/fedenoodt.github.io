@@ -4,6 +4,5 @@ hacerCosas = function() {
     let valorB = "Homo Sapiens Sapiens";
   document.write(valorA, valorB);
 }
-web = `<a class = "ejecutor" href=""></a>`;
-web.innerHTML;
+document.write(`<a class = "ejecutor" href=""></a>`);
 document.querySelector(.ejecutor);

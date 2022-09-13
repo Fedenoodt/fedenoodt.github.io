@@ -5,7 +5,7 @@ hacerCosas = function() {
   document.write(valorA, valorB);
 }
 
-`<input type = "number" name =""></input>
+<input type = "number" name =""></input>
 <label>Número del producto</label>
 <input type = "button" name =""></input>
-<label>Agregar al carrito</label>`.innerHTML
+<label>Agregar al carrito</label>

@@ -11,13 +11,13 @@ gatosMid = 896;
 gatosBig = 921;
 
 //(Toda la comida de bebé cuesta +%5)
-gatosBebeLittle = ((gatosLittle * 100) / 5) + gatosLittle;
-gatosBebeMid =  ((gatosMid * 100) / 5) + gatosMid;
-gatosBebeBig = ((gatosBig * 100) / 5) + gatosBig;
+gatosBebeLittle = ((gatosLittle * 5) / 100) + gatosLittle;
+gatosBebeMid =  ((gatosMid * 5) / 100) + gatosMid;
+gatosBebeBig = ((gatosBig * 5) / 100) + gatosBig;
 
-perrosBebeLittle = ((perrosLittle * 100) / 5) + perrosLittle;
-perrosBebeMid =  ((perrosMid * 100) / 5) + perrosMid;
-perrosBebeBig = ((perrosBig * 100) / 5) + perrosBig;
+perrosBebeLittle = ((perrosLittle * 5) / 100) + perrosLittle;
+perrosBebeMid =  ((perrosMid * 5) / 100) + perrosMid;
+perrosBebeBig = ((perrosBig * 5) / 100) + perrosBig;
 
 verduraPeces = 878;
 carnePeces = 881;

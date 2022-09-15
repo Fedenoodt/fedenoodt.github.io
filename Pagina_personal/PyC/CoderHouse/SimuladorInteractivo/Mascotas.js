@@ -1,6 +1,6 @@
 
-Document.write(`<h1>Tienda de mascotas</h1>`);
-Document.write(`<h2>Esta api permite calcular tu compra de productos, en base a posibles descuentos.</h2>`);
+document.write(`<h1>Tienda de mascotas</h1>`);
+document.write(`<h2>Esta api permite calcular tu compra de productos, en base a posibles descuentos.</h2>`);
 
 gatosLittle = 874;
 gatosMid = 896;

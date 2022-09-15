@@ -2,17 +2,13 @@
 document.write(`<h1>Tienda de mascotas</h1>`);
 document.write(`<h2>Esta api permite calcular tu compra de productos, en base a posibles descuentos.</h2>`);
 
-gatosLittle = 874;
-gatosMid = 896;
-perrosBig = 921;
-
 perrosLittle = 945;
 perrosMid = 970;
 perrosBig = 1015;
 
 gatosLittle = 874;
 gatosMid = 896;
-perrosBig = 921;
+gatosBig = 921;
 
 //(Toda la comida de bebé cuesta +%5)
 gatosBebeLittle = ((gatosLittle * 100) / 5) + gatosLittle;

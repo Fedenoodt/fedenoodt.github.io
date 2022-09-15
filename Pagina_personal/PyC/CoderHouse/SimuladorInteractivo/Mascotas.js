@@ -46,9 +46,9 @@ listaCompras = `
 </div>
 `;
 
-articulo = `<input type = "number" class = "numeroProducto">  </input>
-<label>"Ingrese número del pedido"</label>
-<input type = "button" class = "accionador"> "Elegir producto" </input>`;
+articulo = `<input type = "number" class = "numeroProducto"> Ingrese número del pedido </input>
+<label>Ingrese número del pedido</label>
+<input type = "button" class = "accionador"> Elegir producto </input>`;
 
 document.write(listaCompras, articulo);
 

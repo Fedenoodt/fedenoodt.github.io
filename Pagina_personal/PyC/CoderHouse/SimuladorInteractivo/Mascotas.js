@@ -46,8 +46,10 @@ listaCompras = `
 </div>
 `;
 
-document.write(listaCompras);
+articulo = `<input type = "number" class = "numeroProducto">  </input>
+<label>"Ingrese número del pedido"</label>
+<input type = "button" class = "accionador"> "Elegir producto" </input>`;
+
+document.write(listaCompras, articulo);
 
 // Descuento = (productoActual * 100 ) / valorDescuento
-<input type = "number">  </input>
-<input type = "button">  </input>

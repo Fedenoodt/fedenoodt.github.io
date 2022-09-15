@@ -46,6 +46,6 @@ listaCompras = `
 </div>
 `;
 
-Document.write(listaCompras);
+document.write(listaCompras);
 
 // Descuento = (productoActual * 100 ) / valorDescuento

@@ -11,13 +11,20 @@ gatosMid = 896;
 gatosBig = 921;
 
 //(Toda la comida de bebé cuesta +%5)
-gatosBebeLittle = ((gatosLittle * 5) / 100) + gatosLittle;
-gatosBebeMid =  ((gatosMid * 5) / 100) + gatosMid;
-gatosBebeBig = ((gatosBig * 5) / 100) + gatosBig;
 
-perrosBebeLittle = ((perrosLittle * 5) / 100) + perrosLittle;
-perrosBebeMid =  ((perrosMid * 5) / 100) + perrosMid;
-perrosBebeBig = ((perrosBig * 5) / 100) + perrosBig;
+function animalBebe (animal, porcentaje) {
+    // "animalBebe" calcula dicho aumento.
+    aumento = ((animal * porcentaje) / 100)) + animal;
+    return aumento;
+}
+
+perrosBebeLittle = animalBebe(perrosLittle, 5);
+perrosBebeMid = animalBebe(perrosMid, 5);
+perrosBebeBig = animalBebe(perrosBig, 5);
+
+gatosBebeLittle = animalBebe(gatosLittle, 5);
+gatosBebeMid = animalBebe(gatosMid, 5);
+gatosBebeBig = animalBebe(gatosBig, 5);
 
 verduraPeces = 878;
 carnePeces = 881;

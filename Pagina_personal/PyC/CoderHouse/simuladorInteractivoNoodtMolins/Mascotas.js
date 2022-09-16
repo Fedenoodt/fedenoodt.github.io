@@ -14,7 +14,7 @@ gatosBig = 921;
 
 function animalBebe (animal, porcentaje) {
     // "animalBebe" calcula dicho aumento.
-    aumento = ((animal * porcentaje) / 100)) + animal;
+    aumento = ((animal * porcentaje) / 100) + animal;
     return aumento;
 }
 

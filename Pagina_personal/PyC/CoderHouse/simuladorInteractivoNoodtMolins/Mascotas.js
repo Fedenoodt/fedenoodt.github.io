@@ -15,6 +15,7 @@ gatosBig = 921;
 function animalBebe (animal, porcentaje) {
     // "animalBebe" calcula dicho aumento.
     aumento = ((animal * porcentaje) / 100) + animal;
+    aumento = Math.round(aumento);
     return aumento;
 }
 
@@ -32,25 +33,26 @@ carnePeces = 881;
 listaProductos = {gatosLittle, gatosMid, gatosBig, perrosLittle, perrosMid, perrosBig, gatosBebeLittle, gatosBebeMid, gatosBebeBig, perrosBebeLittle, perrosBebeMid, perrosBebeBig, verduraPeces, carnePeces};
 
 listaCompras = `
-<div class = "in-flex"><h2>Lista de productos:</h2>
-    <ol>
-        <li>Comida de gato chico: $${gatosLittle}</li>
-        <li>Comida de gato mediano: $${gatosMid}</li>
-        <li>Comida de gato grande $${gatosBig}</li>
-        <li>Comida de perro chico: $${perrosLittle}</li>
-        <li>Comida de perro mediano: $${perrosMid}</li>
-        <li>Comida de perro grande $${perrosBig}</li>
-        <li>Comida de gato bebe chico: $${gatosBebeLittle}</li>
-        <li>Comida de gato bebe mediano: $${gatosBebeMid}</li>
-        <li>Comida de gato bebe grande $${gatosBebeBig}</li>
-        <li>Comida de perro bebe chico: $${perrosBebeLittle}</li>
-        <li>Comida de perro bebe mediano: $${perrosBebeMid}</li>
-        <li>Comida de perro bebe grande $${perrosBebeBig}</li>
-        <li>Comida de verduras para peces $${verduraPeces}</li>
-        <li>Comida de carne para peces $${carnePeces}</li>
-    </ol>
-    <a class = "boton1" href = "">Comprar un producto</a>
-</div>
+<div class = "in-flex">
+    <div class = "in-flex"><h2>Lista de productos:</h2>
+        <ol>
+            <li>Comida de gato chico: $${gatosLittle}</li>
+            <li>Comida de gato mediano: $${gatosMid}</li>
+            <li>Comida de gato grande $${gatosBig}</li>
+            <li>Comida de perro chico: $${perrosLittle}</li>
+            <li>Comida de perro mediano: $${perrosMid}</li>
+            <li>Comida de perro grande $${perrosBig}</li>
+            <li>Comida de gato bebe chico: $${gatosBebeLittle}</li>
+            <li>Comida de gato bebe mediano: $${gatosBebeMid}</li>
+            <li>Comida de gato bebe grande $${gatosBebeBig}</li>
+            <li>Comida de perro bebe chico: $${perrosBebeLittle}</li>
+            <li>Comida de perro bebe mediano: $${perrosBebeMid}</li>
+            <li>Comida de perro bebe grande $${perrosBebeBig}</li>
+             <li>Comida de verduras para peces $${verduraPeces}</li>
+            <li>Comida de carne para peces $${carnePeces}</li>
+        </ol>
+        <a class = "boton1" href = "">Comprar un producto</a>
+     </div>
 `;
 
 articulo = `<input type = "number" class = "numeroProducto">  </input>

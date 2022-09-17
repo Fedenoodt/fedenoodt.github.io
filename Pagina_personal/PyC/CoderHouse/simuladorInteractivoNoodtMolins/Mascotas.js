@@ -62,5 +62,5 @@ articulo = `<input type = "number" class = "numeroProducto">  </input>
 document.write(listaCompras, articulo);
 
 accion = document.querySelector(".accionador");
-console.log(accion)
+ddocument.write(accion)
 // Descuento = (productoActual * 100 ) / valorDescuento

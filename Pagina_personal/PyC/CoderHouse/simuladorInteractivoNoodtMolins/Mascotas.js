@@ -34,7 +34,7 @@ listaProductos = {gatosLittle, gatosMid, gatosBig, perrosLittle, perrosMid, perr
 
 listaCompras = `
 <div class = "in-flex">
-    <div class = "in-flex"><h2>Lista de productos:</h2>
+    <div><h2>Lista de productos:</h2>
         <ol>
             <li>Comida de gato chico: $${gatosLittle}</li>
             <li>Comida de gato mediano: $${gatosMid}</li>

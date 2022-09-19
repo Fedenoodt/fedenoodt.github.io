@@ -1,3 +1,4 @@
+validez = false;
 
 document.write(`<h1>Tienda de mascotas</h1>`);
 document.write(`<h2>Esta api permite calcular tu compra de productos, en base a posibles descuentos.</h2>`);
@@ -21,7 +22,7 @@ function animalBebe (animal, porcentaje) {
 
 function ordenanza (listaProductos) {
     validez = validar(producto, listaProductos);
-    producto = 
+    electo = formar(validez)
 }
 
 function validar (producto, listaProoductos) {
@@ -35,6 +36,11 @@ function validar (producto, listaProoductos) {
     return devolucion
 }
 
+function formar (validez) {
+    if validez:
+        item = listaProoductos[`${seleccion[producto]}`];
+}
+
 perrosBebeLittle = animalBebe(perrosLittle, 5);
 perrosBebeMid = animalBebe(perrosMid, 5);
 perrosBebeBig = animalBebe(perrosBig, 5);
@@ -46,7 +52,8 @@ gatosBebeBig = animalBebe(gatosBig, 5);
 verduraPeces = 878;
 carnePeces = 881;
 
-listaProductos = {`gatosLittle`: gatosLittle, gatosMid, gatosBig, perrosLittle, perrosMid, perrosBig, gatosBebeLittle, gatosBebeMid, gatosBebeBig, perrosBebeLittle, perrosBebeMid, perrosBebeBig, verduraPeces, carnePeces};
+seleccion = {`gatosLittle`, `gatosMid`, `gatosBig`, `perrosLittle`, `perrosMid`, `perrosBig`, `gatosBebeLittle`, `gatosBebeMid`, `gatosBebeBig`, `perrosBebeLittle`, `perrosBebeMid`, `perrosBebeBig`, `verduraPeces`, `carnePeces`};
+listaProductos = {`gatosLittle`: gatosLittle, `gatosMid` : gatosMid, `gatosBig` : gatosBig, `perrosLittle` : perrosLittle, `perrosMid` : perrosMid, `perrosBig` : perrosBig, `gatosBebeLittle` : gatosBebeLittle, `gatosBebeMid` : gatosBebeMid, `gatosBebeBig` : gatosBebeBig, `perrosBebeLittle` : perrosBebeLittle, `perrosBebeMid` : perrosBebeMid, `perrosBebeBig` : perrosBebeBig, `verduraPeces` : verduraPeces, `carnePeces` : carnePeces};
 
 listaCompras = `
 <div class = "in-flex">

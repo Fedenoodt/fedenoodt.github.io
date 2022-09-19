@@ -15,45 +15,42 @@ gatosBig = 921;
 
 function animalBebe (animal, porcentaje) {
     // "animalBebe" calcula dicho aumento.
-    aumento = ((animal * porcentaje) / 100) + animal;
-    aumento = Math.round(aumento);
+    let aumento = ((animal * porcentaje) / 100) + animal;
+    let aumento = Math.round(aumento);
     return aumento;
 }
 
-function ordenanza (listaProductos) {
-    validez = validar(producto, listaProductos);
-    electo = formar(validez)
-}
+// function ordenanza (listaProductos) {
+//     validez = validar(producto, listaProductos);
+//     if validez:
+//         let item = listaProoductos[`${seleccion[producto]}`];
+//         let precio = seleccion[producto];
+// }
 
 function validar (producto, listaProoductos) {
-    largo = listaProductos.length;
-    producto = parseint(producto);
+    let largo = listaProductos.length;
+    let producto = parseint(producto);
     if producto >== 1 & producto ==< largo:
         devolucion = true;
     else:
         alert(`Ingrese el producto por orden de pedido, por favir.`);
-        devolucion = false;
+        let devolucion = false;
     return devolucion
 }
 
-function formar (validez) {
-    if validez:
-        item = listaProoductos[`${seleccion[producto]}`];
-}
-
-perrosBebeLittle = animalBebe(perrosLittle, 5);
-perrosBebeMid = animalBebe(perrosMid, 5);
-perrosBebeBig = animalBebe(perrosBig, 5);
+let perrosBebeLittle = animalBebe(perrosLittle, 5);
+let perrosBebeMid = animalBebe(perrosMid, 5);
+let perrosBebeBig = animalBebe(perrosBig, 5);
 
 gatosBebeLittle = animalBebe(gatosLittle, 5);
-gatosBebeMid = animalBebe(gatosMid, 5);
-gatosBebeBig = animalBebe(gatosBig, 5);
+let let gatosBebeMid = animalBebe(gatosMid, 5);
+let gatosBebeBig = animalBebe(gatosBig, 5);
 
-verduraPeces = 878;
-carnePeces = 881;
+let verduraPeces = 878;
+let carnePeces = 881;
 
-seleccion = {`gatosLittle`, `gatosMid`, `gatosBig`, `perrosLittle`, `perrosMid`, `perrosBig`, `gatosBebeLittle`, `gatosBebeMid`, `gatosBebeBig`, `perrosBebeLittle`, `perrosBebeMid`, `perrosBebeBig`, `verduraPeces`, `carnePeces`};
-listaProductos = {`gatosLittle`: gatosLittle, `gatosMid` : gatosMid, `gatosBig` : gatosBig, `perrosLittle` : perrosLittle, `perrosMid` : perrosMid, `perrosBig` : perrosBig, `gatosBebeLittle` : gatosBebeLittle, `gatosBebeMid` : gatosBebeMid, `gatosBebeBig` : gatosBebeBig, `perrosBebeLittle` : perrosBebeLittle, `perrosBebeMid` : perrosBebeMid, `perrosBebeBig` : perrosBebeBig, `verduraPeces` : verduraPeces, `carnePeces` : carnePeces};
+let seleccion = {`gatosLittle`, `gatosMid`, `gatosBig`, `perrosLittle`, `perrosMid`, `perrosBig`, `gatosBebeLittle`, `gatosBebeMid`, `gatosBebeBig`, `perrosBebeLittle`, `perrosBebeMid`, `perrosBebeBig`, `verduraPeces`, `carnePeces`};
+let listaProductos = {`gatosLittle`: gatosLittle, `gatosMid` : gatosMid, `gatosBig` : gatosBig, `perrosLittle` : perrosLittle, `perrosMid` : perrosMid, `perrosBig` : perrosBig, `gatosBebeLittle` : gatosBebeLittle, `gatosBebeMid` : gatosBebeMid, `gatosBebeBig` : gatosBebeBig, `perrosBebeLittle` : perrosBebeLittle, `perrosBebeMid` : perrosBebeMid, `perrosBebeBig` : perrosBebeBig, `verduraPeces` : verduraPeces, `carnePeces` : carnePeces};
 
 listaCompras = `
 <div class = "in-flex">
@@ -78,10 +75,13 @@ listaCompras = `
      </div>
 `;
 
-articulo = `<input type = "number" class = "producto">  </input>
-<label>Ingrese número del pedido</label>
-producto = querySelector(".producto");
-<input type = "button" class = "accionador" onclick = "ordenanza(listaProductos)"> Elegir producto </input>`;
+let articulo = `<input type = "number" class = "producto">  </input>;
+<label>Ingrese número del pedido</label>;
+let producto = querySelector(".producto");
+<input type = "button" class = "accionador" onclick = "validar(producto, listaProoductos)"> Elegir producto </input>`;
+let item = listaProoductos[`${seleccion[producto]}`];
+let precio = seleccion[producto];
 
-document.write(listaCompras, articulo);)
+
+document.write(listaCompras, articulo);
 // Descuento = (productoActual * 100 ) / valorDescuento

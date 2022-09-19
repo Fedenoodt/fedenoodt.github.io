@@ -19,6 +19,22 @@ function animalBebe (animal, porcentaje) {
     return aumento;
 }
 
+function ordenanza (listaProductos) {
+    validez = validar(producto, listaProductos);
+    producto = 
+}
+
+function validar (producto, listaProoductos) {
+    largo = listaProductos.length;
+    producto = parseint(producto);
+    if producto >== 1 & producto ==< largo:
+        devolucion = true;
+    else:
+        alert(`Ingrese el producto por orden de pedido, por favir.`);
+        devolucion = false;
+    return devolucion
+}
+
 perrosBebeLittle = animalBebe(perrosLittle, 5);
 perrosBebeMid = animalBebe(perrosMid, 5);
 perrosBebeBig = animalBebe(perrosBig, 5);
@@ -30,7 +46,7 @@ gatosBebeBig = animalBebe(gatosBig, 5);
 verduraPeces = 878;
 carnePeces = 881;
 
-listaProductos = {gatosLittle, gatosMid, gatosBig, perrosLittle, perrosMid, perrosBig, gatosBebeLittle, gatosBebeMid, gatosBebeBig, perrosBebeLittle, perrosBebeMid, perrosBebeBig, verduraPeces, carnePeces};
+listaProductos = {`gatosLittle`: gatosLittle, gatosMid, gatosBig, perrosLittle, perrosMid, perrosBig, gatosBebeLittle, gatosBebeMid, gatosBebeBig, perrosBebeLittle, perrosBebeMid, perrosBebeBig, verduraPeces, carnePeces};
 
 listaCompras = `
 <div class = "in-flex">
@@ -55,12 +71,10 @@ listaCompras = `
      </div>
 `;
 
-articulo = `<input type = "number" class = "numeroProducto">  </input>
+articulo = `<input type = "number" class = "producto">  </input>
 <label>Ingrese número del pedido</label>
-<input type = "button" class = "accionador"> Elegir producto </input>`;
+producto = querySelector(".producto");
+<input type = "button" class = "accionador" onclick = "ordenanza(listaProductos)"> Elegir producto </input>`;
 
-document.write(listaCompras, articulo);
-
-accion = document.querySelector(".accionador");
-document.write('<br />', accion)
+document.write(listaCompras, articulo);)
 // Descuento = (productoActual * 100 ) / valorDescuento

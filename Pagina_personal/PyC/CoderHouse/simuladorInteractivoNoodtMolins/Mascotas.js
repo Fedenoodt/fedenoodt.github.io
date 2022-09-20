@@ -6,6 +6,8 @@ precio = "";
 
 // Funciones generales
 function constructor () {
+    // "constructor" se encarga de, primero validar que lo que ingresó el usuario, 
+    // esté bien, y después devolver lo necesario para imprimir su ingreso.
     validar(producto, listaProductos);
     
 }

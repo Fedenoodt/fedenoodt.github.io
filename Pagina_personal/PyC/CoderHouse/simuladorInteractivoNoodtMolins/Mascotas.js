@@ -28,13 +28,15 @@ function animalBebe (animal, porcentaje) {
 // }
 
 function validar (producto, listaProoductos) {
-    let largo = listaProductos.length;
-    let producto = parseint(producto);
-    if producto >== 1 & producto ==< largo:
-        devolucion = true;
-    else:
-        alert(`Ingrese el producto por orden de pedido, por favir.`);
-        let devolucion = false;
+    devolucion = false;
+    while not devolucion:
+        let largo = listaProductos.length;
+        let producto = parseint(producto);
+        if producto >== 1 & producto ==< largo:
+            devolucion = true;
+        else:
+            alert(`Ingrese el producto por orden de pedido, por favir.`);
+            let devolucion = false;
     return devolucion
 }
 

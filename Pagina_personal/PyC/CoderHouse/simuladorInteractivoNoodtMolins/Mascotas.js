@@ -6,14 +6,14 @@ precio = "";
 
 // Funciones generales
 function constructor () {
-    validar(producto, listaProoductos);
+    validar(producto, listaProductos);
     
 }
 
-function validar (producto, listaProoductos) {
+function validar (producto, listaProductos) {
     // validar se encarga de que el ingreso de usuario, sea exactamente un número
     // en la lista.
-    producto : parseInt(producto)
+    producto = parseInt(producto)
     let largo = listaProductos.length;
     if producto; >== 1 & producto; ==< largo:
         let devolucion = true;
@@ -100,7 +100,7 @@ listaCompras = `
 let articulo = `<div>
 <input type = "number" class = "producto">  </input>;
 <label>Ingrese número del pedido</label>;
-<input type = "button" class = "accionador" onclick = "validar(producto, listaProoductos)"> Elegir producto </input></div></div>`;
+<input type = "button" class = "accionador" onclick = "constructor ()"> Elegir producto </input></div></div>`;
 
 // "actual" se encarga de que el usuario vea su situación referente al producto actual, valga la redundancia.
 

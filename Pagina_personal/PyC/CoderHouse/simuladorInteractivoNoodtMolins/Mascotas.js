@@ -1,7 +1,41 @@
+// Variables Generales
+
 validez = false;
+item = "";
+precio = "";
+
+// Funciones generales
+function constructor () {
+    validar(producto, listaProoductos);
+    
+}
+
+function validar (producto, listaProoductos) {
+    // validar se encarga de que el ingreso de usuario, sea exactamente un número
+    // en la lista.
+    let largo = listaProductos.length;
+    let producto = parseint(producto);
+    if producto >== 1 & producto ==< largo:
+        let devolucion = true;
+    else:
+    alert(`Ingrese el producto por orden de pedido, por favor. ( 1 a ${largo})`);
+        let devolucion = false;
+    return devolucion
+}
+
+// function ordenanza (listaProductos) {
+//     validez = validar(producto, listaProductos);
+//     if validez:
+//         let item = listaProoductos[`${seleccion[producto]}`];
+//         let precio = seleccion[producto];
+// }
+
+// Primer impresión de la página
 
 document.write(`<h1>Tienda de mascotas</h1>`);
 document.write(`<h2>Esta api permite calcular tu compra de productos, en base a posibles descuentos.</h2>`);
+
+// Precios y entes reguladores de comidas de animales, valuadas por kilo.
 
 perrosLittle = 945;
 perrosMid = 970;
@@ -20,26 +54,6 @@ function animalBebe (animal, porcentaje) {
     return aumento;
 }
 
-// function ordenanza (listaProductos) {
-//     validez = validar(producto, listaProductos);
-//     if validez:
-//         let item = listaProoductos[`${seleccion[producto]}`];
-//         let precio = seleccion[producto];
-// }
-
-function validar (producto, listaProoductos) {
-    devolucion = false;
-    while not devolucion:
-        let largo = listaProductos.length;
-        let producto = parseint(producto);
-        if producto >== 1 & producto ==< largo:
-            devolucion = true;
-        else:
-            alert(`Ingrese el producto por orden de pedido, por favir.`);
-            let devolucion = false;
-    return devolucion
-}
-
 let perrosBebeLittle = animalBebe(perrosLittle, 5);
 let perrosBebeMid = animalBebe(perrosMid, 5);
 let perrosBebeBig = animalBebe(perrosBig, 5);
@@ -51,8 +65,12 @@ let gatosBebeBig = animalBebe(gatosBig, 5);
 let verduraPeces = 878;
 let carnePeces = 881;
 
+// Se guarda todo en una lista y un diccionario ordenadamente para la selección del usuario.
+
 let seleccion = {`gatosLittle`, `gatosMid`, `gatosBig`, `perrosLittle`, `perrosMid`, `perrosBig`, `gatosBebeLittle`, `gatosBebeMid`, `gatosBebeBig`, `perrosBebeLittle`, `perrosBebeMid`, `perrosBebeBig`, `verduraPeces`, `carnePeces`};
 let listaProductos = {`gatosLittle`: gatosLittle, `gatosMid` : gatosMid, `gatosBig` : gatosBig, `perrosLittle` : perrosLittle, `perrosMid` : perrosMid, `perrosBig` : perrosBig, `gatosBebeLittle` : gatosBebeLittle, `gatosBebeMid` : gatosBebeMid, `gatosBebeBig` : gatosBebeBig, `perrosBebeLittle` : perrosBebeLittle, `perrosBebeMid` : perrosBebeMid, `perrosBebeBig` : perrosBebeBig, `verduraPeces` : verduraPeces, `carnePeces` : carnePeces};
+
+// Se empieza a presentar la web interna. Mostrando la lista de precios.
 
 listaCompras = `
 <div class = "in-flex">
@@ -77,13 +95,30 @@ listaCompras = `
      </div>
 `;
 
-let articulo = `<input type = "number" class = "producto">  </input>;
+// Se construye el espacio de ingreso del usuario.
+
+let articulo = `<div>
+<input type = "number" class = "producto">  </input>;
 <label>Ingrese número del pedido</label>;
+<input type = "button" class = "accionador" onclick = "validar(producto, listaProoductos)"> Elegir producto </input></div></div>`;
+
+// "actual" se encarga de que el usuario vea su situación referente al producto actual, valga la redundancia.
+
+let actual = `<div>
+<h1>Usted no eligió ningún producto.</h1>
+</div></div>`
+
+document.write(listaCompras, articulo, actual);
+
+// "producto" se refiere al número que ingresó el usuario, para referenciar con la lista.
 let producto = querySelector(".producto");
-<input type = "button" class = "accionador" onclick = "validar(producto, listaProoductos)"> Elegir producto </input>`;
-let item = listaProoductos[`${seleccion[producto]}`];
-let precio = seleccion[producto];
+
+// Finalmente después de validar, se vuelve a validar el booleano por seguridad, para registrar la solicitud del usuario.
+if validar(producto, listaProoductos):
+    let item = listaProoductos[`${seleccion[producto]}`];
+    let precio = seleccion[producto];
+
+document.clear();    
 
 
-document.write(listaCompras, articulo);
 // Descuento = (productoActual * 100 ) / valorDescuento

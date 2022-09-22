@@ -15,9 +15,8 @@ function constructor () {
 function validar (producto, listaProductos) {
     // validar se encarga de que el ingreso de usuario, sea exactamente un número
     // en la lista.
-    let producto = parseInt(producto)
     let largo = listaProductos.length;
-    if producto >== 1 & producto ==< largo:
+    if parseInt(producto) >== 1 & parseInt(producto) ==< largo:
         let devolucion = true;
     else:
     alert(`Ingrese el producto por orden de pedido, por favor. ( 1 a ${largo})`);

@@ -17,7 +17,7 @@ function validar (producto, listaProductos) {
     // en la lista.
     producto = parseInt(producto)
     let largo = listaProductos.length;
-    if producto; >== 1 & producto; ==< largo:
+    if producto >== 1 & producto ==< largo:
         let devolucion = true;
     else:
     alert(`Ingrese el producto por orden de pedido, por favor. ( 1 a ${largo})`);

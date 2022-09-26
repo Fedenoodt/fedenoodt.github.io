@@ -105,9 +105,7 @@ let articulo = `<div>
 
 // "actual" se encarga de que el usuario vea su situación referente al producto actual, valga la redundancia.
 
-let actual = `<div>
-<h1>Usted no eligió ningún producto.</h1>
-</div></div>`;
+let actual = `<div><h1>Usted no eligió ningún producto.</h1></div></div>`;
 
 document.write(listaCompras, articulo, actual);
 

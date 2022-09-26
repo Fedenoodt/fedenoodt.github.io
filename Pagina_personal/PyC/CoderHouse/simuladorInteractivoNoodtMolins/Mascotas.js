@@ -98,10 +98,10 @@ listaCompras = `
 
 // Se construye el espacio de ingreso del usuario.
 
-let articulo = `<div>
-<input type = "number" class = "producto">  </input>;
-<label>Ingrese número del pedido</label>;
-<input type = "button" class = "accionador" onclick = "constructor ()"> Elegir producto </input></div></div>`;
+let articulo = `<div> <form id= "pedido">
+<input type = "number"> <label>Ingrese número del pedido</label> </input>;
+<input type = "submit" value = "Elegir producto" class = "accionador" onclick = "constructor ()">  </input></div></form>
+</div>`;
 
 // "actual" se encarga de que el usuario vea su situación referente al producto actual, valga la redundancia.
 

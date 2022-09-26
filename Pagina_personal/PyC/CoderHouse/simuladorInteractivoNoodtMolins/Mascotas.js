@@ -107,7 +107,7 @@ let articulo = `<div>
 
 let actual = `<div>
 <h1>Usted no eligió ningún producto.</h1>
-</div></div>`
+</div></div>`;
 
 document.write(listaCompras, articulo, actual);
 

@@ -12,17 +12,17 @@ function constructor () {
     
 }
 
-function validar (producto, listaProductos) {
+//function validar (producto, listaProductos) {
     // validar se encarga de que el ingreso de usuario, sea exactamente un número
     // en la lista.
-    let largo = listaProductos.length;
-    if producto >== 1 & producto ==< largo:
-        let devolucion = true;
-    else:
-    alert(`Ingrese el producto por orden de pedido, por favor. ( 1 a ${largo})`);
-        let devolucion = false;
-    return devolucion
-}
+//    let largo = listaProductos.length;
+//    if producto >== 1 & producto ==< largo:
+//        let devolucion = true;
+//    else:
+//    alert(`Ingrese el producto por orden de pedido, por favor. ( 1 a ${largo})`);
+//        let devolucion = false;
+//    return devolucion
+// }
 
 // function ordenanza (listaProductos) {
 //     validez = validar(producto, listaProductos);
@@ -50,8 +50,7 @@ gatosBig = 921;
 
 function animalBebe (animal, porcentaje) {
     // "animalBebe" calcula dicho aumento.
-    let aumento = ((animal * porcentaje) / 100) + animal;
-    let aumento = Math.round(aumento);
+    let aumento = Math.round(((animal * porcentaje) / 100) + animal);
     return aumento;
 }
 
@@ -60,7 +59,7 @@ let perrosBebeMid = animalBebe(perrosMid, 5);
 let perrosBebeBig = animalBebe(perrosBig, 5);
 
 gatosBebeLittle = animalBebe(gatosLittle, 5);
-let let gatosBebeMid = animalBebe(gatosMid, 5);
+let gatosBebeMid = animalBebe(gatosMid, 5);
 let gatosBebeBig = animalBebe(gatosBig, 5);
 
 let verduraPeces = 878;
@@ -68,8 +67,8 @@ let carnePeces = 881;
 
 // Se guarda todo en una lista y un diccionario ordenadamente para la selección del usuario.
 
-let seleccion = {`gatosLittle`, `gatosMid`, `gatosBig`, `perrosLittle`, `perrosMid`, `perrosBig`, `gatosBebeLittle`, `gatosBebeMid`, `gatosBebeBig`, `perrosBebeLittle`, `perrosBebeMid`, `perrosBebeBig`, `verduraPeces`, `carnePeces`};
-let listaProductos = {`gatosLittle`: gatosLittle, `gatosMid` : gatosMid, `gatosBig` : gatosBig, `perrosLittle` : perrosLittle, `perrosMid` : perrosMid, `perrosBig` : perrosBig, `gatosBebeLittle` : gatosBebeLittle, `gatosBebeMid` : gatosBebeMid, `gatosBebeBig` : gatosBebeBig, `perrosBebeLittle` : perrosBebeLittle, `perrosBebeMid` : perrosBebeMid, `perrosBebeBig` : perrosBebeBig, `verduraPeces` : verduraPeces, `carnePeces` : carnePeces};
+let seleccion = ['gatosLittle', 'gatosMid', 'gatosBig', 'perrosLittle', 'perrosMid', 'perrosBig', 'gatosBebeLittle', 'gatosBebeMid', 'gatosBebeBig', 'perrosBebeLittle', 'perrosBebeMid', 'perrosBebeBig', 'verduraPeces', 'carnePeces'];
+let listaProductos = {'gatosLittle': gatosLittle, 'gatosMid' : gatosMid, 'gatosBig' : gatosBig, 'perrosLittle' : perrosLittle, 'perrosMid' : perrosMid, 'perrosBig' : perrosBig, 'gatosBebeLittle' : gatosBebeLittle, 'gatosBebeMid' : gatosBebeMid, 'gatosBebeBig' : gatosBebeBig, 'perrosBebeLittle' : perrosBebeLittle, 'perrosBebeMid' : perrosBebeMid, 'perrosBebeBig' : perrosBebeBig, 'verduraPeces' : verduraPeces, 'carnePeces' : carnePeces};
 
 // Se empieza a presentar la web interna. Mostrando la lista de precios.
 
@@ -113,11 +112,11 @@ document.write(listaCompras, articulo, actual);
 let producto = querySelector(".producto");
 
 // Finalmente después de validar, se vuelve a validar el booleano por seguridad, para registrar la solicitud del usuario.
-if validar(producto, listaProoductos):
-    let item = listaProoductos[`${seleccion[producto]}`];
-    let precio = seleccion[producto];
+//if validar(producto, listaProoductos):
+//    let item = listaProoductos[`${seleccion[producto]}`];
+//    let precio = seleccion[producto];
 
-document.clear();    
+//document.clear();    
 
 
 // Descuento = (productoActual * 100 ) / valorDescuento

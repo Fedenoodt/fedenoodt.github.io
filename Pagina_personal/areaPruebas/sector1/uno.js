@@ -1,1 +1,1 @@
-let yo = localStorage.setItem("nombre", "Fedenoodt")
+let yo = localStorage.getItem("nombre", "Fedenoodt")

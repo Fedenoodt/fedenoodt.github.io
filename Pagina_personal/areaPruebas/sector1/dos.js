@@ -54,16 +54,17 @@ const productos = [{ id: 1, nombre: "perrosLittle", precio: 125 },
 // }
 
 const ordenador = function () {    
+}
+
+const contenedor = document.createElement("div");
+contenedor.innerHTML = `<div>${
     for (const producto of productos) {
         let articulo = document.createElement("div");
         articulo.innerHTML = `<h3> ID: ${producto.id}</h3>
                                 <p> Producto: ${producto.nombre}</p>
                                 <b> $ ${producto.precio}</b>`;
     }
-}
-
-const contenedor = document.createElement("div");
-contenedor.innerHTML = `<div>${ordenador}</div>`;
+}</div>`;
 document.body.appendChild(contenedor);
 
 

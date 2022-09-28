@@ -53,6 +53,6 @@ function ordenador () {
     }
 }
 
-let productos = document.createElement("div");
+const productos = document.createElement("div");
 productos.innerHTML = `<div>${ordenador()}</div>`;
 document.body.appendChild(productos);

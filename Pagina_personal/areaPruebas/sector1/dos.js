@@ -42,10 +42,17 @@ const productos = [{ id: 1, nombre: "perrosLittle", precio: 125 },
                    { id: 13, nombre: "verduraPeces", precio: 878 },
                    { id: 14, nombre: "carnePeces", precio: 881 }];
 
-for (const producto of productos) {
-    let contenedor = document.createElement("div");
-    contenedor.innerHTML = `<h3> ID: ${producto.id}</h3>
-                            <p> Producto: ${producto.nombre}</p>
-                            <b> $ ${producto.precio}</b>`;
-    document.body.appendChild(contenedor);
+// "Ordenador" tiene la tarea de mostrar los productos en orden.
+function ordenador () {
+    for (const producto of productos) {
+        let articulo = document.createElement("div");
+        articulo.innerHTML = `<h3> ID: ${producto.id}</h3>
+                                <p> Producto: ${producto.nombre}</p>
+                                <b> $ ${producto.precio}</b>`;
+        document.body.appendChild(articulo);
+    }
 }
+
+let productos = document.createElement("div");
+productos.innerHTML = `<div>${ordenador()}</div>`;
+document.body.appendChild(productos);

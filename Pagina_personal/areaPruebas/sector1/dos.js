@@ -63,9 +63,8 @@ ordenador = function () {
 }}
 mostrador = document.createElement("div");
 for (const producto of productos) {
-mostrador.innerHTML = `<div><h3> ID: ${producto.id}</h3>
-                       <p> Producto: ${producto.nombre}</p>
-                       <b> $ ${producto.precio}</b></div>`;
+    socket.innerHTML;
+    document.body.appendChild(socket);
 }
 document.body.appendChild(mostrador);
 

@@ -60,10 +60,12 @@ function ordenador () {
                        <p> Producto: ${producto.nombre}</p>
                        <b> $ ${producto.precio}</b></div>`;
         acumulador += articulo;
-    return articulo;
+        console.log(`Analisis del acumulador`)
     const contenedor = document.createElement("div");
     contenedor.innerHTML = `<div>${acumulador
     }</div>`;
+    console.log(`Alalisis del contenedor`);
+    console.log(contenedor);
     document.body.appendChild(contenedor);
 }}
 

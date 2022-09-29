@@ -56,9 +56,9 @@ function ordenador () {
     let acumulador = "";
     
     for (const producto of productos) {
-        let articulo = `<h3> ID: ${producto.id}</h3>
+        let articulo = `<div><h3> ID: ${producto.id}</h3>
                        <p> Producto: ${producto.nombre}</p>
-                       <b> $ ${producto.precio}</b>`;
+                       <b> $ ${producto.precio}</b></div>`;
         acumulador += articulo;
     return articulo;
     const contenedor = document.createElement("div");

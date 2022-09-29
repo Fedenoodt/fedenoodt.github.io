@@ -59,6 +59,7 @@ function ordenador () {
         articulo.innerHTML = `<h3> ID: ${producto.id}</h3>
                                 <p> Producto: ${producto.nombre}</p>
                                 <b> $ ${producto.precio}</b>`;
+    return articulo;
 }}
 
 let muestra = ordenador();

@@ -59,12 +59,11 @@ ordenador = function () {
         let articulo = `<div><h3> ID: ${producto.id}</h3>
                        <p> Producto: ${producto.nombre}</p>
                        <b> $ ${producto.precio}</b></div>`;
-        acumulador += articulo;
-    return acumulador;
+    return articulo;
 }}
-// mostrador = document.createElement("div");
-// mostrador.innerHTML = ordenador;
-document.body.appendChild(ordenador);
+mostrador = document.createElement("div");
+mostrador.innerHTML = ordenador;
+document.body.appendChild(mostrador);
 
 
 

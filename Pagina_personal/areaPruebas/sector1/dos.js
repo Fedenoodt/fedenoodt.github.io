@@ -64,7 +64,7 @@ function ordenador () {
 let muestra = ordenador();
 
 const contenedor = document.createElement("div");
-contenedor.innerHTML = `<div>${mostrarProductos()
+contenedor.innerHTML = `<div>${muestra
 }</div>`;
 document.body.appendChild(muestra);
 

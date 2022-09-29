@@ -66,7 +66,7 @@ let muestra = ordenador();
 const contenedor = document.createElement("div");
 contenedor.innerHTML = `<div>${muestra
 }</div>`;
-document.body.appendChild(muestra);
+document.body.appendChild(contenedor);
 
 
 

@@ -66,7 +66,7 @@ function mostrarProductos () {
 }
 
 const contenedor = document.createElement("div");
-contenedor.innerHTML = `<div>${mostrarProductos()}
+contenedor.innerHTML = `<div>${mostrarProductos()
 }</div>`;
 document.body.appendChild(contenedor);
 

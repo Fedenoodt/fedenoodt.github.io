@@ -52,22 +52,22 @@ const productos = [{ id: 1, nombre: "perrosLittle", precio: 125 },
 //         document.body.appendChild(articulo);
 //     }
 // }
-
 function ordenador () {    
+    let acumulador = "";
+    
     for (const producto of productos) {
-        let articulo = document.createElement("div");
-        articulo.innerHTML = `<h3> ID: ${producto.id}</h3>
-                                <p> Producto: ${producto.nombre}</p>
-                                <b> $ ${producto.precio}</b>`;
+        let articulo = `<h3> ID: ${producto.id}</h3>
+                       <p> Producto: ${producto.nombre}</p>
+                       <b> $ ${producto.precio}</b>`;
+        acumulador += articulo;
     return articulo;
+    const contenedor = document.createElement("div");
+    contenedor.innerHTML = `<div>${acumulador
+    }</div>`;
+    document.body.appendChild(contenedor);
 }}
 
-let muestra = document.write(ordenador());
-
-const contenedor = document.createElement("div");
-contenedor.innerHTML = `<div>${muestra
-}</div>`;
-document.body.appendChild(contenedor);
+ordenador()
 
 
 

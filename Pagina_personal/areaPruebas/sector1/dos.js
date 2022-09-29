@@ -59,10 +59,14 @@ ordenador = function () {
         let articulo = `<div><h3> ID: ${producto.id}</h3>
                        <p> Producto: ${producto.nombre}</p>
                        <b> $ ${producto.precio}</b></div>`;
-    return articulo;
+    document.body.appendChild(articulo);
 }}
 mostrador = document.createElement("div");
-mostrador.innerHTML = ordenador;
+for (const producto of productos) {
+mostrador.innerHTML = `<div><h3> ID: ${producto.id}</h3>
+                       <p> Producto: ${producto.nombre}</p>
+                       <b> $ ${producto.precio}</b></div>`;
+}
 document.body.appendChild(mostrador);
 
 

@@ -60,16 +60,13 @@ function ordenador () {
                        <p> Producto: ${producto.nombre}</p>
                        <b> $ ${producto.precio}</b></div>`;
         acumulador += articulo;
-        console.log(`Analisis del acumulador`)
-    const contenedor = document.createElement("div");
-    contenedor.innerHTML = `<div>${acumulador
-    }</div>`;
-    console.log(`Alalisis del contenedor`);
-    console.log(contenedor);
-    document.body.appendChild(contenedor);
+    return acumulador;
 }}
+let grupo = ordenador();
+mostrador = document.createElement("div");
+mostrador.innerHTML = `${grupo}`;
+document.body.appendChild(mostrador);
 
-let mostrador = ordenador()
 
 
 

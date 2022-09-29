@@ -67,7 +67,7 @@ function ordenador () {
     document.body.appendChild(contenedor);
 }}
 
-ordenador()
+let mostrador = ordenador()
 
 
 

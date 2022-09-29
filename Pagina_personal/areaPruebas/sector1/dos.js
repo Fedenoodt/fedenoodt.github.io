@@ -62,7 +62,7 @@ function ordenador () {
     return articulo;
 }}
 
-let muestra = ordenador();
+let muestra = document.write(ordenador());
 
 const contenedor = document.createElement("div");
 contenedor.innerHTML = `<div>${muestra

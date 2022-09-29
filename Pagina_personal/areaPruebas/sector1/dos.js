@@ -62,9 +62,9 @@ ordenador = function () {
         acumulador += articulo;
     return acumulador;
 }}
-mostrador = document.createElement("div");
-mostrador.innerHTML = ordenador;
-document.body.appendChild(mostrador);
+// mostrador = document.createElement("div");
+// mostrador.innerHTML = ordenador;
+document.body.appendChild(ordenador);
 
 
 

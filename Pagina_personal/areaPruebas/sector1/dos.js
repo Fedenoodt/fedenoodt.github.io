@@ -63,7 +63,7 @@ ordenador = function () {
     return acumulador;
 }}
 mostrador = document.createElement("div");
-mostrador.innerHTML = `${ordenador}`;
+mostrador.innerHTML = ordenador;
 document.body.appendChild(mostrador);
 
 

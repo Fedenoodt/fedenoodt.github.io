@@ -1,5 +1,4 @@
 let tipo = "";
-credencialOK = false;
 
 
 document.write(`<center><h1>Ticket del Centro Odontológico</h1><br /><h2>Ingrese los datos</h2></center>`);
@@ -21,7 +20,6 @@ function validar (valor) {
     numero = (tipoPacientes.children[1].value)
     if (numero.length == 8){
         console.log(`*La credencial número ${numero} fue enviada a una base de datos para revisión...*`);
-        credencialOK = true;
     else {
         document.write(<h3 style= "color: red;">Ingrese un número de credencial válido.</h3>)
     }

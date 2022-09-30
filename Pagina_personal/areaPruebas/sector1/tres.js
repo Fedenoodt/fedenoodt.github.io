@@ -1,4 +1,5 @@
 let tipo = "";
+credencialOK = false;
 
 
 document.write(`<center><h1>Ticket del Centro Odontológico</h1><br /><h2>Ingrese los datos</h2></center>`);
@@ -18,7 +19,13 @@ function validar (valor) {
     valor.preventDefault();
     let tipoPacientes = valor.target;
     numero = (tipoPacientes.children[1].value)
-    console.log(`*La credencial número ${numero} fue enviada a una base de datos para revisión...*`);
+    if (numero.length == 8){
+        console.log(`*La credencial número ${numero} fue enviada a una base de datos para revisión...*`);
+        credencialOK = true;
+    else {
+        document.write(<h3 style= "color: red;">Ingrese un número de credencial válido.</h3>)
+    }
+    }
 }
     
 turno = document.createElement("div");
@@ -44,20 +51,26 @@ tomaTurno.addEventListener("submit", registrar);
 function registrar (valor) {
     valor.preventDefault();
     let tipoPacientes = valor.target
-    if (tipoPacientes.children[0].value) {
+    a = tipoPacientes.children[0].value;
+    b = tipoPacientes.children[1].value;
+    c = tipoPacientes.children[2].value;
+    d = tipoPacientes.children[3].value;
+    sub = tipoPacientes.children[4].value;
+    
+    if (sub == a) {
         tipo = "A";
         } 
     else if 
-        (tipoPacientes.children[1].value) {
+        (sub == b) {
             tipo = "B";
         } 
     else if 
-        (tipoPacientes.children[2].value) {
+        (sub == c) {
             tipo = "C";
         }
         
     else if
-        (tipoPacientes.children[3].value) {
+        (sub == d) {
             tipo = "D";
         }
 turnoID = Math.round(Math.random() * 1000);

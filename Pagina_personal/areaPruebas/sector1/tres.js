@@ -11,15 +11,16 @@ credencial.innerHTML = `
 </form>
 `;
 document.body.appendChild(credencial);
+
 let validez = document.getElementById("numero").required;
-numero.addEventListener("submit", validar);
+validez.addEventListener("submit", validar);
 
 function validar (valor) {
     valor.preventDefault();
     let tipoPacientes = valor.target;
-    numero = (tipoPacientes.children[1].value)
-    if (numero.length == 8){
-        console.log(`*La credencial número ${numero} fue enviada a una base de datos para revisión...*`)}
+    retorno = numero.children[1].value;
+    if (retorno.length == 8){
+        console.log(`*La credencial número ${retorno} fue enviada a una base de datos para revisión...*`)}
     else {
         document.write(`<h3 style= "color: red;">Ingrese un número de credencial válido.</h3>`)
     }
@@ -52,22 +53,21 @@ function registrar (valor) {
     b = tipoPacientes.children[1].value;
     c = tipoPacientes.children[2].value;
     d = tipoPacientes.children[3].value;
-    sub = tipoPacientes.children[4].value;
     
-    if (sub == a) {
+    if (tomaTurno == a) {
         tipo = "A";
         } 
     else if 
-        (sub == b) {
+        (tomaTurno == b) {
             tipo = "B";
         } 
     else if 
-        (sub == c) {
+        (tomaTurno == c) {
             tipo = "C";
         }
         
     else if
-        (sub == d) {
+        (tomaTurno == d) {
             tipo = "D";
         }
 turnoID = Math.round(Math.random() * 1000);

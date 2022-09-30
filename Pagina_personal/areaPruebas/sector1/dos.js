@@ -55,7 +55,3 @@ for (const producto of productos) {
                           <b> $ ${producto.precio}</b>`;
     let conjunto = document.body.appendChild(articulo);
 }
-
-alt = document.createElement("div");
-alt.innerHTML = conjunto
-document.body.appendChild(alt);

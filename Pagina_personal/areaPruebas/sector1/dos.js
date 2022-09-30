@@ -47,8 +47,9 @@ for (const producto of productos) {
     articulo.innerHTML = `<h3> ID: ${producto.id}</h3>
                           <p> Producto: ${producto.nombre}</p>
                           <b> $ ${producto.precio}</b>`;
-    conjunto = document.body.appendChild(articulo);
+    let conjunto = document.body.appendChild(articulo);
 }
 
-document.createElement("div");
-document.body.appendChild(conjunto);
+alt = document.createElement("div");
+alt.innerHTML = conjunto
+document.body.appendChild(alt);

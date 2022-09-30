@@ -1,6 +1,20 @@
-
-
 let tipo = "";
+
+
+document.write(`<center><h1>Ticket del Centro Odontológico</h1><br /><h2>Ingrese los datos</h2></center>`);
+credencial = document.createElement("div");
+credencial.innerHTML = `
+<form id="numero">
+    <label for = "cred">Ingrese el número de credencial de 8 números</label>
+    <input type = "number" id = "cred" required minlength = "8" maxlength = "8" size = "8">
+    <input type = "submit" value = "Submit" />
+</form>
+`;
+let valor = document.getElementById("numero");
+numero.addEventListener("submit", validar);
+
+function validar (valor) {
+    console.log(`*La credencial número ${numero.children[0].value} fue enviada a una base de datos para revisión...*`);
 
 turno = document.createElement("div");
 turno.innerHTML = `
@@ -25,20 +39,20 @@ tomaTurno.addEventListener("submit", registrar);
 function registrar (valor) {
     valor.preventDefault();
     let tipoPacientes = valor.target
-    if (console.log(tipoPacientes.children[0].value)) {
+    if (tipoPacientes.children[0].value) {
         tipo = "A";
         } 
     else if 
-        (console.log(tipoPacientes.children[1].value)) {
+        (tipoPacientes.children[1].value) {
             tipo = "B";
         } 
     else if 
-        (console.log(tipoPacientes.children[2].value)) {
+        (tipoPacientes.children[2].value) {
             tipo = "C";
         }
         
     else if
-        (console.log(tipoPacientes.children[3].value)) {
+        (tipoPacientes.children[3].value) {
             tipo = "D";
         }
 turnoID = Math.round(Math.random() * 1000);

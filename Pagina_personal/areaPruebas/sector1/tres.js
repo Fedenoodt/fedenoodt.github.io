@@ -55,23 +55,23 @@ function registrar (valor) {
     d = (tipoPacientes.children[3].value)
     
     if (tipoPacientes == a) {
-    console.log(`pasó condicional A`);
+        console.log(`pasó condicional A`);
         tipo = "A";
         } 
     else if 
         (tipoPacientes == b) {
-    console.log(`pasó condicional B`);
+        console.log(`pasó condicional B`);
             tipo = "B";
         } 
     else if 
         (tipoPacientes == c) {
-    console.log(`pasó condicional C`);
+        console.log(`pasó condicional C`);
             tipo = "C";
         }
         
     else if
         (tipoPacientes == d) {
-    console.log(`pasó condicional D`);
+        console.log(`pasó condicional D`);
             tipo = "D";
         }
 turnoID = Math.round(Math.random() * 1000);

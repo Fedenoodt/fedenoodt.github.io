@@ -10,7 +10,8 @@ credencial.innerHTML = `
     <input type = "submit" value = "Submit" />
 </form>
 `;
-let valor = document.getElementById("numero");
+document.body.appendChild(credencial);
+let validez = document.getElementById("numero");
 numero.addEventListener("submit", validar);
 
 function validar (valor) {

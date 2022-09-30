@@ -1,3 +1,7 @@
+
+
+let tipo = "";
+
 turno = document.createElement("div");
 turno.innerHTML = `
 <div><center>
@@ -21,8 +25,25 @@ tomaTurno.addEventListener("submit", registrar);
 function registrar (valor) {
     valor.preventDefault();
     let tipoPacientes = valor.target
-    console.log(tipoPacientes.children[0].value);
-    console.log(tipoPacientes.children[1].value);
-    console.log(tipoPacientes.children[2].value);
-    console.log(tipoPacientes.children[3].value);
-}
+    if (console.log(tipoPacientes.children[0].value)) {
+        tipo = "A";
+        } 
+    else if 
+        (console.log(tipoPacientes.children[1].value)) {
+            tipo = "B";
+        } 
+    else if 
+        (console.log(tipoPacientes.children[2].value)) {
+            tipo = "C";
+        }
+        
+    else if
+        (console.log(tipoPacientes.children[3].value)) {
+            tipo = "D";
+        }
+
+turnoID = Math.random() * 1000;
+
+retorno = tipo + turnoID;
+
+document.write(`<br /><br /><h1>Su turno es ${retorno}.</h1><br /><h3>Y recuerde lavarse los dientes :)</h3>`);

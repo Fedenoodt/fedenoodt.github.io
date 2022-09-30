@@ -52,7 +52,7 @@ function registrar (valor) {
     b = tipoPacientes.children[1].value;
     c = tipoPacientes.children[2].value;
     d = tipoPacientes.children[3].value;
-    sub = tipoPacientes.children[4].value;
+    sub = tomaTurno;
     
     if (sub == a) {
         tipo = "A";

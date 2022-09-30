@@ -53,5 +53,5 @@ for (const producto of productos) {
     genero.innerHTML = `<h3> ID: ${producto.id}</h3>
                           <p> Producto: ${producto.nombre}</p>;
                           <b> $ ${producto.precio}</b>`;
-    let conjunto = document.body.appendChild(articulo);
+    document.body.appendChild(articulo);
 }

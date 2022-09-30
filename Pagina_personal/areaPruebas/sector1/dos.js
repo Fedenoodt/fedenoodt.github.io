@@ -50,8 +50,8 @@ const productos = [{ id: 1, nombre: "perrosLittle", precio: 125 },
 
 for (const producto of productos) {
     let articulo = document.createElement("div");
-    genero.innerHTML = `<h3> ID: ${producto.id}</h3>
+    articulo.innerHTML = `<h3> ID: ${producto.id}</h3>
                           <p> Producto: ${producto.nombre}</p>;
                           <b> $ ${producto.precio}</b>`;
-    document.body.appendChild(articulo);
+    document.genero.appendChild(articulo);
 }

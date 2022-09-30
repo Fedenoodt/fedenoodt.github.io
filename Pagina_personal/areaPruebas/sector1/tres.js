@@ -17,7 +17,7 @@ numero.addEventListener("submit", validar);
 function validar (valor) {
     valor.preventDefault();
     let tipoPacientes = valor.target;
-    numero = (tipoPacientes.children[0].value)
+    numero = (tipoPacientes.children[1].value)
     console.log(`*La credencial número ${numero} fue enviada a una base de datos para revisión...*`);
 }
     

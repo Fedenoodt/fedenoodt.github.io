@@ -23,7 +23,6 @@ function validar (valor) {
     else {
         document.write(`<h3 style= "color: red;">Ingrese un número de credencial válido.</h3>`)
     }
-    }
 }
     
 turno = document.createElement("div");

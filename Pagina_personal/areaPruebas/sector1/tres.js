@@ -21,7 +21,7 @@ function validar (valor) {
     if (numero.length == 8){
         console.log(`*La credencial número ${numero} fue enviada a una base de datos para revisión...*`)}
     else {
-        document.write(<h3 style= "color: red;">Ingrese un número de credencial válido.</h3>)
+        document.write(`<h3 style= "color: red;">Ingrese un número de credencial válido.</h3>`)
     }
     }
 }

@@ -18,7 +18,8 @@ function validar (valor) {
     valor.preventDefault();
     let tipoPacientes = valor.target;
     console.log(`*La credencial número ${(tipoPacientes.children[0].value)} fue enviada a una base de datos para revisión...*`);
-
+}
+    
 turno = document.createElement("div");
 turno.innerHTML = `
 <div><center>

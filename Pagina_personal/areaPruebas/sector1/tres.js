@@ -48,6 +48,7 @@ tomaTurno.addEventListener("submit", registrar);
 function registrar (valor) {
     valor.preventDefault();
     let tipoPacientes = valor.target
+    console.log(`Debug tipoPacientes:${tipoPacientes}`);
     a = (tipoPacientes.children[0].value)
     b = (tipoPacientes.children[1].value)
     c = (tipoPacientes.children[2].value)
@@ -70,6 +71,7 @@ function registrar (valor) {
             tipo = "D";
         }
 turnoID = Math.round(Math.random() * 1000);
+console.log(`Debug tipo:${tipo}`);
 retorno = tipo + turnoID;
 
 document.write(`<br /><br /><h1>Su turno es ${retorno}.</h1><br /><h3>Y recuerde lavarse los dientes :)</h3>`);

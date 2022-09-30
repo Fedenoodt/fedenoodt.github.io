@@ -1,9 +1,14 @@
-numero1 = 27;
-numero2 = 365;
-numero3 = 2;
-numero4 = 14;
-numero5 = 7;
+turno = document.createElement("div");
+turno.innerHTML = `
+<form id="tipoPacientes">
+    <label for="tur">Turno</label>
+    <select name = "turno" id = "tur" multiple>
+        <option value = "general">Odontología General</option>
+        <option value = "ondodoncia">Ondodoncia</option>
+        <option value = "ortodoncia">Ortodoncia</option>
+        <option value = "radiografias">Radiografías</option>
+    </select>
+    <input type = "submit" value = "Submit" />
+</form>`;
 
-vl = (numero4 / numero3 == numero5 && numero4 / numero5 == numero3) && (numero4 - numero5 == numero5) || (numero1 <= numero2) && ((numero1 - numero4) < numero4);
-
-document.write(vl);
+document.body.appendChild(turno);

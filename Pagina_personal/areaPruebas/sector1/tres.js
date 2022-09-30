@@ -50,19 +50,23 @@ function registrar (valor) {
     let tipoPacientes = valor.target
     if (tipoPacientes.children[0].value) {
         tipo = "A";
+            console.log(`Pasó por ${tipo}.<br />${(tipoPacientes.children[0].value)}`);
         } 
     else if 
         (tipoPacientes.children[1].value) {
             tipo = "B";
+            console.log(`Pasó por ${tipo}.<br />${(tipoPacientes.children[1].value)}`);
         } 
     else if 
         (tipoPacientes.children[2].value) {
             tipo = "C";
+            console.log(`Pasó por ${tipo}.<br />${(tipoPacientes.children[2].value)}`);
         }
         
     else if
         (tipoPacientes.children[3].value) {
             tipo = "D";
+            console.log(`Pasó por ${tipo}.<br />${(tipoPacientes.children[3].value)}`);
         }
 turnoID = Math.round(Math.random() * 1000);
 retorno = tipo + turnoID;

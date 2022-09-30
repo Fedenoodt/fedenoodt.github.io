@@ -11,7 +11,7 @@ credencial.innerHTML = `
 </form>
 `;
 document.body.appendChild(credencial);
-let validez = document.getElementById("numero");
+let validez = document.getElementById("numero").required;
 numero.addEventListener("submit", validar);
 
 function validar (valor) {

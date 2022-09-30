@@ -48,23 +48,23 @@ tomaTurno.addEventListener("submit", registrar);
 function registrar (valor) {
     valor.preventDefault();
     let tipoPacientes = valor.target
-    if (tomaTurno == general) {
+    if (tomaTurno == 'general') {
         tipo = "A";
             console.log(`Pasó por ${tipo}.<br />${(tipoPacientes.children[0].value)}`);
         } 
     else if 
-        (tomaTurno == ondodoncia) {
+        (tomaTurno == 'ondodoncia') {
             tipo = "B";
             console.log(`Pasó por ${tipo}.<br />${(tipoPacientes.children[1].value)}`);
         } 
     else if 
-        (tomaTurno == ortodoncia) {
+        (tomaTurno == 'ortodoncia') {
             tipo = "C";
             console.log(`Pasó por ${tipo}.<br />${(tipoPacientes.children[2].value)}`);
         }
         
     else if
-        (tomaTurno == radiografias) {
+        (tomaTurno == 'radiografias') {
             tipo = "D";
             console.log(`Pasó por ${tipo}.<br />${(tipoPacientes.children[3].value)}`);
         }

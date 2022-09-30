@@ -40,10 +40,9 @@ function registrar (valor) {
     else if
         (console.log(tipoPacientes.children[3].value)) {
             tipo = "D";
-        }}
-
-turnoID = Math.random() * 1000;
-// tipo = registrar ();
+        }
+turnoID = Math.round(Math.random() * 1000);
 retorno = tipo + turnoID;
 
 document.write(`<br /><br /><h1>Su turno es ${retorno}.</h1><br /><h3>Y recuerde lavarse los dientes :)</h3>`);
+}

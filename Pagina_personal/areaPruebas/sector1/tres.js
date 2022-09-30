@@ -53,20 +53,20 @@ function registrar (valor) {
     c = (tipoPacientes.children[2].value)
     d = (tipoPacientes.children[3].value)
     
-    if (sub == a) {
+    if (tipoPacientes == a) {
         tipo = "A";
         } 
     else if 
-        (sub == b) {
+        (tipoPacientes == b) {
             tipo = "B";
         } 
     else if 
-        (sub == c) {
+        (tipoPacientes == c) {
             tipo = "C";
         }
         
     else if
-        (sub == d) {
+        (tipoPacientes == d) {
             tipo = "D";
         }
 turnoID = Math.round(Math.random() * 1000);

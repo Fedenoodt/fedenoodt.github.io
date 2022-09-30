@@ -48,34 +48,23 @@ tomaTurno.addEventListener("submit", registrar);
 function registrar (valor) {
     valor.preventDefault();
     let tipoPacientes = valor.target
-    console.log(`Debug tipoPacientes:${tipoPacientes}`);
-    a = (tipoPacientes.children[0].value)
-    b = (tipoPacientes.children[1].value)
-    c = (tipoPacientes.children[2].value)
-    d = (tipoPacientes.children[3].value)
-    
-    if (tipoPacientes == a) {
-        console.log(`pasó condicional A`);
+    if (tipoPacientes.children[0].value) {
         tipo = "A";
         } 
     else if 
-        (tipoPacientes == b) {
-        console.log(`pasó condicional B`);
+        (tipoPacientes.children[1].value) {
             tipo = "B";
         } 
     else if 
-        (tipoPacientes == c) {
-        console.log(`pasó condicional C`);
+        (tipoPacientes.children[2].value) {
             tipo = "C";
         }
         
     else if
-        (tipoPacientes == d) {
-        console.log(`pasó condicional D`);
+        (tipoPacientes.children[3].value) {
             tipo = "D";
         }
 turnoID = Math.round(Math.random() * 1000);
-console.log(`Debug tipo:${tipo}`);
 retorno = tipo + turnoID;
 
 document.write(`<br /><br /><h1>Su turno es ${retorno}.</h1><br /><h3>Y recuerde lavarse los dientes :)</h3>`);

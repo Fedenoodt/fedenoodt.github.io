@@ -21,8 +21,8 @@ tomaTurno.addEventListener("submit", registrar);
 function registrar (valor) {
     valor.preventDefault();
     let tipoPacientes = valor.target
-    general = console.log(tipoPacientes.children[0].value);
-    ondodoncia = console.log(tipoPacientes.children[1].value);
-    ortodoncia = console.log(tipoPacientes.children[2].value);
-    radiografias = console.log(tipoPacientes.children[3].value);
+    console.log(tipoPacientes.children[0].value);
+    console.log(tipoPacientes.children[1].value);
+    console.log(tipoPacientes.children[2].value);
+    console.log(tipoPacientes.children[3].value);
 }

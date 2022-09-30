@@ -14,6 +14,9 @@ let valor = document.getElementById("numero");
 numero.addEventListener("submit", validar);
 
 function validar (valor) {
+    valor.preventDefault();
+    let tipoPacientes = valor.target
+    (tipoPacientes.children[0].value)
     console.log(`*La credencial número ${numero.children[0].value} fue enviada a una base de datos para revisión...*`);
 
 turno = document.createElement("div");

@@ -1,3 +1,9 @@
+// Variables generales.
+let genero = document.getElementById("genero");
+let gramos = document.getElementById("gramos");
+let lista = document.getElementById("lista");
+let total = document.getElementById("total");
+
 // Precios y entes reguladores de comidas de animales, valuadas por kilo.
 
 perrosLittle = 945;
@@ -44,8 +50,8 @@ const productos = [{ id: 1, nombre: "perrosLittle", precio: 125 },
 
 for (const producto of productos) {
     let articulo = document.createElement("div");
-    articulo.innerHTML = `<h3> ID: ${producto.id}</h3>
-                          <p> Producto: ${producto.nombre}</p>
+    genero.innerHTML = `<h3> ID: ${producto.id}</h3>
+                          <p> Producto: ${producto.nombre}</p>;
                           <b> $ ${producto.precio}</b>`;
     let conjunto = document.body.appendChild(articulo);
 }

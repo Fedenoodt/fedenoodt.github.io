@@ -48,14 +48,14 @@ tomaTurno.addEventListener("submit", registrar);
 function registrar (valor) {
     valor.preventDefault();
     let tipoPacientes = valor.target
-    a = (tipoPacientes.children[0].value)
-    b = (tipoPacientes.children[1].value)
-    c = (tipoPacientes.children[2].value)
-    d = (tipoPacientes.children[3].value)
-    console.log(`Valor de A: ${a}.`);
-    console.log(`Valor de B: ${b}.`);
-    console.log(`Valor de C: ${c}.`);
-    console.log(`Valor de D: ${d}.`);
+//     a = (tipoPacientes.children[0].value)
+//     b = (tipoPacientes.children[1].value)
+//     c = (tipoPacientes.children[2].value)
+//     d = (tipoPacientes.children[3].value)
+    console.log(`Valor de A: ${(tipoPacientes.children[0].value)}.`);
+    console.log(`Valor de B: ${(tipoPacientes.children[1].value)}.`);
+    console.log(`Valor de C: ${(tipoPacientes.children[2].value)}.`);
+    console.log(`Valor de D: ${(tipoPacientes.children[3].value)}.`);
     if (tomaTurno == 'general') {
         tipo = "A";
             console.log(`Pasó por ${tipo}.<br />${(tipoPacientes.children[0].value)}`);

@@ -56,7 +56,6 @@ function registrar (valor) {
     console.log(`Valor de B: ${b}.`);
     console.log(`Valor de C: ${c}.`);
     console.log(`Valor de D: ${d}.`);
-    console.log(`Valor de tomaTurno: ${tomaTurno}. Valor de tipoPacientes: ${tipoPacientes}.`);
     if (tomaTurno == 'general') {
         tipo = "A";
             console.log(`Pasó por ${tipo}.<br />${(tipoPacientes.children[0].value)}`);
@@ -81,4 +80,5 @@ turnoID = Math.round(Math.random() * 1000);
 retorno = tipo + turnoID;
 
 document.write(`<br /><br /><h1>Su turno es ${retorno}.</h1><br /><h3>Y recuerde lavarse los dientes :)</h3>`);
+console.log(`Valor de tomaTurno: ${tomaTurno}. Valor de tipoPacientes: ${tipoPacientes}. Valor de turnoID: ${turnoID}.`);
 }

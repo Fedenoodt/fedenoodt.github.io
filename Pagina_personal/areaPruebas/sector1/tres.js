@@ -48,6 +48,7 @@ tomaTurno.addEventListener("submit", registrar);
 function registrar (valor) {
     valor.preventDefault();
     let tipoPacientes = valor.target
+    console.log(`Valor de tomaTurno ${tomaTurno}.`);
     if (tomaTurno == 'general') {
         tipo = "A";
             console.log(`Pasó por ${tipo}.<br />${(tipoPacientes.children[0].value)}`);

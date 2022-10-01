@@ -49,27 +49,27 @@ function registrar (valor) {
     valor.preventDefault();
     let tipoPacientes = valor.target
     objetivo = (tipoPacientes.children[2].value)
-    console.log(`Valor de A: ${(tipoPacientes.children[0].value)}.`);
-    console.log(`Valor de B: ${(tipoPacientes.children[1].value)}.`);
+//     console.log(`Valor de A: ${(tipoPacientes.children[0].value)}.`);
+//     console.log(`Valor de B: ${(tipoPacientes.children[1].value)}.`);
     console.log(`Valor de C: ${(objetivo)}.`);
-    console.log(`Valor de D: ${(tipoPacientes.children[3].value)}.`);
-    if (tomaTurno == 'general') {
+//     console.log(`Valor de D: ${(tipoPacientes.children[3].value)}.`);
+    if (objetivo == 'general') {
         tipo = "A";
             console.log(`Pasó por ${tipo}.<br />${(tipoPacientes.children[0].value)}`);
         } 
     else if 
-        (tomaTurno == 'ondodoncia') {
+        (objetivo == 'ondodoncia') {
             tipo = "B";
             console.log(`Pasó por ${tipo}.<br />${(tipoPacientes.children[1].value)}`);
         } 
     else if 
-        (tomaTurno == 'ortodoncia') {
+        (objetivo == 'ortodoncia') {
             tipo = "C";
             console.log(`Pasó por ${tipo}.<br />${(tipoPacientes.children[2].value)}`);
         }
         
     else if
-        (tomaTurno == 'radiografias') {
+        (objetivo == 'radiografias') {
             tipo = "D";
             console.log(`Pasó por ${tipo}.<br />${(tipoPacientes.children[3].value)}`);
         }

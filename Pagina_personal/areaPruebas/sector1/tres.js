@@ -48,13 +48,10 @@ tomaTurno.addEventListener("submit", registrar);
 function registrar (valor) {
     valor.preventDefault();
     let tipoPacientes = valor.target
-//     a = (tipoPacientes.children[0].value)
-//     b = (tipoPacientes.children[1].value)
-//     c = (tipoPacientes.children[2].value)
-//     d = (tipoPacientes.children[3].value)
+    objetivo = (tipoPacientes.children[2].value)
     console.log(`Valor de A: ${(tipoPacientes.children[0].value)}.`);
     console.log(`Valor de B: ${(tipoPacientes.children[1].value)}.`);
-    console.log(`Valor de C: ${(tipoPacientes.children[2].value)}.`);
+    console.log(`Valor de C: ${(objetivo)}.`);
     console.log(`Valor de D: ${(tipoPacientes.children[3].value)}.`);
     if (tomaTurno == 'general') {
         tipo = "A";

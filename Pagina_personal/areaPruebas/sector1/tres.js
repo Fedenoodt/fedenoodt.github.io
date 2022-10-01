@@ -42,7 +42,7 @@ turno.innerHTML = `
 
 document.body.appendChild(turno);
 
-let tomaTurno = document.getElementById("tipoPacientes");
+let tomaTurno = document.getElementById("tipoPacientes").innerHTML;
 tomaTurno.addEventListener("submit", registrar);
 
 function registrar (valor) {

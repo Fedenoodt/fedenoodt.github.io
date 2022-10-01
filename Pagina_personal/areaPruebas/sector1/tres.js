@@ -42,12 +42,20 @@ turno.innerHTML = `
 
 document.body.appendChild(turno);
 
-let tomaTurno = document.getElementById("tipoPacientes").innerHTML;
+let tomaTurno = document.getElementById("tipoPacientes");
 tomaTurno.addEventListener("submit", registrar);
 
 function registrar (valor) {
     valor.preventDefault();
     let tipoPacientes = valor.target
+    a = (tipoPacientes.children[0].value)
+    b = (tipoPacientes.children[1].value)
+    c = (tipoPacientes.children[2].value)
+    d = (tipoPacientes.children[3].value)
+    console.log(`Valor de A: ${a}.`);
+    console.log(`Valor de B: ${b}.`);
+    console.log(`Valor de C: ${c}.`);
+    console.log(`Valor de D: ${d}.`);
     console.log(`Valor de tomaTurno: ${tomaTurno}. Valor de tipoPacientes: ${tipoPacientes}.`);
     if (tomaTurno == 'general') {
         tipo = "A";

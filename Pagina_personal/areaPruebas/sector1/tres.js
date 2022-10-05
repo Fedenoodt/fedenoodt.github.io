@@ -20,7 +20,7 @@ function validar (valor) {
     numero = (tipoPacientes.children[1].value)
     if (numero.length == 8){
         console.log(`*La credencial número ${numero} fue enviada a una base de datos para revisión...*`)}
-        credencial = localStorage.setItem('valor', numero);
+        credencial = localStorage.setItem('valor', numero);}
     else {
         document.write(`<h3 style= "color: red;">Ingrese un número de credencial válido.</h3>`)
     }
@@ -73,7 +73,8 @@ function registrar (valor) {
         }
 turnoID = Math.round(Math.random() * 1000);
 retorno = tipo + turnoID;
-
-localStorage.setItem('mensaje', document.write(`<br /><br /><h1>Su turno es ${retorno}.</h1><br /><h3>Y recuerde lavarse los dientes :)</h3>`));
+localStorage.setItem('retorno', retorno);
+imagen = document.write(`<br /><br /><h1>Su turno es ${retorno}.</h1><br /><h3>Y recuerde lavarse los dientes :)</h3>`);
+localStorage.setItem('mensaje', imagen);
 console.log(`Valor de tomaTurno: ${tomaTurno}. Valor de tipoPacientes: ${tipoPacientes}. Valor de tipo: ${tipo}.`);
 }

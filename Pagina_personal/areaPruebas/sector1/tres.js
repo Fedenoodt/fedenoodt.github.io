@@ -20,6 +20,7 @@ function validar (valor) {
     numero = (tipoPacientes.children[1].value)
     if (numero.length == 8){
         console.log(`*La credencial número ${numero} fue enviada a una base de datos para revisión...*`)}
+        credencial = localStorage.setItem('valor', numero);
     else {
         document.write(`<h3 style= "color: red;">Ingrese un número de credencial válido.</h3>`)
     }

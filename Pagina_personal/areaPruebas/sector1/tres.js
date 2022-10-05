@@ -49,10 +49,7 @@ function registrar (valor) {
     valor.preventDefault();
     let tipoPacientes = valor.target
     objetivo = (tipoPacientes.children[2].value)
-//     console.log(`Valor de A: ${(tipoPacientes.children[0].value)}.`);
-//     console.log(`Valor de B: ${(tipoPacientes.children[1].value)}.`);
     console.log(`Valor de C: ${(objetivo)}.`);
-//     console.log(`Valor de D: ${(tipoPacientes.children[3].value)}.`);
     if (objetivo == 'general') {
         tipo = "A";
             console.log(`Pasó por ${tipo}.<br />${(tipoPacientes.children[0].value)}`);
@@ -76,6 +73,6 @@ function registrar (valor) {
 turnoID = Math.round(Math.random() * 1000);
 retorno = tipo + turnoID;
 
-document.write(`<br /><br /><h1>Su turno es ${retorno}.</h1><br /><h3>Y recuerde lavarse los dientes :)</h3>`);
+localStorage.setItem('mensaje', 'document.write(`<br /><br /><h1>Su turno es ${retorno}.</h1><br /><h3>Y recuerde lavarse los dientes :)</h3>`');
 console.log(`Valor de tomaTurno: ${tomaTurno}. Valor de tipoPacientes: ${tipoPacientes}. Valor de tipo: ${tipo}.`);
 }

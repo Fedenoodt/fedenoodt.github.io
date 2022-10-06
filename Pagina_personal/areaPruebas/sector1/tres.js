@@ -76,5 +76,5 @@ retorno = tipo + turnoID;
 localStorage.setItem('turno', retorno);
 imagen = document.write(`<br /><br /><h1>Su turno es ${turno}.</h1><br /><h3>Y recuerde lavarse los dientes :)</h3>`);
 localStorage.setItem('mensaje', imagen);
-console.log(`localStorage... Valor de imagen: ${imagen}. Valor de turno: ${turno}. Valor de tipo: ${tipo}.`);
+console.log(`localStorage... Valor de imagen: ${imagen}. Valor de turno: ${retorno}. Valor de tipo: ${tipo}.`);
 }

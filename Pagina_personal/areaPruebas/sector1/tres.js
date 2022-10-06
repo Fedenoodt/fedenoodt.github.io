@@ -74,7 +74,8 @@ function registrar (valor) {
 turnoID = Math.round(Math.random() * 1000);
 retorno = tipo + turnoID;
 localStorage.setItem('turno', retorno);
-imagen = document.write(`<br /><br /><h1>Su turno es ${turno}.</h1><br /><h3>Y recuerde lavarse los dientes :)</h3>`);
+imagen = `<br /><br /><h1>Su turno es ${turno}.</h1><br /><h3>Y recuerde lavarse los dientes :)</h3>`;
+document.write(imagen);
 localStorage.setItem('mensaje', imagen);
 console.log(`localStorage... Valor de imagen: ${imagen}. Valor de turno: ${turno}. Valor de tipo: ${tipo}.`);
 }

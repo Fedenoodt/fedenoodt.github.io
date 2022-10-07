@@ -14,7 +14,7 @@ let cabeza = `
 
 </body>
 </html>
-`
+`;
 
 // // let ms = Date.now();
 // let miliseg = ;

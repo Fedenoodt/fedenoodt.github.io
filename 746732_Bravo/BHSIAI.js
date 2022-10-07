@@ -16,13 +16,38 @@ let cabeza = `
 </html>
 `
 
+// // let ms = Date.now();
+// let miliseg = ;
+// let seg = ;
+// let min = ;
+// let h = ;
+
+
+
+// // Calculate milliseconds in a year
+// const minute = 1000 * 60;
+// const hour = minute * 60;
+// const day = hour * 24;
+// const year = day * 365;
+
+// // Divide Date.now() with a year
+// let years = Math.round(Date.now() / year);
+
+function horaFecha () {
+    let d = Date();
+    tiempo = d.toString()
+    return tiempo;
+}
+
+actualizar = setInterval(horaFecha, 1000);
+
 let cabezal = `	
 <section class="home">
     <div class="in-flex">
         <div id="header">
             <a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAI.html#top" target="_blank"><img class="Emblema" src="Emblema.png"></a>
             <div class = "atajos">
-                <a><h2 id="time"></h2></a>
+                <a>${actualizar}</a>
                 <a class = "imgAtajos" href="https://github.com/Fedenoodt/I-Black-Hawk-Security-Informatics-Anonymous-Incorporation" target="_blank"><img class="imgAtajos" src="Shield-PNG-Photos.png"></a>
                 <a class = "imgAtajos" href="https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages" target="_blank"><img class="imgAtajos" src="768px-Settings_(iOS).png"></a>
                 <script src = "hora.js"></script>

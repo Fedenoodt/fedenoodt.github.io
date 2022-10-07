@@ -70,4 +70,4 @@ function inicio () {
     document.body.appendChild(index);
 }
 
-inicio()
+document.write('<h1>HOLAAAA</h1>');

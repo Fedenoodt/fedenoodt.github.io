@@ -103,3 +103,4 @@ imagen = `<br /><br /><h1>Su turno es ${retorno}.</h1><br /><h1>Será llamado po
 document.write(imagen);
 localStorage.setItem('mensaje', imagen);
 }
+// <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/3.0.4/luxon.min.js" integrity="sha512-XdACFfCJeqqfVU8mvvXReyFR130qjFvfv/PZOFGwVyBz0HC+57fNkSacMPF2Dyek5jqi4D7ykFrx/T7N6F2hwQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

@@ -26,14 +26,8 @@ cabezal = `
 		<hr />`;
 
 function inicio () {
-    index = document.createElement("html");
+    index = document.createElement("div");
     index.innerHTML = `
-    <head>
-      <title>BHSIAI</title>
-      <link rel="stylesheet" type="text/css" href="estiloBHSIAI.css">
-      <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
         ${cabezal}
         <div class="in-flex">
           <h2>Accesos de emergencia</h2>
@@ -72,9 +66,6 @@ function inicio () {
 
         </div>
       </section>
-
-    </body>
-    </html>
     `;
     document.body.appendChild(index);
 }

@@ -7,7 +7,7 @@ cabezal = `
 					<a href= "https://fedenoodt.github.io/798326_Epsilon/hora.html"><h2 id="time"></h2></a>
 					<a class = "imgAtajos" href="https://github.com/Fedenoodt/I-Black-Hawk-Security-Informatics-Anonymous-Incorporation" target="_blank"><img class="imgAtajos" src="Shield-PNG-Photos.png"></a>
 					<a class = "imgAtajos" href="https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages" target="_blank"><img class="imgAtajos" src="768px-Settings_(iOS).png"></a>
-					<script src = "BHSIAI.js"></script>
+					<script src = "hora.js"></script>
 				</div>
 				<br />
 				<h1>Nexo estratégico</h1>

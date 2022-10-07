@@ -1,2 +1,2 @@
 
-document.write('<h1>HOLAAAA</h1>');
+console.log('<h1>HOLAAAA</h1>');

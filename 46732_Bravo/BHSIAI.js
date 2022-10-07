@@ -78,3 +78,5 @@ function inicio () {
     `;
     document.body.appendChild(index);
 }
+
+inicio()

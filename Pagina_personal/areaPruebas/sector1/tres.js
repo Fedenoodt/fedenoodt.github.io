@@ -1,7 +1,10 @@
-let tipo = "";
+// Variables Generales
+listaA = 
 
 
-document.write(`<center><h1>Ticket del Centro Odontológico</h1><br /><h2>Ingrese los datos</h2></center>`);
+document.write(`<center><h1>Swiss Medical Caballito</h1><br /></center>`);
+// Este es el primer segmento constructor del turno del usuario.
+document.write(`<center><h2>Ticket del Centro Odontológico</h2><br /><h3>Ingrese los datos</h3></center>`);
 credencial = document.createElement("div");
 credencial.innerHTML = `
 <form id="numero">
@@ -10,11 +13,13 @@ credencial.innerHTML = `
     <input type = "submit" value = "Submit" />
 </form>
 `;
+// Se crea el incondicional espacio de ingreso de el número de credencial.
 document.body.appendChild(credencial);
 let validez = document.getElementById("numero").required;
 numero.addEventListener("submit", validar);
 
 function validar (valor) {
+//     "Validar" toma la labor de revisar que el usuario halla ingresado bien la credencial.
     valor.preventDefault();
     let tipoPacientes = valor.target;
     numero = (tipoPacientes.children[1].value)
@@ -25,7 +30,7 @@ function validar (valor) {
         document.write(`<h3 style= "color: red;">Ingrese un número de credencial válido.</h3>`)
     }
 }
-    
+// Se arma el interrogante sobre que tipo de consulta se trata.
 turno = document.createElement("div");
 turno.innerHTML = `
 <div><center>
@@ -42,15 +47,17 @@ turno.innerHTML = `
 </center></div>`;
 
 document.body.appendChild(turno);
-
+// Y se registra lo que haya devuelto.
 let tomaTurno = document.getElementById("tipoPacientes");
 tomaTurno.addEventListener("submit", registrar);
 
 function registrar (valor) {
+//     "Registrar" tiene la tarea de ver que opción seleccionó un usuario, y darle su turno.
     valor.preventDefault();
     let tipoPacientes = valor.target
     objetivo = (tipoPacientes.children[2].value)
     console.log(`Valor de C: ${(objetivo)}.`);
+//     De que valor tome el paciente, va a depender el tipo de turno.
     if (objetivo == 'general') {
         tipo = "A";
             console.log(`Pasó por ${tipo}.<br />${(tipoPacientes.children[0].value)}`);
@@ -71,11 +78,27 @@ function registrar (valor) {
             tipo = "D";
             console.log(`Pasó por ${tipo}.<br />${(tipoPacientes.children[3].value)}`);
         }
+    
+// Como este programa no va a ser usado por 999 pacientes, o más al dia, turnoID es la variable que genera un número aleatorio durante la ejecución
 turnoID = Math.round(Math.random() * 1000);
+// retorno es la "reunión" entre la especialidad del turno, con el número aleatorio generado.
 retorno = tipo + turnoID;
+//  Guardamos el retorno con el nombre de "Turno" en caso de necesitarlo más tarde.
 localStorage.setItem('turno', retorno);
+console.log(localStorage.getItem('turno'));
+    
+function profesional () {
+//     "profesional" se encarga de ordenar, dependiendo del turno, al personal que corresponde a el turno.
+    let personal = tipo >= 500 ? document.write(listaB[objetivo]);
+//    "segundoGrupo" difiere entre el Grupo A y B de profesionales.
+        
+        
+    
+//     /// Acá yo tomo el valor de retorno, y si el numero es mayor a 500, lo mando a un "grupo B" de profesionales especializados, y viceversa. ///
+}    
+    
+// Breve mensaje que muestra el turno.
 imagen = `<br /><br /><h1>Su turno es ${retorno}.</h1><br /><h3>Y recuerde lavarse los dientes :)</h3>`;
 document.write(imagen);
 localStorage.setItem('mensaje', imagen);
-console.log(`localStorage... Valor de imagen: ${imagen}. Valor de turno: ${turnoID}. Valor de tipo: ${tipo}.`);
 }

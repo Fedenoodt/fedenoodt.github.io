@@ -43,7 +43,7 @@ let cabezal = `
     <hr />
     <hr />`;
 
-let central = '';
+let central = document.createElement("div");
 central.innerHTML = `
 ${cabezal}
 <div class="in-flex">

@@ -25,8 +25,8 @@ function validar (valor) {
 //     "Validar" toma la labor de revisar que el usuario halla ingresado bien la credencial.
     valor.preventDefault();
     let tipoPacientes = valor.target;
-    numero = (tipoPacientes.children[1].value)
-    if (numero.length == 8){
+    numero = prompt('Ingrese el número de credencial de 8 números');
+    if (numero.length == 8 && numero != NaN){
         console.log(`*La credencial número ${numero} fue enviada a una base de datos para revisión...*`)
         credencial = localStorage.setItem('valor', numero);}
     else {

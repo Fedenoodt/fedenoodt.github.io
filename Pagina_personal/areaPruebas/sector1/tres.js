@@ -1,5 +1,6 @@
 // Variables Generales
-listaA = 
+listaA = {'general': 'Juan Perez', 'ondodoncia': 'Agustina Morón', 'ortodoncia': 'Lucía Ferrera', 'radiografias': 'Lucas Vinicius'};
+listaB = {'general': 'Facundo García', 'ondodoncia': 'Soledad Rodriguez', 'ortodoncia': 'Maria Valtazar', 'radiografias': 'Carlos Pereyra'};
 
 
 document.write(`<center><h1>Swiss Medical Caballito</h1><br /></center>`);
@@ -27,7 +28,7 @@ function validar (valor) {
         console.log(`*La credencial número ${numero} fue enviada a una base de datos para revisión...*`)
         credencial = localStorage.setItem('valor', numero);}
     else {
-        document.write(`<h3 style= "color: red;">Ingrese un número de credencial válido.</h3>`)
+        alert(`<h3 style= "color: red;">Ingrese un número de credencial válido.</h3>`)
     }
 }
 // Se arma el interrogante sobre que tipo de consulta se trata.
@@ -89,7 +90,7 @@ console.log(localStorage.getItem('turno'));
     
 function profesional () {
 //     "profesional" se encarga de ordenar, dependiendo del turno, al personal que corresponde a el turno.
-//     let personal = tipo >= 500 ? document.write(listaB[objetivo]);
+    let personal = tipo >= 500 ? document.write(listaB[objetivo]);
 //    "segundoGrupo" difiere entre el Grupo A y B de profesionales.
         
         

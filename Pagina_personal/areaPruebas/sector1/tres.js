@@ -28,7 +28,7 @@ function validar (valor) {
         console.log(`*La credencial número ${numero} fue enviada a una base de datos para revisión...*`)
         credencial = localStorage.setItem('valor', numero);}
     else {
-        alert(`<h3 style= "color: red;">Ingrese un número de credencial válido.</h3>`)
+        alert(`Ingrese un número de credencial válido.`)
     }
 }
 // Se arma el interrogante sobre que tipo de consulta se trata.
@@ -89,9 +89,9 @@ localStorage.setItem('turno', retorno);
 console.log(localStorage.getItem('turno'));
     
 function profesional () {
-//     "profesional" se encarga de ordenar, dependiendo del turno, al personal que corresponde a el turno.
-//     let personal = tipo >= 500 ? document.write(listaB[objetivo]);
-//    "segundoGrupo" difiere entre el Grupo A y B de profesionales.
+//    "profesional" se encarga de ordenar, dependiendo del turno, al personal que corresponde a el turno.
+    let personal = tipo >= 500 ? listaA[objetivo] : listaB[objetivo] 
+//    "personal" difiere entre el Grupo A y B de profesionales.
         
         
     
@@ -99,7 +99,7 @@ function profesional () {
 }    
     
 // Breve mensaje que muestra el turno.
-imagen = `<br /><br /><h1>Su turno es ${retorno}.</h1><br /><h3>Y recuerde lavarse los dientes :)</h3>`;
+imagen = `<br /><br /><h1>Su turno es ${retorno}.</h1><br /><h1>Será llamado por apellido, por el profesional ${personal} de ${objetivo}.</h1><br /><h3>Y recuerde lavarse los dientes :)</h3>`;
 document.write(imagen);
 localStorage.setItem('mensaje', imagen);
 }

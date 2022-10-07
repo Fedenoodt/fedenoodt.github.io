@@ -10,3 +10,11 @@ body {
 nav {
     background-color: rgba(190, 190, 190, 1);
 }
+
+l {
+    float: left;
+}
+
+r {
+    float: right;
+}

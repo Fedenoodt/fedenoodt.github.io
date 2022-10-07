@@ -88,12 +88,8 @@ retorno = tipo + turnoID;
 localStorage.setItem('turno', retorno);
 console.log(localStorage.getItem('turno'));
     
-function profesional () {
-//    "profesional" se encarga de ordenar, dependiendo del turno, al personal que corresponde a el turno.
-    let personal = tipo >= 500 ? listaA[objetivo] : listaB[objetivo] 
-//    "personal" difiere entre el Grupo A y B de profesionales.
-        
-        
+let personal = tipo >= 500 ? listaA[objetivo] : listaB[objetivo] 
+//    "personal" difiere entre el Grupo A y B de profesionales. Se encarga de ordenar, dependiendo del turno, al personal que corresponde a el turno.
     
 //     /// Acá yo tomo el valor de retorno, y si el numero es mayor a 500, lo mando a un "grupo B" de profesionales especializados, y viceversa. ///
 }    

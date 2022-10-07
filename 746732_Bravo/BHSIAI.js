@@ -20,7 +20,7 @@ let cabezal = `
 <section class="home">
     <div class="in-flex">
         <div id="header">
-            <a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAI.html#top" target="_blank"><img class="Emblema" src="Emblema.PNG"></a>
+            <a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAI.html#top" target="_blank"><img class="Emblema" src="Emblema.png"></a>
             <div class = "atajos">
                 <a href= "https://fedenoodt.github.io/798326_Epsilon/hora.html"><h2 id="time"></h2></a>
                 <a class = "imgAtajos" href="https://github.com/Fedenoodt/I-Black-Hawk-Security-Informatics-Anonymous-Incorporation" target="_blank"><img class="imgAtajos" src="Shield-PNG-Photos.png"></a>

@@ -2,10 +2,8 @@
 listaA = {'general': 'Juan Perez', 'ondodoncia': 'Agustina Morón', 'ortodoncia': 'Lucía Ferrera', 'radiografias': 'Lucas Vinicius'};
 listaB = {'general': 'Facundo García', 'ondodoncia': 'Soledad Rodriguez', 'ortodoncia': 'Maria Valtazar', 'radiografias': 'Carlos Pereyra'};
 
-cabeza = document.createElement("nav");
-cabeza.innerHTML = `<h1 id = "l">Swiss Medical Caballito</h1>
-                    <img id = "r" src = "C:\Users\feden\Downloads\SMG.png"`;
-document.body.appendChild(cabeza);
+
+document.write(`<center><h1>Swiss Medical Caballito</h1><br /></center>`);
 // Este es el primer segmento constructor del turno del usuario.
 document.write(`<center><h2>Ticket del Centro Odontológico</h2><br /><h3>Ingrese los datos</h3></center>`);
 credencial = document.createElement("div");
@@ -25,8 +23,8 @@ function validar (valor) {
 //     "Validar" toma la labor de revisar que el usuario halla ingresado bien la credencial.
     valor.preventDefault();
     let tipoPacientes = valor.target;
-    numero = prompt('Ingrese el número de credencial de 8 números');
-    if (numero.length == 8 && numero != NaN){
+    numero = (tipoPacientes.children[1].value)
+    if (numero.length == 8){
         console.log(`*La credencial número ${numero} fue enviada a una base de datos para revisión...*`)
         credencial = localStorage.setItem('valor', numero);}
     else {

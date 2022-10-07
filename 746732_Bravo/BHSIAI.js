@@ -1,0 +1,1 @@
+console.log(`Estructura Javascript conectada con éxito.-`)

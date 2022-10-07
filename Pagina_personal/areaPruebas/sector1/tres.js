@@ -89,7 +89,7 @@ console.log(localStorage.getItem('turno'));
     
 function profesional () {
 //     "profesional" se encarga de ordenar, dependiendo del turno, al personal que corresponde a el turno.
-    let personal = tipo >= 500 ? document.write(listaB[objetivo]);
+//     let personal = tipo >= 500 ? document.write(listaB[objetivo]);
 //    "segundoGrupo" difiere entre el Grupo A y B de profesionales.
         
         

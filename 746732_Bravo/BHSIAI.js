@@ -100,8 +100,9 @@ function base () {
 	    </div>
 	</section>
 	`;
-	document.body.appendChild(cuerpo);
-	puente(websID, webs)
+        let acceso = document.getElementById(`${websID}`);
+        acceso.addEventListener("submit", webs);
+	//puente(websID, webs)
 }
 
 base()

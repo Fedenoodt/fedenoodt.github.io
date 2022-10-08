@@ -28,7 +28,7 @@ function refreshTime() {
 
 function puente(elemento, funcion) {
     let acceso = document.getElementById(`${elemento}`);
-    acceso.addEventListener("button", funcion);
+    acceso.addEventListener("submit", funcion);
 }
 
 let cabezal = `	
@@ -89,7 +89,7 @@ function base () {
 		<h2>Links de acceso</h2>
 		<ul>
 		    <li><a href="https://plataforma.coderhouse.com/cursos" target="_blank">Coder House - Plataforma E-Learning</a>></li>
-		    <li><input type "button" id  = "websID" value = "P&aacute;ginas Especiales"></input>></li>
+		    <li><input type "submit" id  = "websID" value = "P&aacute;ginas Especiales"></input>></li>
 		    <li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfGshu5XTZ23OWK8cRft5F8m" target="_blank">Jedi Order Playlist</a>></li>
 		    <li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAIMediosAudiovisuales.html">Medios audiovisuales</a>></li>
 		    <li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAIComunicaciones.html">Comunicaciones</a>></li>
@@ -122,8 +122,7 @@ function webs () {
 
 	</section>
     `;
-    document.body.appendChild(cuerpo);
-    escucha(webs, elemento, funcion)
+    document.body.appendChild(cuerpo);	
 }
 
 // ======================================================================================================================================= //

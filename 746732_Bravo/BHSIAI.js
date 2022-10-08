@@ -16,30 +16,13 @@ let cabeza = `
 </html>
 `;
 
-// // let ms = Date.now();
-// let miliseg = ;
-// let seg = ;
-// let min = ;
-// let h = ;
+var timeDisplay = document.getElementById("time");
 
-
-
-// // Calculate milliseconds in a year
-// const minute = 1000 * 60;
-// const hour = minute * 60;
-// const day = hour * 24;
-// const year = day * 365;
-
-// // Divide Date.now() with a year
-// let years = Math.round(Date.now() / year);
-
-// function horaFecha () {
-//     let d = Date();
-//     tiempo = d.toString()
-//     return tiempo;
-// }
-
-// actualizar = setInterval(horaFecha, 1000);
+function refreshTime() {
+  var dateString = new Date().toLocaleString("en-US", {timeZone: "America/Buenos_Aires"});
+  var formattedString = dateString.replace(", ", " - ");
+  timeDisplay.innerHTML = formattedString;
+}
 
 let cabezal = `	
 <section class="home">
@@ -47,7 +30,7 @@ let cabezal = `
         <div id="header">
             <a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAI.html#top" target="_blank"><img class="Emblema" src="Emblema.png"></a>
             <div class = "atajos">
-                <a>$<h2 id = "time"></h2></a>
+                <a><h2>${setInterval(refreshTime, 1000)}</h2></a>
                 <a class = "imgAtajos" href="https://github.com/Fedenoodt/I-Black-Hawk-Security-Informatics-Anonymous-Incorporation" target="_blank"><img class="imgAtajos" src="Shield-PNG-Photos.png"></a>
                 <a class = "imgAtajos" href="https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages" target="_blank"><img class="imgAtajos" src="768px-Settings_(iOS).png"></a>
                 <script src = "hora.js"></script>
@@ -98,7 +81,7 @@ ${cabezal}
 <h2>Links de acceso</h2>
 <ul>
     <li><a href="https://plataforma.coderhouse.com/cursos" target="_blank">Coder House - Plataforma E-Learning</a>></li>
-    <li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAIWebs.html">P&aacute;ginas Especiales</a>></li>
+    <li><a id = "webs" href="https://fedenoodt.github.io/798326_Epsilon/BHSIAIWebs.html">P&aacute;ginas Especiales</a>></li>
     <li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfGshu5XTZ23OWK8cRft5F8m" target="_blank">Jedi Order Playlist</a>></li>
     <li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAIMediosAudiovisuales.html">Medios audiovisuales</a>></li>
     <li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAIComunicaciones.html">Comunicaciones</a>></li>
@@ -110,5 +93,7 @@ ${cabezal}
 </section>
 `;
 document.body.appendChild(central);
+
+
 
 console.log(`Ejecución de Javascript finalizada.-`)

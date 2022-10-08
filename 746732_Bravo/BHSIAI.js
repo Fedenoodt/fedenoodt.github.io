@@ -26,6 +26,11 @@ function refreshTime() {
   timeDisplay.innerHTML = formattedString;
 }
 
+function puente(elemento, funcion) {
+    let acceso = document.getElementById(`${elemento}`);
+    acceso.addEventListener("button", funcion);
+}
+
 let cabezal = `	
 <section class="home">
     <div class="in-flex">
@@ -84,7 +89,7 @@ function base () {
 		<h2>Links de acceso</h2>
 		<ul>
 		    <li><a href="https://plataforma.coderhouse.com/cursos" target="_blank">Coder House - Plataforma E-Learning</a>></li>
-		    <li><a id = "webs" href=${webs()}>P&aacute;ginas Especiales</a>></li>
+		    <li><input type "button" id  = "websID" value = "P&aacute;ginas Especiales"></input>></li>
 		    <li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfGshu5XTZ23OWK8cRft5F8m" target="_blank">Jedi Order Playlist</a>></li>
 		    <li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAIMediosAudiovisuales.html">Medios audiovisuales</a>></li>
 		    <li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAIComunicaciones.html">Comunicaciones</a>></li>
@@ -96,6 +101,7 @@ function base () {
 	</section>
 	`;
 	document.body.appendChild(cuerpo);
+	puente(websID, webs)
 }
 
 base()
@@ -117,6 +123,7 @@ function webs () {
 	</section>
     `;
     document.body.appendChild(cuerpo);
+    escucha(webs, elemento, funcion)
 }
 
 // ======================================================================================================================================= //

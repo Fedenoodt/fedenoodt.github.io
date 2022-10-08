@@ -17,7 +17,7 @@ credencial.innerHTML = `
 // Se crea el incondicional espacio de ingreso de el número de credencial.
 document.body.appendChild(credencial);
 let validez = document.getElementById("numero").required;
-validez.addEventListener("submit", validar);
+numero.addEventListener("submit", validar);
 
 function validar (valor) {
 //     "Validar" toma la labor de revisar que el usuario halla ingresado bien la credencial.

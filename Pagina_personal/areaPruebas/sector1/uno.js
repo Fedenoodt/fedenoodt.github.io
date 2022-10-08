@@ -1,7 +1,3 @@
-function horaFecha () {
-    let d = Date();
-    tiempo = d.toString()
-    return tiempo;
-}
-
-actualizar = setInterval(horaFecha, 1000);
+document.write(`<input id = "txt" type = "text" value = "Hola..."></input>`);
+let entrada = document.getElementById("txt");
+entrada.keydown = () => (document.write("¡Pvto el que lee!"));  

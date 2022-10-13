@@ -96,7 +96,7 @@ let personal = tipo >= 500 ? listaA[objetivo] : listaB[objetivo]
 //     /// Acá yo tomo el valor de retorno, y si el numero es mayor a 500, lo mando a un "grupo B" de profesionales especializados, y viceversa. ///
     
 // Breve mensaje que muestra el turno.
-imagen = `<br /><br /><h1>Su turno es ${retorno}.</h1><br /><h1>Será llamado por apellido, por el profesional ${personal} de ${objetivo}.</h1><br /><h3>Y recuerde lavarse los dientes :)</h3><br /><br /><h4>El turno fue solicitado a las ${parseInt(dt.second)/60}:${parseInt(dt.second)%60}hs.</h4>`;
+imagen = `<br /><br /><h1>Su turno es ${retorno}.</h1><br /><h1>Será llamado por apellido, por el profesional ${personal} de ${objetivo}.</h1><br /><h3>Y recuerde lavarse los dientes :)</h3><br /><br /><h4>El turno fue solicitado a las ${dt.second}:${parseInt(dt.second)%60}hs.</h4>`;
 document.write(imagen);
 localStorage.setItem('mensaje', imagen);
 }

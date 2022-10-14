@@ -18,8 +18,6 @@ let cabeza = `
 </html>
 `;
 
-var timeDisplay = document.getElementById("time");
-
 function refreshTime() {
     const DateTime = luxon.DateTime
     const dt = DateTime.now();
@@ -29,10 +27,12 @@ function refreshTime() {
     return hora
 }
 
-function puente(elemento, funcion) {
-    let acceso = document.getElementById(`${elemento}`);
-    acceso.addEventListener("submit", funcion);
-}
+console.log(setInterval(refreshTime, 1000))
+
+// function puente(elemento, funcion) {
+//     let acceso = document.getElementById(`${elemento}`);
+//     acceso.addEventListener("submit", funcion);
+// }
 
 let cabezal = `	
 <section class="home">

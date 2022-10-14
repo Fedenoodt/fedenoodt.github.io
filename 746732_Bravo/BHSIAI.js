@@ -27,7 +27,7 @@ function refreshTime() {
     return hora
 }
 
-console.log(setInterval(refreshTime, 1000))
+let refresco = setInterval(refreshTime, 1000);
 
 // function puente(elemento, funcion) {
 //     let acceso = document.getElementById(`${elemento}`);
@@ -40,7 +40,7 @@ let cabezal = `
         <div id="header">
             <a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAI.html#top" target="_blank"><img class="Emblema" src="Emblema.png"></a>
             <div class = "atajos">
-                <a><h2>${setInterval(refreshTime, 1000)}</h2></a>
+                <a><h2>${refresco}</h2></a>
                 <a class = "imgAtajos" href="https://github.com/Fedenoodt/I-Black-Hawk-Security-Informatics-Anonymous-Incorporation" target="_blank"><img class="imgAtajos" src="Shield-PNG-Photos.png"></a>
                 <a class = "imgAtajos" href="https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages" target="_blank"><img class="imgAtajos" src="768px-Settings_(iOS).png"></a>
                 <script src = "hora.js"></script>

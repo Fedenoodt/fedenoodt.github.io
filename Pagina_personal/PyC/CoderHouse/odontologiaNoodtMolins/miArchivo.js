@@ -9,7 +9,7 @@ const meses = { '1': 'Enero', '2': 'Febrero', '3': 'Marzo', '4': 'Abril', '5': '
 
 // OPCIÓN B...
 
-let credencial = parseInt(prompt('Ingrese el número de credencial de 8 números'));
+let credencial = prompt('Ingrese el número de credencial de 8 números');
 //     "Validar" toma la labor de revisar que el usuario halla ingresado bien la credencial.
     if (credencial.length == 8){
         console.log(`*La credencial número ${credencial} fue enviada a una base de datos para revisión...*`)

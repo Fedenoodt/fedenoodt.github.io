@@ -21,9 +21,12 @@ let cabeza = `
 var timeDisplay = document.getElementById("time");
 
 function refreshTime() {
-  var dateString = new Date().toLocaleString("en-US", {timeZone: "America/Buenos_Aires"});
-  var formattedString = dateString.replace(", ", " - ");
-  timeDisplay.innerHTML = formattedString;
+    const DateTime = luxon.DateTime
+    const dt = DateTime.now();
+    const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+    let mes = meses[dt.month - 1];
+    const hora = `<h2> ${dt.hour}:${dt.minute}:${dt.seconds}hs. ${dt.day} de ${mes} de ${dt.year}</h2>`;
+    return hora
 }
 
 function puente(elemento, funcion) {
@@ -100,9 +103,8 @@ function base () {
 	    </div>
 	</section>
 	`;
-        let acceso = document.getElementById(`${websID}`);
-        acceso.addEventListener("submit", webs);
-	//puente(websID, webs)
+	document.body.appendChild(cuerpo);
+	puente(websID, webs)
 }
 
 base()

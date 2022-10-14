@@ -28,10 +28,10 @@ function giraHoras() {
 
 // let refresco = setInterval(giraHoras, 1000);
 
-function puente(elemento, funcion) {
-    let acceso = document.getElementById(elemento);
-    acceso.addEventListener("submit", funcion);
-}
+// function puente(elemento, funcion) {
+//     let acceso = document.getElementById(elemento);
+//     acceso.addEventListener("submit", funcion);
+// }
 
 let cabezal = `	
 <section class="home">
@@ -103,7 +103,7 @@ function base () {
 	</section>
 	`;
 	document.body.appendChild(cuerpo);
-	puente(websID, webs)
+// 	puente(websID, webs)
 }
 
 base()

@@ -21,7 +21,13 @@ document.write(`<center><h2>Ticket del Centro Odontológico</h2><br /><h3>Ingres
 // OPCIÓN B...
 
 let credencial = parseInt(prompt('Ingrese el número de credencial de 8 números'));
-validar(credencial)
+//     "Validar" toma la labor de revisar que el usuario halla ingresado bien la credencial.
+    if (credencial.length == 8){
+        console.log(`*La credencial número ${credencial} fue enviada a una base de datos para revisión...*`)
+        credencial = localStorage.setItem('valor', credencial);}
+    else {
+        alert(`Ingrese un número de credencial válido.`)
+    }
 
 // Se crea el incondicional espacio de ingreso de el número de credencial.
 
@@ -30,18 +36,18 @@ validar(credencial)
 // let validez = document.getElementById("numero").required;
 // numero.addEventListener("submit", validar);
 
-function validar (valor) {
-//     "Validar" toma la labor de revisar que el usuario halla ingresado bien la credencial.
-    valor.preventDefault();
-    let tipoPacientes = valor.target;
-    numero = (tipoPacientes.children[1].value)
-    if (numero.length == 8){
-        console.log(`*La credencial número ${numero} fue enviada a una base de datos para revisión...*`)
-        credencial = localStorage.setItem('valor', numero);}
-    else {
-        alert(`Ingrese un número de credencial válido.`)
-    }
-}
+// function validar (valor) {
+// //     "Validar" toma la labor de revisar que el usuario halla ingresado bien la credencial.
+//     valor.preventDefault();
+//     let tipoPacientes = valor.target;
+//     numero = (tipoPacientes.children[1].value)
+//     if (numero.length == 8){
+//         console.log(`*La credencial número ${numero} fue enviada a una base de datos para revisión...*`)
+//         credencial = localStorage.setItem('valor', numero);}
+//     else {
+//         alert(`Ingrese un número de credencial válido.`)
+//     }
+// }
 
 // Se arma el interrogante sobre que tipo de consulta se trata.
 let turno = document.createElement("div");

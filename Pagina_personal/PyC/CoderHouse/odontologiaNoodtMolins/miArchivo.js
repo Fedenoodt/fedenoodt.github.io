@@ -15,6 +15,7 @@ let credencial = parseInt(prompt('Ingrese el número de credencial de 8 números
         console.log(`*La credencial número ${credencial} fue enviada a una base de datos para revisión...*`)
         credencial = localStorage.setItem('valor', credencial);}
         main()
+    }
     else {
         alert(`Ingrese un número de credencial válido.`)
         fail()

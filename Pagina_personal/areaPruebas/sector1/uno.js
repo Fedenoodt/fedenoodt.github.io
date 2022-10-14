@@ -1,4 +1,4 @@
-function giraHoras() {
+function estableceHoras() {
     const DateTime = luxon.DateTime
     const dt = DateTime.now();
     const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
@@ -7,4 +7,6 @@ function giraHoras() {
     return hora
 }
 
-document.write(giraHoras())
+giraHoras = document.write((estableceHoras))
+
+setInterval(giraHoras, 1000)

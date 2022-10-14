@@ -7,4 +7,6 @@ function estableceHoras() {
     return hora
 }
 
-setInterval(document.write(estableceHoras), 1000)
+setInterval(document.write(estableceHoras, 1000)
+
+

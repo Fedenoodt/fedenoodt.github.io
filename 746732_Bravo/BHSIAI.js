@@ -29,7 +29,7 @@ function giraHoras() {
 // let refresco = setInterval(giraHoras, 1000);
 
 function puente(elemento, funcion) {
-    let acceso = document.getElementById(`${elemento}`);
+    let acceso = document.getElementById(elemento);
     acceso.addEventListener("submit", funcion);
 }
 

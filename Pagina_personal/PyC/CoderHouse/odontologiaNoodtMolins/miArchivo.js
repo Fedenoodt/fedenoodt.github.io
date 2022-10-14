@@ -4,22 +4,31 @@ const listaB = {'general': 'Facundo García', 'ondodoncia': 'Soledad Rodriguez',
 
 const DateTime = luxon.DateTime
 const dt = DateTime.now();
+const meses = { '1': 'Enero', '2': 'Febrero', '3': 'Marzo', '4': 'Abril', '5': 'Mayo', '6': 'Junio', '7': 'Julio', '8': 'Agosto', '9': 'Septiembre', '10': 'Octubre', '11': 'Noviembre', '12': 'Diciembre' };
 
 document.write(`<center><h1>Swiss Medical Caballito</h1><br /></center>`);
 // Este es el primer segmento constructor del turno del usuario.
 document.write(`<center><h2>Ticket del Centro Odontológico</h2><br /><h3>Ingrese los datos</h3></center>`);
-let credencial = document.createElement("div");
-credencial.innerHTML = `
-<form id="numero">
-    <label for = "cred">Ingrese el número de credencial de 8 números</label>
-    <input type = "number" id = "cred" required minlength = "8" maxlength = "8" size = "8">
-    <input type = "submit" value = "Submit" />
-</form>
-`;
+// let credencial = document.createElement("div");
+// credencial.innerHTML = `
+// <form id="numero">
+//     <label for = "cred">Ingrese el número de credencial de 8 números</label>
+//     <input type = "number" id = "cred" required minlength = "8" maxlength = "8" size = "8">
+//     <input type = "submit" value = "Submit" />
+// </form>
+// `;
+
+// OPCIÓN B...
+
+let credencial = parseInt(prompt('Ingrese el número de credencial de 8 números'));
+validar(credencial)
+
 // Se crea el incondicional espacio de ingreso de el número de credencial.
-document.body.appendChild(credencial);
-let validez = document.getElementById("numero").required;
-numero.addEventListener("submit", validar);
+
+// OPCIÓN A A LA ESPERA...    
+// document.body.appendChild(credencial);
+// let validez = document.getElementById("numero").required;
+// numero.addEventListener("submit", validar);
 
 function validar (valor) {
 //     "Validar" toma la labor de revisar que el usuario halla ingresado bien la credencial.
@@ -33,6 +42,7 @@ function validar (valor) {
         alert(`Ingrese un número de credencial válido.`)
     }
 }
+
 // Se arma el interrogante sobre que tipo de consulta se trata.
 let turno = document.createElement("div");
 turno.innerHTML = `

@@ -9,4 +9,4 @@ function estableceHoras() {
 
 //setInterval(document.write(estableceHoras, 1000)
 
-
+estableceHoras()

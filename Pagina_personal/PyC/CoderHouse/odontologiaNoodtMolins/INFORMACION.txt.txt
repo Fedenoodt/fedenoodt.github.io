@@ -1,7 +1,0 @@
-¡Buenas profesor/es!
-
-Este es un proyecto sencillo, que plantea ser una entrega de 
-turnos a un paciente que llega a el centro odontológico, 
-recibe su turno, e informacion, y se dirije a sala de espera.
-
-¡Espero les guste!

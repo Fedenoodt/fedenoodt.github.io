@@ -25,7 +25,7 @@ function refreshTime() {
     const dt = DateTime.now();
     const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
     let mes = meses[dt.month - 1];
-    const hora = `<h2> ${dt.hour}:${dt.minute}:${dt.seconds}hs. ${dt.day} de ${mes} de ${dt.year}</h2>`;
+    const hora = `${dt.hour}:${dt.minute}:${dt.seconds}hs. ${dt.day} de ${mes} de ${dt.year}}`;
     return hora
 }
 

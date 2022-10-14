@@ -13,7 +13,7 @@ let credencial = parseInt(prompt('Ingrese el número de credencial de 8 números
 //     "Validar" toma la labor de revisar que el usuario halla ingresado bien la credencial.
     if (credencial.length == 8){
         console.log(`*La credencial número ${credencial} fue enviada a una base de datos para revisión...*`)
-        credencial = localStorage.setItem('valor', credencial);}
+        credencial = localStorage.setItem('valor', credencial);
         main()
     }
     else {

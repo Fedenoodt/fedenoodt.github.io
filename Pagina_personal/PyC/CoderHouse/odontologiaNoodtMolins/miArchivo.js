@@ -4,7 +4,7 @@ const listaB = {'general': 'Facundo García', 'ondodoncia': 'Soledad Rodriguez',
 
 const DateTime = luxon.DateTime
 const dt = DateTime.now();
-const meses = { '1': 'Enero', '2': 'Febrero', '3': 'Marzo', '4': 'Abril', '5': 'Mayo', '6': 'Junio', '7': 'Julio', '8': 'Agosto', '9': 'Septiembre', '10': 'Octubre', '11': 'Noviembre', '12': 'Diciembre' };
+const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
 
 
 // OPCIÓN B...
@@ -113,8 +113,8 @@ function main () {
     let personal = tipo >= 500 ? listaA[objetivo] : listaB[objetivo] 
     //    "personal" difiere entre el Grupo A y B de profesionales. Se encarga de ordenar, dependiendo del turno, al personal que corresponde a el turno.
 
-    let mes = meses[toString(dt.month)];
-    
+    let mes = meses[dt.month];
+//     "mes junta la información de la lista meses, para conver el numero a nombre de mes."
     //     /// Acá yo tomo el valor de retorno, y si el numero es mayor a 500, lo mando a un "grupo B" de profesionales especializados, y viceversa. ///
 
     // Breve mensaje que muestra el turno.

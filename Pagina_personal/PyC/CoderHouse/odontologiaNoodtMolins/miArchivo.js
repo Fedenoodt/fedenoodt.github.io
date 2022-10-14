@@ -113,10 +113,12 @@ function main () {
     let personal = tipo >= 500 ? listaA[objetivo] : listaB[objetivo] 
     //    "personal" difiere entre el Grupo A y B de profesionales. Se encarga de ordenar, dependiendo del turno, al personal que corresponde a el turno.
 
+    let mes = meses[toString(dt.month)];
+    
     //     /// Acá yo tomo el valor de retorno, y si el numero es mayor a 500, lo mando a un "grupo B" de profesionales especializados, y viceversa. ///
 
     // Breve mensaje que muestra el turno.
-    let imagen = `<br /><br /><h1>Su turno es ${retorno}.</h1><br /><h1>Será llamado por apellido, por el profesional ${personal} de ${objetivo}.</h1><br /><h3>Y recuerde lavarse los dientes :)</h3><br /><br /><h4>El turno fue solicitado a las ${dt.hour}:${dt.minute}hs.</h4>`;
+    let imagen = `<br /><br /><h1>Su turno es ${retorno}.</h1><br /><h1>Será llamado por apellido, por el profesional ${personal} de ${objetivo}.</h1><br /><h3>Y recuerde lavarse los dientes :)</h3><br /><br /><h4>El turno fue solicitado a las ${dt.hour}:${dt.minute}hs., el ${dt.day} de ${mes} de ${dt.year}.</h4>`;
     document.write(imagen);
     localStorage.setItem('mensaje', imagen);
     }

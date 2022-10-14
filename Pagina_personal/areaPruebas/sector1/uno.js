@@ -7,6 +7,4 @@ function estableceHoras() {
     return hora
 }
 
-giraHoras = document.write((estableceHoras))
-
-setInterval(giraHoras, 1000)
+setInterval(document.write(estableceHoras), 1000)

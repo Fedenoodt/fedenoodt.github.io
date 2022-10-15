@@ -16,11 +16,17 @@ function ceros(valor) {
 const DateTime = luxon.DateTime
 const dt = DateTime.now();
 const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
-let restado = meses[dt.month - 1];
-let mes = restado;
-let dia = dt.day;
-let hora = dt.hour;
-let minuto = dt.minute;
-let segundos = dt.second;
-const actual = `${ceros(hora)}:${ceros(minuto)}:${ceros(segundos)}hs. ${ceros(dia)} de ${ceros(mes)} de ${dt.year}`;
+let mes = '';
+let dia = '';
+let hora = '';
+let minuto = '';
+let segundos = '';
+
+(dt.month - 1) < 10 ? mes = '0' + meses[dt.month - 1] : mes = meses[dt.month - 1]
+dt.day < 10 ? dia = '0' + dt.day : dia = dt.day
+dt.hour < 10 ? hora = '0' + dt.hour : hora = dt.hour
+dt.minute < 10 ? minuto = '0' + dt.minute : minuto = dt.minute
+dt.second < 10 ? segundos = '0' + dt.second : segundos = dt.second
+
+const actual = `${hora}:${minuto}:${segundos}hs. ${dia} de ${mes} de ${dt.year}`;
 setInterval(document.write(actual), 1000)

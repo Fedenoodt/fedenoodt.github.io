@@ -10,7 +10,7 @@ function estableceHoras () {
 function ceros (valor) {
     if parseInt(valor) < 10:
         valor = '0' + valor;
-    return valor
+        return valor
 }
 
 

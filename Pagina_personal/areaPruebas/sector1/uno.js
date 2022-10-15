@@ -7,12 +7,6 @@ function estableceHoras () {
     
 }
 
-function ceros(valor) {
-    if valor < 10:
-        return valor = '0' + valor;
-}
-
-
 const DateTime = luxon.DateTime
 const dt = DateTime.now();
 const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];

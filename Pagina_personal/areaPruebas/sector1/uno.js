@@ -7,7 +7,7 @@ function estableceHoras () {
     
 }
 
-function ceros (valor) {
+function ceros(valor) {
     if valor < 10:
         return valor = '0' + valor;
 }

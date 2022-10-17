@@ -53,7 +53,16 @@ function main () {
     let tomaTurno = document.getElementById("tipoPacientes");
     tomaTurno.addEventListener("submit", registrar);
 
-    function registrar (valor) {
+function conexion () {
+    POST /create-user HTTP/1.1
+    
+    Host: localHost:3000
+    Connection: keep-alive
+    Content-type:application/json
+    { "name": "usuario", "age": 11 }
+}
+    
+function registrar (valor) {
     //     "Registrar" tiene la tarea de ver que opción seleccionó un usuario, y darle su turno.
         valor.preventDefault();
         let tipoPacientes = valor.target

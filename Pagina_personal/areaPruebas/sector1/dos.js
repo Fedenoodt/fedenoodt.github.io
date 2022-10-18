@@ -52,15 +52,6 @@ function main () {
     // Y se registra lo que haya devuelto.
     let tomaTurno = document.getElementById("tipoPacientes");
     tomaTurno.addEventListener("submit", registrar);
-
-function conexion () {
-    POST /create-user HTTP/1.1
-    
-    Host: localHost:3000
-    Connection: keep-alive
-    Content-type:application/json
-    { "name": "usuario", "age": 11 }
-}
     
 function registrar (valor) {
     //     "Registrar" tiene la tarea de ver que opción seleccionó un usuario, y darle su turno.

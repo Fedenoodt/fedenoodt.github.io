@@ -58,6 +58,11 @@ a .good {
 	text-decoration: none;
 }
 
+.tip {
+        color: rgba(215, 215, 215, 1);
+	text-decoration: none;
+}
+
 .atajos {
 	float: right;
 }

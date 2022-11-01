@@ -7,7 +7,7 @@ const DateTime = luxon.DateTime
 const dt = DateTime.now();
 const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
 
-// OPCIÓN B...
+// El usuario carge este prompt muy escencial, para validar que es usuario de la plataforma.
 
 let credencial = prompt('Ingrese el número de credencial de 8 números');
 //     Este prompt toma la labor de revisar que el usuario halla ingresado bien la credencial.
@@ -35,7 +35,7 @@ function relojDosDigitos (valor) {
 function crearNavegacion () {
     let barra = document.createElement("NAV");
     barra.innerHTML = `
-    <h1>Swiss Medical Caballito</h1><img id = "smg" src = "SMG.png">
+    <h1>Swiss Medical Caballito</h1><img id = "smg" src = "https://fedenoodt.github.io/Pagina_personal/PyC/CoderHouse/odontologiaNoodtMolins/SMG.png">
     `;    
     document.body.appendChild(barra)
 }
@@ -72,25 +72,25 @@ function main () {
     //     "Registrar" tiene la tarea de ver que opción seleccionó un usuario, y darle su turno.
         valor.preventDefault();
         let tipoPacientes = valor.target
-        let objetivo = (tipoPacientes.children[2].value)
+        let profesion = (tipoPacientes.children[2].value)
     //     De que valor tome el paciente, va a depender el tipo de turno.
-        if (objetivo == 'general') {
+        if (profesion == 'general') {
             tipo = "A";
                 tipoPacientes.children[0].value
             } 
         else if 
-            (objetivo == 'ondodoncia') {
+            (profesion == 'ondodoncia') {
                 tipo = "B";
                 tipoPacientes.children[1].value
             } 
         else if 
-            (objetivo == 'ortodoncia') {
+            (profesion == 'ortodoncia') {
                 tipo = "C";
                 tipoPacientes.children[2].value
             }
 
         else if
-            (objetivo == 'radiografias') {
+            (profesion == 'radiografias') {
                 tipo = "D";
                 tipoPacientes.children[3].value
             }
@@ -101,41 +101,47 @@ function main () {
     retorno = tipo + turnoID;
     //  Guardamos el retorno con el nombre de "Turno" en caso de necesitarlo más tarde.
 
-    let personal = tipo >= 500 ? listaA[objetivo] : listaB[objetivo] 
-    //    "personal" difiere entre el Grupo A y B de profesionales. Se encarga de ordenar, dependiendo del turno, al personal que corresponde a el turno.
+    let profesional = tipo >= 500 ? listaA[profesion] : listaB[profesion] 
+    //    "profesional" difiere entre el Grupo A y B de profesionales. Se encarga de ordenar, dependiendo del turno, al profesional que corresponde a el turno.
 
+
+    // Se captura el momento que el usuario hace la petición de turno...
     let mes = meses[dt.month - 1];
-
     let dias = relojDosDigitos(dt.day);
     let horas = relojDosDigitos(dt.hour);
     let minutos = relojDosDigitos(dt.minute);
-
+    // ...Y todo se recopila en la variable "dia", y "hora".
     let dia = `${dias} de ${mes} de ${dt.year}`;
     let hora = `${horas}:${minutos}hs.`;
-    let imagen = `<br /><br /><h1>Su turno es ${retorno}.</h1><br /><h1>Será llamado por apellido, por el profesional ${personal} de ${objetivo}.</h1><br /><h3>Y recuerde lavarse los dientes ☻</h3><br /><br /><h4>El turno fue solicitado a las ${hora}, el ${dia}.</h4>`;
-    let imagenBIS = `Su turno es ${retorno}.
-    Será llamado por apellido, por el profesional ${personal} de ${objetivo}.
+    // Se formula y muestra la respuesta...
+    let imagen = `Su turno es ${retorno}.
+    Será llamado por apellido, por el profesional ${profesional} de ${profesion}.
     El turno fue solicitado a las ${hora}, el ${dia}.
     
-    Y recuerde lavarse los dientes ☻`;
-    alert(imagenBIS);
+    Y recuerde lavarse los dientes :)`;
+    alert(imagen);
+
+    // Una vez finalizado esto, se elimina esta imagen, y se consulta, si la página validó el usuario,
+    // una despedida, y si lo rechazó, un mensaje de error.
     document.body.removeChild(turno)
     tipo != '' ? success() : fail()
-    datos = { 'credencial': credencial, 'dia': dia, 'hora': hora, 'profesion': objetivo, 'profesional': personal };
+    datos = { 'credencial': credencial, 'dia': dia, 'hora': hora, 'profesion': profesion, 'profesional': profesional };
     const enJSON = JSON.stringify(datos);
     localStorage.setItem('Cliente', enJSON)
     
-    // fetch('registros.json', {
-    //     method: 'POST',
-    //     body: JSON.stringify({title: `cliente`,
-    //     body: `${enJSON}`,
-    // }),
-    // headers: {
-    //     'Contnent-type': 'application/json;charset=UTF-8',
-    // },
-    // })
-    // .then((response) => response.json())
-    // .then((data) => console.log(data));
+    fetch('registros.json', {
+        // "registros.json" es una muestra de como quedarían los objetos cargados en variable "datos", en un 
+        // archivo .json.
+        method: 'POST',
+        body: JSON.stringify({
+        enJSON
+    }),
+    headers: {
+        'Contnent-type': 'application/json;charset=UTF-8',
+    },
+    })
+    .then((response) => response.json())
+    .then((data) => console.log(data));
 
     }
 }

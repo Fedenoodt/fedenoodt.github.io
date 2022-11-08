@@ -11,9 +11,8 @@ b.innerHTML = cabezal;
 document.body.appendChild(b)
 
 function pendiente (valor) {
-    // document.body.removeChild(b)
+    localStorage.clear()
     const enJSON = JSON.stringify(valor);
     localStorage.setItem('valor', enJSON)
-    
-    document.body.appendChild(a)
+    return valor
 }

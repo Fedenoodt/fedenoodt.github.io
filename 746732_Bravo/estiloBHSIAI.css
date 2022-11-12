@@ -62,6 +62,10 @@ a .good {
 	float: right;
 }
 
+button {
+    background-color: rgba(104, 104, 104, 0.8);
+}
+
 .imgAtajos {
 	width: 100px;
 	height: 100px;

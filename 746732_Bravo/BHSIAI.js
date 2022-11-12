@@ -2,6 +2,10 @@ console.log(`Estructura Javascript conectada con éxito.-`);
 
 // ======================================================================================================================================= //
 
+let construccion = constructor('');
+
+// ======================================================================================================================================= //
+
 let cabeza = `
 <!DOCTYPE html>
 <html>
@@ -37,11 +41,11 @@ let cabezal = `
 <section class="home">
     <div class="in-flex">
         <div id="header">
-            <a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAI.html#top" target="_blank"><img class="Emblema" src="Emblema.png"></a>
+            <a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAI.html#top" target="_blank"><img class="Emblema" src="https://fedenoodt.github.io/798326_Epsilon/Emblema.PNG"></a>
             <div class = "atajos">
                 <a><h2>${setInterval(giraHoras, 1000)}</h2></a>
-                <a class = "imgAtajos" href="https://github.com/Fedenoodt/I-Black-Hawk-Security-Informatics-Anonymous-Incorporation" target="_blank"><img class="imgAtajos" src="Shield-PNG-Photos.png"></a>
-                <a class = "imgAtajos" href="https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages" target="_blank"><img class="imgAtajos" src="768px-Settings_(iOS).png"></a>
+                <a class = "imgAtajos" href="https://github.com/Fedenoodt/I-Black-Hawk-Security-Informatics-Anonymous-Incorporation" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/798326_Epsilon/Shield-PNG-Photos.png"></a>
+                <a class = "imgAtajos" href="https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/798326_Epsilon/768px-Settings_(iOS).png"></a>
                 <script src = "hora.js"></script>
             </div>
             <br />
@@ -91,7 +95,7 @@ function base () {
 		<h2>Links de acceso</h2>
 		<ul>
 		    <li><a href="https://plataforma.coderhouse.com/cursos" target="_blank">Coder House - Plataforma E-Learning</a>></li>
-		    <li><input type "submit" id  = "websID" value = "P&aacute;ginas Especiales"></input>></li>
+		    <li><a id  = "01" onclick = "constructor(webs)">P&aacute;ginas Especiales</a>></li>
 		    <li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfGshu5XTZ23OWK8cRft5F8m" target="_blank">Jedi Order Playlist</a>></li>
 		    <li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAIMediosAudiovisuales.html">Medios audiovisuales</a>></li>
 		    <li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAIComunicaciones.html">Comunicaciones</a>></li>
@@ -103,10 +107,14 @@ function base () {
 	</section>
 	`;
 	document.body.appendChild(cuerpo);
+    return cuerpo
 // 	puente(websID, webs)
 }
 
-base()
+let cuerpo = base()
+// Una opción para "clonar" esta idea, podría ser pasar en una 
+// función bisagra, dos booleanos intercalados, que prohíban una 
+// imagen, y permitan otra.
 
 function webs () {
     let cuerpo = document.createElement("div");
@@ -124,7 +132,28 @@ function webs () {
 
 	</section>
     `;
-    document.body.appendChild(cuerpo);	
+    document.body.appendChild(cuerpo);
+    
+}
+
+
+// ======================================================================================================================================= //
+
+if (construccion != '') {
+    cuerpo = irA()
+} 
+
+// ======================================================================================================================================= //
+
+function irA (marco) {
+    document.body.removeChild(cuerpo)
+    marco
+ }
+ 
+function constructor (marco) {
+    // Tomo lo que devuelve "irA", para llegar a limpiar la imagen, y poner la nueva.
+    let imagen = marco;
+    return imagen
 }
 
 // ======================================================================================================================================= //

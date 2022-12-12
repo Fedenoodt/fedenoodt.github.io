@@ -1,6 +1,5 @@
 // 1 ► Este fragmento toma los input del usuario, los registra, los manda a almacenamiento local, y los imprime en consola.
 
-// localStorage.setItem('valor', 0)
 
 function conversor (punto) {
     // Valga la redundancia. Conversor "convierte" el dato ingresado en una variable.
@@ -446,4 +445,7 @@ function redes () {
 // 4 ► Y este segmento ejecuta la imagen llamada.
 
 let menu = [base, tools, reloj, webs, medios, radio, twitch, youtube, streaming, juegos, minecraft, comms, redes];
-console.log(menu[localStorage.getItem('valor')]())
+try:
+	console.log(menu[localStorage.getItem('valor')]())
+catch:
+	localStorage.setItem('valor', 0)

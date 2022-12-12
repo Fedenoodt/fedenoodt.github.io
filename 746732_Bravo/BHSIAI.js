@@ -1,5 +1,6 @@
 // 1 ► Este fragmento toma los input del usuario, los registra, los manda a almacenamiento local, y los imprime en consola.
 
+// localStorage.setItem('valor', 0)
 
 function conversor (punto) {
     // Valga la redundancia. Conversor "convierte" el dato ingresado en una variable.
@@ -67,7 +68,7 @@ function darReloj () {
 	pantalla.innerHTML = hora;
 }
 
-setInterval(darReloj, 1000)
+setInterval(darReloj, 1)
 
 // const getReloj = setInterval(() => {
 //     localStorage.getItem('hora')
@@ -109,9 +110,9 @@ let cabezal = `
             <h1>Black Hawk Security Informatics Anonymous Incorporation</h1>
             <hr />		
                 <ul>
-                    <li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "notGood">Receso de urgencia: 2/2 [ 6-12-2022  7-12-2022 ]</p></a></div></li>
-		    <li class="listaHorizontal"><div><a href="https://github.com/Fedenoodt/JavaScript/blob/main/Notas.txt" target="_blank"><p class = "notGood">Incorporaci&oacute;n de contenidos JavaScript seg&uacute;n jornada anual: <br />Tiempo transcurrido: 79.74%. <br />Lectura oficial de contenido: 100.00%. <br />Incorporaci&oacute;n pr&aacute;ctica de contenido: 63.33%.</p></a></div></li>
-		    <li class="listaHorizontal"><div><a href="https://plataforma.coderhouse.com/cursos/44465/javascript" target="_blank"><p class = "good">Clases Javascript de Coder House: 17/17 (100.0%). <br /> <!--[ALERTA DE AUSENCIA] <br />--> Asistencias en 95.0%. </p></a></div></li>
+				<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "notGood">Receso de urgencia: 2/2 [ 6-12-2022  7-12-2022 ]</p></a></div></li>
+				<li class="listaHorizontal"><div><a href="https://github.com/Fedenoodt/JavaScript/blob/main/Notas.txt" target="_blank"><p class = "notGood">Incorporaci&oacute;n de contenidos JavaScript seg&uacute;n jornada anual: <br />Tiempo transcurrido: 79.74%. <br />Lectura oficial de contenido: 100.00%. <br />Incorporaci&oacute;n pr&aacute;ctica de contenido: 63.33%.</p></a></div></li>
+				<li class="listaHorizontal"><div><a href="https://plataforma.coderhouse.com/cursos/44465/javascript" target="_blank"><p class = "good">Clases Javascript de Coder House: 17/17 (100.0%). <br /> <!--[ALERTA DE AUSENCIA] <br />--> Asistencias en 95.0%. </p></a></div></li>
                 </ul>
         </div>
     </div>
@@ -445,7 +446,6 @@ function redes () {
 // 4 ► Y este segmento ejecuta la imagen llamada.
 
 let menu = [base, tools, reloj, webs, medios, radio, twitch, youtube, streaming, juegos, minecraft, comms, redes];
-try:
-	console.log(menu[localStorage.getItem('valor')]())
-catch:
-	localStorage.setItem('valor', 0)
+try{console.log(menu[localStorage.getItem('valor')]())
+} catch {localStorage.setItem('valor', 0)}
+	

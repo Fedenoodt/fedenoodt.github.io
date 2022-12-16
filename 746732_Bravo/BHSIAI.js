@@ -1,3 +1,7 @@
+console.log('Conectando estructura Javascript...')
+
+// ================================================================================================================================= //
+
 // 1 ► Este fragmento toma los input del usuario, los registra, los manda a almacenamiento local, y los imprime en consola.
 
 // localStorage.setItem('valor', 0)
@@ -27,6 +31,10 @@ function pendiente (valor) {
     location.reload()
     console.log(localStorage.getItem('valor'))
 }
+
+// ================================================================================================================================= //
+
+console.log('Índice establecido...')
 
 // ================================================================================================================================= //
 
@@ -73,6 +81,10 @@ setInterval(darReloj, 1)
 // const getReloj = setInterval(() => {
 //     localStorage.getItem('hora')
 // }, 1000)
+
+// ================================================================================================================================= //
+
+console.log('Cargando las imágenes...')
 
 // ================================================================================================================================= //
 
@@ -443,9 +455,16 @@ function redes () {
 
 // ================================================================================================================================= //
 
+console.log('Ejecutando imagen...')
+
+// ================================================================================================================================= //
+
 // 4 ► Y este segmento ejecuta la imagen llamada.
 
 let menu = [base, tools, reloj, webs, medios, radio, twitch, youtube, streaming, juegos, minecraft, comms, redes];
 try{console.log(menu[localStorage.getItem('valor')]())
 } catch {localStorage.setItem('valor', 0)}
 	
+// ================================================================================================================================= //
+
+console.log('Estructura Javascript conectada con éxito.-')

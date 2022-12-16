@@ -462,7 +462,7 @@ console.log('Ejecutando imagen...')
 // 4 ► Y este segmento ejecuta la imagen llamada.
 
 let menu = [base, tools, reloj, webs, medios, radio, twitch, youtube, streaming, juegos, minecraft, comms, redes];
-try{console.log(menu[localStorage.getItem('valor')]())
+try{console.log('Imagen: '+ menu[localStorage.getItem('valor')]())
 } catch {localStorage.setItem('valor', 0)}
 	
 // ================================================================================================================================= //

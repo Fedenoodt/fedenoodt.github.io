@@ -135,7 +135,7 @@ let cabezal = `
 
 function base () {
 	let cuerpo = document.createElement("div");
-	cuerpo.innerHTML = `
+	const imagen = `
 	${cabezal}
 	<div class="in-flex">
 		<h2>Accesos de emergencia</h2>
@@ -176,14 +176,15 @@ function base () {
 	    </div>
 	</section>
 	`;
+	cuerpo.innerHTML = imagen;
 	document.body.appendChild(cuerpo);
-    return cuerpo
+    return imagen
 // 	puente(websID, webs)
 }
 
 function tools () {
     let cuerpo = document.createElement("div");
-    cuerpo.innerHTML = `
+    const imagen = `
     ${cabezal}
 	    <div class="in-flex">
 	    <h2>Herramientas</h2>
@@ -212,26 +213,28 @@ function tools () {
 	</div>
 </section>
 `;
+cuerpo.innerHTML = imagen;
 document.body.appendChild(cuerpo);
-return cuerpo
+return imagen
 }
 
 function reloj () {
     let cuerpo = document.createElement("div");
-    cuerpo.innerHTML = `
+    const imagen = `
 	<center>
 	<a href = "" onclick = pendiente(conversor(${baseID}))><img class="Emblema" src="https://fedenoodt.github.io/746732_Bravo/Emblema.png"></a>
 	<h2 class = "megaReloj" id = "hora"></h2>
 	<a href = "" onclick = pendiente(conversor(${baseID}))><h2> << Volver </h2></a>
 	</center>
 	`;
+    cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
-return cuerpo
+return imagen
 }
 
 function webs () {
     let cuerpo = document.createElement("div");
-    cuerpo.innerHTML = `
+    const imagen = `
     ${cabezal}
     <div class="in-flex">
 			<h2>P&aacute;ginas Especiales</h2>
@@ -245,14 +248,15 @@ function webs () {
 
 	</section>
     `;
+    cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
-return cuerpo
+return imagen
     
 }
 
 function medios () {
     let cuerpo = document.createElement("div");
-    cuerpo.innerHTML = `
+    const imagen = `
     ${cabezal}
     <div class="in-flex">
         <h2>Medios audiovisuales</h2>
@@ -267,14 +271,15 @@ function medios () {
 		</div>
 	</section>
     `;
+    cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
-return cuerpo
+return imagen
     
 }
 
 function radio () {
     let cuerpo = document.createElement("div");
-    cuerpo.innerHTML = `
+    const imagen = `
     ${cabezal}
     <div class="in-flex">
 			<h2>Radio</h2>
@@ -290,13 +295,14 @@ function radio () {
 		</div>
 	</section>
     `;
+    cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
-return cuerpo
+return imagen
 }
 
 function twitch () {
     let cuerpo = document.createElement("div");
-    cuerpo.innerHTML = `
+    const imagen = `
     ${cabezal}
     <div class="in-flex">
 			<h2>Twitch</h2>
@@ -320,13 +326,14 @@ function twitch () {
 	</footer>
 	</section>
     `;
+    cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
-return cuerpo
+return imagen
 }
 
 function youtube () {
     let cuerpo = document.createElement("div");
-    cuerpo.innerHTML = `
+    const imagen = `
     ${cabezal}
     <div class="in-flex">
 			<h2>Youtube</h2>
@@ -353,13 +360,14 @@ function youtube () {
 	</footer>
     </section>
     `;
+    cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
-return cuerpo
+return imagen
 }
 
 function streaming () {
     let cuerpo = document.createElement("div");
-    cuerpo.innerHTML = `
+    const imagen = `
     ${cabezal}
     <div class="in-flex">
 			<h2>Streaming</h2>
@@ -382,13 +390,14 @@ function streaming () {
 	</footer>
     </section>
     `;
+    cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
-return cuerpo
+return imagen
 }
 
 function juegos () {
     let cuerpo = document.createElement("div");
-    cuerpo.innerHTML = `
+    const imagen = `
     ${cabezal}
     <div class="in-flex">
 		<h2>Juegos</h2>
@@ -401,13 +410,14 @@ function juegos () {
 		<a class = "inicio" href = "" onclick = pendiente(conversor(${baseID}))><h2><<<<< Volver al inicio <<<</h2></a>
 	</div>
     `;
+    cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
-return cuerpo
+return imagen
 }
 
 function minecraft () {
     let cuerpo = document.createElement("div");
-    cuerpo.innerHTML = `
+    const imagen = `
     ${cabezal}
 	<div class="in-flex">
 		<h2>Minecrafteo</h2>
@@ -421,13 +431,14 @@ function minecraft () {
 		<a class = "inicio" href = "" onclick = pendiente(conversor(${baseID}))><h2><<<<< Volver al inicio <<<</h2></a>
 	</div>
     `;
+    cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
-return cuerpo
+return imagen
 }
 
 function comms () {
     let cuerpo = document.createElement("div");
-    cuerpo.innerHTML = `
+    const imagen = `
     ${cabezal}
     <div class="in-flex">
 			<h2>Comunicaciones</h2>
@@ -439,13 +450,14 @@ function comms () {
 		</div>
 	</section>
     `;
+    cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
-return cuerpo
+return imagen
 }
 
 function redes () {
     let cuerpo = document.createElement("div");
-    cuerpo.innerHTML = `
+    const imagen = `
     ${cabezal}
     <div class="in-flex">
 			<h2>Redes Sociales</h2>
@@ -459,8 +471,9 @@ function redes () {
 		</div>
 	</section>
     `;
+    cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
-return cuerpo
+return imagen
 }
 
 // (Cabe destacar que todas las imagenes, tienen que borrar lo que sea que haya en pantalla, asi se hacen apoyo sincrónico).

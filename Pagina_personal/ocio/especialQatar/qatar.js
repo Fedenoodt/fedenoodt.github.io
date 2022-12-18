@@ -52,7 +52,7 @@ function relojCONF () {
     let minutos = hora - dt.minute;
 
     if (horas > marcaH) {
-        horas = (dia - horas) + marcaH;
+        horas = (dia - horas) + marcaH - 1;
     } else {
         horas = marcaH - horas;
     }
@@ -63,9 +63,15 @@ function relojCONF () {
     if (minutos < 10) {
         minutos = '0' + dt.minute;
     }
- 
-    const pantalla = `${horas} horas, ${minutos} minutos para el inicio de juego`;
 
+    // let horas = 0;
+    // let minutos = 0;
+
+    if (horas == 0 & minutos == 0) {
+        const pantalla = `¡El partido ya empezó!`;
+        return pantalla
+    }
+    const pantalla = `${horas} horas, ${minutos} minutos para el inicio de juego`;
     return pantalla
 }
 // let getReloj = relojCONF();

@@ -85,5 +85,5 @@ function darReloj () {
 	let reloj = localStorage.getItem('reloj');
 	pantalla.innerHTML = reloj;
 }
-
+darReloj()
 setInterval(darReloj, 15000)

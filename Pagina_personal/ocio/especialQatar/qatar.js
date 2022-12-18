@@ -86,4 +86,4 @@ function darReloj () {
 	pantalla.innerHTML = reloj;
 }
 
-setInterval(darReloj, 30000)
+setInterval(darReloj, 15000)

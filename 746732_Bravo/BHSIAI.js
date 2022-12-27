@@ -293,6 +293,7 @@ function radio () {
 				<li><a href="https://www.youtube.com/watch?v=wsd2xgm91nM&ab_channel=GTAFM" target="_blank">GTAV ♣ STILL SLIPPING Los Santos • Youtube</a>></li>
 				<li><a href="https://www.youtube.com/watch?v=d0hKoOw0Wuw&ab_channel=GTAFM" target="_blank">GTAV ♣ iFruit Radio • Youtube</a>></li>
 				<li><a href="https://www.youtube.com/watch?v=YYIBtojKDSc&ab_channel=GTAFM" target="_blank">GTAV ♣ Los Santos Rock Radio • Youtube</a>></li>
+				<li><a>GTAV ♣ Self Radio slot</a>></li>
 				<li><a href="https://www.youtube.com/watch?v=uZ3RFNMKcmg&ab_channel=GTAFM" target="_blank">GTAV ♣ Non Stop Pop FM • Youtube</a>></li>
 				<li><a href="https://www.youtube.com/watch?v=nxwUWlqdCFI&ab_channel=SilverAsh" target="_blank">GTAV ♣ Radio Los Santos • Youtube</a>></li>
 				<li><a href="https://www.youtube.com/watch?v=tmQqUh0xark&ab_channel=ListenToThis" target="_blank">GTAV ♣ Channel X • Youtube</a>></li>

@@ -312,6 +312,7 @@ function radio () {
 				<li><a href="https://www.youtube.com/watch?v=y-Faj25nOhM&ab_channel=ListenToThis" target="_blank">GTAV ♣ Vinewood Boulevard Radio • Youtube</a>></li>
 				<li><a href="https://www.youtube.com/watch?v=-W6g6QUhAj0&ab_channel=Tate%27sDailySpeech" target="_blank">GTAV ♣ Blonded Los Santos 97 8 FM • Youtube</a>></li>
 				<li><a href="https://www.youtube.com/watch?v=m8HlukW1auQ&ab_channel=videodrom83" target="_blank">GTAV ♣ LSUR • Youtube</a>></li>
+				<li><a href="https://www.youtube.com/watch?v=m8HlukW1auQ&ab_channel=videodrom83" target="_blank">GTAV ♣ Dial de radio • Youtube</a>></li>
 				<li></a><a href = "" onclick = pendiente(conversor(${mediosID}))>Volver</a><<</li>
 			</ul>
 			<a class = "inicio" href = "" onclick = pendiente(conversor(${baseID}))><h2><<<<< Volver al inicio <<<</h2></a>

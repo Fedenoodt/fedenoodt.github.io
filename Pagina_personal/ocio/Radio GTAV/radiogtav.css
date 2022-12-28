@@ -4,3 +4,23 @@ body {
 	background-attachment: fixed;
 	background-size: 1000px;
 }
+
+.boton {
+    /* background-color: rgba(255, 0, 0, 0.4); 
+    border-color:  rgba(25, 0, 255, 0.4); 
+    border-style: solid;
+    border-width: 4.5px; */
+    width: 70px; 
+    height: 70px; 
+    position: absolute; 
+    border-radius: 100%;
+    /* RGB : 171, 237, 171 */
+}
+
+.boton:hover {
+    background-color: rgba(0, 0, 0, 0.35);
+    border-color: rgb(171, 237, 171);
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 4.5px;
+}

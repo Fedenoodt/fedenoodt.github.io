@@ -112,7 +112,7 @@ let cabezal = `
         <div id="header">
             <a href = "" onclick = pendiente(conversor(${baseID}))><img class="Emblema" src="https://fedenoodt.github.io/746732_Bravo/Emblema.png"></a>
             <div class = "atajos">
-                <h2 id = "hora"></h2>
+                <a href = "" onclick = pendiente(conversor(${relojID}))><div><h2 id = "hora"></h2></div></a>
                 <a class = "imgAtajos" href="https://github.com/Fedenoodt/I-Black-Hawk-Security-Informatics-Anonymous-Incorporation" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/Shield-PNG-Photos.png"></a>
                 <a class = "imgAtajos" href="https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/768px-Settings_(iOS).png"></a>
                 <script src = "hora.js"></script>
@@ -150,7 +150,6 @@ function base () {
 		</ul>
 		<hr />		
 		<ul>
-			<li class="listaHorizontal"><a href = "" onclick = pendiente(conversor(${relojID}))>Reloj</a></li>
 		    <li class="listaHorizontal"><a href="https://mail.google.com/mail/u/1/#inbox" target="_blank">Gmail</a></li>
 		    <li class="listaHorizontal"><a href="https://github.com/" target="_blank">GitHub</a></li>
 		    <li class="listaHorizontal"><a href="https://github.com/Fedenoodt/Trabajo" target="_blank">Trabajo</a></li>

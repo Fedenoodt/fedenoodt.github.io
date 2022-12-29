@@ -202,6 +202,8 @@ function tools () {
 		<li><a href="https://www.site24x7.com/es/tools/selector-de-codigo-color.html" target="_blank">Detector RGB de imagen</a>></li>
 		<li><a href="https://rgbacolorpicker.com/" target="_blank">Selector paleta RGB</a>></li>
 		<li><a href="https://ezgif.com/webp-to-gif" target="_blank">Convertidor WEBP a GIF</a>></li>
+		<li><a href="https://convertio.co/es/mp4-gif/" target="_blank">Convertidor MP4 a GIF</a>></li>
+		<li><a href="https://convertio.co/es/webm-gif/" target="_blank">Convertidor WEBM a GIF</a>></li>
 		<li><a href="http://sps.fibertel.com.ar/speedtest/">Speedtest Fibertel</a>></li>
 		<li><a href="https://www.speedtest.net/es">Speedtest Ookla</a>></li>
 		<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAIPruebas.html">Zona de pruebas web</a>></li>

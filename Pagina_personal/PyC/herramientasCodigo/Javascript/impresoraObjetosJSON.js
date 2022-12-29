@@ -40,13 +40,7 @@ function imprimir() {
         else if (conversor[i] == '{') {
             reescritura += ` `;
         }
-
-        // else if (conversor[i] == 'c' & conversor[i+1] == 'r' & conversor[i+2] == 'e' & conversor[i+3] == 'd' & conversor[i+4] == 'e' & conversor[i+5] == 'n' & conversor[i+6] == 'c' & conversor[i+7] == 'i' & conversor[i+8] == 'a' & conversor[i+9] == 'l') {
-        //     reescritura += ` c`;
-        // } 
-        
         else {reescritura+= conversor[i]}
-        // console.log(reescritura[i])
     }
     document.write(reescritura)
 

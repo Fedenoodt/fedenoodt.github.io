@@ -19,6 +19,7 @@ function constructor () {
         let datos = JSON.stringify(conversor[i]);
         constructor += datos
     }
+    imprimir()
     return constructor
 }
 
@@ -48,5 +49,3 @@ function imprimir() {
     imagen.innerHTML(reescritura)
     document.body.appendChild(imagen)
 }
-
-imprimir()

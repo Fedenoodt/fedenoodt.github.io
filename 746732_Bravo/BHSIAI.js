@@ -191,6 +191,7 @@ function tools () {
 		<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAIObsoletos.html">Accesos directos obsoletos</a>></li>
 		<li><a href="https://translate.google.com.ar/" target="_blank">Traductor de Google</a>></li>
 		<li><a href="https://www.google.com.ar/maps/@-34.607613,-58.4515826,15z" target="_blank">Google Maps</a>></li>
+		<li><a href="https://static.wikigta.org/nl/images/8/83/V.png" target="_blank">Mapa de Grand Theft Auto V</a>></li>
 		<li><a href="https://www.ilovepdf.com/es/html-a-pdf" target="_blank">Convertor HTML a PDF</a>></li>
 		<li><a href="https://www.y2mate.com/es/youtube-mp3/sNjWpZmxDgg" target="_blank">Convertor Youtube a MP3</a>></li>
 		<li><a href="https://workspace.google.com/intl/es-419/products/forms/?utm_source=google&utm_medium=cpc&utm_campaign=latam-AR-all-es-dr-bkws-all-all-trial-e-dr-1011272-LUAC0011853&utm_content=text-ad-none-any-DEV_c-CRE_479426435746-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt%20~%20Forms-KWID_43700057710499709-kwd-10647024857&utm_term=KW_google%20forms-ST_google%20forms&gclid=Cj0KCQjwkruVBhCHARIsACVIiOwoV_-s-dU6S2iarog5B7sprTXCVZSfzhnnItRt9ZoVj11ckd869ywaAk1fEALw_wcB&gclsrc=aw.ds" target="_blank">Google Formularios</a>></li>
@@ -203,8 +204,8 @@ function tools () {
 		<li><a href="https://ezgif.com/webp-to-gif" target="_blank">Convertidor WEBP a GIF</a>></li>
 		<li><a href="https://convertio.co/es/mp4-gif/" target="_blank">Convertidor MP4 a GIF</a>></li>
 		<li><a href="https://convertio.co/es/webm-gif/" target="_blank">Convertidor WEBM a GIF</a>></li>
-		<li><a href="http://sps.fibertel.com.ar/speedtest/">Speedtest Fibertel</a>></li>
-		<li><a href="https://www.speedtest.net/es">Speedtest Ookla</a>></li>
+		<li><a href="http://sps.fibertel.com.ar/speedtest/" target="_blank">Speedtest Fibertel</a>></li>
+		<li><a href="https://www.speedtest.net/es" target="_blank">Speedtest Ookla</a>></li>
 		<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAIPruebas.html">Zona de pruebas web</a>></li>
 		<li><a href="https://c.tenor.com/2wR9-9cmrjMAAAAC/ahora-vengo-hernan-drago.gif">Ahora vengo</a>></li>
 

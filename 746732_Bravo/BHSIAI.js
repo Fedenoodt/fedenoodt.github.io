@@ -208,6 +208,7 @@ function tools () {
 		<li><a href="https://www.speedtest.net/es" target="_blank">Speedtest Ookla</a>></li>
 		<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAIPruebas.html">Zona de pruebas web</a>></li>
 		<li><a href="https://c.tenor.com/2wR9-9cmrjMAAAAC/ahora-vengo-hernan-drago.gif">Ahora vengo</a>></li>
+		<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfGmVbV4xxkfLjoQF6FjybsL">Colección de salvapantallas</a>></li>
 
 
 		<li><a href = "" onclick = pendiente(conversor(${baseID}))>Volver</a><<</li>

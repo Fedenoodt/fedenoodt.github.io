@@ -209,6 +209,7 @@ function tools () {
 		<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAIPruebas.html">Zona de pruebas web</a>></li>
 		<li><a href="https://c.tenor.com/2wR9-9cmrjMAAAAC/ahora-vengo-hernan-drago.gif" target="_blank">Ahora vengo</a>></li>
 		<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfGmVbV4xxkfLjoQF6FjybsL" target="_blank">Colección de salvapantallas</a>></li>
+		<li><a href="https://ayuda.ch-sistemas.com/wp-content/uploads/2018/05/cabina4.png" target="_blank">Fondo de telón</a>></li>
 
 
 		<li><a href = "" onclick = pendiente(conversor(${baseID}))>Volver</a><<</li>

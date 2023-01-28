@@ -212,6 +212,7 @@ function tools () {
 		<li><a href="https://c.tenor.com/2wR9-9cmrjMAAAAC/ahora-vengo-hernan-drago.gif" target="_blank">Ahora vengo</a>></li>
 		<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfGmVbV4xxkfLjoQF6FjybsL" target="_blank">Colección de salvapantallas</a>></li>
 		<li><a href="https://ayuda.ch-sistemas.com/wp-content/uploads/2018/05/cabina4.png" target="_blank">Fondo de telón</a>></li>
+		<li><a href="https://i.pinimg.com/originals/ae/a0/9d/aea09d635db4444475efac0b42e0ac1b.gif" target="_blank">Bandera Argentina</a>></li>
 		<li><a href="https://fedenoodt.github.io/Pagina_personal/maintenance.png" target="_blank">Imagen "En mantenimiento..."</a>></li>
 
 

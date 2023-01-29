@@ -367,11 +367,12 @@ return imagen
 function youtube () {
     let cuerpo = document.createElement("div");
     const imagen = `
-    ${cabezal}
+    ${cabezal}https://myactivity.google.com/u/1/product/youtube?hl=es-419&utm_medium=web&utm_source=youtube
     <div class="in-flex">
 			<h2>Youtube</h2>
 			<ul>
 				<li><a href="https://www.youtube.com/feed/library" target="_blank">Biblioteca Youtube</a></li><br />
+				<li><a href="https://myactivity.google.com/u/1/product/youtube?hl=es-419&utm_medium=web&utm_source=youtube" target="_blank">Historial por reloj Youtube</a></li><br />
 				<li><a href="https://www.youtube.com/user/xFaRgAnx" target="_blank">xFaRgAnx YT</a>></li>
 				<li><a href="https://www.youtube.com/user/ElRichMC" target="_blank">ElRichMC - Minecraft & Gaming a otro nivel</a>></li>
 				<li><a href="https://www.youtube.com/user/HiperPiece" target="_blank">Hyper</a>></li>

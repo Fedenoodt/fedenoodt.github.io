@@ -367,7 +367,7 @@ return imagen
 function youtube () {
     let cuerpo = document.createElement("div");
     const imagen = `
-    ${cabezal}https://myactivity.google.com/u/1/product/youtube?hl=es-419&utm_medium=web&utm_source=youtube
+    ${cabezal}
     <div class="in-flex">
 			<h2>Youtube</h2>
 			<ul>

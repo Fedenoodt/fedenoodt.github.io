@@ -8,3 +8,4 @@
 7: El largo corredor
 8: Lago Paonda
 9: Huertas meridionales
+10: Región de madereros nacionales

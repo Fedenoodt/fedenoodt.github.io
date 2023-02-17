@@ -523,7 +523,8 @@ console.log('Ejecutando imagen...')
 
 let menu = [base, tools, reloj, webs, medios, radio, twitch, youtube, streaming, juegos, minecraft, comms, redes];
 try{console.log('Imagen: '+ menu[establecido]())
-} catch {localStorage.setItem('valor', 0)}
+} catch { console.log('Atencion. El ID fue reestablecido.')
+	  localStorage.setItem('valor', 0)}
 	
 // ================================================================================================================================= //
 

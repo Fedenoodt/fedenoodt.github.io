@@ -1,0 +1,10 @@
+0: Capitolio
+1: Departamentos del Capitolio
+2: Ovejeros Urbanos
+3: Entrada vieja
+4: Corredor de las minas
+5: Región de madereros locales
+6: Valle Olvidado
+7: El largo corredor
+8: Lago Paonda
+9: Huertas meridionales

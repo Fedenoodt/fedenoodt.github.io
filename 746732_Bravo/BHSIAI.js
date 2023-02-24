@@ -47,6 +47,7 @@ function relojCONF () {
     const dt = DateTime.now();
     const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
     let mes = meses[dt.month - 1];
+    localStorage.setItem('mes', dt.month)
 
     let horas = dt.hour;
     if (horas < 10) {
@@ -187,12 +188,12 @@ function driving () {
     const DateTime = luxon.DateTime
     const dt = DateTime.now();
     const mesActual = dt.month;
-    if (mesActual == 1 || mesActual == 2) { let lista = `<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfGp8QXNce2UAKUuS5DBjSbR" target="_blank">Tour de paseos</a>></li>`; }
-    else if (mesActual == 3 || mesActual == 4) { let lista = `<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfEQRUIpoJ7dSyIKed8_abKe" target="_blank">Tour de paseos</a>></li>`; }
-    else if (mesActual == 5 || mesActual == 6) { let lista = `<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfEfzeRD7jhLZ4cVOv9NaJHd" target="_blank">Tour de paseos</a>></li>`; }
-    else if (mesActual == 7 || mesActual == 8) { let lista = `<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfEvtLSuftj_-HGbm3s1sf9v" target="_blank">Tour de paseos</a>></li>`; }
-    else if (mesActual == 9 || mesActual == 10) { let lista = `<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfHnP5MiUWhW-6cCS4iu8iZX" target="_blank">Tour de paseos</a>></li>`; }
-    else if (mesActual == 11 || mesActual == 12) { let lista = `<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfFi63ckq8rJXQn3uAKGPiWK" target="_blank">Tour de paseos</a>></li>`; }
+    if (mesActual == 1 | mesActual == 2) { let lista = `<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfGp8QXNce2UAKUuS5DBjSbR" target="_blank">Tour de paseos</a>></li>`; }
+    else if (mesActual == 3 | mesActual == 4) { let lista = `<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfEQRUIpoJ7dSyIKed8_abKe" target="_blank">Tour de paseos</a>></li>`; }
+    else if (mesActual == 5 | mesActual == 6) { let lista = `<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfEfzeRD7jhLZ4cVOv9NaJHd" target="_blank">Tour de paseos</a>></li>`; }
+    else if (mesActual == 7 | mesActual == 8) { let lista = `<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfEvtLSuftj_-HGbm3s1sf9v" target="_blank">Tour de paseos</a>></li>`; }
+    else if (mesActual == 9 | mesActual == 10) { let lista = `<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfHnP5MiUWhW-6cCS4iu8iZX" target="_blank">Tour de paseos</a>></li>`; }
+    else if (mesActual == 11 | mesActual == 12) { let lista = `<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfFi63ckq8rJXQn3uAKGPiWK" target="_blank">Tour de paseos</a>></li>`; }
     return lista
 }
 

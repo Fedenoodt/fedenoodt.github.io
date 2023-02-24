@@ -184,22 +184,32 @@ function base () {
 
 // "driving" es una función concreta que crea una variable respetando la URL del paseo actual en la lista de tours por video.
 
+function imagen (imagen) {
+    let cuerpo = document.createElement("ul");
+    cuerpo.innerHTML = imagen;
+    document.body.appendChild(cuerpo)
+    return cuerpo
+}
+
 function driving () {
     let lista = '';
     const mesActual = localStorage.getItem('mes');
-    let direccion = document.getElementById('driving');
-    let link = document.createElement('a');
-	
+    console.log(mesActual)
+    let direccion = document.getElementById('link');
     if (mesActual == 1 | mesActual == 2) { lista = `<a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfGp8QXNce2UAKUuS5DBjSbR" target="_blank">Tour de paseos</a>`; }
     else if (mesActual == 3 | mesActual == 4) { lista = `<a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfEQRUIpoJ7dSyIKed8_abKe" target="_blank">Tour de paseos</a>`; }
     else if (mesActual == 5 | mesActual == 6) { lista = `<a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfEfzeRD7jhLZ4cVOv9NaJHd" target="_blank">Tour de paseos</a>`; }
     else if (mesActual == 7 | mesActual == 8) { lista = `<a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfEvtLSuftj_-HGbm3s1sf9v" target="_blank">Tour de paseos</a>`; }
     else if (mesActual == 9 | mesActual == 10) { lista = `<a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfHnP5MiUWhW-6cCS4iu8iZX" target="_blank">Tour de paseos</a>`; }
     else if (mesActual == 11 | mesActual == 12) { lista = `<a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfFi63ckq8rJXQn3uAKGPiWK" target="_blank">Tour de paseos</a>`; }
-link.innerHTML = lista;
-document.body.appendChild(link)
+    return lista
 }
 
+let pagina = `
+<ul>
+<li id = "link">${driving()}</li>
+</ul>
+`;
 
 function tools () {
     let cuerpo = document.createElement("div");

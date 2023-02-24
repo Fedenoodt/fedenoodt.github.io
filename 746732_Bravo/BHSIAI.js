@@ -184,7 +184,7 @@ function base () {
 
 // "driving" es una función concreta que crea una variable respetando la URL del paseo actual en la lista de tours por video.
 
-function imagen (imagen) {
+function imagenUL (imagen) {
     let cuerpo = document.createElement("ul");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo)
@@ -210,6 +210,8 @@ let pagina = `
 <li id = "link">${driving()}</li>
 </ul>
 `;
+
+imagenUL(pagina)
 
 function tools () {
     let cuerpo = document.createElement("div");

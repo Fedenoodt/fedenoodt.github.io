@@ -185,9 +185,7 @@ function base () {
 // "driving" es una función concreta que crea una variable respetando la URL del paseo actual en la lista de tours por video.
 
 function driving () {
-    const DateTime = luxon.DateTime
-    const dt = DateTime.now();
-    const mesActual = dt.month;
+    const mesActual = localStorage.getItem('mes');
     if (mesActual == 1 | mesActual == 2) { let lista = `<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfGp8QXNce2UAKUuS5DBjSbR" target="_blank">Tour de paseos</a>></li>`; }
     else if (mesActual == 3 | mesActual == 4) { let lista = `<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfEQRUIpoJ7dSyIKed8_abKe" target="_blank">Tour de paseos</a>></li>`; }
     else if (mesActual == 5 | mesActual == 6) { let lista = `<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfEfzeRD7jhLZ4cVOv9NaJHd" target="_blank">Tour de paseos</a>></li>`; }

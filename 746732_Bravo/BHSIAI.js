@@ -4,7 +4,7 @@ console.log('Conectando estructura Javascript...')
 
 // 1 ► Este fragmento toma los input del usuario, los registra, los manda a almacenamiento local, y los imprime en consola.
 
-// localStorage.setItem('valor', 0)
+localStorage.setItem('valor', 1)
 
 function conversor (punto) {
     // Valga la redundancia. Conversor "convierte" el dato ingresado en una variable.

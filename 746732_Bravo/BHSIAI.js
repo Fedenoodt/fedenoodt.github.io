@@ -181,6 +181,18 @@ function base () {
 // 	puente(websID, webs)
 }
 
+function driving () {
+    // "driving" es una función concreta para la lista de paseos de Youtube, para abrir la correcta, en el momento del año que se la convoca.
+    const mesActual = localStorage.getItem('mes');
+    if (mesActual == 1 | mesActual == 2) { let lista = window.open('https://www.youtube.com/playlist?list=PLOJvby8Q_tfGp8QXNce2UAKUuS5DBjSbR', '_blank') }
+    else if (mesActual == 3 | mesActual == 4) { let lista = window.open('https://www.youtube.com/playlist?list=PLOJvby8Q_tfEQRUIpoJ7dSyIKed8_abKe', '_blank') }
+    else if (mesActual == 5 | mesActual == 6) { let lista = window.open('https://www.youtube.com/playlist?list=PLOJvby8Q_tfEfzeRD7jhLZ4cVOv9NaJHd', '_blank') }
+    else if (mesActual == 7 | mesActual == 8) { let lista = window.open('https://www.youtube.com/playlist?list=PLOJvby8Q_tfEvtLSuftj_-HGbm3s1sf9v', '_blank') }
+    else if (mesActual == 9 | mesActual == 10) { let lista = window.open('https://www.youtube.com/playlist?list=PLOJvby8Q_tfHnP5MiUWhW-6cCS4iu8iZX', '_blank') }
+    else if (mesActual == 11 | mesActual == 12) { let lista = window.open('https://www.youtube.com/playlist?list=PLOJvby8Q_tfFi63ckq8rJXQn3uAKGPiWK', '_blank') }
+    return lista;
+}
+
 function tools () {
     let cuerpo = document.createElement("div");
     const imagen = `
@@ -210,6 +222,7 @@ function tools () {
 		<li><a href="https://www.speedtest.net/es" target="_blank">Speedtest Ookla</a>></li>
 		<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAIPruebas.html">Zona de pruebas web</a>></li>
 		<li><a href="https://c.tenor.com/2wR9-9cmrjMAAAAC/ahora-vengo-hernan-drago.gif" target="_blank">Ahora vengo</a>></li>
+		<li><a href="" onclick = driving()>Tour de paseos</a>></li>
 		<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfGmVbV4xxkfLjoQF6FjybsL" target="_blank">Colección de salvapantallas</a>></li>
 		<li><a href="https://ayuda.ch-sistemas.com/wp-content/uploads/2018/05/cabina4.png" target="_blank">Fondo de telón</a>></li>
 		<li><a href="https://i.pinimg.com/originals/ae/a0/9d/aea09d635db4444475efac0b42e0ac1b.gif" target="_blank">Bandera Argentina</a>></li>

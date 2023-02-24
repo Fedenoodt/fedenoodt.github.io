@@ -192,6 +192,7 @@ function driving () {
     else if (mesActual == 7 | mesActual == 8) { let lista = `<a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfEvtLSuftj_-HGbm3s1sf9v" target="_blank">Tour de paseos</a>`; }
     else if (mesActual == 9 | mesActual == 10) { let lista = `<a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfHnP5MiUWhW-6cCS4iu8iZX" target="_blank">Tour de paseos</a>`; }
     else if (mesActual == 11 | mesActual == 12) { let lista = `<a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfFi63ckq8rJXQn3uAKGPiWK" target="_blank">Tour de paseos</a>`; }
+    console.log(lista);
     let link = document.getElementById('driving');
     link.innerHTML(lista)
 }

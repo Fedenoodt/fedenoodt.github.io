@@ -1,5 +1,5 @@
 console.log('Conectando estructura Javascript...')
-
+ 
 // ================================================================================================================================= //
 
 // 1 ► Este fragmento toma los input del usuario, los registra, los manda a almacenamiento local, y los imprime en consola.

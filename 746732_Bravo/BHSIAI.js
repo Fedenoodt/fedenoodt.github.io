@@ -124,9 +124,9 @@ let cabezal = `
             <h1>Black Hawk Security Informatics Anonymous Incorporation</h1>
             <hr />		
                 <ul>
-				<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "good">Receso de urgencia: -/- [  ]</p></a></div></li>
-				<li class="listaHorizontal"><div><a href="https://github.com/Fedenoodt/JavaScript/blob/main/Notas.txt" target="_blank"><p class = "notGood">Incorporaci&oacute;n de contenidos JavaScript seg&uacute;n jornada anual: <br />Tiempo transcurrido: 100.0%. <br />Lectura oficial de contenido: 100.00%. <br />Incorporaci&oacute;n pr&aacute;ctica de contenido: 81.3%.</p></a></div></li>
-				<li class="listaHorizontal"><div><a href="https://plataforma.coderhouse.com/cursos/44465/javascript" target="_blank"><p class = "good">Clases Javascript de Coder House: 17/17 (100.0%). <br /> <!--[ALERTA DE AUSENCIA] <br />--> Asistencias en 95.0%. </p></a></div></li>
+				<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "good">Receso de urgencia: 0/1 [  ]</p></a></div></li>
+				<li class="listaHorizontal"><div><a href="https://github.com/Fedenoodt/ProyectoRayonnage" target="_blank"><p class = "good">Hacer las 20 herramientas del Proyecto Rayonnage: </p></a></div></li>
+				
                 </ul>
         </div>
     </div>

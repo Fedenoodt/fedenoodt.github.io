@@ -393,6 +393,7 @@ function youtube () {
 				<li><a href="https://www.youtube.com/feed/library" target="_blank">Biblioteca Youtube</a></li><br />
 				<li><a href="https://myactivity.google.com/u/1/product/youtube?hl=es-419&utm_medium=web&utm_source=youtube" target="_blank">Historial por reloj Youtube</a></li><br />
 				<li><a href="https://www.youtube.com/user/xFaRgAnx" target="_blank">xFaRgAnx YT</a>></li>
+				<li><a href="https://www.youtube.com/@TheBraxXter" target="_blank">BraxXter</a>></li>
 				<li><a href="https://www.youtube.com/user/ElRichMC" target="_blank">ElRichMC - Minecraft & Gaming a otro nivel</a>></li>
 				<li><a href="https://www.youtube.com/user/HiperPiece" target="_blank">Hyper</a>></li>
 				<li><a href="https://www.youtube.com/channel/UCSJXasOBzUlztNbpkRDA53w" target="_blank">La Sombra del Imperio</a>></li>

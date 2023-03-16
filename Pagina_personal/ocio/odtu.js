@@ -1,4 +1,4 @@
-const index = '
+const index = `
             <section class = "home">
                 <div class="in-flex">
                     <center>
@@ -22,28 +22,28 @@ const index = '
                         <br /><hr /><br />
                         <br /><hr /><br />
                         <ul>
-                            <li class="listaHorizontal"><a href=""><div class="buttonContainer" id="default" onclick = seeker("metroCuadrado")><h5> Exploraci&oacute;n, sus m&eacute;todos, y <br/>Patr&oacute;n Big Square Bang </h5></div></a></li>
-                            <li class="listaHorizontal"><a href=""><div class="buttonContainer" id="default" onclick = seeker("hamachi")><h5> Como conectarse <br/>v&iacute;a hamachi </h5></div></a></li>
-                            <li class="listaHorizontal"><a href=""><div class="buttonContainer" id="default" onclick = seeker("skin")><h5> Mis recomendaciones <br/>para tu skin </h5></div></a></li>
-                            <li class="listaHorizontal"><a href=""><div class="buttonContainer" id="default" onclick = seeker("conectarse")><h5> Como conectarse <br/>a nuestro sistema </h5></div></a></li>
-                            <li class="listaHorizontal"><a href=""><div class="buttonContainer" id="default" onclick = seeker("naciones")><h5> Las naciones </h5></div></a></li>
+                            <li class="listaHorizontal"><a href=""><div class="buttonContainer" id="default" onclick = targeting("metroCuadrado")><h5> Exploraci&oacute;n, sus m&eacute;todos, y <br/>Patr&oacute;n Big Square Bang </h5></div></a></li>
+                            <li class="listaHorizontal"><a href=""><div class="buttonContainer" id="default" onclick = targeting("hamachi")><h5> Como conectarse <br/>v&iacute;a hamachi </h5></div></a></li>
+                            <li class="listaHorizontal"><a href=""><div class="buttonContainer" id="default" onclick = targeting("skin")><h5> Mis recomendaciones <br/>para tu skin </h5></div></a></li>
+                            <li class="listaHorizontal"><a href=""><div class="buttonContainer" id="default" onclick = targeting("conectarse")><h5> Como conectarse <br/>a nuestro sistema </h5></div></a></li>
+                            <li class="listaHorizontal"><a href=""><div class="buttonContainer" id="default" onclick = targeting("naciones")><h5> Las naciones </h5></div></a></li>
                             <li class="listaHorizontal"><a href="https://fedenoodt.github.io/Pagina_personal/ocio/La_Fortaleza/IPLaFortaleza.html" target="_blank"><div class="buttonContainer" id="fortress" target="_blank"><h5> La Fortaleza </h5></div></a></li>
-                            <li class="listaHorizontal"><a href=""><div class="buttonContainer" id="default" onclick = seeker("cuadrantes")><h5> La Guerra por <br/>cuadrantes </h5></div></a></li>
-                            <li class="listaHorizontal"><a href=""><div class="buttonContainer" id="default" onclick = seeker("coordenadas")><h5> Libro de <br/>coordenadas </h5></div></a></li>
+                            <li class="listaHorizontal"><a href=""><div class="buttonContainer" id="default" onclick = targeting("cuadrantes")><h5> La Guerra por <br/>cuadrantes </h5></div></a></li>
+                            <li class="listaHorizontal"><a href=""><div class="buttonContainer" id="default" onclick = targeting("coordenadas")><h5> Libro de <br/>coordenadas </h5></div></a></li>
                             <li class="listaHorizontal"><a href="https://lc-public.fra1.cdn.digitaloceanspaces.com/optimized/2X/7/75fe01b1bcb31d3a1952bb699b016cb4102bb58b_2_739x748.png" target="_blank"><div class="buttonContainer" id="default"><h5> Tradeos de <br/>aldeanos </h5></div></a></li>
                         </ul>
 
                 </center>
             </div>
-        </section>';
+        </section>`;
 
-const RiskietRacer55 = '
+const RiskietRacer55 = `
         <section class = "home">
             <div class="in-flex">
                 <center>
                     <h1>Naci&oacute;n de RiskietRacer55</h1>
                     </br></br></br></br>
-                    <a class = "volver" href="" onclick = seeker("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
+                    <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     <h3></h3>
                     </br></hr></br>
                     <h3>No hay mucho para decir. Esta es la historia de agus, incierto el futuro es...
@@ -52,13 +52,13 @@ const RiskietRacer55 = '
             
                 </center>
             </div>
-        </section>';
+        </section>`;
 
-const conectarse = '
+const conectarse = `
         <section class = "home">
             <div class="in-flex">
                 <center>
-                    <a class = "volver" href="" onclick = seeker("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
+                    <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     <h1>Como conectarse...</h1>
                     <h3>Acá te vengo a explicar como conectarte a nuestra red de Minecraft, es muy sencillo.</h3>
                     </br></hr></br>
@@ -70,28 +70,28 @@ const conectarse = '
                         Teniendo el Java ya, y supongo que el Launcher de Minecraft instalado, si no and&aacute; a <a href="https://www.minecraft.net/es-es" target="_blank">la web de Microsoft</a> y ponelo.<br/>
                         Una vez hecho esto, preguntale a fede que versi&oacute;n de Minecraft van a jugar para instalarla, y la instal&aacute;s.<br/><br/>
                         Una vez hayas verificado que tu Minecraft funcione corectamente, te aconsejo si sobra tiempo optimizarlo para que funcione lo mejor posible en tu dispositivo. Y ahora toca instalar otro 
-                        dispositivo concocido, que es <a href="" onclick = seeker("hamachi") target="_blank">Hamachi</a>. En esa web esta el link de descarga. es una descarga de lo m&aacute;s habitual, 
+                        dispositivo concocido, que es <a href="" onclick = targeting("hamachi") target="_blank">Hamachi</a>. En esa web esta el link de descarga. es una descarga de lo m&aacute;s habitual, 
                         instalaci&oacute;n f&aacute;cil. <br/><br/><br/>
                         Ahora, por &uacute;ltimo, necesito toda tu atenci&oacute;n. Hamachi te abri&oacute; una ventanita que parece un telefono, en la que hay un bot&oacute;n de encendido. Dale a ese bot&oacute;n.
                         Vas a necesitar hacerte con un usuario de LogMeIn Hamachi, hacelo en un momento, acá no hay nada de pago. <br/> Una vez hecho eso... ¿Te acord&aacute;s de la 
-                        <a href="" onclick = seeker("hamachi") target="_blank">web que te d&iacute; de Hamachi</a>, que no fue directo al link de descarga? Bueno, entrá ahi que hay un 
+                        <a href="" onclick = targeting("hamachi") target="_blank">web que te d&iacute; de Hamachi</a>, que no fue directo al link de descarga? Bueno, entrá ahi que hay un 
                         usuario y contraseña. Ese contacto lo usas para, en la aplicaci&oacute;n, darle al bot&oacute;n <b>"Unirse a una red existente"</b>, y registrar esa cuenta.<br/> Esa cuenta es nada 
                         mas ni menos que el canal de Hamachi donde se transmite la partida de juego. <br/><br/> Una vez ya est&eacute;s registrado, ya est&aacute;s mas cerca de jugar.<br/>
                         Abr&iacute; Minecraft → Multiplayer → Te va a salir una advertencia, le das que si → Agregar servidor → "El nombre que vos quieras", y la direcci&oacute;n IP que se cambia a diario en nuestra 
-                        <a href="" onclick = seeker("index")>P&aacute;gina Principal</a>.<br/><br/><br/>
+                        <a href="" onclick = targeting("index")>P&aacute;gina Principal</a>.<br/><br/><br/>
                         <div class="volver"><a href="#top"><div class="buttonContainer"><h5>↑</h5></div></a></div>Play... Y ya estar&iacute;as jugando ☻
                         </h3>
                     
             
                 </center>
             </div>
-        </section>';
+        </section>`;
 
-const coordenadas = '
+const coordenadas = `
         <section class = "home">
             <div class="in-flex">
                 <center>
-                    <a class = "volver" href="" onclick = seeker("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
+                    <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     <h1>Libro de coordenadas</h1><a href = "https://github.com/Fedenoodt/fedenoodt.github.io/edit/gh-pages/Pagina_personal/ocio/coordenadas.html" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/768px-Settings_(iOS).png"></a>
                     <br/><br/><br/><br/>
                     <h3>Este es el libro de coordenadas general de la Organizaci&oacute;n dispar de Tierras Unidas. Aqu&iacute; se almacena toda la informaci&oacute;n del mundo.</h3>
@@ -130,33 +130,33 @@ const coordenadas = '
             
                 </center>
             </div>
-        </section>';
+        </section>`;
 
-const cuadrantes = '
+const cuadrantes = `
         <section class = "home">
             <div class="in-flex">
                 </br></br>
-                    <a class = "volver" href="" onclick = seeker("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
+                    <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     
                     <h3>La Guerra de Cuadrantes es lo que historicamente le ha dado la muerte a muchas naciones en este mundo. <br/> Es un sistema de conflicto entre naciones que suerguió a 
                     raíz de tener el cinturón apretado jeje. Una nación muy antigüa una vez le planteó cara a otra, para robarle un cuadrante de su territorio a través de la Tabla de las 
                     normas.</h3>
                     <br/></hr><br/>
                     <h3>
-                        La <a href="" onclick = seeker("tablaNormas") target="_blank">Tabla de normas</a> es un sistema de normas que conforma lo que es una batalla, en la que quién  sale vencedor, se queda con un cuadrante.
+                        La <a href="" onclick = targeting("tablaNormas") target="_blank">Tabla de normas</a> es un sistema de normas que conforma lo que es una batalla, en la que quién  sale vencedor, se queda con un cuadrante.
                         Es decir, el cuadrante X2-Z1 le pertenece a pepe, juanito lo venció, y se quedo con esa parcela de 2000x2000 para su nación.<br/>
                         Esta "guerra" se hace desde una partida de &Uacute;ltimo equipo en pie/&Uacute;ltimo jugador en pie, dentro del cuadrante.<br/><br/>
                         <a href="https://fedenoodt.github.io/Pagina_personal/Cartograf%C3%ADa_internacional.png"target="_blank">Este es el mapa de actualidad de la posici&oacute;n de las naciones:<br/><img src="https://fedenoodt.github.io/Pagina_personal/Cartograf%C3%ADa_internacional.png"></a>
                         </h3>
                        
             </div>
-        </section>';
+        </section>`;
 
-const hamachi = '
+const hamachi = `
         <section class = "home">
           <center>
             <div class="in-flex">
-                    <a class = "volver" href="" onclick = seeker("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
+                    <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     <h1>Dirección Hamachi</ h1>
                     <h3>ODTU1191_01</h3>
                     <h3>*bostadecaballo*</h3></br></br>
@@ -173,13 +173,13 @@ const hamachi = '
             
                 </center>
             </div>
-        </section>';
+        </section>`;
 
-const hipotesisMetroCuadrado = '
+const hipotesisMetroCuadrado = `
             <section class = "home">
                 <div class="in-flex">
                      <center>
-                        <a class = "volver" href="" onclick = seeker("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
+                        <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                         <h1>Hipótesis Metro Cuadrado</h1>
                         <h3>22 de Junio de 2022, Miércoles. Sol minecrafteano número 151.</h3>
                         <h3>Metro Cuadrado resultó muy efectivo para localizar los focos problematicos de su misión. Se puede encontrar múltiples biomas por cuadrantes siguiendo una política sumamente nómade.
@@ -197,14 +197,14 @@ const hipotesisMetroCuadrado = '
             
                 </center>
             </div>
-        </section>';
+        </section>`;
 
-const metroCuadrado = '
+const metroCuadrado = `
         <section class = "home">
           <center>
               <div class="in-flex">
-                    <img class="logo" id ="minimalExpand_200" src="https://fedenoodt.github.io/Pagina_personal/Metro_Cuadrado.png"><a class = "volver" href="" onclick = seeker("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
-                    <a class = "imgAtajos" href="" onclick = seeker("metroCuadrado") target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/768px-Settings_(iOS).png"></a>
+                    <img class="logo" id ="minimalExpand_200" src="https://fedenoodt.github.io/Pagina_personal/Metro_Cuadrado.png"><a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
+                    <a class = "imgAtajos" href="" onclick = targeting("metroCuadrado") target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/768px-Settings_(iOS).png"></a>
                     <a class = "imgAtajos" href="https://fedenoodt.github.io/Pagina_personal/Exploracion_talla%231%5BNUEVO_MUNDO%5D.png" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/Map.png"></a>
                     <h1>Proyecto Metro Cuadrado</h1>
 <p><h4>El proyecto Metro Cuadrado presume ser una exclamación de la eficiencia de la exploración por cuadrantes analizado en el Condominio de La Fortaleza.<br /></ h4>
@@ -290,7 +290,7 @@ const metroCuadrado = '
         ♦ Sol de 1ra exploración finalizada: 149 <br />  
         ♦ Analisis completos: 1 <br />   
         ♦ Biomas especiales: 5</h5></li></div>    
-        <a href="" onclick = seeker("hipotesisMetroCuadrado") target="_blank"><div class="buttonContainer" id="default"><h5> Hipótesis temprana del proyecto </h5></div></a>
+        <a href="" onclick = targeting("hipotesisMetroCuadrado") target="_blank"><div class="buttonContainer" id="default"><h5> Hipótesis temprana del proyecto </h5></div></a>
     <div><li><h5>X3Z1: <br />   
         Llanuras, bosque, Ríos, Playas, Antiguo bosque de abedules, Jungla esparcida, Jungla, Savanna, Manglar, Jungla de bamboo, Bosque de abedules, Bosque oscuro, Océano, Taiga, Prado. <br />  
         ♦ Sol de 1ra exploración comenzada: 4467 <br />  
@@ -380,15 +380,15 @@ const metroCuadrado = '
             </div>
                 </center>
             </div>
-        </section>';
+        </section>`;
 
-const naciones = '
+const naciones = `
     <center>
         <section class = "home">
             <div class="in-flex">
                     <h1>La Organizaci&oacuten dispar de tierras unidas, y sus territorios</h1>
                     <br/><br/><br/>
-                    <a class = "volver" href="" onclick = seeker("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
+                    <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     <h3>Hablemos un poco de historia. Hace mucho tiempo que fede fue sectorizando la exploraci&oacute;n de los mundos Minecraft. Y con el tiempo fue surgiendo la idea de 
                         "Cuadrantes", secciones que miden 2000 bloques de ancho, 2000 bloques de largo, y la altura m&aacute;xima de Minecraft. Algo así como un Gran Chunk (16x16 bloques).<br/>
                         El tiempo pas&oacute;, y empez&oacute; a explorar as&iacute;.<br/>
@@ -399,21 +399,21 @@ const naciones = '
                     <br /><hr /><br />
                     <br /><hr /><br />
                     <ul>
-                        <li class="listaHorizontal"><a href="https://fedenoodt.github.io/Pagina_personal/ocio/swerterland.html" onclick = seeker("swerterland")><div class="buttonContainer" id="swerterland" id=""><h5> Swerterland </h5></div></a></li>
-                        <li class="listaHorizontal"><a href="https://fedenoodt.github.io/Pagina_personal/ocio/noOnesLand.html" onclick = seeker("noOnesLand")><div class="buttonContainer" id="noOnesLand"><h5> Tierra de <br/>nadie </h5></div></a></li>
-                        <li class="listaHorizontal"><a href="https://fedenoodt.github.io/Pagina_personal/ocio/RiskietRacer55.html" onclick = seeker("RiskietRacer55")><div class="buttonContainer" id="default"><h5> "Naci&oacute;n de <br/>RiskietRacer55" </h5></div></a></li>
+                        <li class="listaHorizontal"><a href="https://fedenoodt.github.io/Pagina_personal/ocio/swerterland.html" onclick = targeting("swerterland")><div class="buttonContainer" id="swerterland" id=""><h5> Swerterland </h5></div></a></li>
+                        <li class="listaHorizontal"><a href="https://fedenoodt.github.io/Pagina_personal/ocio/noOnesLand.html" onclick = targeting("noOnesLand")><div class="buttonContainer" id="noOnesLand"><h5> Tierra de <br/>nadie </h5></div></a></li>
+                        <li class="listaHorizontal"><a href="https://fedenoodt.github.io/Pagina_personal/ocio/RiskietRacer55.html" onclick = targeting("RiskietRacer55")><div class="buttonContainer" id="default"><h5> "Naci&oacute;n de <br/>RiskietRacer55" </h5></div></a></li>
                     </ul>
                     
             
                 </center>
             </div>
-        </section>';
+        </section>`;
 
-const noOnesLand = '
+const noOnesLand = `
         <section class = "home">
             <div class="in-flex">
                 </br></br>
-                    <a class = "volver" href="" onclick = seeker("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
+                    <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     <div id="noOnesLand">
                     <h1 style= "background-image: url('noOnesLand.png');">Tierra de Nadie</h1>
                     </br></br></br></br>
@@ -432,13 +432,13 @@ const noOnesLand = '
             
                 </center>
             </div>
-        </section>';
+        </section>`;
 
-const skin = '
+const skin = `
             <section class = "home">
                 <div class="in-flex">
                     <div id = "header">
-                        <a class = "volver" href="" onclick = seeker("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
+                        <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                         <h1>Recomendaciones para editar la skin</h1>
                         <h3>Das clic a una skin cualquiera, y tenés para editarla. La podés borrar al completo, customisarla, o buscar por ahi el editor que ellos tienen.</h3>
                         <a href="https://www.minecraftskins.net/" target="_blank"><div class="buttonContainer" id="default"><h1>Minecraft Skins</h1></div></a>
@@ -447,13 +447,13 @@ const skin = '
                     </div>
                 </div>
             </center>
-    </section>';
+    </section>`;
 
-const swerterland = '
+const swerterland = `
         <section class = "home">
             <div class="in-flex">
                 <center>
-                    <a class = "volver" href="" onclick = seeker("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
+                    <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     <img class="slFlag" src="https://fedenoodt.github.io/Pagina_personal/Swerterland.png"><h1>Swerterland</h1><img class="slWarFlag" src="https://fedenoodt.github.io/Pagina_personal/Bandera de guerra Swerterland.png">
                     <br/><br/><br/><br/>
                     <h3>Swerterland. Una naci&oacute;n guerrillera, que se apoya en la econom&iacute;a de su gran imperio.</h3>
@@ -472,14 +472,14 @@ const swerterland = '
             
                 </center>
             </div>
-        </section>';
+        </section>`;
 
-const tablaNormas = '
+const tablaNormas = `
         <section class = "home">
             <div class="in-flex">
                 <center>
                 <br/><br/>
-                    <a class = "volver" href="" onclick = seeker("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
+                    <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     
                     <h3>La Tabla de Normas esta compuesta de cinco grandes segmentos: Normas de puntualidad, Normas de retirada, Normas de propiedad, Normas de adquicisión, Normas del dr&aacute;gon
                         <br/>Te las explico...
@@ -520,7 +520,7 @@ const tablaNormas = '
             
                 </center>
             </div>
-        </section>';
+        </section>`;
 
 //=======================================================================================================================================================//
 

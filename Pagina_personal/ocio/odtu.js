@@ -1,3 +1,35 @@
+
+const closing = `<h1 class="warning">ADVERTENCIA: El servidor cerrará pronto.</h1>`;
+const close = `<h1 class="warning">ADVERTENCIA: El servidor está cerrado.</h1>`;
+const operative = `<h1 class="online"> El servidor está operando.</h1>`;
+const restarting = `<h1 class="warning">ADVERTENCIA: El servidor se reiniciará pronto.</h1>`;
+const sleepAFK = `<h1 class="sleeping"> ▼▼ fedenoodt está durmiendo AFK en su camita Zzz--..... Pero volverá ▼▼</h1>`;
+const sleepOpen = `<h1 class="sleeping"> ▼▼ fedenoodt está durmiendo. Cuando vuelva, abre el servidor ▼▼</h1>`;
+const bussyBack = `<h1 class="bussy"> ▬ fedenoodt está ocupado haciendo cosas en otro lado, pero va a volver... ▬</h1>`;
+const online = `<h3 class="online">fedenoodt está online.</h3>`;
+const eating = `<h3 class="online">fedenoodt está en un comedor.</h3>`;
+
+const inactiveSERV = `<h3>INACTIVA</h3>`;
+const closingSERV = `<h1 class="warning">ADVERTENCIA: El servidor cerrará pronto.</h1>`;
+const restartingSERV = `<h1 class="warning">ADVERTENCIA: El servidor se reiniciará pronto.</h1>`;
+const onlineSERV = `<h3 class="online">El servicio está online.</h3>`;
+const offlineSERV = `<h3 class="online">El servicio está offline.</h3>`;
+
+const number = `25.58.154.212`;
+const point = `:`;
+const IPclosed = `CERRADA`;
+
+function manager (tag, status) {
+    let toChange = document.getElementById(tag);
+    tag.innerHTML = status;
+}
+
+manager('lobby', close)
+manager('server', inactiveSERV)
+manager('IP', (IPclosed))
+
+
+
 const index = `
             <section class = "home">
                 <div class="in-flex">
@@ -6,19 +38,9 @@ const index = `
                         <h2>Direcci&oacute;n IP:</h2>
                         <h3><h3>25.58.154.212:CERRADA</h3></h3><br /><br />
                         <br /><hr /><br />
-                        <!--<h3>25.74.192.11:CERRADA</h3>-->
-                        <!--Para Comentar...-->
-                        <!--<div><h1 class="warning">ADVERTENCIA: El servidor cerrará pronto.</h1></div>-->
-                        <!--<div><h1 class="warning">ADVERTENCIA: El servidor está cerrado.</h1></div>-->
-                        <!--<div><h1 class="online"> El servidor está operando.</h1></div>-->
-                        <!--<div><h1 class="warning">ADVERTENCIA: El servidor se reiniciará pronto.</h1></div>-->
-                        <!--<h1 class="sleeping"> ▼▼ fedenoodt está durmiendo AFK en su camita Zzz--..... Pero volverá ▼▼</h1>-->                        
-                        <!--<h1 class="sleeping"> ▼▼ fedenoodt está durmiendo. Cuando vuelva, abre el servidor ▼▼</h1>-->
-                        <!--<h1 class="bussy"> ▬ fedenoodt está ocupado haciendo cosas en otro lado, pero va a volver... ▬</h1>-->
-                        <!--<h3 class="online">fedenoodt está online.</h3>-->
-                        <!--<h3 class="online">fedenoodt está en un comedor.</h3>-->
+                        <!--<h3 id = 'IP'>25.74.192.11:CERRADA</h3>-->
 
-                        <div><h1 class="warning">ADVERTENCIA: El servidor está cerrado.</h1></div>
+                        <div id = 'lobby'><h1 class="warning">ADVERTENCIA: El servidor está cerrado.</h1></div>
                         <br /><hr /><br />
                         <br /><hr /><br />
                         <ul>
@@ -160,13 +182,8 @@ const hamachi = `
                     <h1>Dirección Hamachi</ h1>
                     <h3>ODTU1191_01</h3>
                     <h3>*bostadecaballo*</h3></br></br>
-                    <h3 class="online">El servicio está offline.</h3>
-                    <!--Para Comentar...-->
-                    <!--<h3>INACTIVA</h3>-->
-                    <!--<h1 class="warning">ADVERTENCIA: El servidor cerrará pronto.</h1>-->
-                    <!--<h1 class="warning">ADVERTENCIA: El servidor se reiniciará pronto.</h1>-->
-                    <!--<h3 class="online">El servicio está online.</h3>-->
-                    <!--<h3 class="online">El servicio está offline.</h3>-->
+                    <div id = 'server'></div>
+
                     </br></hr></br>
                     <h3>Link de descarga: <a href="https://www.vpn.net/">https://www.vpn.net/</a></h3>
                     

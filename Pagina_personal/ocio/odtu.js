@@ -24,6 +24,9 @@ function manager (tag, status) {
     toChange.innerHTML = status;
 }
 
+manager('IP', IPclosed)
+manager('lobby', close)
+
 const index = `
             <section class = "home">
                 <div class="in-flex">
@@ -175,7 +178,7 @@ const hamachi = `
                     <h1>Dirección Hamachi</ h1>
                     <h3>ODTU1191_01</h3>
                     <h3>*bostadecaballo*</h3></br></br>
-                    <div id = 'lobby'></div>
+                    <div id = 'server'>${offlineSERV)}</div>
 
                     </br></hr></br>
                     <h3>Link de descarga: <a href="https://www.vpn.net/">https://www.vpn.net/</a></h3>
@@ -536,6 +539,4 @@ const tablaNormas = `
 
 builder({'index': index, 'RiskietRacer55': RiskietRacer55, 'conectarse': conectarse, 'coordenadas': coordenadas, 'cuadrantes': cuadrantes, 'hamachi': hamachi, 'hipotesisMetroCuadrado': hipotesisMetroCuadrado, 'metroCuadrado': metroCuadrado, 'naciones': naciones, 'noOnesLand': noOnesLand, 'skin': skin, 'swerterland': swerterland, 'tablaNormas': tablaNormas})
 
-manager('IP', IPclosed)
-manager('lobby', close)
-manager('server', inactiveSERV)
+

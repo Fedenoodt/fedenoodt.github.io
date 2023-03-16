@@ -25,6 +25,7 @@ let statusH = offlineSERV;
 function manager (status) {
     let toChange = document.createElement('div');
     toChange.innerHTML = status;
+    consoleLogSecure(status)
     document.body.appendChild(toChange)
 }
 

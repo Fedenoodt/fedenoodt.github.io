@@ -38,7 +38,7 @@ const index = `
                         <h2>Direcci&oacute;n IP:</h2>
                         <h3><h3>25.58.154.212:CERRADA</h3></h3><br /><br />
                         <br /><hr /><br />
-                        <!--<h3 id = 'IP'>25.74.192.11:CERRADA</h3>-->
+                        <!--<h3 id = 'IP'></h3>-->
 
                         <div id = 'lobby'><h1 class="warning">ADVERTENCIA: El servidor está cerrado.</h1></div>
                         <br /><hr /><br />

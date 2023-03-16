@@ -6,8 +6,8 @@ const restarting = '<h1 class="warning">ADVERTENCIA: El servidor se reiniciará 
 const sleepAFK = '<h1 class="sleeping"> ▼▼ fedenoodt está durmiendo AFK en su camita Zzz--..... Pero volverá ▼▼</h1>';
 const sleepOpen = '<h1 class="sleeping"> ▼▼ fedenoodt está durmiendo. Cuando vuelva, abre el servidor ▼▼</h1>';
 const bussyBack = '<h1 class="bussy"> ▬ fedenoodt está ocupado haciendo cosas en otro lado, pero va a volver... ▬</h1>';
-const online = '<h3 class="online">fedenoodt está online.</h3>;
-const eating = '<h3 class="online">fedenoodt está en un comedor.</h3>;
+const online = '<h3 class="online">fedenoodt está online.</h3>';
+const eating = '<h3 class="online">fedenoodt está en un comedor.</h3>';
 
 const inactiveSERV = '<h3>INACTIVA</h3>';
 const closingSERV = '<h1 class="warning">ADVERTENCIA: El servidor cerrará pronto.</h1>';

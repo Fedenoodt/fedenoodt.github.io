@@ -22,9 +22,10 @@ let ip = IPclosed;
 let status = close;
 let statusH = offlineSERV;
 
-function manager (tag, status) {
-    let toChange = document.getElementById(tag);
+function manager (status) {
+    let toChange = document.createElement('div');
     toChange.innerHTML = status;
+    document.body.appendChild(toChange)
 }
 
 const index = `
@@ -33,10 +34,10 @@ const index = `
                     <center>
                         <img class="slFlag" src="https://fedenoodt.github.io/Pagina_personal/Organizacion_dispar_tierras_Unidas.png"><a href = "https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages/Pagina_personal/ocio" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/768px-Settings_(iOS).png"></a><h1>Organizaci&oacute;n dispar de tierras unidas</h1>
                         <h2>Direcci&oacute;n IP:</h2>
-                        ${refresh(ip)}<br /><br />
+                        ${manager(ip)}<br /><br />
                         <br /><hr /><br />
 
-                        <div id = 'lobby'>${refresh(status)}</div>
+                        <div id = 'lobby'><h1 class="warning">ADVERTENCIA: El servidor se reiniciará pronto.</h1></div>
                         <br /><hr /><br />
                         <br /><hr /><br />
                         <ul>
@@ -178,7 +179,7 @@ const hamachi = `
                     <h1>Dirección Hamachi</ h1>
                     <h3>ODTU1191_01</h3>
                     <h3>*bostadecaballo*</h3></br></br>
-                    <div id = 'server'>${refresh(statusH)}</div>
+                    <div id = 'server'><h1 class="warning">ADVERTENCIA: El servidor se reiniciará pronto.</h1></div>
 
                     </br></hr></br>
                     <h3>Link de descarga: <a href="https://www.vpn.net/">https://www.vpn.net/</a></h3>

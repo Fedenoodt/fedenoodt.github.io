@@ -16,7 +16,7 @@ const onlineSERV = '<h3 class="online">El servicio está online.</h3>';
 const offlineSERV = '<h3 class="online">El servicio está offline.</h3>';
 
 const number = '25.58.154.212:';
-const IPclosed = 'CERRADA';
+const IPclosed = CERRADA;
 
 let ip = IPclosed;
 let status = close;
@@ -35,7 +35,7 @@ const index = `
                     <center>
                         <img class="slFlag" src="https://fedenoodt.github.io/Pagina_personal/Organizacion_dispar_tierras_Unidas.png"><a href = "https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages/Pagina_personal/ocio" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/768px-Settings_(iOS).png"></a><h1>Organizaci&oacute;n dispar de tierras unidas</h1>
                         <h2>Direcci&oacute;n IP:</h2>
-                        ${manager(IPclosed)}<br /><br />
+                        ${(IPclosed)}<br /><br />
                         <br /><hr /><br />
 
                         <div id = 'lobby'><h1 class="warning">ADVERTENCIA: El servidor se reiniciará pronto.</h1></div>

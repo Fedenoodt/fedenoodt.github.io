@@ -524,4 +524,4 @@ const tablaNormas = `
 
 //=======================================================================================================================================================//
 
-builder({'index': index, 'RiskietRacer55': RiskietRacer55, 'conectarse': conectarse, 'coordenadas': coordenadas, 'hamachi': hamachi, 'hipotesisMetroCuadrado': hipotesisMetroCuadrado, 'metroCuadrado': metroCuadrado, 'naciones': naciones, 'noOnesLand': noOnesLand, 'skin': skin, 'swerterland': swerterland, 'tablaNormas': tablaNormas})
+builder({'index': index, 'RiskietRacer55': RiskietRacer55, 'conectarse': conectarse, 'coordenadas': coordenadas, 'cuadrantes': cuadrantes, 'hamachi': hamachi, 'hipotesisMetroCuadrado': hipotesisMetroCuadrado, 'metroCuadrado': metroCuadrado, 'naciones': naciones, 'noOnesLand': noOnesLand, 'skin': skin, 'swerterland': swerterland, 'tablaNormas': tablaNormas})

@@ -24,10 +24,6 @@ function manager (tag, status) {
     toChange.innerHTML = status;
 }
 
-manager('IP', IPclosed)
-manager('lobby', close)
-manager('server', inactiveSERV)
-
 const index = `
             <section class = "home">
                 <div class="in-flex">
@@ -539,3 +535,7 @@ const tablaNormas = `
 //=======================================================================================================================================================//
 
 builder({'index': index, 'RiskietRacer55': RiskietRacer55, 'conectarse': conectarse, 'coordenadas': coordenadas, 'cuadrantes': cuadrantes, 'hamachi': hamachi, 'hipotesisMetroCuadrado': hipotesisMetroCuadrado, 'metroCuadrado': metroCuadrado, 'naciones': naciones, 'noOnesLand': noOnesLand, 'skin': skin, 'swerterland': swerterland, 'tablaNormas': tablaNormas})
+
+manager('IP', IPclosed)
+manager('lobby', close)
+manager('server', inactiveSERV)

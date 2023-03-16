@@ -44,12 +44,10 @@ if (nullUndefined(localGet('target'))) {
     localSet('target', 'index')
 }
 
-consoleLogSecure(localGet('building'))
 
 let imagenes = JSparse(localGet('building'));
-consoleLogSecure(imagenes)
-consoleLogSecure(Object.keys(imagenes))
 
 let imagen = Object.values(imagenes[target].split('`'));
+consoleLogSecure(imagen)
 
 refresh(imagen)

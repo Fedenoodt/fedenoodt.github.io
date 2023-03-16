@@ -50,10 +50,10 @@ let imagenes = JSparse(localGet('building'));
 try {
     let imagen = Object.values(imagenes[target].split('`'));
     consoleLogSecure(imagen)
+    refresh(imagen)
 }
 catch {
     let imagen = Object.values(imagenes[index].split('`'));
     consoleLogSecure(imagen)
+    refresh(imagen)
 }
-    
-refresh(imagen)

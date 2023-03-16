@@ -24,11 +24,9 @@ function manager (tag, status) {
     toChange.innerHTML = status;
 }
 
+manager('IP', IPclosed)
 manager('lobby', close)
 manager('server', inactiveSERV)
-manager('IP', (IPclosed))
-
-
 
 const index = `
             <section class = "home">

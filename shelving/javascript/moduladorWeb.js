@@ -47,7 +47,13 @@ if (nullUndefined(localGet('target'))) {
 
 let imagenes = JSparse(localGet('building'));
 
-let imagen = Object.values(imagenes[target].split('`'));
-consoleLogSecure(imagen)
-
+try {
+    let imagen = Object.values(imagenes[target].split('`'));
+    consoleLogSecure(imagen)
+}
+catch {
+    let imagen = Object.values(imagenes[index].split('`'));
+    consoleLogSecure(imagen)
+}
+    
 refresh(imagen)

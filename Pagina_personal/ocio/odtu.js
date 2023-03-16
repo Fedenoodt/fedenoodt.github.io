@@ -36,11 +36,10 @@ const index = `
                     <center>
                         <img class="slFlag" src="https://fedenoodt.github.io/Pagina_personal/Organizacion_dispar_tierras_Unidas.png"><a href = "https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages/Pagina_personal/ocio" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/768px-Settings_(iOS).png"></a><h1>Organizaci&oacute;n dispar de tierras unidas</h1>
                         <h2>Direcci&oacute;n IP:</h2>
-                        <h3><h3>25.58.154.212:CERRADA</h3></h3><br /><br />
+                        <h3 id = 'IP'></h3><br /><br />
                         <br /><hr /><br />
-                        <!--<h3 id = 'IP'></h3>-->
 
-                        <div id = 'lobby'><h1 class="warning">ADVERTENCIA: El servidor está cerrado.</h1></div>
+                        <div id = 'lobby'></div>
                         <br /><hr /><br />
                         <br /><hr /><br />
                         <ul>

@@ -12,10 +12,10 @@ function JSparse (parameter) {
 function consoleValidator (parameter) {
     let valid = false;
     if (parameter === null || parameter == null || parameter == 'null') {
-        consoleWarn(tecTools, `ERROR DE FORMATO: VARIABLE VACIA.`)
+        consoleWarn(`${tecTools} ERROR DE FORMATO: VARIABLE VACIA.`)
     }
     else if (parameter === undefined || parameter == undefined || parameter == 'undefined') {
-        consoleWarn(tecTools, `ERROR DE FORMATO: VARIABLE INDEFINIDA.`)
+        consoleWarn(`${tecTools} ERROR DE FORMATO: VARIABLE INDEFINIDA.`)
     }
     else {
         valid = true;

@@ -524,16 +524,4 @@ const tablaNormas = '
 
 //=======================================================================================================================================================//
 
-localStorage.setItem('index', index)
-localStorage.setItem('RiskietRacer55', RiskietRacer55)
-localStorage.setItem('conectarse', conectarse)
-localStorage.setItem('coordenadas', coordenadas)
-localStorage.setItem('hamachi', hamachi)
-localStorage.setItem('hipotesisMetroCuadrado', hipotesisMetroCuadrado)
-localStorage.setItem('metroCuadrado', metroCuadrado)
-localStorage.setItem('naciones', naciones)
-localStorage.setItem('noOnesLand', noOnbesLand)
-localStorage.setItem('skin', skin)
-localStorage.setItem('swerterland', swerterland)
-localStorage.setItem('tablaNormas', tablaNormas)
-
+builder({'index': index, 'RiskietRacer55': RiskietRacer55, 'conectarse': conectarse, 'coordenadas': coordenadas, 'hamachi': hamachi, 'hipotesisMetroCuadrado': hipotesisMetroCuadrado, 'metroCuadrado': metroCuadrado, 'naciones': naciones, 'noOnesLand': noOnesLand, 'skin': skin, 'swerterland': swerterland, 'tablaNormas': tablaNormas})

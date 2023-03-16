@@ -21,7 +21,7 @@ const IPclosed = `CERRADA`;
 
 function manager (tag, status) {
     let toChange = document.getElementById(tag);
-    tag.innerHTML = status;
+    toChange.innerHTML = status;
 }
 
 manager('lobby', close)

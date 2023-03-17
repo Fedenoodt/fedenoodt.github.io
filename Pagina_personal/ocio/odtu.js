@@ -21,13 +21,13 @@ let ip = IPclosed;
 let status = close;
 let statusH = offlineSERV;
 
-function manager (status) {
-    let toChange = document.createElement('div');
+function manager (tag, status) {
+    let toChange = document.getElementById(tag);
     toChange.innerHTML = status;
-    consoleLogSecure(status)
+    consoleLogSecure(tag, ';', status)
 }
 
-manager(onlineSERV)
+manager('server', onlineSERV)
 
 
 const index = `

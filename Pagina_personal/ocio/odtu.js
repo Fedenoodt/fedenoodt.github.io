@@ -19,10 +19,6 @@ const offlineSERV = '<h3 class="online">El servicio está offline.</h3>';
 const number = '25.58.154.212:';
 const IPclosed = 'CERRADA';
 
-let ip = IPclosed;
-let status = close;
-let statusH = offlineSERV;
-
 function manager (tag, status) {
     let toChange = document.getElementById(tag);
     toChange.innerHTML = status;
@@ -30,7 +26,7 @@ function manager (tag, status) {
 }
 
 manager('ip', `${number}63046`)
-manager('lobby', operative)
+manager('lobby', close)
 manager('server', onlineSERV)
 
 

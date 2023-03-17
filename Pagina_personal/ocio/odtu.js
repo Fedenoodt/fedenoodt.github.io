@@ -27,6 +27,8 @@ function manager (tag, status) {
     consoleLogSecure(tag, ';', status)
 }
 
+manager('ip', `${number}63046`)
+manager('lobby', operative)
 manager('server', onlineSERV)
 
 

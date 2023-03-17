@@ -86,11 +86,12 @@ const conectarse = `
                         as&iacute; que te va a decir que desinstales la versi&oacute;n obsoleta, y reinstales por la nueva. Vas dando en siguiente, dejando que el proceso fluya, y listo 
                         (Si no lo ten&iacute;as instalado, no ten&eacute;s instalado, no ten&eacute;s que pasar por eso, instalas directamente).<br/><br/><br/>
                         Teniendo el Java ya, y supongo que el Launcher de Minecraft instalado, si no and&aacute; a <a href="https://www.minecraft.net/es-es" target="_blank">la web de Microsoft</a> y ponelo.<br/>
-                        Una vez hecho esto, preguntale a fede que versi&oacute;n de Minecraft van a jugar para instalarla, y la instal&aacute;s. (Es muy probable que fede te pida Optifine, para esto, vas a la 
-                        <a href="https://optifine.net/downloads" target="_blank">web</a>, le das al bot&oacute;n que dice "mostrar todas las versiones", y seleccionas la misma que en Minecraft).<br/><br/>
+                        Una vez hecho esto, preguntale a fede que versi&oacute;n de Minecraft van a jugar para instalarla, y la instal&aacute;s. <br/><br/>
                         Una vez hayas verificado que tu Minecraft funcione corectamente, te aconsejo si sobra tiempo optimizarlo para que funcione lo mejor posible en tu dispositivo. Y ahora toca instalar otro 
                         dispositivo concocido, que es <a href="" onclick = targeting("hamachi") target="_blank">Hamachi</a>. En esa web esta el link de descarga. es una descarga de lo m&aacute;s habitual, 
                         instalaci&oacute;n f&aacute;cil. <br/><br/><br/>
+                        Es muy probable que fede te pida Optifine, para esto, vas a la <a href="https://optifine.net/downloads" target="_blank">web</a>, le das al bot&oacute;n que dice "mostrar todas las versiones", 
+                        y seleccionas la misma que en Minecraft.
                         Ahora, por &uacute;ltimo, necesito toda tu atenci&oacute;n. Hamachi te abri&oacute; una ventanita que parece un telefono, en la que hay un bot&oacute;n de encendido. Dale a ese bot&oacute;n.
                         Vas a necesitar hacerte con un usuario de LogMeIn Hamachi, hacelo en un momento, acá no hay nada de pago. <br/> Una vez hecho eso... ¿Te acord&aacute;s de la 
                         <a href="" onclick = targeting("hamachi") target="_blank">web que te d&iacute; de Hamachi</a>, que no fue directo al link de descarga? Bueno, entrá ahi que hay un 

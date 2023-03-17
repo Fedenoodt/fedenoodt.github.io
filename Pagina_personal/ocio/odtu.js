@@ -29,13 +29,15 @@ function manager (status) {
     document.body.appendChild(toChange)
 }
 
+document.getElementById('ip').innerHTML = restarting
+
 const index = `
             <section class = "home">
                 <div class="in-flex">
                     <center>
                         <img class="slFlag" src="https://fedenoodt.github.io/Pagina_personal/Organizacion_dispar_tierras_Unidas.png"><a href = "https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages/Pagina_personal/ocio" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/768px-Settings_(iOS).png"></a><h1>Organizaci&oacute;n dispar de tierras unidas</h1>
                         <h2>Direcci&oacute;n IP:</h2>
-                        ${(IPclosed)}<br /><br />
+                        <h3 id = "ip"></h3><<br /><br />
                         <br /><hr /><br />
 
                         <div id = 'lobby'><h1 class="warning">ADVERTENCIA: El servidor se reiniciará pronto.</h1></div>

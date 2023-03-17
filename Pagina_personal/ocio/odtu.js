@@ -40,7 +40,7 @@ const index = `
                         <h3 id = "ip"></h3><br /><br />
                         <br /><hr /><br />
 
-                        <div id = 'lobby'><h1 class="warning">ADVERTENCIA: El servidor se reiniciará pronto.</h1></div>
+                        <div id = 'lobby'></div>
                         <br /><hr /><br />
                         <p id = "hora"></p>
                         <br /><hr /><br />

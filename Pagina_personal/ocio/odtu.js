@@ -23,9 +23,9 @@ function manager (tag, status) {
     consoleLogSecure(tag, ';', status)
 }
 
-manager('ip', `${number}51167`)
-manager('lobby', eating)
-manager('server', onlineSERV)
+//manager('ip', `${number}51167`)
+//manager('lobby', eating)
+//manager('server', onlineSERV)
 
 const index = `
             <section class = "home">

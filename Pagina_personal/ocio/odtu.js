@@ -1,5 +1,3 @@
-
-
 const closing = '<h1 class="warning">ADVERTENCIA: El servidor cerrará pronto.</h1>';
 const close = '<h1 class="warning">ADVERTENCIA: El servidor está cerrado.</h1>';
 const operative = '<h1 class="online"> El servidor está operando.</h1>';
@@ -28,8 +26,6 @@ function manager (tag, status) {
 manager('ip', `${number}51167`)
 manager('lobby', eating)
 manager('server', onlineSERV)
-
-//import { main } from "./reloj.js"
 
 const index = `
             <section class = "home">

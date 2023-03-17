@@ -24,7 +24,7 @@ function manager (tag, status) {
 }
 
 manager('ip', `${number}51167`)
-manager('lobby', eating)
+manager('lobby', online)
 manager('server', onlineSERV)
 
 const index = `

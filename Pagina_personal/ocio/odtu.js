@@ -1,4 +1,4 @@
-import { main } from "./reloj.js"
+
 
 const closing = '<h1 class="warning">ADVERTENCIA: El servidor cerrará pronto.</h1>';
 const close = '<h1 class="warning">ADVERTENCIA: El servidor está cerrado.</h1>';
@@ -29,6 +29,7 @@ manager('ip', `${number}63046`)
 manager('lobby', close)
 manager('server', onlineSERV)
 
+import { main } from "./reloj.js"
 
 const index = `
             <section class = "home">

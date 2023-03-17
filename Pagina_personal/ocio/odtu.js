@@ -1,5 +1,5 @@
 const closing = '<h1 class="warning">ADVERTENCIA: El servidor cerrará pronto.</h1>';
-const close = '<h1 class="warning">ADVERTENCIA: El servidor está cerrado.</h1>';
+const offline = '<h1 class="warning">ADVERTENCIA: El servidor está cerrado.</h1>';
 const operative = '<h1 class="online"> El servidor está operando.</h1>';
 const restarting = '<h1 class="warning">ADVERTENCIA: El servidor se reiniciará pronto.</h1>';
 const sleepAFK = '<h1 class="sleeping"> ▼▼ fedenoodt está durmiendo AFK en su camita Zzz--..... Pero volverá ▼▼</h1>';
@@ -14,8 +14,14 @@ const restartingSERV = '<h1 class="warning">ADVERTENCIA: El servidor se reinicia
 const onlineSERV = '<h3 class="online">El servicio está online.</h3>';
 const offlineSERV = '<h3 class="online">El servicio está offline.</h3>';
 
-const number = '25.58.154.212:';
+
+const lan = '51167';
+
+
+const number = '25.58.154.212: ';
 const IPclosed = 'CERRADA';
+const fullNumber = number + lan;
+
 
 function manager (tag, status) {
     let toChange = document.getElementById(tag);
@@ -23,8 +29,8 @@ function manager (tag, status) {
     consoleLogSecure(tag, ';', status)
 }
 
-manager('ip', `${number}51167`)
-manager('lobby', online)
+manager('ip', IPclosed)
+manager('lobby', offline)
 manager('server', onlineSERV)
 
 const index = `

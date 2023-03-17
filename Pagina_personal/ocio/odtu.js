@@ -15,7 +15,7 @@ const onlineSERV = '<h3 class="online">El servicio está online.</h3>';
 const offlineSERV = '<h3 class="online">El servicio está offline.</h3>';
 
 const number = '25.58.154.212:';
-const IPclosed = CERRADA;
+const IPclosed = 'CERRADA';
 
 let ip = IPclosed;
 let status = close;

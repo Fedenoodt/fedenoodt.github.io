@@ -15,7 +15,7 @@ const onlineSERV = '<h3 class="online">El servicio está online.</h3>';
 const offlineSERV = '<h3 class="online">El servicio está offline.</h3>';
 
 
-const lan = '51167';
+const lan = '58312';
 
 
 const number = '25.58.154.212: ';
@@ -29,8 +29,8 @@ function manager (tag, status) {
     consoleLogSecure(tag, ';', status)
 }
 
-manager('ip', IPclosed)
-manager('lobby', offline)
+manager('ip', fullNumber)
+manager('lobby', eating)
 manager('server', onlineSERV)
 
 const index = `

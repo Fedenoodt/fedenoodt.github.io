@@ -17,11 +17,11 @@ const offlineSERV = '<h3 class="online">El servicio está offline.</h3>';
 const number = '25.58.154.212:';
 const IPclosed = 'CERRADA';
 
-function manager (tag, status) {
-    let toChange = document.getElementById(tag);
-    toChange.innerHTML = status;
-    consoleLogSecure(tag, ';', status)
-}
+//function manager (tag, status) {
+//    let toChange = document.getElementById(tag);
+//    toChange.innerHTML = status;
+//    consoleLogSecure(tag, ';', status)
+//}
 
 //manager('ip', `${number}51167`)
 //manager('lobby', eating)

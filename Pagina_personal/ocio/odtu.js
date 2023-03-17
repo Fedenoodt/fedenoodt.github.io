@@ -25,11 +25,11 @@ function manager (tag, status) {
     consoleLogSecure(tag, ';', status)
 }
 
-manager('ip', `${number}63046`)
-manager('lobby', close)
+manager('ip', `${number}51167`)
+manager('lobby', eating)
 manager('server', onlineSERV)
 
-import { main } from "./reloj.js"
+//import { main } from "./reloj.js"
 
 const index = `
             <section class = "home">
@@ -42,7 +42,6 @@ const index = `
 
                         <div id = 'lobby'></div>
                         <br /><hr /><br />
-                        <p id = "hora"></p>
                         <br /><hr /><br />
                         <ul>
                             <li class="listaHorizontal"><a href=""><div class="buttonContainer" id="default" onclick = targeting("metroCuadrado")><h5> Exploraci&oacute;n, sus m&eacute;todos, y <br/>Patr&oacute;n Big Square Bang </h5></div></a></li>

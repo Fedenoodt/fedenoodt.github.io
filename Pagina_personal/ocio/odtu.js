@@ -1,4 +1,3 @@
-
 const closing = '<h1 class="warning">ADVERTENCIA: El servidor cerrará pronto.</h1>';
 const close = '<h1 class="warning">ADVERTENCIA: El servidor está cerrado.</h1>';
 const operative = '<h1 class="online"> El servidor está operando.</h1>';
@@ -26,10 +25,10 @@ function manager (status) {
     let toChange = document.createElement('div');
     toChange.innerHTML = status;
     consoleLogSecure(status)
-    document.body.appendChild(toChange)
 }
 
-document.getElementById('ip').innerHTML = restarting
+manager(onlineSERV)
+
 
 const index = `
             <section class = "home">
@@ -37,7 +36,7 @@ const index = `
                     <center>
                         <img class="slFlag" src="https://fedenoodt.github.io/Pagina_personal/Organizacion_dispar_tierras_Unidas.png"><a href = "https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages/Pagina_personal/ocio" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/768px-Settings_(iOS).png"></a><h1>Organizaci&oacute;n dispar de tierras unidas</h1>
                         <h2>Direcci&oacute;n IP:</h2>
-                        <h3 id = "ip"></h3><<br /><br />
+                        <h3 id = "ip">25.58.154.212</h3><<br /><br />
                         <br /><hr /><br />
 
                         <div id = 'lobby'><h1 class="warning">ADVERTENCIA: El servidor se reiniciará pronto.</h1></div>
@@ -182,7 +181,7 @@ const hamachi = `
                     <h1>Dirección Hamachi</ h1>
                     <h3>ODTU1191_01</h3>
                     <h3>*bostadecaballo*</h3></br></br>
-                    <div id = 'server'><h1 class="warning">ADVERTENCIA: El servidor se reiniciará pronto.</h1></div>
+                    <div id = 'server'></div>
 
                     </br></hr></br>
                     <h3>Link de descarga: <a href="https://www.vpn.net/">https://www.vpn.net/</a></h3>
@@ -542,5 +541,3 @@ const tablaNormas = `
 //=======================================================================================================================================================//
 
 builder({'index': index, 'RiskietRacer55': RiskietRacer55, 'conectarse': conectarse, 'coordenadas': coordenadas, 'cuadrantes': cuadrantes, 'hamachi': hamachi, 'hipotesisMetroCuadrado': hipotesisMetroCuadrado, 'metroCuadrado': metroCuadrado, 'naciones': naciones, 'noOnesLand': noOnesLand, 'skin': skin, 'swerterland': swerterland, 'tablaNormas': tablaNormas})
-
-

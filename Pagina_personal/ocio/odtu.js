@@ -29,9 +29,14 @@ function manager (tag, status) {
     toChange.innerHTML = status;
     consoleLogSecure(tag, ';', status)
 }
-if (active) { manager('ip', fullNumber) } else { manager('ip', IPclosed) }
+if (active) { 
+    manager('ip', fullNumber)
+    manager('lobby', eating)
+} else { 
+    manager('ip', IPclosed)
+    manager('lobby', offline)
+}
     
-manager('lobby', eating)
 manager('server', onlineSERV)
 
 const index = `

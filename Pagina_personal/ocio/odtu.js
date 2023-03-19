@@ -29,10 +29,10 @@ function manager (tag, status) {
     toChange.innerHTML = status;
     consoleLogSecure(tag, ';', status)
 }
-if (active) { manager('ip', fullNumber) } else { manager('ip', IPclosed) }
+// if (active) { manager('ip', fullNumber) } else { manager('ip', IPclosed) }
     
-manager('lobby', eating)
-manager('server', onlineSERV)
+// manager('lobby', eating)
+// manager('server', onlineSERV)
 
 const index = `
             <section class = "home">

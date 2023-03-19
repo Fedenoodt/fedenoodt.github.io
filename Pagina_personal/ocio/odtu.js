@@ -31,7 +31,7 @@ function manager (tag, status) {
 }
 if (active) { manager('ip', fullNumber) } else { manager('ip', IPclosed) }
     
-manager('lobby', sleepAFK)
+manager('lobby', eating)
 manager('server', onlineSERV)
 
 const index = `

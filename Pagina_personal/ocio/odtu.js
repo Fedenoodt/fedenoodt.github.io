@@ -24,11 +24,11 @@ const IPclosed = 'CERRADA';
 const fullNumber = number + lan;
 
 
-function manager (tag, status) {
-    let toChange = document.getElementById(tag);
-    toChange.innerHTML = status;
-    consoleLogSecure(tag, ';', status)
-}
+//function manager (tag, status) {
+//    let toChange = document.getElementById(tag);
+//    toChange.innerHTML = status;
+//    consoleLogSecure(tag, ';', status)
+//}
 //if (active) { 
 //    manager('ip', fullNumber)
 //    manager('lobby', eating)

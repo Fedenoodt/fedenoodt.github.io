@@ -53,7 +53,7 @@ try {
     refresh(imagen)
 }
 catch {
-    let imagen = Object.values(imagenes['index'].split('`'));
+    let imagen = Object.values(imagenes[index].split('`'));
     consoleLogSecure(imagen)
     refresh(imagen)
 }

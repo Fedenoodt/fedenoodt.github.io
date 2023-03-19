@@ -15,10 +15,11 @@ const onlineSERV = '<h3 class="online">El servicio está online.</h3>';
 const offlineSERV = '<h3 class="online">El servicio está offline.</h3>';
 
 
-const lan = '58312';
+const lan = '60833';
 
+const active = true;
 
-const number = '25.58.154.212: ';
+const number = '25.58.113.35: ';
 const IPclosed = 'CERRADA';
 const fullNumber = number + lan;
 
@@ -28,9 +29,9 @@ function manager (tag, status) {
     toChange.innerHTML = status;
     consoleLogSecure(tag, ';', status)
 }
-
-manager('ip', fullNumber)
-manager('lobby', sleepAFK)
+if (active) { manager('ip', fullNumber) } else { manager('ip', IPclosed) }
+    
+manager('lobby', eating)
 manager('server', onlineSERV)
 
 const index = `

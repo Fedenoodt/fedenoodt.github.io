@@ -19,7 +19,7 @@ const lan = '55965';
 
 const active = true;
 
-const status = bussyBack;
+const status = eating;
 
 const number = '25.58.113.35: ';
 const IPclosed = 'CERRADA';

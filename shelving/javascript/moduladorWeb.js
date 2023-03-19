@@ -18,7 +18,9 @@
 
 function builder (parameter) {
     consoleLogSecure(parameter)
+    consoleLog('Building...')
     localSet('building', JStringify(parameter))
+    consoleLog('Build.')
 }
 
 function refresh (parameter) {

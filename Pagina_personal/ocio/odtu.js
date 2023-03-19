@@ -30,7 +30,7 @@ function manager (tag, status) {
 }
 
 manager('ip', fullNumber)
-manager('lobby', bussyBack)
+manager('lobby', sleepAFK)
 manager('server', onlineSERV)
 
 const index = `

@@ -19,25 +19,27 @@ const lan = '60833';
 
 const active = true;
 
+const status = eating;
+
 const number = '25.58.113.35: ';
 const IPclosed = 'CERRADA';
 const fullNumber = number + lan;
 
 
-//function manager (tag, status) {
-//    let toChange = document.getElementById(tag);
-//    toChange.innerHTML = status;
-//    consoleLogSecure(tag, ';', status)
-//}
-//if (active) { 
-//    manager('ip', fullNumber)
-//    manager('lobby', eating)
-//} else { 
-//    manager('ip', IPclosed)
-//    manager('lobby', offline)
-//}
+function manager (tag, status) {
+    let toChange = document.getElementById(tag);
+    toChange.innerHTML = status;
+    consoleLogSecure(tag, ';', status)
+}
+if (active) { 
+    manager('ip', fullNumber)
+    manager('lobby', status)
+} else { 
+    manager('ip', IPclosed)
+    manager('lobby', offline)
+}
     
-//manager('server', onlineSERV)
+manager('server', onlineSERV)
 
 const index = `
             <section class = "home">

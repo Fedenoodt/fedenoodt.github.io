@@ -17,6 +17,7 @@
 ////////////////////////////////////////////////////////////////    PROYECTO RAYONNAGE    /////////////////////////////////////////////////////////////////
 
 function builder (parameter) {
+    consoleLogSecure(parameter)
     localSet('building', JStringify(parameter))
 }
 
@@ -46,6 +47,7 @@ if (nullUndefined(localGet('target'))) {
 
 
 let imagenes = JSparse(localGet('building'));
+consoleLogSecure(imagenes)
 
 try {
     let imagen = Object.values(imagenes[target].split('`'));

@@ -17,9 +17,9 @@ const offlineSERV = '<h3 class="online">El servicio está offline.</h3>';
 
 const lan = '63549';
 
-const active = true;
+const active = false;
 
-const status = closing;
+const status = online;
 
 const number = '25.58.113.35: ';
 const IPclosed = 'CERRADA';

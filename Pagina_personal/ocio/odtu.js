@@ -19,7 +19,7 @@ const lan = '63549';
 
 const active = true;
 
-const status = bussyBack;
+const status = closing;
 
 const number = '25.58.113.35: ';
 const IPclosed = 'CERRADA';

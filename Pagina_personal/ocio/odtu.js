@@ -31,15 +31,15 @@ function manager (tag, status) {
     toChange.innerHTML = status;
     consoleLogSecure(tag, ';', status)
 }
-if (active) { 
-    manager('ip', fullNumber)
-    manager('lobby', status)
-} else { 
-    manager('ip', IPclosed)
-    manager('lobby', offline)
-}
+//if (active) { 
+///    manager('ip', fullNumber)
+//    manager('lobby', status)
+//} else { 
+//    manager('ip', IPclosed)
+//    manager('lobby', offline)
+//}
     
-manager('server', onlineSERV)
+//manager('server', onlineSERV)
 
 const index = `
             <section class = "home">

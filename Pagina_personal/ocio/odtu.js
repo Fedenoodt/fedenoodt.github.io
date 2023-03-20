@@ -63,6 +63,7 @@ const index = `
                             <li class="listaHorizontal"><a href=""><div class="buttonContainer" id="default" onclick = targeting("cuadrantes")><h5> La Guerra por <br/>cuadrantes </h5></div></a></li>
                             <li class="listaHorizontal"><a href=""><div class="buttonContainer" id="default" onclick = targeting("coordenadas")><h5> Libro de <br/>coordenadas </h5></div></a></li>
                             <li class="listaHorizontal"><a href="https://lc-public.fra1.cdn.digitaloceanspaces.com/optimized/2X/7/75fe01b1bcb31d3a1952bb699b016cb4102bb58b_2_739x748.png" target="_blank"><div class="buttonContainer" id="default"><h5> Tradeos de <br/>aldeanos </h5></div></a></li>
+                            <li class="listaHorizontal"><a href="https://www.planetminecraft.com/banner/" target="_blank"><div class="buttonContainer" id="default"><h5> Creador de <br/>estandartes </h5></div></a></li>
                         </ul>
 
                 </center>

@@ -17,7 +17,7 @@ const offlineSERV = '<h3 class="online">El servicio está offline.</h3>';
 
 const lan = '62332';
 
-const active = false;
+const active = true;
 
 const status = eating;
 
@@ -26,18 +26,18 @@ const IPclosed = 'CERRADA';
 const fullNumber = number + lan;
 
 
-//function manager (tag, status) {
-//    let toChange = document.getElementById(tag);
-//    toChange.innerHTML = status;
-//    consoleLogSecure(tag, ';', status)
-//}
-//if (active) { 
-//    manager('ip', fullNumber)
-//    manager('lobby', status)
-//} else { 
-//    manager('ip', IPclosed)
-//    manager('lobby', offline)
-//}
+function manager (tag, status) {
+    let toChange = document.getElementById(tag);
+    toChange.innerHTML = status;
+    consoleLogSecure(tag, ';', status)
+}
+if (active) { 
+    manager('ip', fullNumber)
+    manager('lobby', status)
+} else { 
+    manager('ip', IPclosed)
+    manager('lobby', offline)
+}
     
 //manager('server', onlineSERV)
 

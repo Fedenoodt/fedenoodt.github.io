@@ -19,7 +19,7 @@ const lan = '63142';
 
 const active = true;
 
-const status = eating;
+const status = closing;
 
 const number = '25.58.113.35: ';
 const IPclosed = 'CERRADA';

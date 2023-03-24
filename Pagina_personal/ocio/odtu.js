@@ -17,7 +17,7 @@ const offlineSERV = '<h3 class="online">El servicio está offline.</h3>';
 
 const lan = '';
 
-const active = false;
+const active = 0;
 
 const status = eating;
 
@@ -31,10 +31,10 @@ function manager (tag, status) {
     toChange.innerHTML = status;
     consoleLogSecure(tag, ';', status)
 }
-if (active) { 
+if (active == 1) { 
     manager('ip', fullNumber)
     manager('lobby', status)
-} else { 
+} else if (active == 0) { 
     manager('ip', IPclosed)
     manager('lobby', offline)
 }

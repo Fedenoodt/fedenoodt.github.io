@@ -19,7 +19,7 @@ const lan = '53595';
 
 const active = true;
 
-const status = online;
+const status = closing;
 
 const number = '25.58.113.35: ';
 const IPclosed = 'CERRADA';

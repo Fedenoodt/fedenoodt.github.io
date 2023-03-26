@@ -195,7 +195,7 @@ const hamachi = `
                     <h1>Dirección Hamachi</ h1>
                     <h3>ODTU1192_01</h3>
                     <h3>*bostadecaballo*</h3></br></br>
-                    <div id = 'server'></div>
+                    <div id = 'server'><h3 class="online">El servicio está online.</h3></div>
 
                     </br></hr></br>
                     <h3>Link de descarga: <a href="https://www.vpn.net/">https://www.vpn.net/</a></h3>

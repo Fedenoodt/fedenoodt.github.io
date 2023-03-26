@@ -26,20 +26,20 @@ const IPclosed = 'CERRADA';
 const fullNumber = number + lan;
 
 
-function manager (tag, status) {
-    let toChange = document.getElementById(tag);
-    toChange.innerHTML = status;
-    consoleLogSecure(tag, ';', status)
-}
-if (active == 1) { 
-    manager('ip', fullNumber)
-    manager('lobby', status)
-} else if (active == 0) { 
-    manager('ip', IPclosed)
-    manager('lobby', offline)
-}
+//function manager (tag, status) {
+//    let toChange = document.getElementById(tag);
+//    toChange.innerHTML = status;
+//    consoleLogSecure(tag, ';', status)
+//}
+//if (active == 1) { 
+//    manager('ip', fullNumber)
+//    manager('lobby', status)
+//} else if (active == 0) { 
+//    manager('ip', IPclosed)
+//    manager('lobby', offline)
+//}
     
-manager('server', onlineSERV)
+//manager('server', onlineSERV)
 
 const index = `
             <section class = "home">
@@ -195,7 +195,7 @@ const hamachi = `
                     <h1>Dirección Hamachi</ h1>
                     <h3>ODTU1192_01</h3>
                     <h3>*bostadecaballo*</h3></br></br>
-                    <div id = 'server'><h3 class="online">El servicio está online.</h3></div>
+                    <h3 id = 'server'></h3>
 
                     </br></hr></br>
                     <h3>Link de descarga: <a href="https://www.vpn.net/">https://www.vpn.net/</a></h3>

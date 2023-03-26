@@ -21,7 +21,7 @@ const active = 1;
 
 const status = online;
 
-const number = '25.58.113.35: ';
+const number = '25.58.113.35:';
 const IPclosed = 'CERRADA';
 const fullNumber = number + lan;
 

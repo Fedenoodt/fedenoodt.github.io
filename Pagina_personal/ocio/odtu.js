@@ -15,7 +15,7 @@ const onlineSERV = '<h3 class="online">El servicio está online.</h3>';
 const offlineSERV = '<h3 class="online">El servicio está offline.</h3>';
 
 
-const lan = '56642';
+const lan = '59762';
 
 const active = 1;
 

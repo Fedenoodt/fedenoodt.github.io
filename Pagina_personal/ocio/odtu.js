@@ -39,7 +39,7 @@ if (active == 1) {
     manager('lobby', offline)
 }
     
-manager('server', onlineSERV)
+//manager('server', onlineSERV)
 
 const index = `
             <section class = "home">
@@ -193,9 +193,10 @@ const hamachi = `
             <div class="in-flex">
                     <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     <h1>Dirección Hamachi</ h1>
+                    <h2>Nombre de red:</h2>
                     <h3>ODTU1192_01</h3>
+                    <h2>Contrase&ntilde;a (sin asterisco):</h2>
                     <h3>*bostadecaballo*</h3></br></br>
-                    <h3 id = 'server'></h3>
 
                     </br></hr></br>
                     <h3>Link de descarga: <a href="https://www.vpn.net/">https://www.vpn.net/</a></h3>

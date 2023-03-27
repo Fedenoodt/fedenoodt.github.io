@@ -26,18 +26,18 @@ const IPclosed = 'CERRADA';
 const fullNumber = number + lan;
 
 
-function manager (tag, status) {
-    let toChange = document.getElementById(tag);
-    toChange.innerHTML = status;
-    consoleLogSecure(tag, ';', status)
-}
-if (active == 1) { 
-    manager('ip', fullNumber)
-    manager('lobby', status)
-} else if (active == 0) { 
-    manager('ip', IPclosed)
-    manager('lobby', offline)
-}
+//function manager (tag, status) {
+//    let toChange = document.getElementById(tag);
+//    toChange.innerHTML = status;
+//    consoleLogSecure(tag, ';', status)
+//}
+//if (active == 1) { 
+//    manager('ip', fullNumber)
+//    manager('lobby', status)
+//} else if (active == 0) { 
+//    manager('ip', IPclosed)
+//    manager('lobby', offline)
+//}
     
 //manager('server', onlineSERV)
 

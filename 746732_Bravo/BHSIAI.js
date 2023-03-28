@@ -211,7 +211,7 @@ function tools () {
 		<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAIObsoletos.html">Accesos directos obsoletos</a>></li>
 		<li><a href="https://translate.google.com.ar/" target="_blank">Traductor de Google</a>></li>
 		<li><a href="https://www.google.com.ar/maps/@-34.607613,-58.4515826,15z" target="_blank">Google Maps</a>></li>
-		<li><a href="https://www.omnilineas.com.ar/">OmniL&iacute;neas</a>></li>
+		<li><a href="https://www.omnilineas.com.ar/" target="_blank">OmniL&iacute;neas</a>></li>
 		<li><a href="https://static.wikigta.org/nl/images/8/83/V.png" target="_blank">Mapa de Grand Theft Auto V</a>></li>
 		<li><a href="https://www.ilovepdf.com/es/html-a-pdf" target="_blank">Convertor HTML a PDF</a>></li>
 		<li><a href="https://www.y2mate.com/es/youtube-mp3/sNjWpZmxDgg" target="_blank">Convertor Youtube a MP3</a>></li>

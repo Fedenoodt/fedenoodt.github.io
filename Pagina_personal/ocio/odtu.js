@@ -26,12 +26,12 @@ const IPclosed = 'CERRADA';
 const fullNumber = number + ':' + lan;
 
 
-//function manager (tag, status) {
-//    let toChange = document.getElementById(tag);
-//    try { toChange.innerHTML = status; }
-//    catch { consoleWarn('Operacion de servicio de linea fallo.') }
-//    consoleLogSecure(tag, ';', status)
-//}
+function manager (tag, status) {
+    let toChange = document.getElementById(tag);
+    try { toChange.innerHTML = status; }
+    catch { consoleWarn('Operacion de servicio de linea fallo.') }
+    consoleLogSecure(tag, ';', status)
+}
     
 //manager('server', onlineSERV)
 
@@ -549,13 +549,13 @@ const tablaNormas = `
 
 //=======================================================================================================================================================//
 
-//if (active == 1) { 
-//    manager('ip', fullNumber)
-//    manager('lobby', status)
-//} else if (active == 0) { 
-//    manager('ip', IPclosed)
-//    manager('lobby', offline)
-//}
+if (active == 1) { 
+    manager('ip', fullNumber)
+    manager('lobby', status)
+} else if (active == 0) { 
+    manager('ip', IPclosed)
+    manager('lobby', offline)
+}
 
 //=======================================================================================================================================================//
 

@@ -17,7 +17,7 @@ const offlineSERV = '<h3 class="online">El servicio está offline.</h3>';
 
 const lan = '';
 
-const active = 0;
+const active = 1;
 
 const status = eating;
 
@@ -30,13 +30,6 @@ function manager (tag, status) {
     let toChange = document.getElementById(tag);
     toChange.innerHTML = status;
     consoleLogSecure(tag, ';', status)
-}
-if (active == 1) { 
-    manager('ip', fullNumber)
-    manager('lobby', status)
-} else if (active == 0) { 
-    manager('ip', IPclosed)
-    manager('lobby', offline)
 }
     
 //manager('server', onlineSERV)
@@ -552,6 +545,16 @@ const tablaNormas = `
                 </center>
             </div>
         </section>`;
+
+//=======================================================================================================================================================//
+
+if (active == 1) { 
+    manager('ip', fullNumber)
+    manager('lobby', status)
+} else if (active == 0) { 
+    manager('ip', IPclosed)
+    manager('lobby', offline)
+}
 
 //=======================================================================================================================================================//
 

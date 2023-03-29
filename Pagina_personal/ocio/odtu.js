@@ -28,7 +28,8 @@ const fullNumber = number + ':' + lan;
 
 function manager (tag, status) {
     let toChange = document.getElementById(tag);
-    toChange.innerHTML = status;
+    try { toChange.innerHTML = status; }
+    catch { toChange.innerHTML = ''; }
     consoleLogSecure(tag, ';', status)
 }
     

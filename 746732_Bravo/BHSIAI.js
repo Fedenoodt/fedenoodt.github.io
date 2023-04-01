@@ -308,13 +308,14 @@ return imagen
     
 }
 
-function radio () {
+function radio () {https:
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
     <div class="in-flex">
 			<h2>Radio</h2>
 			<ul>
+				<li><a href="//www.youtube.com/watch?v=k_dcEH41OCo" target="_blank">Radio Vale 97.5</a>></li>
 				<li><a href="https://bluefm.com.ar/" target="_blank">Radio Blue 100.7</a>></li>
 				<li><a href="https://fmaspen.com/category/aspen-time/" target="_blank">Radio Aspen 102.3</a>></li>
 				<li><a href="https://www.radiozoe.com.ar/" target="_blank">Radio Zoe 107.1</a>></li>

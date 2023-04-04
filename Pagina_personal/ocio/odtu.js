@@ -16,11 +16,11 @@ const onlineSERV = '<h3 class="online">El servicio está online.</h3>';
 const offlineSERV = '<h3 class="online">El servicio está offline.</h3>';
 
 
-const lan = '50283';
+const lan = '';
 
-const active = '1';
+const active = '0';
 
-const status = closing;
+const status = eating;
 
 const number = '25.58.113.35';
 const IPclosed = 'CERRADA';
@@ -30,8 +30,9 @@ const fullNumber = number + ':' + lan;
 function manager (tag, status) {
     let toChange = document.getElementById(tag);
     try { toChange.innerHTML = status; }
-    catch { consoleWarn('Operacion de servicio de linea fallo.') }
-    consoleLogSecure(tag, ';', status)
+    catch { consoleWarn('Operacion de servicio de linea "manager" fallo.') 
+    consoleLogSecure(tag, 'tag', true)
+    consoleLogSecure(status, 'status', true)}
 }
     
 //manager('server', onlineSERV)

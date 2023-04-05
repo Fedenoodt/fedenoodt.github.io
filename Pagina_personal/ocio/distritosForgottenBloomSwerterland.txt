@@ -9,4 +9,4 @@
 8: Lago Paonda
 9: Huertas meridionales
 10: Región de madereros nacionales
-11: Bosque de eseleotemas
+11: Bosque de espeleotemas

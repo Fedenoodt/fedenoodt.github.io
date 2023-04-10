@@ -155,6 +155,7 @@ const coordenadas = `
                             <li>[2358 63 1987] Base Cero Basti&oacute;n “Shockplace” de Swerterland</li>
                             <li>[770 103 3665] Complejo minero Das Rheingold</li>
                             <li>[2870 79 -2228] Fuerte Militar Cero "Red Clover" de Swerterland</li>
+                            <li>[2478 59 2089] Complejo militar "Agannor"</li>
                         </ul></h3>
                     </div>
                     

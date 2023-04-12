@@ -11,3 +11,6 @@
 10: Región de madereros nacionales
 11: Bosque de espeleotemas
 12: Pasadizo Torvel
+13: Entrada al comnplejo Torvel
+14: Torvel Norte
+15: Torvel Sur

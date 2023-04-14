@@ -16,11 +16,11 @@ const onlineSERV = '<h3 class="online">El servicio está online.</h3>';
 const offlineSERV = '<h3 class="online">El servicio está offline.</h3>';
 
 
-const lan = '60669';
+const lan = '';
 
-const active = '1';
+const active = '0';
 
-const status = sleepAFK;
+const status = online;
 
 const number = '25.58.113.35';
 const IPclosed = 'CERRADA';

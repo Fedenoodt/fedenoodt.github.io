@@ -114,6 +114,7 @@ let cabezal = `
             <a href = "" onclick = pendiente(conversor(${baseID}))><img class="Emblema" src="https://fedenoodt.github.io/746732_Bravo/Emblema.png"></a>
             <div class = "atajos">
                 <a href = "" onclick = pendiente(conversor(${relojID}))><div><h2 id = "hora"></h2></div></a>
+                <a class = "imgAtajos" href="https://github.com/Fedenoodt/serviciosWindows" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/clock.png"></a>
                 <a class = "imgAtajos" href="https://github.com/Fedenoodt/I-Black-Hawk-Security-Informatics-Anonymous-Incorporation" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/Shield-PNG-Photos.png"></a>
                 <a class = "imgAtajos" href="https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/768px-Settings_(iOS).png"></a>
                 <script src = "hora.js"></script>

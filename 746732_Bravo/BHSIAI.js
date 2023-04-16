@@ -221,6 +221,7 @@ function tools () {
 		<li><a href="https://www.onlinemictest.com/es/prueba-de-mouse/" target="_blank">Probador de entradas para mouse</a>></li>
 		<li><a href="https://www.onlinemictest.com/es/prueba-de-teclado/" target="_blank">Probador de entradas para teclado</a>></li>
 		<li><a href="about:blank" target="_blank">P&aacutegina en blanco</a>></li>
+		<li><a href="https://www.doesthedogdie.com/" target="_blank">Does the dog die?</a>></li>
 		<li><a href="https://carto.maps.arcgis.com/apps/CEWebViewer/viewer.html?3dWebScene=e87eb53174ab4ba09026e90e1d7c6557" target="_blank">Galaxia Star Wars</a>></li>
 		<li><a href="https://imagen.online-convert.com/es/convertir-a-png" target="_blank">Imagen PNG transparente</a>></li>
 		<li><a href="https://www.site24x7.com/es/tools/selector-de-codigo-color.html" target="_blank">Detector RGB de imagen</a>></li>

@@ -20,7 +20,7 @@ const lan = '63657';
 
 const active = '1';
 
-const status = eating;
+const status = sleepAFK;
 
 const number = '25.58.113.35';
 const IPclosed = 'CERRADA';

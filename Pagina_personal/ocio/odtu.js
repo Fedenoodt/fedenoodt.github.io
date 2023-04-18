@@ -274,9 +274,9 @@ const metroCuadrado = `
         ♦ Sol de 1ra exploración finalizada: 49 <br />  
         ♦ Analisis completos: 1 <br />   
         ♦ Biomas especiales: 0</h5></li></div>
-    <div><li><h5>-X2Z1: Llanura nevada, Río congelado, Taiga nevada, Colinas de grava azotadas por el viento, Playa nevada, Océano congelado, Templo guardián, Océano frío, Océano, Arboleda, Monumento, Aldea fantasma, Bosque florido, Orilla pedregosa, Taiga de crecimiento de abeto viejo, Playa pedregosa, 3 Aldeas, Picos de hielo, Océano congelado profundo, Playa, Portal náufrago.<br />  
+    <div><li><h5>-X2Z1: Llanura nevada, Río congelado, Taiga nevada, Colinas de grava azotadas por el viento, Playa nevada, Océano congelado, Templo guardián, Océano frío, Océano, Arboleda, Monumento, Aldea fantasma, Bosque florido, Orilla pedregosa, Taiga de crecimiento de abeto viejo, Playa pedregosa, 3 Aldeas, Picos de hielo, Océano congelado profundo, Playa, Portal náufrago, Laderas nevadas.<br />  
         ♦ Sol de 1ra exploración finalizada: 58 <br />   
-        ♦ Analisis completos: 1 <br />   
+        ♦ Analisis completos: 2 <br />   
         ♦ Biomas especiales: 0</h5></li></div>
     <div><li><h5>X2-Z1: Taiga, Ríos, Bosque, Océano frío, Naufragio, Océano frío profundo, Portal náufrago, Templo Guardián, CAMPOS DE SETAS, Playa pedregosa, Llanuras Bosque florido, Prado, Bosque de abedules, Jungla, Jungla esparcida, Playa, Océano tibio, Monumento, Océano tibio profundo, Geoda oceanica, Océano profundo, Océano, Bosque oscuro, Zona pedregosa, Antiguo bosque de abedules. <br />  
         ♦ Sol de 1ra exploración finalizada: 66 <br />  

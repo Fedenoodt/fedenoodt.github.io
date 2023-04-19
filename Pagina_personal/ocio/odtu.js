@@ -134,7 +134,7 @@ const coordenadas = `
                     <h3>
                     <hr /><br />
                     Memoria temporal de 5 coordenadas:
-                    <br /> : 
+                    <br /> [ -4171 165 172 ] Posición marcada de las cabras.
                     <br /> : 
                     <br /> : 
                     <br /> : 

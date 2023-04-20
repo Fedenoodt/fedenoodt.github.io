@@ -406,6 +406,7 @@ function youtube () {
 				<li><a href="https://www.youtube.com/channel/UCSJXasOBzUlztNbpkRDA53w" target="_blank">La Sombra del Imperio</a>></li>
 				<li><a href="https://www.youtube.com/channel/UCFR2oaNj02WnXkOgLH0iqOA" target="_blank">Auron</a>></li>
 				<li><a href="https://www.youtube.com/channel/UCaY_-ksFSQtTGk0y1HA_3YQ" target="_blank">Ibai Llanos</a>></li>
+				<li><a href="https://www.youtube.com/@TheWildProject" target="_blank">The Wild Project</a>></li>
 				<li><a href="https://www.youtube.com/user/AuronPlay" target="_blank">AuronPlay</a>></li>
 				<li><a href="https://www.youtube.com/user/SoyFarfadox" target="_blank">Farfadox</a></li>
 				<li><a href="https://www.youtube.com/c/RaiCanGTA" target="_blank">Rai Can</a>></li>

@@ -20,7 +20,7 @@ const lan = '58841';
 
 const active = '1';
 
-const status = '<h1 class="warning">ADVERTENCIA: El servidor está de luto.</h1>';
+const status = sleepAFK;
 
 const number = '25.58.113.35';
 const IPclosed = 'CERRADA';

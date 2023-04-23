@@ -143,10 +143,7 @@ function base () {
 	<div class="in-flex">
 		<h2>Accesos de emergencia</h2>
 		<ul>
-		    <li><a href="https://github.com/Fedenoodt/CH---JavaScript/edit/main/Notas.txt" target="_blank">¡Write now! - CoderHouse</a></li>
-		    <li><a href="https://coderhouse.zoom.us/j/98016948428?pwd=cW9HdVBHZy9HOTRsTll4UkNBSkZrQT09&prefer=1&un=RmVkZXJpY28gTm9vZHQgTW9saW5z#success" target="_blank">Clases - CoderHouse</a></li>
-		    <li><a href="https://github.com/Fedenoodt/JavaScript/edit/main/Notas.txt#new_blob.js-blob-form" target="_blank">¡Write now! - JavaScript</a></li>
-		    <li><a href="https://github.com/Fedenoodt/CH---JavaScript" target="_blank">GitHub - JavaScript - CoderHouse</a></li>
+		    <li><a href="https://sigead.utnba.centrodeelearning.com//personas/panel" target="_blank">UTN - Aula Virtual</a></li>
 		    <li><a href="https://github.com/Fedenoodt/JavaScript/tree/main" target="_blank">GitHub - JavaScript</a></li>
 		    <li><a href="https://fedenoodt.github.io/Pagina_personal/javascript-es.7.pdf" target="_blank">Manual-Informatica.com - JavaScript</a></li>
 		    <li><a href="https://www.youtube.com/watch?v=z95mZVUcJ-E&t=2756s" target="_blank">Soy Dalto - JavaScript</a></li>

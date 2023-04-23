@@ -144,6 +144,7 @@ function base () {
 		<h2>Accesos de emergencia</h2>
 		<ul>
 		    <li><a href="https://sigead.utnba.centrodeelearning.com//personas/panel" target="_blank">UTN - Aula Virtual</a></li>
+		    <li><a href="https://cursos.utnba.centrodeelearning.com/?redirect=0" target="_blank">UTN - Centro de e-learning</a></li>
 		    <li><a href="https://github.com/Fedenoodt/JavaScript/tree/main" target="_blank">GitHub - JavaScript</a></li>
 		    <li><a href="https://fedenoodt.github.io/Pagina_personal/javascript-es.7.pdf" target="_blank">Manual-Informatica.com - JavaScript</a></li>
 		    <li><a href="https://www.youtube.com/watch?v=z95mZVUcJ-E&t=2756s" target="_blank">Soy Dalto - JavaScript</a></li>

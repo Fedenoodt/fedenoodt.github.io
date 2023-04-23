@@ -157,6 +157,8 @@ function base () {
 		    <li class="listaHorizontal"><a href="https://drive.google.com/drive/u/1/my-drive" target="_blank">Drive</a></li>
 		    <li class="listaHorizontal"><a href="https://app.diagrams.net/" target="_blank">Diagramas</a></li>
 		    <li class="listaHorizontal"><a href="https://classroom.google.com/u/1/h" target="_blank">Classroom</a></li>
+		    <li class="listaHorizontal"><a href="https://fedenoodt.github.io/Pagina_personal/Horario_de_Rutina.pdf" target="_blank">Horario</a></li>
+		    <li class="listaHorizontal"><a href="https://fedenoodt.github.io/Pagina_personal/Esquema_Anual.png" target="_blank">Esquema Anual</a></li>
 		    <li class="listaHorizontal"><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
 		    <li class="listaHorizontal"><a href="https://calendar.google.com/calendar/u/1/r?tab=oc" target="_blank">Calendario</a></li>
 		    <li class="listaHorizontal"><a href = "" onclick = pendiente(conversor(${toolsID}))>M&aacutes herramientas...</a></li>

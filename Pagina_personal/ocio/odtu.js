@@ -8,6 +8,7 @@ const openingSoon = '<h1 class="sleeping"> ►► Atención. El servidor abrirá
 const bussyBack = '<h1 class="bussy"> ▬ fedenoodt está ocupado haciendo cosas en otro lado, pero va a volver... ▬</h1>';
 const online = '<h3 class="online">fedenoodt está en línea.</h3>';
 const eating = '<h3 class="online">fedenoodt está en un comedor.</h3>';
+const mission = '<h3 class="online">fedenoodt está en una misión.</h3>';
 
 const inactiveSERV = '<h3>INACTIVA</h3>';
 const closingSERV = '<h1 class="warning">ADVERTENCIA: El servidor cerrará pronto.</h1>';
@@ -20,7 +21,7 @@ const lan = '62715';
 
 const active = '1';
 
-const status = online;
+const status = mission;
 
 const number = '25.58.113.35';
 const IPclosed = 'CERRADA';

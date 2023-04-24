@@ -17,7 +17,7 @@ const onlineSERV = '<h3 class="online">El servicio está online.</h3>';
 const offlineSERV = '<h3 class="online">El servicio está offline.</h3>';
 
 
-const lan = '62715';
+const lan = '';
 
 const active = '0';
 
@@ -47,6 +47,7 @@ const index = `
                         <h3 id = "ip"></h3><br /><br />
                         <br /><hr /><br />
 
+                        <div><h2 class="online">Horarios del servidor: Lunes, y Miércoles a Sábado de 18hs a 00hs. Martes de 20hs a 00hs. Domingo todo el día.</h2></div>
                         <div id = 'lobby'></div>
                         <br /><hr /><br />
                         <br /><hr /><br />

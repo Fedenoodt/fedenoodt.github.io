@@ -21,7 +21,7 @@ const lan = '62715';
 
 const active = '1';
 
-const status = mission;
+const status = online;
 
 const number = '25.58.113.35';
 const IPclosed = 'CERRADA';

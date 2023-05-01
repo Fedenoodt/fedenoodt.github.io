@@ -125,7 +125,7 @@ let cabezal = `
             <h1>Black Hawk Security Informatics Anonymous Incorporation</h1>
             <hr />		
                 <ul>
-				<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "good">Receso de urgencia: 0/3 [  ]</p></a></div></li>
+				<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "good">Receso de urgencia: 0/1 [  ]</p></a></div></li>
 				<li class="listaHorizontal"><div><a href="https://github.com/Fedenoodt/ProyectoRayonnage" target="_blank"><p class = "good">Hacer las 20 herramientas del Proyecto Rayonnage: 5/20 </p></a></div></li>
 				<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html" target="_blank"><p class = "good">Estar listo para ir con Marcelo Bivort por Engranaje Embarrado los Martes a las 18hs. </p></a></div></li>
 				

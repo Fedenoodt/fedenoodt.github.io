@@ -136,7 +136,7 @@ let cabezal = `
     <hr />
     <hr />`;
 
-function base () {https://plataforma.ha.dev/enrollments
+function base () {
 	let cuerpo = document.createElement("div");
 	const imagen = `
 	${cabezal}

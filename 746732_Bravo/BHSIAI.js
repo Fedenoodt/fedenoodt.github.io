@@ -136,13 +136,14 @@ let cabezal = `
     <hr />
     <hr />`;
 
-function base () {
+function base () {https://plataforma.ha.dev/enrollments
 	let cuerpo = document.createElement("div");
 	const imagen = `
 	${cabezal}
 	<div class="in-flex">
 		<h2>Accesos de emergencia</h2>
 		<ul>
+		    <li><a href="https://plataforma.ha.dev/enrollments" target="_blank">Hack Academy</a></li>
 		    <li><a href="https://sigead.utnba.centrodeelearning.com//personas/panel" target="_blank">UTN - Aula Virtual</a></li>
 		    <li><a href="https://sigead.utnba.centrodeelearning.com/personas/login?_ga=2.874865.1392633345.1682424632-1633051418.1682105121&_gl=1*aat5ey*_ga*MTYzMzA1MTQxOC4xNjgyMTA1MTIx*_ga_SWYYXNHY2W*MTY4MjQyNDYzMi4zLjAuMTY4MjQyNDYzMi4wLjAuMA.." target="_blank">UTN - Centro de e-learning</a></li>
 		    <li><a href="https://github.com/Fedenoodt/JavaScript/tree/main" target="_blank">GitHub - JavaScript</a></li>

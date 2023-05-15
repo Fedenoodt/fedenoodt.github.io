@@ -320,6 +320,8 @@ function radio () {
     <div class="in-flex">
 			<h2>Radio</h2>
 			<ul>
+				<li><a href="https://www.bitbox.fm/" target="_blank">Radio Bitbox 93.3</a>></li>
+				<li><a href="https://www.metro951.com/vivo/" target="_blank">Radio Metro 95.1</a>></li>
 				<li><a href="https://www.youtube.com/watch?v=k_dcEH41OCo" target="_blank">Radio Vale 97.5</a>></li>
 				<li><a href="https://bluefm.com.ar/" target="_blank">Radio Blue 100.7</a>></li>
 				<li><a href="https://fmaspen.com/category/aspen-time/" target="_blank">Radio Aspen 102.3</a>></li>

@@ -17,3 +17,28 @@ Title le da titulo a la web.
 
 Body arma a la pàgina de contenido.
 la etiqueta em (emfatizer) construye a un elemento en cursiva. Mientras que strong genera un texto en negrita.
+
+~Primer módulo de HTML aprobado a 80%~
+
+    - Día #2: 16-05-2022_Martes:
+Una "Ruta de archivo" describe la ubicación de un archivo en una estructura web.
+Hay dos tipos de rutas: absolutas o relativas. La absoluta demanda la ubicacion exacta desde el disco duro de ese archivo, o también de internet con su https.
+Las relativas solo necesitan la informaciòn escencial, nombre, o subcarpeta donde está ubicado.
+los atributos de src, y alt son escenciales para una etiqueta img, de imagen.
+alt es importante que estè bien descrito siempre.
+Es importante que las imagenes que rastrea un documento HTML, siempre esten en el directorio de la web, dado que es donde menos probablilidad de que se muevan, o corrupciòn, hay.
+
+Una cosa no menos relevante, es destacar las extenciones de Visual Studio Code que recomienda Javier de HackAcademy.
+ - Live server para levantar host web en línea.
+ - Prettier, para formatear los tabulados del código de manera cómoda.
+ - Path Intelisense para agregar el punto a la dirección actual de directorio.
+ - CTRL + k + t para acceder a estilos de VS Code.
+ - Material Theme icons, y VSCode Great Icons para personalización.
+
+La etiqueta A saignifica ancla. Existen tres enlaces, externos, internos, y locales.
+Los externos son los enlaces que no estan en el entorno de la web, y los locales, lo adverso, a una pàgina de dentro del entormo.
+Y los internos son los enlaces que se manejan dentro de esta misma web.
+
+La etiqueta IFRAME se utiliza para agregar contenido HTML externo a nuestra web.
+
+~Segundo módulo de HTML aprobado a 100%~

@@ -1,0 +1,19 @@
+    - Dìa #1: 15-05-2023_Lunes:
+
+Una cosa importante a tener presente a los conocimientos de HTML que ya sabès, es que HTML es un lenguaje hecho de atributos y etiquetas.
+Me gusta como Hack Academy define a un lenguaje: "Un lenguaje es un conjunto de sìmbolos y còdigos usados en el desarrollo de estructuras 
+que componen  un todo dentro de una aplicaciòn. (En otras palabras, es la manera en la que podemos indicarle a la màquina todo aquello que queremos generar)".
+
+Las etiquetas HTML son una pequeña porciòn de còdigo que generan elementos visuales, que se abren "<", y se cierran ">".
+Estas tienen distontas clases: estructurales, texto, multimedia, semànticas, formularios, y màs.
+
+Las etiquetas estructurales son escenciales en un documento HTML.
+!DOCTYPE (Document declaration type) declara el tipo de lenguaje, que se està implementando en el documento.
+
+La etiqueta HTML identifica que todo lo que contiene, es de lenguaje o documento html.
+Head es la pieza importante deñ documento, que configuran al documento.
+Meta se cierra sola, configura ciertos fundamentos del archivo.
+Title le da titulo a la web.
+
+Body arma a la pàgina de contenido.
+la etiqueta em (emfatizer) construye a un elemento en cursiva. Mientras que strong genera un texto en negrita.

@@ -1,0 +1,28 @@
+* {
+    color: white;
+    text-align: center;
+    font-size: 130%;
+}
+
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size:50%;
+}
+
+#hora {
+    margin: 1%;
+}
+
+.rejoj {
+    position: absolute; 
+    width: 100px; 
+    background-color: rgba(0, 52, 163, 0.555);
+}
+.reproducciom {
+    background-color: black;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}

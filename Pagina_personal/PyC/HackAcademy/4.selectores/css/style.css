@@ -1,0 +1,17 @@
+body {
+    background-color: #9bbddd;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    color: blue;
+    font-size: 2rem;
+}
+
+.remember {
+    color: rgb(70, 70, 255);
+    font-style: italic;
+}

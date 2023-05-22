@@ -42,3 +42,32 @@ Y los internos son los enlaces que se manejan dentro de esta misma web.
 La etiqueta IFRAME se utiliza para agregar contenido HTML externo a nuestra web.
 
 ~Segundo módulo de HTML aprobado a 100%~
+
+    - Dìa #3: 22-05-2023_Lunes:
+
+Un concepto importante a tener en cuenta de CSS, es que cuando identificamos la "cosa" a cambiar de estilos, mediante llaves, a 
+ese conjunto de tèrminos se lo llama selector.
+
+El atributo para conectar la hoja de estilo, con la web "rel="stylesheet"" indica que es una relacion entre hojas de archivo.
+HREF define rutas, y en este caso, el camino a la ruta de la hoja de estilo.
+
+Los selectores tienen distintos tipos:
+
+Los de elemento seleccionan al "elemento" de la pàgina en cuestión. 
+El selector de clase, asigna estilos a varios tipos de elementos. Estos van en grupos, y es clave que la asignación de los mismos tenga lógica, y en ingles.
+Si seleccionas un tipo de elemento para aplicar una clase, especificandola, y usando ".clase", vas a usar esa clase, en esos elementos en especifico.
+El de id, selecciona a un ùnico elemento en concreto. La misma condiciòn de esppecificar estilos de una clase, para un elemento, funcionan con las id, pero ambas no son 
+recomendables.
+Y el de pseudo-clase, son selectores sobre selectores. Estos se aplican, generando cambios sobre selectores pre existentes. (Usan dos puntos, y les da un estado). La clase link no fue visitada, visited, es para marcar los sitios ya visitados, hover para marcar donde està parado el mouse, active, que le hiciste clic, y focus cuando uso las teclas para moverme por la página. Y solo hovver se puede usar en elementos que no son enlaces.
+En la jerarquìa de clases, la ùltima clase de la misma relevancia, es la que se toma en cuenta. Y respecto a los tipos de selectores, el id pesa más que la clase, y la clase más que el elemento.
+Si yo al mencionar a un elemento con clase, dejo un espacio despued de el nombre, y escribo otra, estas se aplicarían n veces.
+
+font-family guarda una lista de tipografías, las que usen comillas, es porque el nombre de la fuente tiene más de una palabra.
+Javier recomienda usar la tipografía escalable del tipo REM. Esta evalua el tamaño de la letra web, de los textos, y los compara a un rem como 16px.
+line-height maneja al interlineado del texto.
+Font weight: normal/bold maneja los tonos de negrita de los textos.
+text-allign alinea el texto a left-center-right-justify.
+text-decoration underline/line-through/none subraya el texto.
+
+~Tercer módulo de HTML aprobado a 100%~
+

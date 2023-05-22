@@ -208,6 +208,7 @@ function tools () {
 	    <h2>Herramientas</h2>
 	    <ul>
 		<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAIObsoletos.html">Accesos directos obsoletos</a>></li>
+		<li><a href="https://www.youtube.com/watch?v=gs_cochwfcY&pp=ygUKcGlwIHNvbmlkbw%3D%3D">Sonido para pruebas</a>></li>
 		<li><a href="https://calendar.google.com/calendar/u/1/r?tab=oc" target="_blank">Calendario</a></li>
 		<li><a href="https://translate.google.com.ar/" target="_blank">Traductor de Google</a>></li>
 		<li><a href="https://classroom.google.com/u/1/h" target="_blank">Classroom</a></li>

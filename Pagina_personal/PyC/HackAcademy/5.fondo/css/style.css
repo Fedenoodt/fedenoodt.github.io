@@ -1,0 +1,22 @@
+body {
+    background-color: #9bbddd;
+    background-image: url("../img/geometric-pattern-pack-photoshop-patterns.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    color: blue;
+    font-size: 2rem;
+}
+
+.remember {
+    color: rgb(70, 70, 255);
+    font-style: italic;
+}

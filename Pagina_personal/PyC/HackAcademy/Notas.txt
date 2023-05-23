@@ -71,3 +71,17 @@ text-decoration underline/line-through/none subraya el texto.
 
 ~Tercer módulo de HTML aprobado a 100%~
 
+    - Día #4: 13-05-2023_Martes:
+
+Para establecer un color de fondo sobre algún elemento, existen cuatro maneras. Mediante una palabra definida por CSS, mediante un numero establecido rgb (0 a 255), RGB hexadecimal, una notación RGB abrebiada en hexadecimal, o HSL, que regula la matiz de color, satuaracion, y brillo.
+Importante usar background-image SOLO en CSS.
+background-...
+repeat se encarga de definir de como se repite la imagen de fondo.
+attachment: scroll/fixed, nos permite hacer que si/no se desplaze la imagen de fondo.
+size manipula el tamaño de la imagen de fondo. Cover y contains asiste a esta, cover rellena la página, mientras que contain rellena solo en ancho o alto.
+
+También backgroud-psiotion toma la posición de la imagen de fondo, declarando con los ejes X e Y en que parte de la pantalla va a figurar.
+
+~Cuarto módulo de HTML re hecho a causa de un error de concepto en la pregunta, y aprobado a 100%~
+
+Lo que separa a los elementos como los div, los h1 a 6, p, entre otros, a elementos del tipo textos, es que algunos son elementos de bloque, y otros de "en línea". Los elementos bloque, son los que ocupan "protagonicamente", todo el ancho de su contenedor. Mientras que los elementos en línea señalan a los tipos que se mantienen en el ancho que ocupan. El atributo display es capaz de alterarlos.

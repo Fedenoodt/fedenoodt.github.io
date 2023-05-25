@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+}
+
+.big-container {
+    background-color: red;
+}
+
+.centering {
+    align-items: center;
+}
+
+.container-one {
+    background-color: yellow;
+    height: 100px;
+    width: 80%;
+}
+
+.container-two {
+    background-color: green;
+    height: 50px;
+    width: 80%;
+}
+
+.box-1 {
+    width: 300px;
+    background-color: salmon;
+    margin: 30px;
+    padding: 50px;
+    border: 3px solid green;
+    border-radius: 10px;
+}
+
+.box-2 {
+    width: 50%;
+    height: 60px;
+    background-color: pink;
+}
+
+.box-3 {
+    width: 10%;
+    height: 60px;
+    background-color: salmon;
+}
+span {
+    background-color: red;
+    width: 4%;
+    height: 50px;
+    display: inline-block;
+}

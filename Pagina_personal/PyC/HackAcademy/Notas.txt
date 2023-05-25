@@ -80,8 +80,28 @@ repeat se encarga de definir de como se repite la imagen de fondo.
 attachment: scroll/fixed, nos permite hacer que si/no se desplaze la imagen de fondo.
 size manipula el tamaño de la imagen de fondo. Cover y contains asiste a esta, cover rellena la página, mientras que contain rellena solo en ancho o alto.
 
-También backgroud-psiotion toma la posición de la imagen de fondo, declarando con los ejes X e Y en que parte de la pantalla va a figurar.
+También backgroud-position toma la posición de la imagen de fondo, declarando con los ejes X e Y en que parte de la pantalla va a figurar.
+
+    - Dìa #5: 24-05-2023_Martes
 
 ~Cuarto módulo de HTML re hecho a causa de un error de concepto en la pregunta, y aprobado a 100%~
 
 Lo que separa a los elementos como los div, los h1 a 6, p, entre otros, a elementos del tipo textos, es que algunos son elementos de bloque, y otros de "en línea". Los elementos bloque, son los que ocupan "protagonicamente", todo el ancho de su contenedor. Mientras que los elementos en línea señalan a los tipos que se mantienen en el ancho que ocupan. El atributo display es capaz de alterarlos.
+
+    - Dìa #6: 25-05-2023_Miercoles:
+Width solo se aplica a elementos block. Con display se pueden meter en elementos inline.
+
+No es recomendado declarar un height a nada. Los tamaños de pantalla cambian, y las webs tambien.
+Div significa divisor.
+
+El box model (modelo de caja), es la dinámica que mueve a todos los elementos css.
+Este consiste en cuatro elementos: Contnent, Padding, Border, y Margin. Estas modifican la forma de la caja.
+
+~Quinto módulo de HTML aprobado a 88%~
+
+Para usar position, tenemos que definir las coordenadas del elemento para que funcione. 
+Fixed lo posiciona fijo e esa posición, aún con un scroll.
+Static es lo mismo que nosotros vemos con la dinámica estándar.
+Relative, se modifica con una posición relativa a la original.
+Absolute es un elemento con una posición bruta, que para los demas elementos del documento "no existe".
+Y solo si el elemento que lo contiene, posee position Relative puede concervar dicho atributo.

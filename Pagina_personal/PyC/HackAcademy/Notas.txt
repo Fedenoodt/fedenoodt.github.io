@@ -105,3 +105,15 @@ Static es lo mismo que nosotros vemos con la dinámica estándar.
 Relative, se modifica con una posición relativa a la original.
 Absolute es un elemento con una posición bruta, que para los demas elementos del documento "no existe".
 Y solo si el elemento que lo contiene, posee position Relative puede concervar dicho atributo.
+
+    - Día #7: 27-05-2023_Sábado:
+
+Sidebar, es el "costado" de main, la caja principal.
+Allign 1, 2, o 3 separa a los contenedores en tercios.
+Flexbox es simplemente una forma de crear cajas dinámicas para la maquitación del sitio web.
+Con flex-direction determinamos si la divisiòn se realiza en filas o columnas (row/column).
+Allign-items alinea los items a un item en concreto.
+justify-contnent alinea a los elementos en la página.
+
+~Sexto módulo de HTML aprobado a 75%~
+

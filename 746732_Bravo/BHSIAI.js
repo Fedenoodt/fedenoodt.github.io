@@ -472,6 +472,7 @@ function juegos () {
 		<h2>Juegos</h2>
 			<ul>
 				<li><a href = "" onclick = pendiente(conversor(${minecraftID}))>Minecraft (Webs de informaci&oacute;n)</a>></li>
+				<li><a href="https://flexboxfroggy.com/#es" target="_blank">FLEXBOX FROGGY</a>></li>
 				<li><a href="https://agar.io" target="_blank">Agar.io</a>></li>
 				<li><a href="https://www.geoguessr.com/trips" target="_blank">GeoGuessr</a>></li>
 				<li><a href="https://geotastic.net/home" target="_blank">Geotastic (Geoguessr gratuito recomendado de PolIsPol)</a>></li>

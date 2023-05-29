@@ -1,0 +1,33 @@
+.place1 {
+    display: flex;
+    flex: 1;
+}
+
+.place2 {
+    display: flex;
+    flex: 2;
+}
+
+.place3 {
+    display: flex;
+    flex: 3;
+}
+
+.void {
+    height: 80px;
+}
+
+.thing {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    padding: 1%;
+    align-items: center;
+    align-self: center;
+    border-radius: 1.6%;
+    background-color: black;
+    color: rgb(170, 215, 255);
+}
+.inline {
+    display: inline-block;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="inline">
+        <div class="place1"><div class="void"></div></div>
+        <div class="place2">
+            <form action="https://formspree.io/f/moqzzbqw" method="post">
+                <div class="thing">
+                    <label for="username">Nombre completo:</label>
+                    <input type="text" name="username" id="username" placeholder="Escribe tu nombre" required>
+                </div>
+                <div class="thing">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" name="email" id="email" placeholder="user@email.com" required>
+                </div>
+                <div class="thing">
+                    <label for="pais">Elegí un país</label>
+                    <select name="pais" id="pais" required>
+                        <option value="ar">Argentina</option>
+                        <option value="uy">Uruguay</option>
+                        <option value="br">Brasil</option>
+                        <option value="co">Colombia</option>
+                    </select>
+                </div>
+                <div class="thing">
+                    <p>¿Sábes HTML?</p>
+                    <input type="radio" value="S" name="sabes-html1" required>
+                    <label for="sabes-html1">Si</label>
+                    <input type="radio" value="N" name="sabes-html2" required>
+                    <label for="sabes-html2">No</label>
+                </div>
+                <div class="thing">
+                    <label for="comentarios">Tus comentarios:</label>
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+                </div>
+                <div class="thing">    
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+        <div class="place3"><div class="void"></div></div>
+    </div>
+</body>
+</html>

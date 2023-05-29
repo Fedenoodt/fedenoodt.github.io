@@ -117,3 +117,23 @@ justify-contnent alinea a los elementos en la página.
 
 ~Sexto módulo de HTML aprobado a 75%~
 
+    - Día #8: 29-05-2023_Lunes:
+
+Un formulario es lo que se usa para soliitar información al usuario.
+Dos cosas impòrtantes. El atributo method, y action.
+Action define quién procesa los datos, y method el método o protocolo para enviar los datos.
+POST es un metodo para enviar información sensible.
+formspree se puede usar para recibir correos cuando no sabes de backend.
+
+input es la etiqueta que ingresa los datos a el formulario. atributo type define el tipo, y name, su nombre. El placeHolder informa en texto al usuario de que se trata la casilla.
+El id del input se relacione con for de la etiqueta Label (etiqueta descriptiva externa) para que cuando se hace clic en este, salte a la casilla.
+
+Dos etiquetas a ver. Select, y textarea.
+
+Select necesita la etiqueta option para dar una lista desplegable. Da una lista de opciones a elegir.
+Textarea, por lo tanto, devuelve una casilla para dar comentarios, el atributo rows devuelve la cantidad de renglones a ofrecer.
+Radio Button da la oportunidad de elegir un valor booleano. Usa el atributo value "S/N" para esta, y se identifica como tipo (type) "radio".
+CheckBox es parecido a radio buttom, solo que se pueden seleccionar más de una opcion. Estos se identifican con "checkbox".
+
+~Séptimo módulo de HTML aprobado a 75%~
+

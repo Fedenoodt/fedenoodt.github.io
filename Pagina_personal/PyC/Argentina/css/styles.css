@@ -132,11 +132,11 @@ body {
     }
 
     .space {
-        margin-top: 23%;
+        margin-top: 11%;
         margin-left: 0%;
         margin-right: 0%;
         height: 33.33%;
-        margin-bottom: 23%;
+        margin-bottom: 11%;
     }
 
     .cloud {
@@ -145,7 +145,7 @@ body {
         justify-content: center;
     }
     .sun {
-        width: 30%;
+        width: 20%;
     }
 }
 @media (max-width: 0px) {

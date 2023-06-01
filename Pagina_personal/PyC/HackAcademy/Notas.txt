@@ -137,3 +137,28 @@ CheckBox es parecido a radio buttom, solo que se pueden seleccionar más de una 
 
 ~Séptimo módulo de HTML aprobado a 75%~
 
+    - Día #9: 30-05-2023_Martes:
+
+Mobile first busca que uno forme primero la web para un dispositivo movil.
+Lo mejor siempre es darle uso práctico a esto, dado que así uno puede evitar adecuar una web de escritorio en un celular.
+De hecho, en este sentido es mas fácil llegar a todos los dispositivos. Dato noo muy menor, es conveniente mostrar el contenido multimedia
+ justo, ya que la mayor parte deñ tiempo, se consulta la web de forma satelital.
+Meta es una etiqueta, su nombre viewport es donde carga el contenido en la web, mientras que contnent indica como quiere que se adapte 
+la web al dispositivo.
+
+    -Día #10: 31-05-2023_Miércoles:
+
+~Octavo módulo de HTML aprobado a 83%~
+
+Bootstrap es el framework utilitario para cubrir una hoja css.
+
+getbootstrap.com es la red donde se consigue cualquier bootstrap.
+<link href:"dirección del bootstrap" rel="stylesheet" integrity= "na dirección larga que usa bootstrap para saber que usamos uno." crossorigin = "Otro atributo que usa 
+bootstrap"> es lo que pegaríamos para usar una hoja de estilos en línea, esto si no la descargamos.
+
+    -Día #11: 01-06-2023_Jueves:
+
+Bootstrap cuenta con el sstema de grid. Este básicamente hace que dentro de si, haya medidas que respeten una convención, para facilitar la utilización.
+
+~Noveno módulo de HTML aprobado a 83%~
+

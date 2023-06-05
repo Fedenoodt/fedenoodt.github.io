@@ -162,3 +162,7 @@ Bootstrap cuenta con el sstema de grid. Este básicamente hace que dentro de si,
 
 ~Noveno módulo de HTML aprobado a 83%~
 
+    -Día #12: 05-06-2023_Lunes:
+
+El profesor aconseja usar un width del 90% o alrededores para que la web no se vea pegada a los marcos del body. Y no te olvides que margin: auto es para centrar el contenido del 
+que estemos hablando.

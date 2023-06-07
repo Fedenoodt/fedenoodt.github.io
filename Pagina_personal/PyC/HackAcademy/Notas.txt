@@ -166,3 +166,16 @@ Bootstrap cuenta con el sstema de grid. Este básicamente hace que dentro de si,
 
 El profesor aconseja usar un width del 90% o alrededores para que la web no se vea pegada a los marcos del body. Y no te olvides que margin: auto es para centrar el contenido del 
 que estemos hablando.
+
+
+    -Dìa #13: 07-06-2023_Miercoles:
+
+Según profesor, la programación es crear un conjunto de instrucciones que serán ejecutadas por una computadora.
+
+Javascript es un lenguaje de programación compilado, que se implementa en las páginas web. Este da dinamismo a las páginas.
+
+Algo importante a tener presente en las variables, conociendo mi estado actual, es recordar que typeof se utiliza para reconocer al tipo de variable que se esta mencionando.
+El profesor recomienda vincular un archivo javascript en html al final del cuerpo, dado que así queda totalmente abstraido de las funciones HTML. Esto porque si no se ejecuta el código JS antes que el resto del body.
+
+~Noveno módulo de HTML aprobado a 100%~
+

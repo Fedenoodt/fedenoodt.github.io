@@ -177,5 +177,10 @@ Javascript es un lenguaje de programación compilado, que se implementa en las p
 Algo importante a tener presente en las variables, conociendo mi estado actual, es recordar que typeof se utiliza para reconocer al tipo de variable que se esta mencionando.
 El profesor recomienda vincular un archivo javascript en html al final del cuerpo, dado que así queda totalmente abstraido de las funciones HTML. Esto porque si no se ejecuta el código JS antes que el resto del body.
 
-~Noveno módulo de HTML aprobado a 100%~
+~Noveno módulo de JavasCript aprobado a 100%~
 
+    -Día #14: 08-06-2023_Jueves:
+
+~Décimo módulo de JavasCript re hecho a causa de un error de concepto en la pregunta, y aprobado a 100%~
+
+Los valores truty o falsy consisten en todos esos valores que no son booleanos, pero los representan.

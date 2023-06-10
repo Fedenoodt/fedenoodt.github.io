@@ -184,3 +184,27 @@ El profesor recomienda vincular un archivo javascript en html al final del cuerp
 ~Décimo módulo de JavasCript re hecho a causa de un error de concepto en la pregunta, y aprobado a 100%~
 
 Los valores truty o falsy consisten en todos esos valores que no son booleanos, pero los representan.
+
+    -Día ·15: 09-06-2023_Viernes:
+
+~Décimo módulo de JavasCript reprobado a 60%~
+~Décimo módulo de JavasCript recuperado a 100%~
+
+Javascript busca tener una representación en HTML cuando se estructura el programa, de eso se encarga el DOM. Este ya está integro en el programa. 
+Y document es lo que muestra dichos cambios. Los nodos son cada una de las partes de esta representación, representada en los objetos js.
+Recordar que Javascript puede alterar estilos CSS. Y no olvidar lo que aprendiste en CoderHouse, que es el querySelectorAll para agarrar todas las etiqutas a buscar. Este devuelve, por ejemplo, una lista de nodos.
+
+    -Día ·16: 10-06-2023_Sábado:
+
+Importante recordar que casi siempre es útil usar el QuerySelector para seleccionar elementos.
+
+~Onceavo módulo de JavasCript aprobado a 100%~
+
+Para hacer uso de styles en javascript, dentro de la convención, es importante el uso correcto de los terminos con guión, con camelCase (por ejemplo: border-style sería borderStyle).
+ClassList manipula a las clases de estilo, las agrega, modifica, elimina, y de más.
+
+.toggle crea una clase inexistente, y si la encuentra, la elimina.
+.contains informa si una clase con n nombre esiste con un valor booleano.
+
+~Doceavo módulo de JavasCript aprobado a 100%~
+

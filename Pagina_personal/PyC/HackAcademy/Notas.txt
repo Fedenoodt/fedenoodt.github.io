@@ -208,3 +208,12 @@ ClassList manipula a las clases de estilo, las agrega, modifica, elimina, y de m
 
 ~Doceavo módulo de JavasCript aprobado a 100%~
 
+    -Día #16: 12-06-2023_Lunes:
+
+La lista es una colección de objetos que guarda a un conjunto de valores en formato de lista.
+
+~Treceavo módulo de JavasCript aprobado a 100%~
+
+~Catorceavo módulo de JavasCript aprobado a 100%~
+
+El evento es cualquier interacción que hace el usuario con la página web.

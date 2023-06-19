@@ -59,6 +59,7 @@ a .good {
 }
 
 .atajos {
+	max-width: 40%;
 	float: right;
 }
 

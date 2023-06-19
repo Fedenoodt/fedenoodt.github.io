@@ -2,80 +2,277 @@
 
 //main()
 
-const crepVespertinos = {'enero' : ['20:39', '20:39', '20:39', '20:39', '20:39', '20:39', '20:39', '20:39', '20:38', '20:38', '20:38', '20:38', '20:38', '20:37', '20:37', '20:37', '20:36', '20:36', '20:35', '20:35', '20:34', '20:34', '20:33', '20:33', '20:32', '20:31', '20:31', '20:30', '20:29', '20:28', '20:28'],
-'febrero' : ['20:27', '20:26', '20:25', '20:24', '20:23', '20:22', '20:21', '20:20', '20:19', '20:18', '20:17', '20:16', '20:15', '20:14', '20:13', '20:12', '20:10', '20:09', '20:08', '20:07', '20:06', '20:04', '20:03', '20:02', '20:01', '19:59', '19:58', '19:57'],
-'marzo' : ['19:55', '19:54', '19:53', '19:51', '19:50', '19:49', '19:47', '19:46', '19:45', '19:43', '19:42', '19:40', '19:39', '19:38', '19:36', '19:35', '19:34', '19:32', '19:31', '19:29', '19:28', '19:27', '19:25', '19:24', '19:22', '19:21', '19:20', '19:18', '19:17', '19:15', '19:14'],
-'abril' : ['19:13', '19:11', '19:10', '19:09', '19:07', '19:06', '19:05', '19:04', '19:02', '19:01', '19:00', '18:58', '18:57', '18:56', '18:55', '18:53', '18:52', '18:51', '18:50', '18:49', '18:48', '18:46', '18:45', '18:44', '18:43', '18:42', '18:41', '18:40', '18:39', '18:38'],
-'mayo' : ['18:37', '18:36', '18:35', '18:34', '18:33', '18:33', '18:32', '18:31', '18:30', '18:29', '18:28', '18:28', '18:27', '18:26', '18:26', '18:25', '18:24', '18:24', '18:23', '18:23', '18:22', '18:22', '18:21', '18:21', '18:20', '18:20', '18:19', '18:19', '18:19', '18:18', '18:18'],
-'junio' : ['18:18', '18:18', '18:17', '18:17', '18:17', '18:17', '18:17', '18:17', '18:17', '18:17', '18:17', '18:17', '18:17', '18:17', '18:17', '18:17', '18:17', '18:17', '18:17', '18:18', '18:18', '18:18', '18:18', '18:19', '18:19', '18:19', '18:19', '18:20', '18:20', '18:21'],
-'julio' : ['18:21', '18:21', '18:22', '18:22', '18:23', '18:23', '18:24', '18:24', '18:25', '18:25', '18:26', '18:26', '18:27', '18:27', '18:28', '18:29', '18:29', '18:30', '18:30', '18:31', '18:32', '18:32', '18:33', '18:34', '18:34', '18:35', '18:35', '18:36', '18:37', '18:37', '18:38'],
-'agosto' : ['18:39', '18:39', '18:40', '18:41', '18:41', '18:42', '18:43', '18:43', '18:44', '18:45', '18:46', '18:46', '18:47', '18:48', '18:48', '18:49', '18:50', '18:50', '18:51', '18:52', '18:52', '18:53', '18:54', '18:54', '18:55', '18:56', '18:56', '18:57', '18:58', '18:58', '18:59'],
-'septiembre' : ['19:00', '19:00', '19:01', '19:02', '19:02', '19:03', '19:04', '19:05', '19:05', '19:06', '19:07', '19:07', '19:08', '19:09', '19:09', '19:10', '19:11', '19:12', '19:12', '19:13', '19:14', '19:14', '19:15', '19:16', '19:17', '19:17', '19:18', '19:19', '19:20', '19:20'],
-'octubre' : ['19:21', '19:22', '19:23', '19:24', '19:24', '19:25', '19:26', '19:27', '19:28', '19:29', '19:29', '19:30', '19:31', '19:32', '19:33', '19:34', '19:35', '19:35', '19:36', '19:37', '19:38', '19:39', '19:40', '19:41', '19:42', '19:43', '19:44', '19:45', '19:46', '19:47', '19:48'],
-'noviembre' : ['19:49', '19:50', '19:51', '19:52', '19:53', '19:54', '19:55', '19:56', '19:57', '19:58', '19:59', '20:00', '20:01', '20:02', '20:04', '20:05', '20:06', '20:07', '20:08', '20:09', '20:10', '20:11', '20:12', '20:13', '20:14', '20:15', '20:16', '20:17', '20:18', '20:19'],
-'diciembre' : ['20:20', '20:21', '20:22', '20:23', '20:24', '20:24', '20:25', '20:26', '20:27', '20:28', '20:29', '20:29', '20:30', '20:31', '20:31', '20:32', '20:33', '20:33', '20:34', '20:34', '20:35', '20:35', '20:36', '20:36', '20:37', '20:37', '20:37', '20:38', '20:38', '20:38', '20:38']};
-
 let meses = [crepVespertinos.enero, crepVespertinos.febrero, crepVespertinos.marzo, crepVespertinos.abril, crepVespertinos.mayo, crepVespertinos.junio, crepVespertinos.julio, crepVespertinos.agosto, crepVespertinos.septiembre, crepVespertinos.octubre, crepVespertinos.noviembre, crepVespertinos.diciembre];
 
 let mes = localStorage.getItem('mes');
 let selecto = meses[mes-1];
 
-const chilliad = '<iframe style = "position:fixed; top:0; left:0; bottom:0; right:0; width: 100%; height: 100%;" width="560" height="315" src="https://www.youtube.com/embed/BJ8Lxd43IgA?autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'.toString();
-const mountainsChumash = '<iframe style = "position:fixed; top:0; left:0; bottom:0; right:0; width: 100%; height: 100%;" width="560" height="315" src="https://www.youtube.com/embed/AqFtwD1nUAc?autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'.toString();
+const chilliad = framer('https://www.youtube.com/embed/BJ8Lxd43IgA');
+const mountainsChumash = framer('https://www.youtube.com/embed/AqFtwD1nUAc');
 
-const imagen = `<iframe style = "position:fixed; top:0; left:0; bottom:0; right:0; width: 100%; height: 100%;" width="560" height="315" src="${localStorage.getItem('driverList')}?autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`.toString();
+const imagen = framer(`${localStorage.getItem('driverList')}`);
 
-function driving () {
-    // "driving" es una función concreta para la lista de paseos de Youtube, para abrir la correcta, en el momento del año que se la convoca.
-    const mesActual = localStorage.getItem('mes');
+
+
+function disyuntor (mes) {
+    // "disyuntor" es una función concreta para la lista de paseos de Youtube, para abrir la correcta, en el momento del año que se la convoca.
+    const mesActual = mes;
     // const mesActual = 8;
-    let lista = '';
+    let tiempos;
+    let lugares;
     if (mesActual == 1 | mesActual == 2) { 
-        localStorage.setItem('driverList', 'https://www.youtube.com/watch?v=iU2wPRJ8RUE&list=PLOJvby8Q_tfGp8QXNce2UAKUuS5DBjSbR&index=1&pp=iAQB?autoplay=1&mute=1&loop=1');
-        
+        const tiempos = retrasos.primera;
+        const lugares = listas.primera;
+        localStorage.setItem('tiempos', JSON.stringify(tiempos))
+        localStorage.setItem('lugares', JSON.stringify(lugares))
+        //console.log(`Lista: ${JSON.stringify(tiempos)}.`)
+        //console.log(JSON.stringify(lugares))
     }
     else if (mesActual == 3 | mesActual == 4) { 
-        localStorage.setItem('driverList', 'https://www.youtube.com/watch?v=iU2wPRJ8RUE&list=PLOJvby8Q_tfEQRUIpoJ7dSyIKed8_abKe&index=1&pp=iAQB?autoplay=1&mute=1&loop=1');
-        
-     }
+        const tiempos = retrasos.segunda;
+        const lugares = listas.segunda;
+        localStorage.setItem('tiempos', JSON.stringify(tiempos))
+        localStorage.setItem('lugares', JSON.stringify(lugares))
+        //console.log(`Lista: ${JSON.stringify(tiempos)}.`)
+        //console.log(JSON.stringify(lugares))
+    }
     else if (mesActual == 5 | mesActual == 6) { 
-        localStorage.setItem('driverList', 'https://www.youtube.com/watch?v=iU2wPRJ8RUE&list=PLOJvby8Q_tfEfzeRD7jhLZ4cVOv9NaJHd&index=1&pp=iAQB?autoplay=1&mute=1&loop=1');
-        
-     }
+        const tiempos = retrasos.tercera;
+        const lugares = listas.tercera;
+        localStorage.setItem('tiempos', JSON.stringify(tiempos))
+        localStorage.setItem('lugares', JSON.stringify(lugares))
+        //console.log(`Lista: ${JSON.stringify(tiempos)}.`)
+        //console.log(JSON.stringify(lugares))
+    }
     else if (mesActual == 7 | mesActual == 8) { 
-        localStorage.setItem('driverList', 'https://www.youtube.com/watch?v=iU2wPRJ8RUE&list=PLOJvby8Q_tfEvtLSuftj_-HGbm3s1sf9v&index=1&pp=iAQB?autoplay=1&mute=1&loop=1');
-        
-     }
+        const tiempos = retrasos.cuarta;
+        const lugares = listas.cuarta;
+        localStorage.setItem('tiempos', JSON.stringify(tiempos))
+        localStorage.setItem('lugares', JSON.stringify(lugares))
+        //console.log(`Lista: ${JSON.stringify(tiempos)}.`)
+        //console.log(JSON.stringify(lugares))
+    }
     else if (mesActual == 9 | mesActual == 10) { 
-        localStorage.setItem('driverList', 'https://www.youtube.com/watch?v=iU2wPRJ8RUE&list=PLOJvby8Q_tfHnP5MiUWhW-6cCS4iu8iZX&index=1&pp=iAQB?autoplay=1&mute=1&loop=1');
-        
-     }
+        const tiempos = retrasos.quinta;
+        const lugares = listas.quinta;
+        localStorage.setItem('tiempos', JSON.stringify(tiempos))
+        localStorage.setItem('lugares', JSON.stringify(lugares))
+        //console.log(`Lista: ${JSON.stringify(tiempos)}.`)
+        //console.log(JSON.stringify(lugares))
+    }
     else if (mesActual == 11 | mesActual == 12) { 
-        localStorage.setItem('driverList', 'https://www.youtube.com/watch?v=iU2wPRJ8RUE&list=PLOJvby8Q_tfFi63ckq8rJXQn3uAKGPiWK&index=1&pp=iAQB?autoplay=1&mute=1&loop=1');
-        
-     }
+        const tiempos = retrasos.sexta;
+        const lugares = listas.sexta;
+        localStorage.setItem('tiempos', JSON.stringify(tiempos))
+        localStorage.setItem('lugares', JSON.stringify(lugares))
+        //console.log(`Lista: ${JSON.stringify(tiempos)}.`)
+        //console.log(JSON.stringify(lugares))
+    }
     // localStorage.setItem('driverList', lista);
+    return tiempos, lugares
+}
+
+function separarTiempos (tiempo) {
+    let h = tiempo.slice(0, 2);
+    let m = tiempo.slice(3, 5);
+
+    return [h, m];
+};
+
+function juntarTiempos (horas, minutos) {
+    if (horas < 10) {
+        horas = `0${horas}`;
+    }
+    if (minutos < 10) {
+        minutos = `0${minutos}`;
+    }
+    return `${horas}:${minutos}`
+}
+
+function restoTiempos (horas, minutos) {
+    let enHora = `${24 - parseInt(horas)}`;
+    let enMinuto = `${60 - parseInt(minutos)}`;
+    
+    return [enHora, enMinuto];
+}
+
+function aString (valor) {
+    return `${valor}`
+}
+
+function aInteger (valor) {
+    let listaNueva = [];
+    for (let i = 0; i < valor.length; i++){
+        listaNueva.push([parseInt(valor[i][0]), parseInt(valor[i][1])])
+    }
+    return listaNueva
+}
+
+function configurarLista (lista, funcion) {
+    let listaNueva = [];
+    for (let i = 0; i < lista.length; i++){
+        listaNueva.push(funcion(lista[i]))
+    }
+    return listaNueva
+}
+
+function sumatoria (tiempos, vespertinoAyer) {
+    let resultado = [];
+
+    //Conversion de variables a entero...
+    vespertinoAyer = [JSON.parse(vespertinoAyer[0]), JSON.parse(vespertinoAyer[1])];
+    tiempos = configurarLista(tiempos, separarTiempos);
+    tiempos = aInteger(tiempos);
+
+    //Ejecucion de la sumatoria...
+    vespertinoAyer = [vespertinoAyer[0] + tiempos[0][0], vespertinoAyer[1] + tiempos[0][1]];
+    resultado.push(vespertinoAyer)
+
+    for (let i = 1; i < tiempos.length; i++) {
+        vespertinoAyer = [resultado[i - 1][0] + tiempos[i][0], resultado[i - 1][1] + tiempos[i][1]];
+        resultado.push(vespertinoAyer)
+    }
+    
+}
+
+function sumatoriaV2 (tiempos, vespertinoAyer) {
+    let resultado = [];
+
+    //Conversion de variables a entero...
+    vespertinoAyer = [JSON.parse(vespertinoAyer[0]), JSON.parse(vespertinoAyer[1])];
+    tiempos = configurarLista(tiempos, separarTiempos);
+    tiempos = aInteger(tiempos);
+
+    //Ejecucion de la sumatoria...
+    vespertinoAyer = [vespertinoAyer[0] + tiempos[0][0], vespertinoAyer[1] + tiempos[0][1]];
+    resultado.push(vespertinoAyer)
+
+    for (let i = 1; i < tiempos.length; i++) {
+        let horaSumar = resultado[i - 1][0];
+        let minutoSumar = resultado[i - 1][1];
+        if (minutoSumar >= 60){
+            horaSumar += Math.trunc(minutoSumar/60);
+            minutoSumar = 0;
+            if (horaSumar > 23) {
+                horaSumar = 0}
+        }
+        vespertinoAyer = [horaSumar + tiempos[i][0], minutoSumar + tiempos[i][1]];
+        if (vespertinoAyer[1] >= 60) {
+            vespertinoAyer[0] += Math.trunc(vespertinoAyer[1]/60);
+            vespertinoAyer[1] -= 60;
+            vespertinoAyer = [vespertinoAyer[0], vespertinoAyer[1]];
+            if (vespertinoAyer[0] > 23) {
+                vespertinoAyer = [0, vespertinoAyer[1]];}
+        }
+        if (vespertinoAyer[0] > 23) {
+            vespertinoAyer = [0, vespertinoAyer[1]];
+        }
+        resultado.push(vespertinoAyer)
+        
+    }
+    console.log(resultado)
+    return resultado
+}
+
+function aLimpio (horariosINT) {
+    let horarios = [];
+    for (let i = 0; i < horariosINT.length; i++){
+        let temp0 = JSON.stringify(horariosINT[i][0]);
+        let temp1 = JSON.stringify(horariosINT[i][1]);
+        if (horariosINT[i][0] < 10){temp0 = '0' + temp0};
+        if (horariosINT[i][1] < 10){temp1 = '0' + temp1};
+        horarios.push(`${temp0}:${temp1}`)
+    }
+    return horarios
+}
+
+function granComparacion (crepuscular, momento) {
+    let resultados = [];
+
+    let dia = localStorage.getItem('detectoDia');
+    let momentoAnterior = selecto[dia-2];
+    disyuntor(localStorage.getItem('mes'));
+    let tiempos = JSON.parse(localStorage.getItem('tiempos'));
+    let lugares = JSON.parse(localStorage.getItem('lugares'));
+
+    let excepcion = meses[mes-2];
+    let momentoMes = excepcion[excepcion.length - 1];
+    if (dia == '1') {
+        momentoAnterior = momentoMes;
+    }
+    let vespertinoAyer = separarTiempos(momentoAnterior);
+    console.log('Noche de ayer:', vespertinoAyer)
+    let diaCompleto = restoTiempos(vespertinoAyer[0], vespertinoAyer[1]);
+
+    let horariosINT = sumatoriaV2(tiempos, vespertinoAyer);
+    console.log('horariosINT', horariosINT)
+    let horarios = aLimpio(horariosINT);
+    localStorage.setItem('tActualizado', JSON.stringify(horarios))
+    console.log('horarios', horarios)
+    console.log(Object.keys(lugares))
+}
+
+
+
+
+function darInforme (lugar) {
+    let cartel = document.querySelector('h3');
+    cartel.innerText = `Estás en: ${lugar}.`
+}
+darInforme('La Tierra')
+
+function framer (video) {
+    let toFrame =  `<iframe style = "position:fixed; top:0; left:0; bottom:0; right:0; width: 100%; height: 100%;" width="560" height="315" src="${video}?autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`.toString();
+    console.error('MONTANDO IMAGEN')
+    console.error(toFrame)
+    return toFrame
 }
 
 function proyector(imagen) {
-        let reproduccion = document.createElement("div");
+        let reproduccion = document.querySelector(".reproduccion");
         reproduccion.innerHTML = imagen;
-        document.body.appendChild(reproduccion)
+        //document.body.appendChild(reproduccion)
 }
 
 
-driving()
+//proyector(chilliad)
 
-const timeDateInterval = setInterval(() => {
+let crepuscular = localStorage.getItem('detectoLuz');
+let dia = localStorage.getItem('detectoDia');
+let momento = selecto[dia-1];
+
+granComparacion(crepuscular, momento)
+
+const control = setInterval(() => {
     console.info('Escaneando....')
-    let dia = localStorage.getItem('detectoDia');
-    let crepuscular = localStorage.getItem('detectoLuz');
-    let momento = selecto[dia-1];
-    console.log(crepuscular);
-    console.log(momento);
 
-    if (crepuscular == momento) {
-        console.warn('IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    IGNICION.    ')
-        proyector(imagen)
+    console.log('Hora:', crepuscular);
+    indiceDia = 0;
+    //console.log('Indice actual:', indiceDia)
+    let paseo = JSON.parse(localStorage.getItem('lugares'));
+    let nombres = Object.keys(paseo);
+    console.log('paseo:', nombres);
+    let marca = JSON.parse(localStorage.getItem('tActualizado'));
+    console.log('marca:', marca);
+
+    for (let i = 0; i < marca.length; i++) {
+        if (crepuscular == marca[i]) {
+            darInforme(nombres[i])
+            localStorage.setItem('proyeccion', framer(paseo[nombres[i]]))
+        }
     }
+    if (crepuscular == momento) {
+        darInforme(nombres[0])
+        proyector(framer(paseo[nombres[0]]))
+    }
+        proyector(localStorage.getItem('proyeccion'))
 }, 1000);
+
+const inspeccion = setInterval(() => {
+    console.warn('Validando....')
+
+    crepuscular = localStorage.getItem('detectoLuz');
+    console.log('Noche de hoy:', momento);
+    granComparacion(crepuscular, momento)
+
+}, 45000)

@@ -1,3 +1,6 @@
-let mainTitle = document.querySelector('#mainTitle');
+let mainTitle = document.querySelector("#mainTitle");
 
-console.log(mainTitle)
+mainTitle.addEventListener('click', function (event) {
+    console.log(event.target);
+    mainTitle.classList.toggle('blueTitle')
+});

@@ -221,4 +221,9 @@ El evento es cualquier interacción que hace el usuario con la página web.
     #Día #17: 19-06-2023_Lunes:
 
 Los eventos observan distintos cambios en una página web, para generar cambios, con su término en código. El addEventListener().
-Event, en ocaciones es un atributo que puede ser necesario para capturar al evento en el programa.
+Event, en ocaciones es un atributo que puede ser necesario para capturar al evento en el programa. Event.target, por ejemplo, va directo a el elemento que se està tocando, para producir ese evento.
+
+~Quinceavo módulo de JavasCript reprobado a 60%~
+
+~Quinceavo módulo de JavasCript aprobado a 100%~
+

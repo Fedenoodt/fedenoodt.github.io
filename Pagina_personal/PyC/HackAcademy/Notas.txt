@@ -218,7 +218,7 @@ La lista es una colección de objetos que guarda a un conjunto de valores en for
 
 El evento es cualquier interacción que hace el usuario con la página web.
 
-    #Día #17: 19-06-2023_Lunes:
+    -Día #17: 19-06-2023_Lunes:
 
 Los eventos observan distintos cambios en una página web, para generar cambios, con su término en código. El addEventListener().
 Event, en ocaciones es un atributo que puede ser necesario para capturar al evento en el programa. Event.target, por ejemplo, va directo a el elemento que se està tocando, para producir ese evento.
@@ -227,3 +227,7 @@ Event, en ocaciones es un atributo que puede ser necesario para capturar al even
 
 ~Quinceavo módulo de JavasCript aprobado a 100%~
 
+    -Dìa #18: 20-06-2023_Miércoles:
+
+Respecto de los objetos, una cosa interesante a tener en cuenta, es que existe lo que se llama la notaciòn bracket, y la notacion dot. Cuando nos referimos a un elemento comcreto de un objeto, este 
+se puede ver así " Objeto['clave'] ", o así " Objeto.clave " respectivamente. Lo màs recomendable es usar la notaciòn dot, ya que es más visible en los objetos.

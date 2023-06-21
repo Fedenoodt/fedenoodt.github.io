@@ -89,4 +89,28 @@ button {
 	.Emblema {
 		width: 150px;
 	}
+
+	h1 {
+		font-size: 22px;
+	}
+
+	.megaEmblema {
+		width: 250px;
+	}
+	.tooBig {
+		font-size: 45px;
+	}
+
+	.megaReloj {
+		font-size: 60px;
+	}
+
+	.bloqueHora {
+		height: 400px;
+	}
+	
+	.listaHorizontal {
+		display: inline-block;
+	 	margin: 0 15px;
+	}
 }

@@ -76,7 +76,7 @@ button {
 	float: bottom;
 }
 
-@media ( max-width: 500px ) {
+@media ( max-width: 600px ) {
 	.home {
 		max-width: 495px;
 	}
@@ -135,9 +135,39 @@ button {
 }
 
 
+@media ( max-width: 580px ) {
+	.home {
+		max-width: 575px;
+	}
+}
+
+@media ( max-width: 560px ) {
+	.home {
+		max-width: 455px;
+	}
+}
+
+@media ( max-width: 540px ) {
+	.home {
+		max-width: 435px;
+	}
+}
+
+@media ( max-width: 520px ) {
+	.home {
+		max-width: 415px;
+	}
+}
+
+@media ( max-width: 500px ) {
+	.home {
+		max-width: 395px;
+	}
+}
+
 @media ( max-width: 480px ) {
 	.home {
-		max-width: 475px;
+		max-width: 375px;
 	}
 }
 

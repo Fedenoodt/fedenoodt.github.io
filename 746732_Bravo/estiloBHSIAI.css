@@ -77,6 +77,9 @@ button {
 }
 
 @media ( max-width: 500px ) {
+	a {
+		font-size:50%;
+	}
 	.atajos {
 		max-width: 12%;
 	}

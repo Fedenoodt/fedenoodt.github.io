@@ -83,10 +83,14 @@ button {
 	ul {
 		margin-top:0%;
 		margin-bottom:0%;
+		padding-top:1%;
+		padding-bottom:1%;
 	}
 	li {
 		margin-top:0%;
 		margin-bottom:0%;
+		padding-top:1%;
+		padding-bottom:1%;
 	}
 	.atajos {
 		max-width: 12.5%;

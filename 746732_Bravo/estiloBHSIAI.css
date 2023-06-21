@@ -77,20 +77,23 @@ button {
 }
 
 @media ( max-width: 500px ) {
+	.home {
+		max-width: 495px;
+	}
 	a {
 		font-size:50%;
 	}
 	ul {
 		margin-top:0%;
 		margin-bottom:0%;
-		padding-top:1%;
-		padding-bottom:1%;
+		padding-top:0%;
+		padding-bottom:0%;
 	}
 	li {
 		margin-top:0%;
 		margin-bottom:0%;
-		padding-top:1%;
-		padding-bottom:1%;
+		padding-top:0%;
+		padding-bottom:0%;
 	}
 	.atajos {
 		max-width: 12.5%;

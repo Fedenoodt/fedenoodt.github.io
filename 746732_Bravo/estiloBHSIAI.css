@@ -80,8 +80,16 @@ button {
 	a {
 		font-size:50%;
 	}
+	ul {
+		margin-top:0%;
+		margin-bottom:0%;
+	}
+	li {
+		margin-top:0%;
+		margin-bottom:0%;
+	}
 	.atajos {
-		max-width: 12%;
+		max-width: 12.5%;
 	}
 
 	.imgAtajos {
@@ -94,7 +102,7 @@ button {
 	}
 
 	h1 {
-		font-size: 22px;
+		font-size: 22.5px;
 	}
 
 	.megaEmblema {

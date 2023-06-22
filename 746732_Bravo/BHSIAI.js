@@ -166,7 +166,7 @@ function base () {
 		<hr />
 		<h2>Links de acceso</h2>
 		<ul>
-		    <li><a href="https://plataforma.coderhouse.com/cursos" target="_blank">Coder House - Plataforma E-Learning</a>></li>
+		    <li><a href="https://feedly.com/i/my" target="_blank">Noticias</a>></li>
 		    <li><a href = "" onclick = pendiente(conversor(${websID}))>P&aacute;ginas Especiales</a>></li>
 		    <li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfGshu5XTZ23OWK8cRft5F8m" target="_blank">Jedi Order Playlist</a>></li>
 		    <li><a href = "" onclick = pendiente(conversor(${mediosID}))>Medios audiovisuales</a>></li>
@@ -250,6 +250,26 @@ function tools () {
 	    </ul>
 	</div>
 </section>
+`;
+cuerpo.innerHTML = imagen;
+document.body.appendChild(cuerpo);
+return imagen
+}
+
+function obsolet () {
+    let cuerpo = document.createElement("div");
+    const imagen = `
+    ${cabezal}
+    <div class="in-flex">
+			<h2>Accesos Obsoletos</h2>
+			<ul>
+		    		<li><a href="https://plataforma.coderhouse.com/cursos" target="_blank">Coder House - Plataforma E-Learning</a>></li>
+				<li><a href="https://pdb.redarg.ar/home" target="_blank">Profesorado Don Bosco</a>&gt;</li>
+				
+				
+				<li><a href = "" onclick = pendiente(conversor(${baseID}))>Volver</a><<</li>
+			</ul>
+		</div>
 `;
 cuerpo.innerHTML = imagen;
 document.body.appendChild(cuerpo);

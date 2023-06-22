@@ -227,7 +227,16 @@ Event, en ocaciones es un atributo que puede ser necesario para capturar al even
 
 ~Quinceavo módulo de JavasCript aprobado a 100%~
 
-    -Dìa #18: 20-06-2023_Miércoles:
+    -Dìa #18: 21-06-2023_Miércoles:
 
 Respecto de los objetos, una cosa interesante a tener en cuenta, es que existe lo que se llama la notaciòn bracket, y la notacion dot. Cuando nos referimos a un elemento comcreto de un objeto, este 
 se puede ver así " Objeto['clave'] ", o así " Objeto.clave " respectivamente. Lo màs recomendable es usar la notaciòn dot, ya que es más visible en los objetos.
+
+    -Dìa #19: 22-06-2023_Jueves:
+
+Lo que el profesor quiere decir, con los mètodos, es que tanto con los objetos, como con cualquier atributo especifico en Javascript, los elementos son esas funciones que ejecutan dichos atributos.
+Por ejemplo, dentro del objeto. en el mètodo de un objeto, existe el mètodo .this, que es recursivo y se utiliza para hacer menciòn al objeto en cuestiòn repetidas veces. Esto porque si existen varios objetos con 
+el mismo mètodo, no hace falta siquiera establecer paràmetros. Solamente se llama a esa función.
+
+~Dieciseisavo módulo de JavasCript aprobado a 80%~
+

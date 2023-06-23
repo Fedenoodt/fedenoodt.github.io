@@ -240,3 +240,11 @@ el mismo mètodo, no hace falta siquiera establecer paràmetros. Solamente se ll
 
 ~Dieciseisavo módulo de JavasCript aprobado a 80%~
 
+    -Dìa #20: 23-06-2023_Viernes:
+
+Las API son un servicio programado de información, que se puede consumir en nuestras pàginas web. Ya sea creandolas, o usándolas.
+JSON, por ejemplo, es un formato de texto usado en muchos lenguajes, y en Javascript se usa mucho para leer API's.
+AJAX es una técnica para intercambiar información de la manera màs eficaz posible. Haciendo que se puedan realizar varias tareas a la vez. Mediante su asincronismo, se ejecutan varias tareas a la vez, sin saber cuando acaban. Y en Javascript esta muy presente con las API's.
+Con el Fetch, uno puede acceder a la url de una API, y con el .then se interactua con la misma, devolviendo los datos brindados por ese JSON.
+
+~Diecisieteavo módulo de JavasCript aprobado a 75%~

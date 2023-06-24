@@ -248,3 +248,46 @@ AJAX es una técnica para intercambiar información de la manera màs eficaz pos
 Con el Fetch, uno puede acceder a la url de una API, y con el .then se interactua con la misma, devolviendo los datos brindados por ese JSON.
 
 ~Diecisieteavo módulo de JavasCript aprobado a 75%~
+~Cursada inicial finalizada.~
+
+    -Día #21: 24-06-2023_Sàbado:
+
+Habiendo finalizado la cursada, ahora lo que queda por hacer, es hacer un repaso de los contenidos que quedaron mas flojos, y que también son importantes volver a ver, en tres importantes secciones. Un repaso acadèmico, un repaso contemporáneo, y una última revisión. 
+En el repaso académico, ajustar notas con los módulos que reprobé inicialmente, y con las bajas notas. Está permitido seguir anotando. Y luego los que fueron aprobados con una nota inferior a 100%, y mayor a 70%.
+En el repaso contemporáneo, evaluar los conteniodos que considero necesarios para ejercer una buena práctica luego de finalizar.
+Y en la última revisión, ver todos los videos, de todas las clases, sin hacer más que escuchar, y atender.
+
+A continuación, procedo a mencionar la nota de cada módulo...
+
+~Primer módulo de HTML aprobado a 80%~
+~Segundo módulo de HTML aprobado a 100%~
+~Tercer módulo de HTML aprobado a 100%~
+~Cuarto módulo de HTML re hecho a causa de un error de concepto en la pregunta, y aprobado a 100%~
+~Quinto módulo de HTML aprobado a 88%~
+~Sexto módulo de HTML aprobado a 75%~
+~Séptimo módulo de HTML aprobado a 75%~
+~Octavo módulo de HTML aprobado a 83%~
+~Noveno módulo de HTML aprobado a 83%~
+~Noveno módulo de JavasCript aprobado a 100%~
+~Décimo módulo de JavasCript reprobado a 60%~
+~Décimo módulo de JavasCript recuperado a 100%~
+~Onceavo módulo de JavasCript aprobado a 100%~
+~Doceavo módulo de JavasCript aprobado a 100%~
+~Treceavo módulo de JavasCript aprobado a 100%~
+~Catorceavo módulo de JavasCript aprobado a 100%~
+~Quinceavo módulo de JavasCript reprobado a 60%~
+~Quinceavo módulo de JavasCript aprobado a 100%~
+~Dieciseisavo módulo de JavasCript aprobado a 80%~
+~Diecisieteavo módulo de JavasCript aprobado a 75%~
+~Cursada inicial finalizada.~
+
+El orden que va a tener el repaso académico, va a estar ligado al de la siguiente lista.
+
+~#10, #15, #5, #8, #9, #1, #16, #6, #7, #17~
+
+A continuación de este orden, va a tener lugar el repaso contemporáneo, que básicamente va a tener una revisiòn mas pasiva de coneptos, generalmente relacionados con estilos CSS, y manejos del template HTML, pero va a tener algo de JavasCript. A continuaciòn procedo 
+a mencionar cuales seran los módulos, que no van a tener exámen, pero si, una evaluaciòn del trabajo práctico en el mismo.
+
+~#1, #2, #3, #5, #6, #7, #8, #9, #14, #15, #16, #17~
+
+Y lo ideal sería, que sobre tiempo, para hacer la última revisión, ya como el epilogo de esta práctica.

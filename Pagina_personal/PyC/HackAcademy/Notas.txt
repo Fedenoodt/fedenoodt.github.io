@@ -291,3 +291,12 @@ a mencionar cuales seran los módulos, que no van a tener exámen, pero si, una 
 ~#1, #2, #3, #5, #6, #7, #8, #9, #14, #15, #16, #17~
 
 Y lo ideal sería, que sobre tiempo, para hacer la última revisión, ya como el epilogo de esta práctica.
+
+Dejando las palabras de lado. Acudamos a la práctica.
+
+Con respecto a la etiqueta script dentro del cuerpo HTML. Es muy importante diferenciar estos dos casos. Cuando se va a implementar unas pocas modificaciones al còdigo, esta se pone al pie del body, si no es asì, si es que se quiere crear el bodi, se puede poner al 
+final del head.
+
+~Décimo módulo de JavasCript vuelto a evaluar a 100%~
+
+    -Día #22: 

@@ -299,4 +299,16 @@ final del head.
 
 ~Décimo módulo de JavasCript vuelto a evaluar a 100%~
 
-    -Día #22: 
+    -Día #22: 26-06-2023_Lunes:
+
+El evento es todo suceso que se produce en una web. estos se escuchan con addEventListener. Los tipos de eventos son esas acciones que disparan movimientos en la web. Como puedes ser click, y dblclick, el mouseenter, y mouseleave, cuando entran y salen del elemento respectivamente, y mouseover resume las acciones de los dos en uno solo, mousemove se usa para la creacion de juegos en general, y detecta movimiento del mouse, y 
+respecto del teclado, keydown, es cuando se empieza a presionar una tecla, keypress, para cuando se produce un caractèr, y keyup cuando se libera. Respecto del navegador, el load es cuando el navegador carga la página, resize se dispara cuando estamos cambiando el ancho de la ventana,. y scroll cuando hacemos scroll en la web. En el formulario tenemos cosas como change, detecta si hubo cambios dentro del campo del 
+formulario, reset reinicia el formulario, submit envia la información, input cuando hacemos clic, o marcamos con una tecla, focus pasamos dentro del elemento, y blur cuando sale.
+
+addEventListener recibe a dos parámetros, el nombre de dicho elemento, y una funciòn de llamada, para reaccionar a lo que busque esta interacción.
+Dentro de la estructtura de un formulario, se usa el prefijo "on..." cuando nosotros mencionamos a un tipo de evento concreto, en la llamada a función de la etiqueta analizada, esta es otra forma de hacerlo. 
+preventDefault() va a evitar que un formulario se comporte de manera convenxcional, y evitar que este quiebre.
+
+~Quinceavo módulo de JavasCript vuelto a evaluar a 100%~
+
+    -Día #23: 

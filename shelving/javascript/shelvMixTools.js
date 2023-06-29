@@ -61,7 +61,11 @@ function localGet (key) {
 }
 
 function refresh (parameter) {
+    if (parameter == 'STOP') {
+        clearInterval()
+    } else {
     setInterval(() => {
     location.reload()
     }, parameter);
+    }
 }

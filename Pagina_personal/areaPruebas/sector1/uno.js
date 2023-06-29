@@ -64,3 +64,4 @@ function main () {
 }
 
 refresh(5000);
+main();

@@ -63,11 +63,11 @@ function localGet (key) {
 function refresh (parameter) {
     if (parameter == 'STOP') {
         clearInterval()
-        consoleWarn(tecTools, 'Deteniendo.');
+        consoleWarn(`${tecTools} Deteniendo.`);
     } else {
     setInterval(() => {
     location.reload()
     }, parameter);
-    consoleWarn(tecTools, 'Pagina recargada.');
+    consoleWarn(`${tecTools} Pagina recargada.`);
     }
 }

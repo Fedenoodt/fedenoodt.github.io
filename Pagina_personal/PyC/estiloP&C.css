@@ -74,7 +74,8 @@ body {
 }
 
 .contenedor {
-	width:50%;
+	width: 50%;
+	min-width: 40%;
 	padding: 20px;
 	background-color: rgba(121, 177, 119, 0.836);
     	transition: background 1.0s ease-in-out;
@@ -119,7 +120,7 @@ body {
 }
 .contenedor:hover {
 	background-color: rgba(103, 131, 143, 0.836);
-    transition: background 1.0s ease-in-out;
+	transition: background 1.0s ease-in-out;
 }
 
 a:link {

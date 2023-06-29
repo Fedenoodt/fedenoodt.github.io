@@ -61,5 +61,7 @@ function localGet (key) {
 }
 
 function refresh (parameter) {
-    location.reload(parameter)
+    setInterval(() => {
+    location.reload()
+    }, parameter);
 }

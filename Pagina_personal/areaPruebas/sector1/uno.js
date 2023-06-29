@@ -63,6 +63,5 @@ function main () {
     setInterval(darReloj, 1)
 }
 
-main()
+main();
 refresh(5000);
-reloj();

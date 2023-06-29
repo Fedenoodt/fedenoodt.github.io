@@ -182,8 +182,6 @@
 	}
 	
 	.home {
-		display:flex;
-		flex-wrap: wrap;
 	}
 	
 	.intro {
@@ -231,13 +229,11 @@
 	}
 	
 	.in-flex:first-child {
-		flex: 1;
 		min-width: 100px;
 	}
 	.in-flex {
 		min-width: 100px;
 		max-width: 50%;
-		flex: 2;
 		padding: 20px;
 		background-color: rgba(45, 104, 216, 0.5);
 		margin: 20px;

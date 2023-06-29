@@ -59,3 +59,7 @@ function localSet (key, value) {
 function localGet (key) {
     return localStorage.getItem(key)
 }
+
+function refresh (parameter) {
+    location.reload(parameter)
+}

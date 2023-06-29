@@ -56,7 +56,7 @@ function main () {
         let hora = localStorage.getItem('hora');
         for (let i = 0; i < lista.length; i++) {
             lista[i].innerHTML = hora;
-    }
+        }}
 
     console.log('Si tenes este problema: "Uncaught TypeError: Cannot set properties of null (setting innerHTML) at darReloj (reloj.js:37:28)" significa que no estas declarando donde va el reloj en la web.')
     

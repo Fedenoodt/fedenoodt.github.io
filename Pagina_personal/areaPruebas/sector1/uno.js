@@ -21,6 +21,7 @@ function main (parameter) {
         //// relojCONF toma los datos, y los compila en una unica linea. ////
         const DateTime = luxon.DateTime
         const dt = DateTime.now();
+consoleLog(dt.toLocaleString({ weekday: 'long'}))
         const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
         localStorage.setItem('mes', dt.month)
         let mes = meses[dt.month - 1];
@@ -68,7 +69,6 @@ function main (parameter) {
     setInterval(darReloj, 1)
 }
 
-consoleLog(DateTime.now().toLocaleString({ weekday: 'long'}))
 refresh(30000)
 main('str');
 main('num');

@@ -68,6 +68,6 @@ function refresh (parameter) {
     setInterval(() => {
     location.reload()
     }, parameter);
-    consoleWarn('Recargando...');
+    consoleWarn('Pagina recargada.');
     }
 }

@@ -52,12 +52,10 @@ function main () {
     
     function darReloj () {
         //// darReloj devuelve esa imagen para la pagina. ////
-        let pantalla = document.querySelectorAll('.hora');
-        consoleLog(pantalla[0]);
+        let lista = document.querySelectorAll('.hora');
         let hora = localStorage.getItem('hora');
-        for (let i = 0; i < pantalla.length; i++) {
-            let etiqueta[i] = pantalla[i];
-            etiqueta[i].innerHTML = hora;
+        for (let i = 0; i < lista.length; i++) {
+            lista[i].innerHTML = hora;
     }
 
     console.log('Si tenes este problema: "Uncaught TypeError: Cannot set properties of null (setting innerHTML) at darReloj (reloj.js:37:28)" significa que no estas declarando donde va el reloj en la web.')

@@ -52,7 +52,7 @@ function main () {
     
     function darReloj () {
         //// darReloj devuelve esa imagen para la pagina. ////
-        let pantalla = document.getElementById('hora');
+        let pantalla = document.querySelector('.hora');
         let hora = localStorage.getItem('hora');
         pantalla.innerHTML = hora;
     }

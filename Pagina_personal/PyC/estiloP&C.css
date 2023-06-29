@@ -16,7 +16,7 @@
 .barraAbertura:hover {
 	background-color: rgb(47, 138, 177);
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
-    transition: background 1.0s ease-in-out;
+	transition: background 1.0s ease-in-out;
 	transition: box-shadow 0.6s ease-in-out;
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 .intro {
-	min-width: 100px;
+	min-width: 80%;
 	padding: 20px;
 	background-color: rgba(45, 104, 216, 0.5);
 	margin: 20px;

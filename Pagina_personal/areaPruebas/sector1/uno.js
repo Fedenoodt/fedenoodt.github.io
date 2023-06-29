@@ -68,6 +68,7 @@ function main (parameter) {
     setInterval(darReloj, 1)
 }
 
+consoleLog(DateTime.now().toLocaleString({ weekday: 'long'}))
 refresh(30000)
-main(str);
-main(num);
+main('str');
+main('num');

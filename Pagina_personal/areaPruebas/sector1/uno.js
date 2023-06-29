@@ -16,7 +16,7 @@
 
 ////////////////////////////////////////////////////////////////    PROYECTO RAYONNAGE    /////////////////////////////////////////////////////////////////
 
-function main () {
+function main (parameter) {
     function relojCONF () {
         //// relojCONF toma los datos, y los compila en una unica linea. ////
         const DateTime = luxon.DateTime
@@ -37,8 +37,12 @@ function main () {
         if (segundos < 10) {
             segundos = '0' + dt.second;
         }
-        
-        const hora = `${horas}:${minutos}:${segundos}hs. ${dt.day} de ${mes} de ${dt.year}`;
+        if (parameter == 'str') {
+            const hora = `${horas}:${minutos}:${segundos}hs. ${dt.day} de ${mes} de ${dt.year}`;
+        }
+        if (parameter == 'num') {
+            const hora = `${horas}:${minutos}:${segundos}hs. ${dt.day}-${dt.month}-${dt.year}`;
+        }
         
         return hora
     }
@@ -65,4 +69,5 @@ function main () {
 }
 
 refresh(30000)
-main();
+main(str);
+main(num);

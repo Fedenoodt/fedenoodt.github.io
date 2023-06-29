@@ -77,8 +77,8 @@ function main (parameter) {
     setInterval(darReloj, 1)
 }
 
-refresh(30000)
-main('str');
-main('num');
-main('dayStr');
-main('dayNum');
+//refresh(30000)
+//main('str');
+//main('num');
+//main('dayStr');
+//main('dayNum');

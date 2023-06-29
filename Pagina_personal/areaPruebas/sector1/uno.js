@@ -53,6 +53,7 @@ function main () {
     function darReloj () {
         //// darReloj devuelve esa imagen para la pagina. ////
         let pantalla = document.querySelector('.hora');
+        consoleLog(pantalla);
         let hora = localStorage.getItem('hora');
         pantalla.innerHTML = hora;
     }
@@ -63,5 +64,4 @@ function main () {
     setInterval(darReloj, 1)
 }
 
-refresh(5000);
 main();

@@ -21,10 +21,10 @@ function main (parameter) {
         //// relojCONF toma los datos, y los compila en una unica linea. ////
         const DateTime = luxon.DateTime
         const dt = DateTime.now();
-consoleLog(dt.toLocaleString({ weekday: 'long'}))
         const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
         localStorage.setItem('mes', dt.month)
         let mes = meses[dt.month - 1];
+        let diaSemana = dt.toLocaleString({ weekday: 'long'});
     
         let horas = dt.hour;
         if (horas < 10) {
@@ -38,11 +38,19 @@ consoleLog(dt.toLocaleString({ weekday: 'long'}))
         if (segundos < 10) {
             segundos = '0' + dt.second;
         }
+
+        let hora = 'HORA_VACIA';
         if (parameter == 'str') {
-            const hora = `${horas}:${minutos}:${segundos}hs. ${dt.day} de ${mes} de ${dt.year}`;
+            hora = `${horas}:${minutos}:${segundos}hs. ${dt.day} de ${mes} de ${dt.year}`;
         }
         if (parameter == 'num') {
-            const hora = `${horas}:${minutos}:${segundos}hs. ${dt.day}-${dt.month}-${dt.year}`;
+            hora = `${horas}:${minutos}:${segundos}hs. ${dt.day}-${dt.month}-${dt.year}`;
+        }
+        if (parameter == 'dayStr') {
+            hora = `${horas}:${minutos}:${segundos}hs. ${diaSemana}, ${dt.day} de ${mes} de ${dt.year}`;
+        }
+        if (parameter == 'dayNum') {
+            hora = `${horas}:${minutos}:${segundos}hs. ${diaSemana} ${dt.day}-${dt.month}-${dt.year}`;
         }
         
         return hora
@@ -72,3 +80,5 @@ consoleLog(dt.toLocaleString({ weekday: 'long'}))
 refresh(30000)
 main('str');
 main('num');
+main('dayStr');
+main('dayNum');

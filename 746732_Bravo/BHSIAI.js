@@ -593,7 +593,6 @@ console.log('Imagen: '+ menu[establecido]())
 
 reloj('BHSIAI', 'dayStr');
 
-)
 } catch { console.log('Atencion. El ID fue reestablecido.')
 	  localStorage.setItem('valor', 0)}
 	

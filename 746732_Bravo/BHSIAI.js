@@ -67,22 +67,24 @@ function relojCONF () {
     return hora
 }
 // let getReloj = relojCONF();
-const timeDateInterval = setInterval(() => {
-    const time = relojCONF();
-    localStorage.setItem('hora', time.toString());
-}, 1000);
+//const timeDateInterval = setInterval(() => {
+//    const time = relojCONF();
+//    localStorage.setItem('hora', time.toString());
+//}, 1000);
 
-function darReloj () {
-	let pantalla = document.getElementById('hora');
-	let hora = localStorage.getItem('hora');
-	pantalla.innerHTML = hora;
-}
+//function darReloj () {
+//	let pantalla = document.getElementById('hora');
+//	let hora = localStorage.getItem('hora');
+//	pantalla.innerHTML = hora;
+//}
 
-setInterval(darReloj, 1)
+//setInterval(darReloj, 1)
 
 // const getReloj = setInterval(() => {
 //     localStorage.getItem('hora')
 // }, 1000)
+
+reloj('BHSIAI', 'dayStr');
 
 // ================================================================================================================================= //
 

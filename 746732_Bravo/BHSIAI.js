@@ -41,50 +41,48 @@ console.log('Índice establecido:', establecido)
 
 // 2 ► Este fragmento construye el reloj.
 
-//function relojCONF () {
+function relojCONF () {
     // location.reload(4000)
-//    const DateTime = luxon.DateTime
-//    const dt = DateTime.now();
-//    const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
-//    localStorage.setItem('mes', dt.month)
-//    let mes = meses[dt.month - 1];
+    const DateTime = luxon.DateTime
+    const dt = DateTime.now();
+    const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+    localStorage.setItem('mes', dt.month)
+    let mes = meses[dt.month - 1];
 
-//    let horas = dt.hour;
-//    if (horas < 10) {
-//        horas = '0' + dt.hour;
-//    }
-//    let minutos = dt.minute;
-//    if (minutos < 10) {
-//        minutos = '0' + dt.minute;
-//    }
-//    let segundos = dt.second;
-//    if (segundos < 10) {
-//        segundos = '0' + dt.second;
-//    }
+    let horas = dt.hour;
+    if (horas < 10) {
+        horas = '0' + dt.hour;
+    }
+    let minutos = dt.minute;
+    if (minutos < 10) {
+        minutos = '0' + dt.minute;
+    }
+    let segundos = dt.second;
+    if (segundos < 10) {
+        segundos = '0' + dt.second;
+    }
     
-//    const hora = `${horas}:${minutos}:${segundos}hs. ${dt.day} de ${mes} de ${dt.year}`;
+    const hora = `${horas}:${minutos}:${segundos}hs. ${dt.day} de ${mes} de ${dt.year}`;
     
-//    return hora
-//}
+    return hora
+}
 // let getReloj = relojCONF();
-//const timeDateInterval = setInterval(() => {
-//    const time = relojCONF();
-//    localStorage.setItem('hora', time.toString());
-//}, 1000);
+const timeDateInterval = setInterval(() => {
+    const time = relojCONF();
+    localStorage.setItem('hora', time.toString());
+}, 1000);
 
-//function darReloj () {
-//	let pantalla = document.getElementById('hora');
-//	let hora = localStorage.getItem('hora');
-//	pantalla.innerHTML = hora;
-//}
+function darReloj () {
+	let pantalla = document.getElementById('hora');
+	let hora = localStorage.getItem('hora');
+	pantalla.innerHTML = hora;
+}
 
-//setInterval(darReloj, 1)
+setInterval(darReloj, 1)
 
 // const getReloj = setInterval(() => {
 //     localStorage.getItem('hora')
 // }, 1000)
-
-//reloj('BHSIAI', 'dayStr');
 
 // ================================================================================================================================= //
 
@@ -576,23 +574,12 @@ return imagen
 
 console.log('Ejecutando imagen...')
 
-//reloj('BHSIAI', 'dayStr');
-
-
-
 // ================================================================================================================================= //
 
 // 4 ► Y este segmento ejecuta la imagen llamada.
 
 let menu = [base, tools, reloj, webs, medios, radio, twitch, youtube, streaming, juegos, minecraft, comms, redes];
-try{
-
-//reloj('BHSIAI', 'dayStr');
-
-console.log('Imagen: '+ menu[establecido]())
-
-reloj('BHSIAI', 'dayStr');
-
+try{console.log('Imagen: '+ menu[establecido]())
 } catch { console.log('Atencion. El ID fue reestablecido.')
 	  localStorage.setItem('valor', 0)}
 	

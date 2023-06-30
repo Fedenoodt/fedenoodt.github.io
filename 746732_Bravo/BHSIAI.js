@@ -589,7 +589,7 @@ try{
 
 //reloj('BHSIAI', 'dayStr');
 
-console.log('Imagen: '+ menu[establecido]()
+console.log('Imagen: '+ menu[establecido]())
 
 reloj('BHSIAI', 'dayStr');
 

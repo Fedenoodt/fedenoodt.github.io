@@ -13,6 +13,8 @@
 // 'num': Devuelve un reloj resumido en solo números. 'numDay': Es exactamente igual, salvo que agrega el día de la semana. 'str': Devuelve un reloj 
 // versado en palabras. 'dayStr': Es igual al anterior, solo que con el día de la semana incluido.
 
+startingProgramJS('reloj')
+
 ////////////////////////////////////////////////////////////////    PROYECTO RAYONNAGE    /////////////////////////////////////////////////////////////////
 
 function reloj (name, parameter) {

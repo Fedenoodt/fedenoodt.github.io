@@ -574,7 +574,7 @@ return imagen
 
 console.log('Ejecutando imagen...')
 
-reloj('BHSIAI', 'dayStr');
+//reloj('BHSIAI', 'dayStr');
 
 
 

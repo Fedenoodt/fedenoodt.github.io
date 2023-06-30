@@ -55,7 +55,7 @@ function reloj (name, parameter) {
         }
 
         if (hora != 'HORA_VACIA'){consoleInfo(tecTools, 'Reloj configurado correctamente.')}
-        else {consoleWarn(tecTools, 'Hubo problemas registrando los parametros de inicializacion. Reviselos nuevamente.')}
+        else {consoleWarn(tecTools, 'Hubo problemas registrando los parametros de inicializacion. Reviselos nuevamente.')};
         return hora
     }
     let getReloj = relojCONF();

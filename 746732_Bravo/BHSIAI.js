@@ -84,7 +84,7 @@ console.log('Índice establecido:', establecido)
 //     localStorage.getItem('hora')
 // }, 1000)
 
-reloj('BHSIAI', 'dayStr');
+//reloj('BHSIAI', 'dayStr');
 
 // ================================================================================================================================= //
 
@@ -585,7 +585,15 @@ console.log('Ejecutando imagen...')
 // 4 ► Y este segmento ejecuta la imagen llamada.
 
 let menu = [base, tools, reloj, webs, medios, radio, twitch, youtube, streaming, juegos, minecraft, comms, redes];
-try{console.log('Imagen: '+ menu[establecido]())
+try{
+
+reloj('BHSIAI', 'dayStr');
+
+console.log('Imagen: '+ menu[establecido]()
+
+//reloj('BHSIAI', 'dayStr');
+
+)
 } catch { console.log('Atencion. El ID fue reestablecido.')
 	  localStorage.setItem('valor', 0)}
 	

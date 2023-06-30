@@ -36,6 +36,10 @@ function consoleError (parameter) {
     console.error(parameter)
 }
 
+function startingProgramJS(parameter) {
+    consoleInfo(`Iniciando ciclo del programa "${parameter}".`);
+}
+
 function consoleLogSecure (parameter) {
     if (consoleValidator(parameter)) {
         consoleInfo(`${tecTools} Parametro evaluado, y validado exitosamente.`)

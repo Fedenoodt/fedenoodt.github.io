@@ -84,6 +84,8 @@ console.log('Índice establecido:', establecido)
 //     localStorage.getItem('hora')
 // }, 1000)
 
+reloj('BHSIAI', 'dayStr');
+
 // ================================================================================================================================= //
 
 console.log('Cargando las imágenes...')

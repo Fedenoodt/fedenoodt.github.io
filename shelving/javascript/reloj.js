@@ -8,15 +8,14 @@
 // "//====[...]====//": Divisor de secciones del programa
 // "//----[...]----//": Sencillo divisor estetico dentro del cuerpo.
 
-// reloj es una funcion sencilla en la que se tiene que importar el modulo, haciendo en el archivo js "import { main } as reloj from 
-// "*ubicacionDeEsteModulo*"". Ademas de en el archvo HTML, aclarar que la fuente del script es del tipo modulo (type = "module").
-// Este bloque sencillo arma un reloj actualizado en linea con el uso de las librerias de luxon. Usas la etiqueta que portaria el reloj, y le marcas la ID
-// como "hora", y eso va a ser un reloj.
-
+// reloj es una función que tiene la tarea de recibir como parámetro, un nombre (Se aconseja que sea el nombre de la página, o algo por el estilo), y otro 
+// parámetro en formato string que haría una lectura de el estilo de reloj que se busca:
+// 'num': Devuelve un reloj resumido en solo números. 'numDay': Es exactamente igual, salvo que agrega el día de la semana. 'str': Devuelve un reloj 
+// versado en palabras. 'dayStr': Es igual al anterior, solo que con el día de la semana incluido.
 
 ////////////////////////////////////////////////////////////////    PROYECTO RAYONNAGE    /////////////////////////////////////////////////////////////////
 
-function main (parameter) {
+function reloj (name, parameter) {
     function relojCONF () {
         //// relojCONF toma los datos, y los compila en una unica linea. ////
         const DateTime = luxon.DateTime
@@ -38,7 +37,7 @@ function main (parameter) {
         if (segundos < 10) {
             segundos = '0' + dt.second;
         }
-
+        //// Dentro de la función, se valida repetidas veces la línea a imprimir según los parámetros establecidos.
         let hora = 'HORA_VACIA';
         if (parameter == 'str') {
             hora = `${horas}:${minutos}:${segundos}hs. ${dt.day} de ${mes} de ${dt.year}`;
@@ -58,15 +57,15 @@ function main (parameter) {
     let getReloj = relojCONF();
     console.log(getReloj)
     const timeDateInterval = setInterval(() => {
-        //// timeDateInterval genera un pantallazo de cada segundo con la clasica funsion de setInterval(). ////
+        //// timeDateInterval se encarga de llevar la información completa a almacenamiento local, para extraerla milisegundo mas tarde. ////
         const time = relojCONF();
-        localStorage.setItem('hora', time.toString());
+        localStorage.setItem(name, time.toString());
     }, 1000);
     
     function darReloj () {
-        //// darReloj devuelve esa imagen para la pagina. ////
+        //// darReloj captura esa información, al igual de cuantas veces se piudió ese reloj en pantalla, para luego enbeberlo en el documento HTML. ////
         let lista = document.querySelectorAll('.hora');
-        let hora = localStorage.getItem('hora');
+        let hora = localStorage.getItem(name);
         for (let i = 0; i < lista.length; i++) {
             lista[i].innerHTML = hora;
         }}

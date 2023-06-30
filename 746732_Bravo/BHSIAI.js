@@ -41,31 +41,31 @@ console.log('Índice establecido:', establecido)
 
 // 2 ► Este fragmento construye el reloj.
 
-function relojCONF () {
+//function relojCONF () {
     // location.reload(4000)
-    const DateTime = luxon.DateTime
-    const dt = DateTime.now();
-    const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
-    localStorage.setItem('mes', dt.month)
-    let mes = meses[dt.month - 1];
+//    const DateTime = luxon.DateTime
+//    const dt = DateTime.now();
+//    const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+//    localStorage.setItem('mes', dt.month)
+//    let mes = meses[dt.month - 1];
 
-    let horas = dt.hour;
-    if (horas < 10) {
-        horas = '0' + dt.hour;
-    }
-    let minutos = dt.minute;
-    if (minutos < 10) {
-        minutos = '0' + dt.minute;
-    }
-    let segundos = dt.second;
-    if (segundos < 10) {
-        segundos = '0' + dt.second;
-    }
+//    let horas = dt.hour;
+//    if (horas < 10) {
+//        horas = '0' + dt.hour;
+//    }
+//    let minutos = dt.minute;
+//    if (minutos < 10) {
+//        minutos = '0' + dt.minute;
+//    }
+//    let segundos = dt.second;
+//    if (segundos < 10) {
+//        segundos = '0' + dt.second;
+//    }
     
-    const hora = `${horas}:${minutos}:${segundos}hs. ${dt.day} de ${mes} de ${dt.year}`;
+//    const hora = `${horas}:${minutos}:${segundos}hs. ${dt.day} de ${mes} de ${dt.year}`;
     
-    return hora
-}
+//    return hora
+//}
 // let getReloj = relojCONF();
 //const timeDateInterval = setInterval(() => {
 //    const time = relojCONF();

@@ -53,7 +53,8 @@ function reloj (name, parameter) {
         if (parameter == 'dayNum') {
             hora = `${horas}:${minutos}:${segundos}hs. ${diaSemana} ${dt.day}-${dt.month}-${dt.year}`;
         }
-        
+
+        if (hora != 'HORA_VACIA'){consoleInfo('Reloj configurado correctamente.')};
         return hora
     }
     let getReloj = relojCONF();

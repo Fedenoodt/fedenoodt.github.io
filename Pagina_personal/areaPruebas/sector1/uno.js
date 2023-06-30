@@ -16,8 +16,6 @@
 ////////////////////////////////////////////////////////////////    PROYECTO RAYONNAGE    /////////////////////////////////////////////////////////////////
 
 function reloj (name, parameter) {
-    name = `${name}`;
-    parameter = `${parameter}`;
     function relojCONF () {
         //// relojCONF toma los datos, y los compila en una unica linea. ////
         const DateTime = luxon.DateTime

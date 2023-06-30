@@ -587,11 +587,11 @@ console.log('Ejecutando imagen...')
 let menu = [base, tools, reloj, webs, medios, radio, twitch, youtube, streaming, juegos, minecraft, comms, redes];
 try{
 
-reloj('BHSIAI', 'dayStr');
+//reloj('BHSIAI', 'dayStr');
 
 console.log('Imagen: '+ menu[establecido]()
 
-//reloj('BHSIAI', 'dayStr');
+reloj('BHSIAI', 'dayStr');
 
 )
 } catch { console.log('Atencion. El ID fue reestablecido.')

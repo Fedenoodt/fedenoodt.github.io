@@ -60,6 +60,10 @@ function localGet (key) {
     return localStorage.getItem(key)
 }
 
+function localClear () {
+    return localStorage.clear()
+}
+
 function refresh (parameter) {
     if (parameter == 'STOP') {
         clearInterval()

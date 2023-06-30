@@ -16,7 +16,7 @@
 
 ////////////////////////////////////////////////////////////////    PROYECTO RAYONNAGE    /////////////////////////////////////////////////////////////////
 
-export function main () {
+function main (parameter) {
     function relojCONF () {
         //// relojCONF toma los datos, y los compila en una unica linea. ////
         const DateTime = luxon.DateTime
@@ -24,6 +24,7 @@ export function main () {
         const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
         localStorage.setItem('mes', dt.month)
         let mes = meses[dt.month - 1];
+        let diaSemana = dt.toLocaleString({ weekday: 'long'});
     
         let horas = dt.hour;
         if (horas < 10) {
@@ -37,8 +38,20 @@ export function main () {
         if (segundos < 10) {
             segundos = '0' + dt.second;
         }
-        
-        const hora = `${horas}:${minutos}:${segundos}hs. ${dt.day} de ${mes} de ${dt.year}`;
+
+        let hora = 'HORA_VACIA';
+        if (parameter == 'str') {
+            hora = `${horas}:${minutos}:${segundos}hs. ${dt.day} de ${mes} de ${dt.year}`;
+        }
+        if (parameter == 'num') {
+            hora = `${horas}:${minutos}:${segundos}hs. ${dt.day}-${dt.month}-${dt.year}`;
+        }
+        if (parameter == 'dayStr') {
+            hora = `${horas}:${minutos}:${segundos}hs. ${diaSemana}, ${dt.day} de ${mes} de ${dt.year}`;
+        }
+        if (parameter == 'dayNum') {
+            hora = `${horas}:${minutos}:${segundos}hs. ${diaSemana} ${dt.day}-${dt.month}-${dt.year}`;
+        }
         
         return hora
     }
@@ -52,10 +65,11 @@ export function main () {
     
     function darReloj () {
         //// darReloj devuelve esa imagen para la pagina. ////
-        let pantalla = document.getElementById('hora');
+        let lista = document.querySelectorAll('.hora');
         let hora = localStorage.getItem('hora');
-        pantalla.innerHTML = hora;
-    }
+        for (let i = 0; i < lista.length; i++) {
+            lista[i].innerHTML = hora;
+        }}
 
     console.log('Si tenes este problema: "Uncaught TypeError: Cannot set properties of null (setting innerHTML) at darReloj (reloj.js:37:28)" significa que no estas declarando donde va el reloj en la web.')
     

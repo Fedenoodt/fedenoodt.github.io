@@ -16,7 +16,9 @@
 
 ////////////////////////////////////////////////////////////////    PROYECTO RAYONNAGE    /////////////////////////////////////////////////////////////////
 
-function main (parameter) {
+function main (name, parameter) {
+    name = `${name}`;
+    parameter = `${parameter}`;
     function relojCONF () {
         //// relojCONF toma los datos, y los compila en una unica linea. ////
         const DateTime = luxon.DateTime
@@ -60,13 +62,13 @@ function main (parameter) {
     const timeDateInterval = setInterval(() => {
         //// timeDateInterval genera un pantallazo de cada segundo con la clasica funsion de setInterval(). ////
         const time = relojCONF();
-        localStorage.setItem('hora', time.toString());
+        localStorage.setItem(name, time.toString());
     }, 1000);
     
     function darReloj () {
         //// darReloj devuelve esa imagen para la pagina. ////
         let lista = document.querySelectorAll('.hora');
-        let hora = localStorage.getItem('hora');
+        let hora = localStorage.getItem(name);
         for (let i = 0; i < lista.length; i++) {
             lista[i].innerHTML = hora;
         }}

@@ -311,8 +311,9 @@ preventDefault() va a evitar que un formulario se comporte de manera convenxcion
 
 ~Quinceavo módulo de JavasCript vuelto a evaluar a 100%~
 
-    -Día #23: 27-06-2023_Martes:
+    -Día #23: 05-07-2023_Miercoles:
 
-~Quinceavo módulo de JavasCript vuelto a evaluar, y reprobado a 88%~
+~Quinto módulo de HTML vuelto a evaluar a 100%~
 
     -Día #24: 
+

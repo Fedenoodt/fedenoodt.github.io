@@ -315,5 +315,11 @@ preventDefault() va a evitar que un formulario se comporte de manera convenxcion
 
 ~Quinto módulo de HTML vuelto a evaluar a 100%~
 
-    -Día #24: 
+    -Día #24: 06-07-2023_Jueves:
+
+Es importante tener mociòn de la propiedad de Box-sizing: border-box. Porque sin ella, cuando hacemos diseño responsive, tendrìamos que acer siempre restas para eliminar los valores del padding, y border. 
+
+~Octavo módulo de HTML vuelto a evaluar a 100%~
+~Noveno módulo de HTML vuelto a evaluar, y reprobado a 83%~
+~Noveno módulo de HTML vuelto a evaluar a 100%~
 

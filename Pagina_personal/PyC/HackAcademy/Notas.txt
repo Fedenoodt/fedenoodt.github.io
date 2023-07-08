@@ -323,3 +323,21 @@ Es importante tener mociòn de la propiedad de Box-sizing: border-box. Porque si
 ~Noveno módulo de HTML vuelto a evaluar, y reprobado a 83%~
 ~Noveno módulo de HTML vuelto a evaluar a 100%~
 
+    -Dìa #25: 08-07-2023_Sábado:
+
+Importante mantener presente la importancia de la etiqueta <!DOCTYPE html>. Ya que esta declara la versiòn html a utilizar, por ende, esto pùede producir fallos al no tenerlo presente.
+Y recordar de el atajo "!", para montar una estructura completa de HTML.
+El atributo lang de la etiqueta HTML, es para definir el lenguaje de la web. Recordarlo.
+Tener en cuenta que en la semántica de HTML, es importante usar un solo H1, un solo titulo principal del tema a tratar.
+
+~Primer módulo de HTML vuelto a evaluar a 100%~
+
+Recordar que el foreach es más cómodo para ejecutar funciones, recorriendo listas.
+
+~Dieciseisavo módulo de JavasCript vuelto a evaluar a 100%~
+
+Recordar que el allign-items sirve para que los elementos se alinien de forma deseada. Y que flex-wrap: wrap hace que se distribuyan los elementos flex de manera correcta.
+
+~Noveno módulo de HTML vuelto a evaluar a 100%~
+
+    -Día #26:

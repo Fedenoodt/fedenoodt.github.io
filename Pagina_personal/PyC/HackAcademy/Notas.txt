@@ -317,7 +317,7 @@ preventDefault() va a evitar que un formulario se comporte de manera convenxcion
 
     -Día #24: 06-07-2023_Jueves:
 
-Es importante tener mociòn de la propiedad de Box-sizing: border-box. Porque sin ella, cuando hacemos diseño responsive, tendrìamos que acer siempre restas para eliminar los valores del padding, y border. 
+Es importante tener moción de la propiedad de Box-sizing: border-box. Porque sin ella, cuando hacemos diseño responsive, tendrìamos que acer siempre restas para eliminar los valores del padding, y border. 
 
 ~Octavo módulo de HTML vuelto a evaluar a 100%~
 ~Noveno módulo de HTML vuelto a evaluar, y reprobado a 83%~
@@ -338,6 +338,13 @@ Recordar que el foreach es más cómodo para ejecutar funciones, recorriendo lis
 
 Recordar que el allign-items sirve para que los elementos se alinien de forma deseada. Y que flex-wrap: wrap hace que se distribuyan los elementos flex de manera correcta.
 
-~Noveno módulo de HTML vuelto a evaluar a 100%~
+~Sexto módulo de HTML vuelto a evaluar a 100%~
 
-    -Día #26:
+    -Día #26: 10-07-2023_Lumes:
+
+~Séptimo módulo de HTML vuelto a evaluar, y reprobado a 88%~
+~Séptimo módulo de HTML vuelto a evaluar a 100%~
+~Diecisieteavo módulo de JavasCript vuelto a evaluar a 100%~
+~Repaso académico finalizado.~
+
+    -Día #27: 

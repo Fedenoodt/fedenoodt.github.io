@@ -347,4 +347,11 @@ Recordar que el allign-items sirve para que los elementos se alinien de forma de
 ~Diecisieteavo módulo de JavasCript vuelto a evaluar a 100%~
 ~Repaso académico finalizado.~
 
-    -Día #27: 
+    -Día #27: 11-07-2023_Martes:
+
+~Primer módulo de HTML vuelto a evaluar a 100%~
+~Segundo módulo de HTML vuelto a evaluar a 100%~
+
+Respecto de la tipografìa, existen varias solicitudes cuando se llama a la fuente, en caso de que una de estas no exista en el sistema, se busca otras de estas.
+
+~Tercer módulo de HTML vuelto a evaluar a 100%~

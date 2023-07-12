@@ -392,15 +392,16 @@ function twitch () {
     <div class="in-flex">
 			<h2>Twitch</h2>
 			<ul>
-				<li><a href="https://www.twitch.tv/" target="_blank">Twitch</a>></li><br />
-				<li><a href="https://www.twitch.tv/auronplay" target="_blank">auronplay</a>></li>
-				<li><a href="https://www.twitch.tv/tanizen" target="_blank">Tanizen</a>></li>	
-				<li><a href="https://www.twitch.tv/elperitaafk" target="_blank">eLPeritaAFK</a>></li>				
-				<li><a href="https://www.twitch.tv/elrichmc" target="_blank">ElRichMC</a>></li>				
-				<li><a href="https://www.twitch.tv/ibai" target="_blank">Ibai</a>></li>
-				<li><a href="https://www.twitch.tv/abyls" target="_blank">Abyls</a>></li>
-				<li><a href="https://www.twitch.tv/polispol1" target="_blank">polispol1</a>></li>
+				<li><a href="https://www.twitch.tv/" target="_blank">Twitch</a>></li><br />		
 				<li><a href="https://www.twitch.tv/4fungamingg" target="_blank">4fungamingg</a>></li>
+				<li><a href="https://www.twitch.tv/abyls" target="_blank">Abyls</a>></li>
+				<li><a href="https://www.twitch.tv/auronplay" target="_blank">auronplay</a>></li>
+				<li><a href="https://www.twitch.tv/elperitaafk" target="_blank">eLPeritaAFK</a>></li>			
+				<li><a href="https://www.twitch.tv/elrichmc" target="_blank">ElRichMC</a>></li>	
+				<li><a href="https://www.twitch.tv/ibai" target="_blank">Ibai</a>></li>	
+				<li><a href="https://www.twitch.tv/nuvia_ouo" target="_blank">Nuvia_OuO</a>></li>	
+				<li><a href="https://www.twitch.tv/polispol1" target="_blank">polispol1</a>></li>
+				<li><a href="https://www.twitch.tv/tanizen" target="_blank">Tanizen</a>></li>		
 				<li></a><a href = "" onclick = pendiente(conversor(${mediosID}))>Volver</a><<</li>
 			</ul>
 			<a class = "inicio" href = "" onclick = pendiente(conversor(${baseID}))><h2><<<<< Volver al inicio <<<</h2></a>

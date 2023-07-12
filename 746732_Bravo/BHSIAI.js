@@ -145,8 +145,8 @@ function base () {
 		<h2>Accesos de emergencia</h2>
 		<ul>
 		    <li><a href="https://plataforma.ha.dev/enrollments" target="_blank">Hack Academy</a></li>
-		    <li><a href="https://sigead.utnba.centrodeelearning.com//personas/panel" target="_blank">UTN - Aula Virtual</a></li>
-		    <li><a href="https://sigead.utnba.centrodeelearning.com/personas/login?_ga=2.874865.1392633345.1682424632-1633051418.1682105121&_gl=1*aat5ey*_ga*MTYzMzA1MTQxOC4xNjgyMTA1MTIx*_ga_SWYYXNHY2W*MTY4MjQyNDYzMi4zLjAuMTY4MjQyNDYzMi4wLjAuMA.." target="_blank">UTN - Centro de e-learning</a></li>
+		    <li><a href="https://cursos.utnba.centrodeelearning.com/my/courses.php" target="_blank">UTN - Aula Virtual</a></li>
+		    <li><a href="https://sigead.utnba.centrodeelearning.com//personas/panel" target="_blank">UTN - Centro de e-learning</a></li>
 		    <li><a href="https://github.com/Fedenoodt/JavaScript/tree/main" target="_blank">GitHub - JavaScript</a></li>
 		    <li><a href="https://fedenoodt.github.io/Pagina_personal/javascript-es.7.pdf" target="_blank">Manual-Informatica.com - JavaScript</a></li>
 		    <li><a href="https://www.youtube.com/watch?v=z95mZVUcJ-E&t=2756s" target="_blank">Soy Dalto - JavaScript</a></li>

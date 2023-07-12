@@ -355,3 +355,15 @@ Recordar que el allign-items sirve para que los elementos se alinien de forma de
 Respecto de la tipografìa, existen varias solicitudes cuando se llama a la fuente, en caso de que una de estas no exista en el sistema, se busca otras de estas.
 
 ~Tercer módulo de HTML vuelto a evaluar a 100%~
+
+    -Dìa #28: 12-07-2023_Miercoles:
+
+~Quinto módulo de HTML vuelto a evaluar a 100%~
+~Sexto módulo de HTML vuelto a evaluar a 100%~
+~Séptimo módulo de HTML vuelto a evaluar a 100%~
+~Octavo módulo de HTML vuelto a evaluar a 100%~
+
+Recordar que "Viewport" en la etiquetta meta, que define a la transformación responsive de la web, es la ventana de vista de la web, el body en su escencia.
+
+
+~Noveno módulo de HTML vuelto a evaluar a 100%~

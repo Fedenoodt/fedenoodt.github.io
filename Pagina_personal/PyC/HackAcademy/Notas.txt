@@ -367,3 +367,12 @@ Recordar que "Viewport" en la etiquetta meta, que define a la transformación re
 
 
 ~Noveno módulo de HTML vuelto a evaluar a 100%~
+
+    -Dìa #29: 13-07-2023_Jueves:
+
+Es importante recordar que los estilos CSS en Javascript, se remplaza a los que tienen guión, por un camelCase.
+
+~Catorceavo módulo de JavasCript vuelto a evaluar a 100%~
+~Quinceavo módulo de JavasCript vuelto a evaluar a 100%~
+~Dieciseisavo módulo de JavasCript vuelto a evaluar a 100%~
+~Diecisieteavo módulo de JavasCript vuelto a evaluar a 100%~

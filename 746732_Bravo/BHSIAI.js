@@ -95,17 +95,18 @@ console.log('Cargando las imágenes...')
 // Estas variables ID no pretenden ser más que "apodos" para los números.
 let baseID = '0';
 let toolsID = '1';
-let relojID = '2';
-let websID = '3';
-let mediosID = '4';
-let radioID = '5';
-let twitchID = '6';
-let youtubeID = '7';
-let streamingID = '8';
-let juegosID = '9';
-let minecraftID = '10';
-let commsID = '11';
-let redesID = '12';
+let obsoletID = '2';
+let relojID = '3';
+let websID = '4';
+let mediosID = '5';
+let radioID = '6';
+let twitchID = '7';
+let youtubeID = '8';
+let streamingID = '9';
+let juegosID = '10';
+let minecraftID = '11';
+let commsID = '12';
+let redesID = '13';
 
 let cabezal = `	
 <section class="home">
@@ -208,7 +209,7 @@ function tools () {
 	    <div class="in-flex">
 	    <h2>Herramientas</h2>
 	    <ul>
-		<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAIObsoletos.html">Accesos directos obsoletos</a>></li>
+		<li><a href= "" onclick = pendiente(conversor(${obsoletID}))>Accesos directos obsoletos</a>></li>
 		<li><a href="https://www.youtube.com/watch?v=gs_cochwfcY&pp=ygUKcGlwIHNvbmlkbw%3D%3D" target="_blank">Sonido para pruebas</a>></li>
 		<li><a href="https://calendar.google.com/calendar/u/1/r?tab=oc" target="_blank">Calendario</a></li>
 		<li><a href="https://translate.google.com.ar/" target="_blank">Traductor de Google</a>></li>
@@ -579,7 +580,7 @@ console.log('Ejecutando imagen...')
 
 // 4 ► Y este segmento ejecuta la imagen llamada.
 
-let menu = [base, tools, reloj, webs, medios, radio, twitch, youtube, streaming, juegos, minecraft, comms, redes];
+let menu = [base, tools, obsolet, reloj, webs, medios, radio, twitch, youtube, streaming, juegos, minecraft, comms, redes];
 try{console.log('Imagen: '+ menu[establecido]())
 } catch { console.log('Atencion. El ID fue reestablecido.')
 	  localStorage.setItem('valor', 0)}

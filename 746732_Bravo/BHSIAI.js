@@ -500,6 +500,7 @@ function juegos () {
 				<li><a href="https://agar.io" target="_blank">Agar.io</a>></li>
 				<li><a href="https://www.geoguessr.com/trips" target="_blank">GeoGuessr</a>></li>
 				<li><a href="https://geotastic.net/home" target="_blank">Geotastic (Geoguessr gratuito recomendado de PolIsPol)</a>></li>
+				<li><a href="https://bair.es/pcu/rules" target="_blank">Normativa de GTAV bair.es Roleplay</a>></li>
 				<li></a><a href = "" onclick = pendiente(conversor(${mediosID}))>Volver</a><<</li>
 		</ul>
 		<a class = "inicio" href = "" onclick = pendiente(conversor(${baseID}))><h2><<<<< Volver al inicio <<<</h2></a>

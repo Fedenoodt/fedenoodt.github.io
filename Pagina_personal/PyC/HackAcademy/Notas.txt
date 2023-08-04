@@ -376,3 +376,20 @@ Es importante recordar que los estilos CSS en Javascript, se remplaza a los que 
 ~Quinceavo módulo de JavasCript vuelto a evaluar a 100%~
 ~Dieciseisavo módulo de JavasCript vuelto a evaluar a 100%~
 ~Diecisieteavo módulo de JavasCript vuelto a evaluar a 100%~
+
+
+Recibido certificado de HackAcademy, acerca de Curso Introductorio de HTML, CSS, y JavaScript
+
+https://plataforma.ha.dev/certificates/sfwhnzldmk
+PDF en este directorio.
+
+Permanecemos a la espera del Lunes, 31 de Julio de 2023 para la inicialización del último paso de los repasos. El repaso rápido.
+
+    -Día #30: 03-07-2023_Jueves:
+
+Con el "HTML:..." (Podés indicar la versiòn de HTML que vas a usar.)
+
+    -Día #31: 04-07-2023_Viernes:
+
+~Primer módulo de HTML visto nuevamente~
+~Segundo módulo de HTML visto nuevamente~

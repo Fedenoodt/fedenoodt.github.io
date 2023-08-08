@@ -399,3 +399,10 @@ Con el "HTML:..." (Podés indicar la versiòn de HTML que vas a usar.)
 ~Tercer módulo de HTML visto nuevamente~
 ~Cuarto módulo de HTML visto nuevamente~
 ~Quinto módulo de HTML visto nuevamente~
+
+    -Día #33: 08-07-2023_Martes:
+
+~Sexto módulo de HTML visto nuevamente~
+~Séptimo módulo de HTML visto nuevamente~
+~Octavo módulo de HTML visto nuevamente~
+~Noveno módulo de HTML visto nuevamente~

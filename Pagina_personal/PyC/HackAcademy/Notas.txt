@@ -397,7 +397,7 @@ Con el "HTML:..." (Podés indicar la versiòn de HTML que vas a usar.)
     -Día #32: 07-07-2023_Lunes:
 
 ~Tercer módulo de HTML visto nuevamente~
-~Cuarto módulo de HTML visto nuevamente~
+~Cuarto módulo de HTML visto nuevamente~    
 ~Quinto módulo de HTML visto nuevamente~
 
     -Día #33: 08-07-2023_Martes:
@@ -406,3 +406,17 @@ Con el "HTML:..." (Podés indicar la versiòn de HTML que vas a usar.)
 ~Séptimo módulo de HTML visto nuevamente~
 ~Octavo módulo de HTML visto nuevamente~
 ~Noveno módulo de HTML visto nuevamente~
+
+    -Día #34: 09-07-2023_Miércoles:
+
+Recordar que // es para comentar una sola lìnea, y /* para comentar varias lìneas */.
+~Décimo módulo de JavasCript visto nuevamente~
+~Onceavo módulo de JavasCript visto nuevamente~
+
+    -Día #35: 10-07-2023_Jueves:
+
+~Doceavo módulo de JavasCript visto nuevamente~
+~Treceavo módulo de JavasCript visto nuevamente~
+~Catorceavo módulo de JavasCript visto nuevamente~
+~Quinceavo módulo de JavasCript visto nuevamente~       
+~Dieciseisavo módulo de JavasCript visto nuevamente~       

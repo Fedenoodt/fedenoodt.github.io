@@ -418,5 +418,4 @@ Recordar que // es para comentar una sola lìnea, y /* para comentar varias lìn
 ~Doceavo módulo de JavasCript visto nuevamente~
 ~Treceavo módulo de JavasCript visto nuevamente~
 ~Catorceavo módulo de JavasCript visto nuevamente~
-~Quinceavo módulo de JavasCript visto nuevamente~       
-~Dieciseisavo módulo de JavasCript visto nuevamente~       
+~Quinceavo módulo de JavasCript visto nuevamente~

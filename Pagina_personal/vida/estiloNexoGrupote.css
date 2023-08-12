@@ -1,7 +1,6 @@
 * {
 	color: rgb(243,200,200);
-	align-self: center;
-	font-size: 26px;
+	font-size: 24px;
 }
 
 body {
@@ -13,21 +12,20 @@ body {
 
 h1 {
 
-	font-size: 50px;
+	font-size: 3rem;
 	margin:0 0;
 	display: inline-block;
+}
+
+h2 {
+
+	font-size: 2rem;
+	margin:0 0;
 }
 
 h3 {
 
-	font-size: 30px;
-	margin:0 0;
-	display: inline-block;
-}
-
-h4 {
-
-	font-size: 20px;
+	font-size: 1rem;
 	margin:0 0;
 }
 
@@ -42,12 +40,12 @@ h4 {
 	border-radius: 10%;
 }
 
-.in-flex {
+.container {
 	width: 700px;
-	height: 1000px;
 	background-color: rgba(64,133,190,0.8);
 	border-radius: 2%;
 	margin-bottom: 10px; 
+	margin-top: 10px; 
 }
 
 .divFantasma {
@@ -55,5 +53,5 @@ h4 {
 }
 
 .graficoEsquema {
-	width: 680px;
+	width: 80%;
 }

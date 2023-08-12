@@ -41,17 +41,12 @@ h3 {
 }
 
 .container {
-	width: 700px;
 	background-color: rgba(64,133,190,0.8);
-	border-radius: 2%;
-	margin-bottom: 10px; 
+	border-radius: 10px;
 	margin-top: 10px; 
-}
-
-.divFantasma {
-	height: 15px;
+	margin-bottom: 10px; 
 }
 
 .graficoEsquema {
-	width: 80%;
+	width: 680px;
 }

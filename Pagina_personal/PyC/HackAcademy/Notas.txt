@@ -417,5 +417,18 @@ Recordar que // es para comentar una sola lìnea, y /* para comentar varias lìn
 
 ~Doceavo módulo de JavasCript visto nuevamente~
 ~Treceavo módulo de JavasCript visto nuevamente~
+
+    -Día #36: 11-07-2023_Viernes:
+
+
 ~Catorceavo módulo de JavasCript visto nuevamente~
 ~Quinceavo módulo de JavasCript visto nuevamente~
+
+    -Día #37: 12-07-2023_Sábado:
+
+
+~Dieciseisavo módulo de JavasCript visto nuevamente~
+
+Importante recordar el uso de la extensión JSON Formatter para per texto JSON "parseado".
+
+~Diesisieteavo módulo de JavasCript visto nuevamente~

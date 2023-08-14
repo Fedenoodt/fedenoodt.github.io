@@ -110,7 +110,6 @@ let redesID = '13';
 
 let cabezal = `	
 <div class="bigBox">
-	<section class="container">
 	    <div>
 	        <div id="header">
 	            <a href = "" onclick = pendiente(conversor(${baseID}))><img class="Emblema" src="https://fedenoodt.github.io/746732_Bravo/Emblema.png"></a>
@@ -178,9 +177,10 @@ function base () {
 			<br />
 	
 		    </div>
-		</section>
+		
   	</div>
 	`;
+	cuerpo.classList.add("container");
 	cuerpo.innerHTML = imagen;
 	document.body.appendChild(cuerpo);
     return imagen
@@ -253,7 +253,7 @@ function tools () {
 				<li><a href = "" onclick = pendiente(conversor(${baseID}))>Volver</a><<</li>
 			    </ul>
 			</div>
-		</section>
+		
   	</div>
 	`;
 cuerpo.innerHTML = imagen;
@@ -275,12 +275,13 @@ function obsolet () {
 					<li><a href = "" onclick = pendiente(conversor(${baseID}))>Volver</a><<</li>
 				</ul>
 			</div>
-		</section>
+		
   	</div>
 	`;
-cuerpo.innerHTML = imagen;
-document.body.appendChild(cuerpo);
-return imagen
+	cuerpo.classList.add("container");
+	cuerpo.innerHTML = imagen;
+	document.body.appendChild(cuerpo);
+	return imagen
 }
 
 function reloj () {
@@ -292,6 +293,7 @@ function reloj () {
 	<a href = "" onclick = pendiente(conversor(${baseID}))><h2> << Volver </h2></a>
 	</center>
 	`;
+    cuerpo.classList.add("container");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -311,9 +313,10 @@ function webs () {
 			</div>
 	
 	
-		</section>
+		
   	</div>
     `;
+    cuerpo.classList.add("container");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -335,9 +338,10 @@ function medios () {
 					<li><a href = "" onclick = pendiente(conversor(${baseID}))>Volver</a><<</li>
 				</ul>
 			</div>
-		</section>
+		
   	</div>
     `;
+    cuerpo.classList.add("container");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -387,9 +391,10 @@ function radio () {
 				</ul>
 				<a class = "inicio" href = "" onclick = pendiente(conversor(${baseID}))><h2><<<<< Volver al inicio <<<</h2></a>
 			</div>
-		</section>
+		
   	</div>
     `;
+    cuerpo.classList.add("container");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -421,9 +426,10 @@ function twitch () {
 				<p class = "tip"><b>TIP:</b> Recordar el uso de el "Programador de tareas de Windows" para hacer que un stream, o lista de Youtube se 
 				encienda de manera automática.</p>
 			</footer>
-		</section>
+		
   	</div>
     `;
+    cuerpo.classList.add("container");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -459,9 +465,10 @@ function youtube () {
 				<p class = "tip"><b>TIP:</b> Recordar el uso de "Youtube NonStop" para el cese de publicidad, y "SmartVideo For Youtube" para 
 				nivelar el mínimo gráfico automático de los videos Youtube. Ambas como extenciones de Chrome y Firefox.</p>
 			</footer>
-		</section>
+		
   	</div>
     `;
+    cuerpo.classList.add("container");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -492,9 +499,10 @@ function streaming () {
 				<p class = "tip"><b>TIP:</b> Recordar con respecto a Flow, que hay que usar directamente este acceso, e ingresar directo a "Guía de TV". 
 					Flow es muy inestable como plataforma.</p>
 			</footer>
-		</section>
+		
   	</div>
     `;
+    cuerpo.classList.add("container");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -517,9 +525,10 @@ function juegos () {
 				</ul>
 				<a class = "inicio" href = "" onclick = pendiente(conversor(${baseID}))><h2><<<<< Volver al inicio <<<</h2></a>
 			</div>
-		</section>
+		
   	</div>
     `;
+    cuerpo.classList.add("container");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -540,9 +549,10 @@ function minecraft () {
 				</ul>
 				<a class = "inicio" href = "" onclick = pendiente(conversor(${baseID}))><h2><<<<< Volver al inicio <<<</h2></a>
 			</div>
-		</section>
+		
   	</div>
     `;
+    cuerpo.classList.add("container");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -560,9 +570,10 @@ function comms () {
 					<li><a href = "" onclick = pendiente(conversor(${baseID}))>Volver</a><<</li>
 				</ul>
 			</div>
-		</section>
+		
   	</div>
     `;
+    cuerpo.classList.add("container");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -583,9 +594,10 @@ function redes () {
 					<li><a href = "" onclick = pendiente(conversor(${baseID}))>Volver</a><<</li>
 				</ul>
 			</div>
-		</section>
+		
   	</div>
     `;
+    cuerpo.classList.add("container");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen

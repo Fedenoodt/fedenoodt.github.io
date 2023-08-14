@@ -2,8 +2,8 @@
 	color: white;
 }
 
-.container {
-	allign-self: center;
+.bigBox {
+	align-items: center;
 }
 
 body {

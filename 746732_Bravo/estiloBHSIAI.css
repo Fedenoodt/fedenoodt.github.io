@@ -2,10 +2,6 @@
 	color: white;
 }
 
-.bigBox {
-	align-items: center;
-}
-
 body {
 	background-color: black;
 }
@@ -31,10 +27,6 @@ h1 {
 	font-size: 120px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-}
-
-.bloqueHora {
-	height: 800px;
 }
 
 .listaHorizontal {

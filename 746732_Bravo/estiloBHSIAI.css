@@ -2,6 +2,10 @@
 	color: white;
 }
 
+.container {
+	allign-self: center;
+}
+
 body {
 	background-color: black;
 }

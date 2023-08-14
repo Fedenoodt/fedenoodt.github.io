@@ -1,5 +1,6 @@
 * {
 	color: white;
+	font-size: 16px;
 }
 
 body {
@@ -70,4 +71,24 @@ button {
 .inicio{
 	float: right;
 	float: bottom;
+}
+
+@media (min-width: 625px) {
+    
+}
+
+@media (min-width: 783px) {
+    
+}
+
+@media (min-width: 1007px) {
+    
+}
+
+@media (min-width: 1225px) {
+    
+}
+
+@media (min-width: 1425px) {
+    
 }

@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-	font-size: 4rem;
+	font-size: 3rem;
 	margin:0 0;
 }
 .tooBig {
@@ -16,7 +16,7 @@ h1 {
 }
 
 .Emblema {
-	width: 14rem;
+	width: 18rem;
 }
 
 .megaEmblema {
@@ -55,7 +55,7 @@ a .good {
 }
 
 .atajos {
-	max-width: 8rem;
+	max-width: 5rem;
 	float: right;
 }
 
@@ -64,8 +64,8 @@ button {
 }
 
 .imgAtajos {
-	width: 8rem;
-	height: 8rem;
+	width: 5rem;
+	height: 5rem;
 }
 .inicio{
 	float: right;

@@ -25,11 +25,11 @@ h1 {
 }
 
 .megaEmblema {
-	width: 6rem;
+width: 2rem;
 }
 
 .megaReloj {
-	font-size: 10rem;
+	font-size: 5rem;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
@@ -80,24 +80,99 @@ button {
 @media (min-width: 625px) {
 	* { font-size: 14px; }
 	a { font-size: 14px; }
+	h1 { font-size: 3rem; }
+
+	.imgAtajos {
+		width: 5rem;
+		height: 5rem;
+	}
+	.megaEmblema {
+	width: 2rem;
+	}
+
+	.megaReloj {
+		font-size: 5rem;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
 }
 
 @media (min-width: 783px) {
 	* { font-size: 14px; }
 	a { font-size: 14px; }
+	h1 { font-size: 3rem; }
+
+	.imgAtajos {
+		width: 1rem;
+		height: 1rem;
+	}
+	.megaEmblema {
+	width: 2rem;
+	}
+
+	.megaReloj {
+		font-size: 5rem;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
 }
 
 @media (min-width: 1007px) {
 	* { font-size: 16px; }
 	a { font-size: 16px; }
+	h1 { font-size: 3rem; }
+
+	.imgAtajos {
+		width: 3rem;
+		height: 3rem;
+	}
+	.megaEmblema {
+	width: 4rem;
+	}
+
+	.megaReloj {
+		font-size: 7rem;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
 }
 
 @media (min-width: 1225px) {
 	* { font-size: 18px; }
 	a { font-size: 18px; }
+	h1 { font-size: 3rem; }
+
+	.imgAtajos {
+		width: 5rem;
+		height: 5rem;
+	}
+	.megaEmblema {
+	width: 6rem;
+	}
+
+	.megaReloj {
+		font-size: 10rem;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
 }
 
 @media (min-width: 1425px) {
 	* { font-size: 18px; }
 	a { font-size: 18px; }
+	h1 { font-size: 3rem; }
+
+	.imgAtajos {
+		width: 5rem;
+		height: 5rem;
+	}
+	.megaEmblema {
+	width: 6rem;
+	}
+
+	.megaReloj {
+		font-size: 10rem;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
 }

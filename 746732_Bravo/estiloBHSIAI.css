@@ -1,6 +1,10 @@
 * {
 	color: white;
-	font-size: 18px;
+	font-size: 14px;
+}
+
+a { 
+	font-size: 14px;
 }
 
 body {
@@ -74,21 +78,26 @@ button {
 }
 
 @media (min-width: 625px) {
-    
+	* { font-size: 14px; }
+	a { font-size: 14px; }
 }
 
 @media (min-width: 783px) {
-    
+	* { font-size: 14px; }
+	a { font-size: 14px; }
 }
 
 @media (min-width: 1007px) {
-    
+	* { font-size: 16px; }
+	a { font-size: 16px; }
 }
 
 @media (min-width: 1225px) {
-    
+	* { font-size: 18px; }
+	a { font-size: 18px; }
 }
 
 @media (min-width: 1425px) {
-    
+	* { font-size: 18px; }
+	a { font-size: 18px; }
 }

@@ -109,8 +109,8 @@ let commsID = '12';
 let redesID = '13';
 
 let cabezal = `	
-<section class="home">
-    <div class="in-flex">
+<section class="container">
+    <div>
         <div id="header">
             <a href = "" onclick = pendiente(conversor(${baseID}))><img class="Emblema" src="https://fedenoodt.github.io/746732_Bravo/Emblema.png"></a>
             <div class = "atajos">
@@ -142,7 +142,7 @@ function base () {
 	let cuerpo = document.createElement("div");
 	const imagen = `
 	${cabezal}
-	<div class="in-flex">
+	<div>
 		<h2>Accesos de emergencia</h2>
 		<ul>
 		    <li><a href="https://plataforma.ha.dev/enrollments" target="_blank">Hack Academy</a></li>
@@ -262,7 +262,7 @@ function obsolet () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-    <div class="in-flex">
+    <div>
 			<h2>Accesos Obsoletos</h2>
 			<ul>
 		    		<li><a href="https://plataforma.coderhouse.com/cursos" target="_blank">Coder House - Plataforma E-Learning</a>></li>
@@ -296,7 +296,7 @@ function webs () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-    <div class="in-flex">
+    <div>
 			<h2>P&aacute;ginas Especiales</h2>
 			<ul>
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/vida/inicio.html" target="_blank">Pagina Oficial de Fedenoodt</a>></li>
@@ -318,7 +318,7 @@ function medios () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-    <div class="in-flex">
+    <div>
         <h2>Medios audiovisuales</h2>
 			<ul>
 				<li><a href = "" onclick = pendiente(conversor(${radioID}))>Radio</a>></li>
@@ -341,7 +341,7 @@ function radio () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-    <div class="in-flex">
+    <div>
 			<h2>Radio</h2>
 			<ul>
 				<li><a href="https://www.bitbox.fm/" target="_blank">Radio Bitbox 93.3</a>></li>
@@ -391,7 +391,7 @@ function twitch () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-    <div class="in-flex">
+    <div>
 			<h2>Twitch</h2>
 			<ul>
 				<li><a href="https://www.twitch.tv/" target="_blank">Twitch</a>></li><br />		
@@ -424,7 +424,7 @@ function youtube () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-    <div class="in-flex">
+    <div>
 			<h2>Youtube</h2>
 			<ul>
 				<li><a href="https://www.youtube.com/feed/library" target="_blank">Biblioteca Youtube</a></li><br />
@@ -461,7 +461,7 @@ function streaming () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-    <div class="in-flex">
+    <div>
 			<h2>Streaming</h2>
 			<ul>
 				<li><a href="https://www.primevideo.com/?ref_=dvm_pds_amz_ar_dc_s_g_mkw_sURBO2uG4-dc_pcrid_231825120471&mrntrk=slid__pgrid_42306243048_pgeo_1000073_x__ptid_kwd-45697133742" target="_blank">Amazon Prime Video</a>></li>
@@ -493,7 +493,7 @@ function juegos () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-    <div class="in-flex">
+    <div>
 		<h2>Juegos</h2>
 			<ul>
 				<li><a href = "" onclick = pendiente(conversor(${minecraftID}))>Minecraft (Webs de informaci&oacute;n)</a>></li>
@@ -516,7 +516,7 @@ function minecraft () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-	<div class="in-flex">
+	<div>
 		<h2>Minecrafteo</h2>
 			<ul>
 				<li><a href="https://docs.google.com/document/d/1b4P51y2acdchT11xjx-eywD-BodEp82eL3X0F1yKB3I/edit" target="_blank">Salvamundos</a>></li>
@@ -537,7 +537,7 @@ function comms () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-    <div class="in-flex">
+    <div>
 			<h2>Comunicaciones</h2>
 			<ul>
 				<li><a href="https://web.telegram.org/#/im" target="_blank">Telegram</a>></li>
@@ -556,7 +556,7 @@ function redes () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-    <div class="in-flex">
+    <div>
 			<h2>Redes Sociales</h2>
 			<ul>
 				<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAI.html"><a href="https://www.linkedin.com/in/federico-noodt-molins-182a30134/" target="_blank">LinkedIn Fedenoodt</a></a>></li>

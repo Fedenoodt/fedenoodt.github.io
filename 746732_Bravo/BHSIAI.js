@@ -142,7 +142,7 @@ function base () {
 	let cuerpo = document.createElement("div");
 	const imagen = `
 	${cabezal}
-		<div>
+		<div class="container">
 			<h2>Accesos de emergencia</h2>
 			<ul>
 			    <li><a href="https://plataforma.ha.dev/enrollments" target="_blank">Hack Academy</a></li>
@@ -180,7 +180,7 @@ function base () {
 		
   	</div>
 	`;
-	cuerpo.classList.add("container");
+	cuerpo.classList.add("bigBox");
 	cuerpo.innerHTML = imagen;
 	document.body.appendChild(cuerpo);
     return imagen
@@ -208,7 +208,7 @@ function tools () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-			    <div>
+			    <div class="container">
 			    <h2>Herramientas</h2>
 			    <ul>
 				<li><a href= "" onclick = pendiente(conversor(${obsoletID}))>Accesos directos obsoletos</a>></li>
@@ -256,6 +256,7 @@ function tools () {
 		
   	</div>
 	`;
+cuerpo.classList.add("bigBox");
 cuerpo.innerHTML = imagen;
 document.body.appendChild(cuerpo);
 return imagen
@@ -265,7 +266,7 @@ function obsolet () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-	    <div>
+	    <div class="container">
 				<h2>Accesos Obsoletos</h2>
 				<ul>
 			    		<li><a href="https://plataforma.coderhouse.com/cursos" target="_blank">Coder House - Plataforma E-Learning</a>></li>
@@ -278,7 +279,7 @@ function obsolet () {
 		
   	</div>
 	`;
-	cuerpo.classList.add("container");
+	cuerpo.classList.add("bigBox");
 	cuerpo.innerHTML = imagen;
 	document.body.appendChild(cuerpo);
 	return imagen
@@ -293,7 +294,7 @@ function reloj () {
 	<a href = "" onclick = pendiente(conversor(${baseID}))><h2> << Volver </h2></a>
 	</center>
 	`;
-    cuerpo.classList.add("container");
+    cuerpo.classList.add("bigBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -316,7 +317,7 @@ function webs () {
 		
   	</div>
     `;
-    cuerpo.classList.add("container");
+    cuerpo.classList.add("bigBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -327,7 +328,7 @@ function medios () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-	    <div>
+	    <div class="container">
 	        <h2>Medios audiovisuales</h2>
 				<ul>
 					<li><a href = "" onclick = pendiente(conversor(${radioID}))>Radio</a>></li>
@@ -341,7 +342,7 @@ function medios () {
 		
   	</div>
     `;
-    cuerpo.classList.add("container");
+    cuerpo.classList.add("bigBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -352,7 +353,7 @@ function radio () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-	    <div>
+	    <div class="container">
 				<h2>Radio</h2>
 				<ul>
 					<li><a href="https://www.bitbox.fm/" target="_blank">Radio Bitbox 93.3</a>></li>
@@ -394,7 +395,7 @@ function radio () {
 		
   	</div>
     `;
-    cuerpo.classList.add("container");
+    cuerpo.classList.add("bigBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -404,7 +405,7 @@ function twitch () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-		    <div>
+		    <div class="container">
 					<h2>Twitch</h2>
 					<ul>
 						<li><a href="https://www.twitch.tv/" target="_blank">Twitch</a>></li><br />		
@@ -429,7 +430,7 @@ function twitch () {
 		
   	</div>
     `;
-    cuerpo.classList.add("container");
+    cuerpo.classList.add("bigBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -439,7 +440,7 @@ function youtube () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-		    <div>
+		    <div class="container">
 					<h2>Youtube</h2>
 					<ul>
 						<li><a href="https://www.youtube.com/feed/library" target="_blank">Biblioteca Youtube</a></li><br />
@@ -468,7 +469,7 @@ function youtube () {
 		
   	</div>
     `;
-    cuerpo.classList.add("container");
+    cuerpo.classList.add("bigBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -478,7 +479,7 @@ function streaming () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-		    <div>
+		    <div class="container">
 					<h2>Streaming</h2>
 					<ul>
 						<li><a href="https://www.primevideo.com/?ref_=dvm_pds_amz_ar_dc_s_g_mkw_sURBO2uG4-dc_pcrid_231825120471&mrntrk=slid__pgrid_42306243048_pgeo_1000073_x__ptid_kwd-45697133742" target="_blank">Amazon Prime Video</a>></li>
@@ -502,7 +503,7 @@ function streaming () {
 		
   	</div>
     `;
-    cuerpo.classList.add("container");
+    cuerpo.classList.add("bigBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -512,7 +513,7 @@ function juegos () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-		    <div>
+		    <div class="container">
 				<h2>Juegos</h2>
 					<ul>
 						<li><a href = "" onclick = pendiente(conversor(${minecraftID}))>Minecraft (Webs de informaci&oacute;n)</a>></li>
@@ -528,7 +529,7 @@ function juegos () {
 		
   	</div>
     `;
-    cuerpo.classList.add("container");
+    cuerpo.classList.add("bigBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -538,7 +539,7 @@ function minecraft () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-			<div>
+			<div class="container">
 				<h2>Minecrafteo</h2>
 					<ul>
 						<li><a href="https://docs.google.com/document/d/1b4P51y2acdchT11xjx-eywD-BodEp82eL3X0F1yKB3I/edit" target="_blank">Salvamundos</a>></li>
@@ -552,7 +553,7 @@ function minecraft () {
 		
   	</div>
     `;
-    cuerpo.classList.add("container");
+    cuerpo.classList.add("bigBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -562,7 +563,7 @@ function comms () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-	    <div>
+	    <div class="container">
 				<h2>Comunicaciones</h2>
 				<ul>
 					<li><a href="https://web.telegram.org/#/im" target="_blank">Telegram</a>></li>
@@ -573,7 +574,7 @@ function comms () {
 		
   	</div>
     `;
-    cuerpo.classList.add("container");
+    cuerpo.classList.add("bigBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -583,7 +584,7 @@ function redes () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
-	    		<div>
+	    		<div class="container">
 				<h2>Redes Sociales</h2>
 				<ul>
 					<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAI.html"><a href="https://www.linkedin.com/in/federico-noodt-molins-182a30134/" target="_blank">LinkedIn Fedenoodt</a></a>></li>
@@ -597,7 +598,7 @@ function redes () {
 		
   	</div>
     `;
-    cuerpo.classList.add("container");
+    cuerpo.classList.add("bigBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen

@@ -47,7 +47,10 @@ h3 {
 	margin-bottom: 10px; 
 }
 
-.miniBox { display: inline-block; }
+.miniBox { 
+	display: inline-block;
+	text-align: center;
+}
 
 .graficoEsquema {
 	width: 80%;

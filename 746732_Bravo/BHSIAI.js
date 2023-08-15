@@ -180,7 +180,7 @@ function base () {
 		
   	</div>
 	`;
-	cuerpo.classList.add("bigBox");
+	cuerpo.classList.add("mainBox");
 	cuerpo.innerHTML = imagen;
 	document.body.appendChild(cuerpo);
     return imagen
@@ -256,7 +256,7 @@ function tools () {
 		
   	</div>
 	`;
-cuerpo.classList.add("bigBox");
+cuerpo.classList.add("mainBox");
 cuerpo.innerHTML = imagen;
 document.body.appendChild(cuerpo);
 return imagen
@@ -279,7 +279,7 @@ function obsolet () {
 		
   	</div>
 	`;
-	cuerpo.classList.add("bigBox");
+	cuerpo.classList.add("mainBox");
 	cuerpo.innerHTML = imagen;
 	document.body.appendChild(cuerpo);
 	return imagen
@@ -294,7 +294,7 @@ function reloj () {
 	<a href = "" onclick = pendiente(conversor(${baseID}))><h2> << Volver </h2></a>
 	</center>
 	`;
-    cuerpo.classList.add("bigBox");
+    cuerpo.classList.add("mainBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -317,7 +317,7 @@ function webs () {
 		
   	</div>
     `;
-    cuerpo.classList.add("bigBox");
+    cuerpo.classList.add("mainBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -342,7 +342,7 @@ function medios () {
 		
   	</div>
     `;
-    cuerpo.classList.add("bigBox");
+    cuerpo.classList.add("mainBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -395,7 +395,7 @@ function radio () {
 		
   	</div>
     `;
-    cuerpo.classList.add("bigBox");
+    cuerpo.classList.add("mainBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -430,7 +430,7 @@ function twitch () {
 		
   	</div>
     `;
-    cuerpo.classList.add("bigBox");
+    cuerpo.classList.add("mainBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -469,7 +469,7 @@ function youtube () {
 		
   	</div>
     `;
-    cuerpo.classList.add("bigBox");
+    cuerpo.classList.add("mainBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -503,7 +503,7 @@ function streaming () {
 		
   	</div>
     `;
-    cuerpo.classList.add("bigBox");
+    cuerpo.classList.add("mainBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -529,7 +529,7 @@ function juegos () {
 		
   	</div>
     `;
-    cuerpo.classList.add("bigBox");
+    cuerpo.classList.add("mainBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -553,7 +553,7 @@ function minecraft () {
 		
   	</div>
     `;
-    cuerpo.classList.add("bigBox");
+    cuerpo.classList.add("mainBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -574,7 +574,7 @@ function comms () {
 		
   	</div>
     `;
-    cuerpo.classList.add("bigBox");
+    cuerpo.classList.add("mainBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen
@@ -598,7 +598,7 @@ function redes () {
 		
   	</div>
     `;
-    cuerpo.classList.add("bigBox");
+    cuerpo.classList.add("mainBox");
     cuerpo.innerHTML = imagen;
     document.body.appendChild(cuerpo);
 return imagen

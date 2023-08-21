@@ -432,3 +432,7 @@ Recordar que // es para comentar una sola lìnea, y /* para comentar varias lìn
 Importante recordar el uso de la extensión JSON Formatter para per texto JSON "parseado".
 
 ~Diesisieteavo módulo de JavasCript visto nuevamente~
+
+    -Día #38: 21-08-2023_Lunes:
+
+Habiendo terminado todos los repasos, El mòdulo de Hack Academy HTML, CSS, y JavaScript ha concluido.

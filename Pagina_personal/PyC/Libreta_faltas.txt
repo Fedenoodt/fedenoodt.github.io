@@ -1,1 +1,7 @@
+Libreta que contiene todo tipo de registro de faltas al horario establecido por el Proyecto Zero. Se reporta la fecha, patrón, y nivel vigente. Además de aclarar que pasó.
+Esta libreta contiene solo a las causas originadas por falta de disiplina, no a los casos marciales, estos tampoco son supervisados.
 
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+  -22/08/2023  Try-Flex  Nivel 8:
+Demoras al dormir.

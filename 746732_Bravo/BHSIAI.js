@@ -119,6 +119,7 @@ let cabezal = `
 	                <a class = "imgAtajos" href="https://github.com/Fedenoodt/serviciosWindows" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/clock.png"></a> <br />
 	                <a class = "imgAtajos" href="https://github.com/Fedenoodt/I-Black-Hawk-Security-Informatics-Anonymous-Incorporation" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/Shield-PNG-Photos.png"></a>
 	                <a class = "imgAtajos" href="https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/768px-Settings_(iOS).png"></a>
+		 	<a class = "imgAtajos" href="https://github.com/Fedenoodt/fedenoodt.github.io/blob/gh-pages/Pagina_personal/PyC/Libreta_faltas.txt" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/notas.png"></a>
 	                <script src = "hora.js"></script>
 	            </div>
 	            <br />

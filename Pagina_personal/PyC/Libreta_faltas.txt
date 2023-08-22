@@ -5,3 +5,4 @@ ________________________________________________________________________________
 
   -22/08/2023  Try-Flex  Nivel 8:
 Demoras al dormir.
+Esperables demoras de renimiento a causa anterior.

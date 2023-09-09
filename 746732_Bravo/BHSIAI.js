@@ -272,7 +272,6 @@ function obsolet () {
 				<ul>
 			    		<li><a href="https://plataforma.coderhouse.com/cursos" target="_blank">Coder House - Plataforma E-Learning</a>></li>
 					<li><a href="https://pdb.redarg.ar/home" target="_blank">Profesorado Don Bosco</a>&gt;</li>
-					<li><a href="https://www.youtube.com/watch?v=Vo-2noOnBcY" target="_blank">the bootleg boy 2 ~ Chill Radio 24/7 Youtube</a>></li>
 					
 					
 					<li><a href = "" onclick = pendiente(conversor(${baseID}))>Volver</a><<</li>
@@ -365,6 +364,7 @@ function radio () {
 					<li><a href="https://fmaspen.com/category/aspen-time/" target="_blank">Radio Aspen 102.3</a>></li>
 					<li><a href="https://www.radiozoe.com.ar/" target="_blank">Radio Zoe 107.1</a>></li>
 					<hr />
+					<li><a href="https://www.youtube.com/watch?v=tyVQk-BAWms" target="_blank">the bootleg boy 2 ~ Chill Radio 24/7 Youtube</a>></li>
 					<li><a href="https://www.youtube.com/watch?v=4xDzrJKXOOY&list=TLPQMDEwOTIwMjP7aV7wyxng6g&ab_channel=LofiGirl" target="_blank">synthwave radio 🌌 - beats to chill/game to Youtube</a>></li>
 					<li><a href="https://www.youtube.com/watch?v=nSy7wpevIsY&list=PLOJvby8Q_tfG83AsSJSbxPv7-C9VUvRha&ab_channel=hiphopmusic" target="_blank">Radio Los Santos Youtube</a>></li>
 					<li><a href="https://www.youtube.com/watch?v=wsd2xgm91nM&ab_channel=GTAFM" target="_blank">GTAV ♣ STILL SLIPPING Los Santos • Youtube</a>></li>

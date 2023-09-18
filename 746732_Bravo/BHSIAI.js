@@ -128,9 +128,10 @@ let cabezal = `
 	            <h1>Black Hawk Security Informatics Anonymous Incorporation</h1>
 	            <hr />		
 	                <ul>
-					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "notGood">Receso de urgencia: 1/1 [ 05-08-2023 ]</p></a></div></li>
+					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "good">Receso de urgencia: 0/2 [  - -  ]</p></a></div></li>
 					<li class="listaHorizontal"><div><a href="https://github.com/Fedenoodt/ProyectoRayonnage" target="_blank"><p class = "good">Hacer las 20 herramientas del Proyecto Rayonnage: 5/20 </p></a></div></li>
-					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html" target="_blank"><p class = "good">Estar listo para ir con Marcelo Bivort por Engranaje Embarrado los Martes a las 18hs. </p></a></div></li>
+					<li class="listaHorizontal"><div><a href="https://cursos.utnba.centrodeelearning.com/my/courses.php" target="_blank"><p class = "good">Estar atento a la clase de la UTN a las 20hs de un lunes. </p></a></div></li>
+					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoZero.html" target="_blank"><p class = "good">Estar listo para ir con Marcelo Bivort por Engranaje Embarrado los Martes a las 18hs. </p></a></div></li>
 					
 	                </ul>
 	        </div>
@@ -149,9 +150,7 @@ function base () {
 			    <li><a href="https://plataforma.ha.dev/enrollments" target="_blank">Hack Academy</a></li>
 			    <li><a href="https://cursos.utnba.centrodeelearning.com/my/courses.php" target="_blank">UTN - Aula Virtual</a></li>
 			    <li><a href="https://sigead.utnba.centrodeelearning.com//personas/panel" target="_blank">UTN - Centro de e-learning</a></li>
-			    <li><a href="https://github.com/Fedenoodt/JavaScript/tree/main" target="_blank">GitHub - JavaScript</a></li>
-			    <li><a href="https://fedenoodt.github.io/Pagina_personal/javascript-es.7.pdf" target="_blank">Manual-Informatica.com - JavaScript</a></li>
-			    <li><a href="https://www.youtube.com/watch?v=z95mZVUcJ-E&t=2756s" target="_blank">Soy Dalto - JavaScript</a></li>
+			    <li><a href="https://github.com/Fedenoodt/UTN_PFSD" target="_blank">UTN - Proffessional Full Stack Developer GitHub</a></li>
 			</ul>
 			<hr />		
 			<ul>
@@ -272,6 +271,9 @@ function obsolet () {
 				<ul>
 			    		<li><a href="https://plataforma.coderhouse.com/cursos" target="_blank">Coder House - Plataforma E-Learning</a>></li>
 					<li><a href="https://pdb.redarg.ar/home" target="_blank">Profesorado Don Bosco</a>&gt;</li>
+			    		<li><a href="https://github.com/Fedenoodt/JavaScript/tree/main" target="_blank">GitHub - JavaScript</a></li>
+			    		<li><a href="https://fedenoodt.github.io/Pagina_personal/javascript-es.7.pdf" target="_blank">Manual-Informatica.com - JavaScript</a></li>
+			    		<li><a href="https://www.youtube.com/watch?v=z95mZVUcJ-E&t=2756s" target="_blank">Soy Dalto - JavaScript</a></li>
 					
 					
 					<li><a href = "" onclick = pendiente(conversor(${baseID}))>Volver</a><<</li>

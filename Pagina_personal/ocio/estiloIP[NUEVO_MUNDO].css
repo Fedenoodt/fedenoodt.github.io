@@ -74,10 +74,6 @@ body {
 	background-color: rgba(32, 203, 255, 0.5);
 }
 
-h1 {
-	font-size: 90px;
-}
-
 .warning {
 	color: crimson;
 }
@@ -94,16 +90,20 @@ h1 {
 	color: white
 }
 
+h1 {
+	font-size: 3rem;
+}
+
 h3 {
-	font-size: 70px;
+	font-size: 2rem;
 }
 
 h4 {
-	font-size: 50px;
+	font-size: 2rem;
 }
 
 h5 {
-	font-size: 40px;
+	font-size: 1rem;
 }
 
 a {

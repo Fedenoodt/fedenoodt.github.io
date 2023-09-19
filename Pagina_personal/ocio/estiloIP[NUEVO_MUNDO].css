@@ -93,18 +93,22 @@ body {
 
 h1 {
 	font-size: 3rem;
+	max-width: 90%;
 }
 
 h3 {
 	font-size: 2rem;
+	max-width: 90%;
 }
 
 h4 {
 	font-size: 2rem;
+	max-width: 90%;
 }
 
 h5 {
 	font-size: 1rem;
+	max-width: 90%;
 }
 
 a {
@@ -132,6 +136,7 @@ hr {
 .buttonContainer {
         transition: width 2s;
 	padding:26px;
+	max-width: 90%;
 }
 
 #noOnesLand{

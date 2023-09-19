@@ -184,6 +184,10 @@ hr {
 	margin: 25px;
 }
 
+.maps {
+	width: 100%;
+}
+
 .container{
 	background-color: rgba(17, 95, 7, 0.5);
 	padding:5px;

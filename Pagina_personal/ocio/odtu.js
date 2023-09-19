@@ -19,9 +19,9 @@ const offlineSERV = '<h3 class="online">El servicio está offline.</h3>';
 
 const lan = '';
 
-const active = '0';
+const active = '1';
 
-const status = online;
+const status = openingSoon;
 
 const number = '25.58.113.35';
 const IPclosed = 'CERRADA';
@@ -39,15 +39,15 @@ function manager (tag, status) {
 //manager('server', onlineSERV)
 
 const index = `
-            <section class = "home">
-                <div class="in-flex">
+            <section class = "mainBox">
+                <div class="container">
                     <center>
                         <img class="slFlag" src="https://fedenoodt.github.io/Pagina_personal/Organizacion_dispar_tierras_Unidas.png"><a href = "https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages/Pagina_personal/ocio" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/768px-Settings_(iOS).png"></a><h1>Organizaci&oacute;n dispar de tierras unidas</h1>
                         <h2>Direcci&oacute;n IP:</h2>
                         <h3 id = "ip"></h3><br /><br />
                         <br /><hr /><br />
 
-                        <div><h2 class="online">Horarios del servidor: Lunes, y Miércoles a Sábado de 18hs a 00hs. Martes de 20hs a 00hs. Domingo todo el día.</h2></div>
+                        <!--<div><h2 class="online">Horarios del servidor: Lunes, y Miércoles a Sábado de 18hs a 00hs. Martes de 20hs a 00hs. Domingo todo el día.</h2></div>-->
                         <div id = 'lobby'></div>
                         <br /><hr /><br />
                         <br /><hr /><br />
@@ -69,8 +69,8 @@ const index = `
         </section>`;
 
 const RiskietRacer55 = `
-        <section class = "home">
-            <div class="in-flex">
+        <section class = "mainBox">
+            <div class="container">
                 <center>
                     <h1>Naci&oacute;n de RiskietRacer55</h1>
                     </br></br></br></br>
@@ -86,8 +86,8 @@ const RiskietRacer55 = `
         </section>`;
 
 const conectarse = `
-        <section class = "home">
-            <div class="in-flex">
+        <section class = "mainBox">
+            <div class="container">
                 <center>
                     <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     <h1>Como conectarse...</h1>
@@ -121,8 +121,8 @@ const conectarse = `
         </section>`;
 
 const coordenadas = `
-        <section class = "home">
-            <div class="in-flex">
+        <section class = "mainBox">
+            <div class="container">
                 <center>
                     <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     <h1>Libro de coordenadas</h1><a href = "https://github.com/Fedenoodt/fedenoodt.github.io/edit/gh-pages/Pagina_personal/ocio/coordenadas.html" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/768px-Settings_(iOS).png"></a>
@@ -167,8 +167,8 @@ const coordenadas = `
         </section>`;
 
 const cuadrantes = `
-        <section class = "home">
-            <div class="in-flex">
+        <section class = "mainBox">
+            <div class="container">
                 </br></br>
                     <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     
@@ -187,9 +187,9 @@ const cuadrantes = `
         </section>`;
 
 const hamachi = `
-        <section class = "home">
+        <section class = "mainBox">
           <center>
-            <div class="in-flex">
+            <div class="container">
                     <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     <h1>Dirección Hamachi</ h1>
                     <h2>Nombre de red:</h2>
@@ -206,8 +206,8 @@ const hamachi = `
         </section>`;
 
 const hipotesisMetroCuadrado = `
-            <section class = "home">
-                <div class="in-flex">
+            <section class = "mainBox">
+                <div class="container">
                      <center>
                         <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                         <h1>Hipótesis Metro Cuadrado</h1>
@@ -230,9 +230,9 @@ const hipotesisMetroCuadrado = `
         </section>`;
 
 const metroCuadrado = `
-        <section class = "home">
+        <section class = "mainBox">
           <center>
-              <div class="in-flex">
+              <div class="container">
                     <img class="logo" id ="minimalExpand_200" src="https://fedenoodt.github.io/Pagina_personal/Metro_Cuadrado.png"><a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     <a class = "imgAtajos" href="" onclick = targeting("metroCuadrado") target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/768px-Settings_(iOS).png"></a>
                     <a class = "imgAtajos" href="https://fedenoodt.github.io/Pagina_personal/Exploracion_talla%231%5BNUEVO_MUNDO%5D.png" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/Map.png"></a>
@@ -414,8 +414,8 @@ const metroCuadrado = `
 
 const naciones = `
     <center>
-        <section class = "home">
-            <div class="in-flex">
+        <section class = "mainBox">
+            <div class="container">
                     <h1>La Organizaci&oacuten dispar de tierras unidas, y sus territorios</h1>
                     <br/><br/><br/>
                     <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
@@ -440,8 +440,8 @@ const naciones = `
         </section>`;
 
 const noOnesLand = `
-        <section class = "home">
-            <div class="in-flex">
+        <section class = "mainBox">
+            <div class="container">
                 </br></br>
                     <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     <div id="noOnesLand">
@@ -465,8 +465,8 @@ const noOnesLand = `
         </section>`;
 
 const skin = `
-            <section class = "home">
-                <div class="in-flex">
+            <section class = "mainBox">
+                <div class="container">
                     <div id = "header">
                         <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                         <h1>Recomendaciones para editar la skin</h1>
@@ -480,8 +480,8 @@ const skin = `
     </section>`;
 
 const swerterland = `
-        <section class = "home">
-            <div class="in-flex">
+        <section class = "mainBox">
+            <div class="container">
                 <center>
                     <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     <img class="slFlag" src="https://fedenoodt.github.io/Pagina_personal/Swerterland.png"><h1>Swerterland</h1><img class="slWarFlag" src="https://fedenoodt.github.io/Pagina_personal/Bandera de guerra Swerterland.png">
@@ -505,8 +505,8 @@ const swerterland = `
         </section>`;
 
 const tablaNormas = `
-        <section class = "home">
-            <div class="in-flex">
+        <section class = "mainBox">
+            <div class="container">
                 <center>
                 <br/><br/>
                     <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>

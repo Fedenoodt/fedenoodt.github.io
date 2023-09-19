@@ -177,7 +177,7 @@ const cuadrantes = `
                     normas.</h3>
                     <br/></hr><br/>
                     <h3>
-                        La <a href="" onclick = targeting("tablaNormas") target="_blank">Tabla de normas</a> es un sistema de normas que conforma lo que es una batalla, en la que quién  sale vencedor, se queda con un cuadrante.
+                        La <a class="maps" href="" onclick = targeting("tablaNormas") target="_blank">Tabla de normas</a> es un sistema de normas que conforma lo que es una batalla, en la que quién  sale vencedor, se queda con un cuadrante.
                         Es decir, el cuadrante X2-Z1 le pertenece a pepe, juanito lo venció, y se quedo con esa parcela de 2000x2000 para su nación.<br/>
                         Esta "guerra" se hace desde una partida de &Uacute;ltimo equipo en pie/&Uacute;ltimo jugador en pie, dentro del cuadrante.<br/><br/>
                         <a href="https://fedenoodt.github.io/Pagina_personal/Cartograf%C3%ADa_internacional.png"target="_blank">Este es el mapa de actualidad de la posici&oacute;n de las naciones:<br/><img src="https://fedenoodt.github.io/Pagina_personal/Cartograf%C3%ADa_internacional.png"></a>

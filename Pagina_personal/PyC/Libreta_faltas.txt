@@ -33,3 +33,6 @@ Demoras al dormir.
 
   -18/09/2023  Alpha  Nivel 9:
 Demoras al desayunar.
+
+  -19/09/2023  Alpha  Nivel 9:
+Demoras en Galactic Gym.

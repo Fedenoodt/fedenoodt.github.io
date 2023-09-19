@@ -184,26 +184,9 @@ hr {
 	margin: 25px;
 }
 
-.home {
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.in-flex {
-	flex: 1;
-	min-width: 900px;
-}
-
-.in-flex:first-child{
-	flex: 2;
+.container{
 	background-color: rgba(17, 95, 7, 0.5);
 	padding:5px;
-	margin: 20px;
-	margin-bottom: 10px; 
-}
-
-.in-flex div {
-	background-color: rgba(17, 95, 7, 0.5);
 	margin: 20px;
 	margin-bottom: 10px; 
 }

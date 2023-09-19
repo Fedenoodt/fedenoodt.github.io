@@ -429,9 +429,9 @@ const naciones = `
                     <br /><hr /><br />
                     <br /><hr /><br />
                     <ul>
-                        <li class="listaHorizontal"><a href="https://fedenoodt.github.io/Pagina_personal/ocio/swerterland.html" onclick = targeting("swerterland")><div class="buttonContainer" id="swerterland" id=""><h5> Swerterland </h5></div></a></li>
-                        <li class="listaHorizontal"><a href="https://fedenoodt.github.io/Pagina_personal/ocio/noOnesLand.html" onclick = targeting("noOnesLand")><div class="buttonContainer" id="noOnesLand"><h5> Tierra de <br/>nadie </h5></div></a></li>
-                        <li class="listaHorizontal"><a href="https://fedenoodt.github.io/Pagina_personal/ocio/RiskietRacer55.html" onclick = targeting("RiskietRacer55")><div class="buttonContainer" id="default"><h5> "Naci&oacute;n de <br/>RiskietRacer55" </h5></div></a></li>
+                        <li class="listaHorizontal"><a href="" onclick = targeting("swerterland")><div class="buttonContainer" id="swerterland" id=""><h5> Swerterland </h5></div></a></li>
+                        <li class="listaHorizontal"><a href="" onclick = targeting("noOnesLand")><div class="buttonContainer" id="noOnesLand"><h5> Tierra de <br/>nadie </h5></div></a></li>
+                        <li class="listaHorizontal"><a href="" onclick = targeting("RiskietRacer55")><div class="buttonContainer" id="default"><h5> "Naci&oacute;n de <br/>RiskietRacer55" </h5></div></a></li>
                     </ul>
                     
             

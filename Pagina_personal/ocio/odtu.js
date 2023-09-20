@@ -41,7 +41,7 @@ function manager (tag, status) {
 const index = `
             <section class = "mainBox">
                 <div class="container">
-                     
+                    <center>
                         <img class="slFlag" src="https://fedenoodt.github.io/Pagina_personal/Organizacion_dispar_tierras_Unidas.png"><a href = "https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages/Pagina_personal/ocio" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/768px-Settings_(iOS).png"></a><h1>Organizaci&oacute;n dispar de tierras unidas</h1>
                         <h2>Direcci&oacute;n IP:</h2>
                         <h3 id = "ip"></h3><br /><br />
@@ -64,14 +64,14 @@ const index = `
                             <li class="listaHorizontal"><a href="https://www.planetminecraft.com/banner/" target="_blank"><div class="buttonContainer" id="default"><h5> Creador de <br/>estandartes </h5></div></a></li>
                         </ul>
 
-                 
+                </center>
             </div>
         </section>`;
 
 const RiskietRacer55 = `
         <section class = "mainBox">
             <div class="container">
-                 
+                <center>
                     <h1>Naci&oacute;n de RiskietRacer55</h1>
                     </br></br></br></br>
                     <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
@@ -81,14 +81,14 @@ const RiskietRacer55 = `
                         </h3>
                     
             
-                 
+                </center>
             </div>
         </section>`;
 
 const conectarse = `
         <section class = "mainBox">
             <div class="container">
-                 
+                <center>
                     <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     <h1>Como conectarse...</h1>
                     <h3>Acá te vengo a explicar como conectarte a nuestra red de Minecraft, es muy sencillo.</h3>
@@ -116,14 +116,14 @@ const conectarse = `
                         </h3>
                     
             
-                 
+                </center>
             </div>
         </section>`;
 
 const coordenadas = `
         <section class = "mainBox">
             <div class="container">
-                 
+                <center>
                     <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     <h1>Libro de coordenadas</h1><a href = "https://github.com/Fedenoodt/fedenoodt.github.io/edit/gh-pages/Pagina_personal/ocio/coordenadas.html" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/768px-Settings_(iOS).png"></a>
                     <br/><br/><br/><br/>
@@ -162,7 +162,7 @@ const coordenadas = `
                     </div>
                     
             
-                 
+                </center>
             </div>
         </section>`;
 
@@ -188,7 +188,7 @@ const cuadrantes = `
 
 const hamachi = `
         <section class = "mainBox">
-           
+          <center>
             <div class="container">
                     <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     <h1>Dirección Hamachi</ h1>
@@ -201,14 +201,14 @@ const hamachi = `
                     <h3>Link de descarga: <a href="https://www.vpn.net/">https://www.vpn.net/</a></h3>
                     
             
-                 
+                </center>
             </div>
         </section>`;
 
 const hipotesisMetroCuadrado = `
             <section class = "mainBox">
                 <div class="container">
-                      
+                     <center>
                         <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                         <h1>Hipótesis Metro Cuadrado</h1>
                         <h3>22 de Junio de 2022, Miércoles. Sol minecrafteano número 151.</h3>
@@ -225,13 +225,13 @@ const hipotesisMetroCuadrado = `
                         </h3>
                     
             
-                 
+                </center>
             </div>
         </section>`;
 
 const metroCuadrado = `
         <section class = "mainBox">
-           
+          <center>
               <div class="container">
                     <img class="logo" id ="minimalExpand_200" src="https://fedenoodt.github.io/Pagina_personal/Metro_Cuadrado.png"><a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     <a class = "imgAtajos" href="" onclick = targeting("metroCuadrado") target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/768px-Settings_(iOS).png"></a>
@@ -408,12 +408,12 @@ const metroCuadrado = `
 
                     
             </div>
-                 
+                </center>
             </div>
         </section>`;
 
 const naciones = `
-     
+    <center>
         <section class = "mainBox">
             <div class="container">
                     <h1>La Organizaci&oacuten dispar de tierras unidas, y sus territorios</h1>
@@ -435,7 +435,7 @@ const naciones = `
                     </ul>
                     
             
-                 
+                </center>
             </div>
         </section>`;
 
@@ -460,7 +460,7 @@ const noOnesLand = `
                         </h3>
                     
             
-                 
+                </center>
             </div>
         </section>`;
 
@@ -476,13 +476,13 @@ const skin = `
                         <a href="https://www.minecraftskins.com/" target="_blank"><div class="buttonContainer" id="default"><h1>The Skindex</h1></div></a>
                     </div>
                 </div>
-             
+            </center>
     </section>`;
 
 const swerterland = `
         <section class = "mainBox">
             <div class="container">
-                 
+                <center>
                     <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     <img class="slFlag" src="https://fedenoodt.github.io/Pagina_personal/Swerterland.png"><h1>Swerterland</h1><img class="slWarFlag" src="https://fedenoodt.github.io/Pagina_personal/Bandera de guerra Swerterland.png">
                     <br/><br/><br/><br/>
@@ -500,14 +500,14 @@ const swerterland = `
                         </h3>
                     
             
-                 
+                </center>
             </div>
         </section>`;
 
 const tablaNormas = `
         <section class = "mainBox">
             <div class="container">
-                 
+                <center>
                 <br/><br/>
                     <a class = "volver" href="" onclick = targeting("index")><div class="buttonContainer" id="default"><h5>Volver al<br />Inicio</h5></div></a>
                     
@@ -548,7 +548,7 @@ const tablaNormas = `
                         </h3>
                     
             
-                 
+                </center>
             </div>
         </section>`;
 

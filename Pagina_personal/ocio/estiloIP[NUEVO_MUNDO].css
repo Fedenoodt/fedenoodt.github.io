@@ -158,7 +158,7 @@ hr {
         transition: background 1.0s ease-in-out;
 	box-shadow: 0px 10px 1px rgba(189, 150, 68, 0.884);
 	transition: box-shadow 0.6s ease-in-out;
-	background-attachment: fixed;
+	background-attachment: contain;
 	background-size: cover;
 }
 #swerterland:hover {
@@ -166,7 +166,7 @@ hr {
         transition: background 1.0s ease-in-out;
 	box-shadow: 0px 10px 1px rgba(114, 114, 114, 0.884);
 	transition: box-shadow 0.6s ease-in-out;
-	background-attachment: fixed;
+	background-attachment: contain;
 	background-size: cover;
 }
 #fortress:hover {
@@ -174,7 +174,7 @@ hr {
     	transition: background 1.0s ease-in-out;
 	box-shadow: 0px 10px 1px rgba(114, 114, 114, 0.884);
 	transition: box-shadow 0.6s ease-in-out;
-	background-attachment: fixed;
+	background-attachment: contain;
 	background-size: cover;
 }
 

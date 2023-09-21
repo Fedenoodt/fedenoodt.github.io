@@ -37,4 +37,10 @@ Demoras al desayunar.
   -19/09/2023  Alpha  Nivel 9:
 Demoras en Galactic Gym.
 Demoras en Bañarse.
-Demoras en turno tarde.
+Demoras en todo el turno tarde.
+
+  -20/09/2023  Alpha  Nivel 9:
+Demoras en el rendimiento durante todo el día.
+
+  -20/09/2023  Alpha  Nivel 9:
+Demoras al dormir.

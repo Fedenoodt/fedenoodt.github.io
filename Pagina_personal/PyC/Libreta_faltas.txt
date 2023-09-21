@@ -44,3 +44,6 @@ Demoras en el rendimiento durante todo el día.
 
   -20/09/2023  Alpha  Nivel 9:
 Demoras al dormir.
+
+  -21/09/2023  Alpha  Nivel 9:
+Problemas de sueño.

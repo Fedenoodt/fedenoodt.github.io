@@ -48,3 +48,5 @@ Demoras al dormir.
   -21/09/2023  Alpha  Nivel 9:
 Problemas de sueño.
 Demoras en todo el turno mañana.
+Demoras en todo el turno tarde.
+Demoras al dormir.

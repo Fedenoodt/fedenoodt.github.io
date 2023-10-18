@@ -218,6 +218,7 @@ function tools () {
 				<li><a href="https://classroom.google.com/u/1/h" target="_blank">Classroom</a></li>
 				<li><a href="https://www.google.com.ar/maps/@-34.607613,-58.4515826,15z" target="_blank">Google Maps</a>></li>
 				<li><a href="https://www.omnilineas.com.ar/" target="_blank">OmniL&iacute;neas</a>></li>
+				<li><a href="https://rahuldkjain.github.io/gh-profile-readme-generator/" target="_blank">Github readme generator</a>></li>
 				<li><a href="https://static.wikigta.org/nl/images/8/83/V.png" target="_blank">Mapa de Grand Theft Auto V</a>></li>
 				<li><a href="https://www.mercadolibre.com.ar/" target="_blank">Mercado Libre</a>></li>
 				<li><a href="https://www.ilovepdf.com/es/html-a-pdf" target="_blank">Convertor HTML a PDF</a>></li>

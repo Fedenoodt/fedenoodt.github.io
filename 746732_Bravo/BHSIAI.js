@@ -150,7 +150,7 @@ function base () {
 			    <li><a href="https://plataforma.ha.dev/enrollments" target="_blank">Hack Academy</a></li>
 			    <li><a href="https://cursos.utnba.centrodeelearning.com/my/courses.php" target="_blank">UTN - Aula Virtual</a></li>
 			    <li><a href="https://sigead.utnba.centrodeelearning.com//personas/panel" target="_blank">UTN - Centro de e-learning</a></li>
-			    <li><a href="https://github.com/Fedenoodt/UTN_PFSD" target="_blank">UTN - Proffessional Full Stack Developer GitHub</a></li>
+			    <li><a href="https://github.com/Fedenoodt/learningReact" target="_blank">UTN - learningReact</a></li>
 			</ul>
 			<hr />		
 			<ul>

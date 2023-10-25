@@ -13,5 +13,5 @@ dolar('contadoconliqui')
 dolar('solidario')
 dolar('mayorista')
 
-const compraBlue = dolar('blue').compra;
+const compraBlue = dolar('blue').keys('compra');
 console.log(compraBlue)

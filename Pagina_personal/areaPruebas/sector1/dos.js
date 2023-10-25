@@ -12,3 +12,6 @@ dolar('bolsa')
 dolar('contadoconliqui')
 dolar('solidario')
 dolar('mayorista')
+
+const compraBlue = dolar('blue').compra;
+console.log(compraBlue)

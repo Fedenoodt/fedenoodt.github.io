@@ -14,4 +14,4 @@ dolar('solidario')
 dolar('mayorista')
 
 const compraBlue = dolar('blue');
-console.log('compraBlue', compraBlue.find('compra'))
+console.log('compraBlue', compraBlue.compra)

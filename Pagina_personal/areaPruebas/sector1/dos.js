@@ -4,7 +4,7 @@ function dolar (parameter) {
 fetch(`https://dolarapi.com/v1/dolares/${parameter}`)
   .then(response => response.json())
   .then(data => console.log(data));
-  return data
+  .then(data => return data)
 }
 
 dolar('oficial')

@@ -1,10 +1,9 @@
 
 
 function dolar (parameter) {
-fetch(`https://dolarapi.com/v1/dolares/${parameter}`)
-  .then(response => response.json())
-  .then(data => console.log(data))
-  .then(data => return data);
+  return fetch(`https://dolarapi.com/v1/dolares/${parameter}`)
+    .then(response => response.json())
+    .then(data => console.log(data));
 }
 
 dolar('oficial')

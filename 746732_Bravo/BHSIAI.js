@@ -261,6 +261,7 @@ function tools () {
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/maintenance.png" target="_blank">Imagen "En mantenimiento..."</a>></li>
 		
 		
+       			    <hr />
 				<li><a href = "" onclick = pendiente(conversor(${baseID}))>Volver</a><<</li>
 			    </ul>
 			</div>

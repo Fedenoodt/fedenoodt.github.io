@@ -249,13 +249,15 @@ function tools () {
 				<h2>Cine</h2>
 				<li><a href="https://www.doesthedogdie.com/" target="_blank">Does the dog die?</a>></li>
 				<li><a href="https://carto.maps.arcgis.com/apps/CEWebViewer/viewer.html?3dWebScene=e87eb53174ab4ba09026e90e1d7c6557" target="_blank">Galaxia Star Wars</a>></li>
-				<h2>Ocio</h2>
+				<h2>Videojuegos</h2>
+				<li><a href="https://www.systemrequirementslab.com/cyri" target="_blank">Can YOU Run It?</a>></li>
 				<li><a href="https://static.wikigta.org/nl/images/8/83/V.png" target="_blank">Mapa de Grand Theft Auto V</a>></li>
+				<li><a href="https://www.youtube.com/watch?v=xPt3oE069Xs&list=PL26y6a0sSX_B-l8ccARWgYP3nw3NKHzSF&pp=iAQB" target="_blank">GTA V ambiente ASMR</a>></li>
+				<li><a href="https://www.youtube.com/watch?v=hVVn1vuHKUo&list=PLOJvby8Q_tfFUBpJgolADisgj-rI-bxBL&pp=gAQBiAQB" target="_blank">Watch Dogs 2 ambiente ASMR</a>></li>
+				<h2>Ocio</h2>
 				<li><a href="https://c.tenor.com/2wR9-9cmrjMAAAAC/ahora-vengo-hernan-drago.gif" target="_blank">Ahora vengo</a>></li>
 				<li><a href="${driverList}" target="_blank">Tour de paseos</a>></li>
 				<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfGmVbV4xxkfLjoQF6FjybsL" target="_blank">Colección de salvapantallas</a>></li>
-				<li><a href="https://www.youtube.com/watch?v=xPt3oE069Xs&list=PL26y6a0sSX_B-l8ccARWgYP3nw3NKHzSF&pp=iAQB" target="_blank">GTA V ambiente ASMR</a>></li>
-				<li><a href="https://www.youtube.com/watch?v=hVVn1vuHKUo&list=PLOJvby8Q_tfFUBpJgolADisgj-rI-bxBL&pp=gAQBiAQB" target="_blank">Watch Dogs 2 ambiente ASMR</a>></li>
 				<li><a href="https://ayuda.ch-sistemas.com/wp-content/uploads/2018/05/cabina4.png" target="_blank">Fondo de telón</a>></li>
 				<li><a href="https://i.pinimg.com/originals/ae/a0/9d/aea09d635db4444475efac0b42e0ac1b.gif" target="_blank">Bandera Argentina</a>></li>
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/maintenance.png" target="_blank">Imagen "En mantenimiento..."</a>></li>

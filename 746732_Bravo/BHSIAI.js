@@ -233,9 +233,9 @@ function tools () {
 				<li><a href="https://calendar.google.com/calendar/u/1/r?tab=oc" target="_blank">Calendario</a></li>
 				<li><a href="https://translate.google.com.ar/" target="_blank">Traductor de Google</a>></li>
 				<li><a href="https://classroom.google.com/u/1/h" target="_blank">Classroom</a></li>
-				<li><a href="https://www.google.com.ar/maps/@-34.607613,-58.4515826,15z" target="_blank">Google Maps</a>></li>
 				<li><a href="https://www.mercadolibre.com.ar/" target="_blank">Mercado Libre</a>></li>
 				<li><a href="https://workspace.google.com/intl/es-419/products/forms/?utm_source=google&utm_medium=cpc&utm_campaign=latam-AR-all-es-dr-bkws-all-all-trial-e-dr-1011272-LUAC0011853&utm_content=text-ad-none-any-DEV_c-CRE_479426435746-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt%20~%20Forms-KWID_43700057710499709-kwd-10647024857&utm_term=KW_google%20forms-ST_google%20forms&gclid=Cj0KCQjwkruVBhCHARIsACVIiOwoV_-s-dU6S2iarog5B7sprTXCVZSfzhnnItRt9ZoVj11ckd869ywaAk1fEALw_wcB&gclsrc=aw.ds" target="_blank">Google Formularios</a>></li>
+				<li><a href="https://fedenoodt.github.io/Pagina_personal/vida/moneda/index.html" target="_blank">Convertidor de Pesos a Dólar automático</a>></li>
 				<h2>Servicio técnico</h2>
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/screenToner.png" target="_blank">Imagen para arreglar color de pantalla</a>></li>
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/imagenPruebaSaturacionBlancos.png" target="_blank">Imagen de tonos de blanco</a>></li>
@@ -244,6 +244,7 @@ function tools () {
 				<li><a href="http://sps.fibertel.com.ar/speedtest/" target="_blank">Speedtest Fibertel</a>></li>
 				<li><a href="https://www.speedtest.net/es" target="_blank">Speedtest Ookla</a>></li>
 				<h2>Transporte</h2>
+				<li><a href="https://www.google.com.ar/maps/@-34.607613,-58.4515826,15z" target="_blank">Google Maps</a>></li>
 				<li><a href="https://www.omnilineas.com.ar/" target="_blank">OmniL&iacute;neas</a>></li>
 				<h2>Cine</h2>
 				<li><a href="https://www.doesthedogdie.com/" target="_blank">Does the dog die?</a>></li>

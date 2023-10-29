@@ -238,6 +238,7 @@ function tools () {
 				<li><a href="https://workspace.google.com/intl/es-419/products/forms/?utm_source=google&utm_medium=cpc&utm_campaign=latam-AR-all-es-dr-bkws-all-all-trial-e-dr-1011272-LUAC0011853&utm_content=text-ad-none-any-DEV_c-CRE_479426435746-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt%20~%20Forms-KWID_43700057710499709-kwd-10647024857&utm_term=KW_google%20forms-ST_google%20forms&gclid=Cj0KCQjwkruVBhCHARIsACVIiOwoV_-s-dU6S2iarog5B7sprTXCVZSfzhnnItRt9ZoVj11ckd869ywaAk1fEALw_wcB&gclsrc=aw.ds" target="_blank">Google Formularios</a>></li>
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/vida/moneda/index.html" target="_blank">Convertidor de Pesos a Dólar automático</a>></li>
 				<h2>Servicio técnico</h2>
+				<li><a href="https://fedenoodt.github.io/Pagina_personal/maintenance.png" target="_blank">Imagen "En mantenimiento..."</a>></li>
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/screenToner.png" target="_blank">Imagen para arreglar color de pantalla</a>></li>
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/imagenPruebaSaturacionBlancos.png" target="_blank">Imagen de tonos de blanco</a>></li>
 				<li><a href="https://www.onlinemictest.com/es/prueba-de-mouse/" target="_blank">Probador de entradas para mouse</a>></li>
@@ -261,7 +262,6 @@ function tools () {
 				<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfGmVbV4xxkfLjoQF6FjybsL" target="_blank">Colección de salvapantallas</a>></li>
 				<li><a href="https://ayuda.ch-sistemas.com/wp-content/uploads/2018/05/cabina4.png" target="_blank">Fondo de telón</a>></li>
 				<li><a href="https://i.pinimg.com/originals/ae/a0/9d/aea09d635db4444475efac0b42e0ac1b.gif" target="_blank">Bandera Argentina</a>></li>
-				<li><a href="https://fedenoodt.github.io/Pagina_personal/maintenance.png" target="_blank">Imagen "En mantenimiento..."</a>></li>
 		
 		
        			    <hr />

@@ -225,7 +225,7 @@ function tools () {
 				<h2>Multimedia</h2>
 				<li><a href="https://www.youtube.com/watch?v=gs_cochwfcY&pp=ygUKcGlwIHNvbmlkbw%3D%3D" target="_blank">Sonido para pruebas</a>></li>
 				<li><a href="https://www.ilovepdf.com/es/html-a-pdf" target="_blank">Convertor HTML a PDF</a>></li>
-				<li><a href="https://www.y2mate.com/es/youtube-mp3/sNjWpZmxDgg" target="_blank">Convertor Youtube a MP3</a>></li>
+				<li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjBh57GgsCCAxUZrJUCHQr9D7YQFnoECBkQAQ&url=https%3A%2F%2Fnotube.site%2Fes%2Fyoutube-app-v103&usg=AOvVaw3zAxVgk6KBu9ZmRovL7B56&opi=89978449" target="_blank">Convertor Youtube a MP3</a>></li>
 				<li><a href="https://imagen.online-convert.com/es/convertir-a-png" target="_blank">Imagen PNG transparente</a>></li>
 				<li><a href="https://www.site24x7.com/es/tools/selector-de-codigo-color.html" target="_blank">Detector RGB de imagen</a>></li>
 				<li><a href="https://rgbacolorpicker.com/" target="_blank">Selector paleta RGB</a>></li>

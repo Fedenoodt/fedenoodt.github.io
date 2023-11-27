@@ -130,7 +130,7 @@ let cabezal = `
 	            <h2> ~ Versión 45.7 ~ </h2>
 	            <hr />	
 	                <ul>
-					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "good">Receso de urgencia: 1/3 [ 18 - 11 - 2023  ]</p></a></div></li>
+					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "good">Receso de urgencia: 2/3 [ 18 - 11 - 2023 / 20 - 11 - 2023 ]</p></a></div></li>
 					<li class="listaHorizontal"><div><a href="https://github.com/Fedenoodt/ProyectoRayonnage" target="_blank"><p class = "good">Hacer las 20 herramientas del Proyecto Rayonnage: 5/20 </p></a></div></li>
 					<li class="listaHorizontal"><div><a href="https://cursos.utnba.centrodeelearning.com/my/courses.php" target="_blank"><p class = "good">Estar atento a la clase de la UTN a las 20hs de un lunes. </p></a></div></li>
 					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoZero.html" target="_blank"><p class = "good">Estar listo para ir con Marcelo Bivort por el Proyecto Zero, Martes por medio a las 18hs. </p></a></div></li>

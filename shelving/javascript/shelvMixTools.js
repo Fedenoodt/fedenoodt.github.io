@@ -79,3 +79,19 @@ function refresh (parameter) {
     consoleWarn(`${tecTools} Pagina recargada.`);
     }
 }
+
+function print(things, styleClass) {
+    try{
+        document.body.removeChild(mainBox)
+        mainBox = document.createElement('div');
+        mainBox.classList.add('mainBox')
+        mainBox.innerHTML = `<div class="container ${styleClass}">${things}</div>`
+        document.body.appendChild(mainBox)
+    }
+    catch {
+        mainBox = document.createElement('div');
+        mainBox.classList.add('mainBox')
+        mainBox.innerHTML = `<div class="container ${styleClass}">${things}</div>`
+        document.body.appendChild(mainBox)
+    }
+}

@@ -132,7 +132,7 @@ let cabezal = `
 	                <ul>
 					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "good">Receso de urgencia: 2/3 [ 18 - 11 - 2023 / 20 - 11 - 2023 ]</p></a></div></li>
 					<li class="listaHorizontal"><div><a href="https://github.com/Fedenoodt/Trabajo/edit/main/Proyecto%20Zonda/README.md" target="_blank"><p class = "notGood">Atender al sub Proyecto Zonda </p></a></div></li>
-					<li class="listaHorizontal"><div><a href="https://github.com/Fedenoodt/ProyectoRayonnage" target="_blank"><p class = "good">Hacer las 20 herramientas del Proyecto Rayonnage: 5/20 </p></a></div></li>
+					<li class="listaHorizontal"><div><a href="https://github.com/Fedenoodt/ProyectoRayonnage" target="_blank"><p class = "good">Hacer las 20 herramientas del Proyecto Rayonnage: 7/20 </p></a></div></li>
 					<li class="listaHorizontal"><div><a href="https://cursos.utnba.centrodeelearning.com/my/courses.php" target="_blank"><p class = "good">Estar atento a la clase de la UTN a las 20hs de un lunes. </p></a></div></li>
 					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoZero.html" target="_blank"><p class = "good">Estar listo para ir con Marcelo Bivort por el Proyecto Zero, Martes por medio a las 18hs. </p></a></div></li>
 					
@@ -233,13 +233,15 @@ function tools () {
 				<li><a href="https://ezgif.com/webp-to-gif" target="_blank">Convertidor WEBP a GIF</a>></li>
 				<li><a href="https://convertio.co/es/mp4-gif/" target="_blank">Convertidor MP4 a GIF</a>></li>
 				<li><a href="https://convertio.co/es/webm-gif/" target="_blank">Convertidor WEBM a GIF</a>></li>
+				<h2>Herramientas financieras</h2>
+				<li><a href="https://fedenoodt.github.io/shelving/javascript/moneda/sueldo.html" target="_blank">Política de salario</a>></li>
+				<li><a href="https://fedenoodt.github.io/Pagina_personal/vida/moneda/index.html" target="_blank">Convertidor de Pesos a Dólar automático</a>></li>
 				<h2>Servicios</h2>
 				<li><a href="https://calendar.google.com/calendar/u/1/r?tab=oc" target="_blank">Calendario</a></li>
 				<li><a href="https://translate.google.com.ar/" target="_blank">Traductor de Google</a>></li>
 				<li><a href="https://classroom.google.com/u/1/h" target="_blank">Classroom</a></li>
 				<li><a href="https://www.mercadolibre.com.ar/" target="_blank">Mercado Libre</a>></li>
 				<li><a href="https://workspace.google.com/intl/es-419/products/forms/?utm_source=google&utm_medium=cpc&utm_campaign=latam-AR-all-es-dr-bkws-all-all-trial-e-dr-1011272-LUAC0011853&utm_content=text-ad-none-any-DEV_c-CRE_479426435746-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt%20~%20Forms-KWID_43700057710499709-kwd-10647024857&utm_term=KW_google%20forms-ST_google%20forms&gclid=Cj0KCQjwkruVBhCHARIsACVIiOwoV_-s-dU6S2iarog5B7sprTXCVZSfzhnnItRt9ZoVj11ckd869ywaAk1fEALw_wcB&gclsrc=aw.ds" target="_blank">Google Formularios</a>></li>
-				<li><a href="https://fedenoodt.github.io/Pagina_personal/vida/moneda/index.html" target="_blank">Convertidor de Pesos a Dólar automático</a>></li>
 				<h2>Servicio técnico</h2>
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/maintenance.png" target="_blank">Imagen "En mantenimiento..."</a>></li>
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/screenToner.png" target="_blank">Imagen para arreglar color de pantalla</a>></li>

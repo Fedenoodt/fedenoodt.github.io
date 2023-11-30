@@ -64,7 +64,7 @@ function launching (event) {
         En el caso de que las deudas hayan ido a mayores, este ${refuerzo}% del ahorro de "dirección múltiple" está dispuesto a brindar esa 
         última ayuda limitada (que no debería suceder). Caso contrario, se ingresan en la banca de ahorro estático.`
 
-    print(answer)
+    print(answer, 'area')
 }
 
 function secureLaunching(event) {
@@ -75,9 +75,19 @@ function secureLaunching(event) {
 
 calc.addEventListener("submit", launching)
 
-function print(parameter) {
-    let mainBox = document.createElement('div');
-    mainBox.classList.add('mainBox')
-    mainBox.innerHTML = `<div class="container area">${parameter}</div>`
-    document.body.appendChild(mainBox)
-}
+// function print(parameter) {
+//     try{
+//         document.body.removeChild(mainBox)
+//         mainBox = document.createElement('div');
+//         mainBox.classList.add('mainBox')
+//         mainBox.innerHTML = `<div class="container area">${parameter}</div>`
+//         document.body.appendChild(mainBox)
+//     }
+//     catch {
+//         mainBox = document.createElement('div');
+//         mainBox.classList.add('mainBox')
+//         mainBox.innerHTML = `<div class="container area">${parameter}</div>`
+//         document.body.appendChild(mainBox)
+//     }
+// }
+    

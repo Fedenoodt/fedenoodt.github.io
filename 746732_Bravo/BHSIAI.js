@@ -127,7 +127,7 @@ let cabezal = `
 	            <br />
 	            <h1>Black Hawk Security Informatics Anonymous Incorporation</h1>
 	            <hr />	
-	            <h2> ~ Versión 45.7 ~ </h2>
+	            <h2> ~ Versión 45.8 ~ </h2>
 	            <hr />	
 	                <ul>
 					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "notGood">Receso de urgencia: 1/1 [ 04 - 12 - 2023 ]</p></a></div></li>
@@ -545,6 +545,7 @@ function juegos () {
 						<li><a href = "" onclick = pendiente(conversor(${minecraftID}))>Minecraft (Webs de informaci&oacute;n)</a>></li>
 						<li><a href="https://flexboxfroggy.com/#es" target="_blank">FLEXBOX FROGGY</a>></li>
 						<li><a href="https://agar.io" target="_blank">Agar.io</a>></li>
+						<li><a href="https://www.chess.com/es" target="_blank">Ajedrez en línea</a>></li>
 						<li><a href="https://www.geoguessr.com/trips" target="_blank">GeoGuessr</a>></li>
 						<li><a href="https://geotastic.net/home" target="_blank">Geotastic (Geoguessr gratuito recomendado de PolIsPol)</a>></li>
 						<li><a href="https://bair.es/pcu/rules" target="_blank">Normativa de GTAV bair.es Roleplay</a>></li>

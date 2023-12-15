@@ -233,9 +233,6 @@ function tools () {
 				<li><a href="https://ezgif.com/webp-to-gif" target="_blank">Convertidor WEBP a GIF</a>></li>
 				<li><a href="https://convertio.co/es/mp4-gif/" target="_blank">Convertidor MP4 a GIF</a>></li>
 				<li><a href="https://convertio.co/es/webm-gif/" target="_blank">Convertidor WEBM a GIF</a>></li>
-				<li><a href="file:///C:/Users/feden/Videos/Ambiente/Paisajes%20Hermosos%20del%20Mundo%204K.mp4" target="_blank">Fondo de paisajes</a>></li>
-				<li><a href="file:///C:/Users/feden/Videos/Ambiente/x2mate.com-Graveyard%20_%20Ambience%20_%202%20hours-(480p).mp4" target="_blank">Fondo de Halloween</a>></li>
-				<li><a href="file:///C:/Users/feden/Videos/Ambiente/Instrumental Christmas Jazz Music at Cozy Christmas Ambience & Smooth Fireplace Sounds to Reax,Sleep.mp4" target="_blank">Fondo de Navidad</a>></li>
 				<h2>Herramientas financieras</h2>
 				<li><a href="https://fedenoodt.github.io/shelving/javascript/moneda/sueldo.html" target="_blank">Política de salario</a>></li>
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/vida/moneda/index.html" target="_blank">Convertidor de Pesos a Dólar automático</a>></li>
@@ -270,6 +267,9 @@ function tools () {
 				<li><a href="https://www.youtube.com/playlist?list=PLOJvby8Q_tfGmVbV4xxkfLjoQF6FjybsL" target="_blank">Colección de salvapantallas</a>></li>
 				<li><a href="https://ayuda.ch-sistemas.com/wp-content/uploads/2018/05/cabina4.png" target="_blank">Fondo de telón</a>></li>
 				<li><a href="https://i.pinimg.com/originals/ae/a0/9d/aea09d635db4444475efac0b42e0ac1b.gif" target="_blank">Bandera Argentina</a>></li>
+				<li><a href="file:///C:/Users/feden/Videos/Ambiente/Paisajes%20Hermosos%20del%20Mundo%204K.mp4" target="_blank">Fondo de paisajes</a>></li>
+				<li><a href="file:///C:/Users/feden/Videos/Ambiente/x2mate.com-Graveyard%20_%20Ambience%20_%202%20hours-(480p).mp4" target="_blank">Fondo de Halloween</a>></li>
+				<li><a href="file:///C:/Users/feden/Videos/Ambiente/Instrumental Christmas Jazz Music at Cozy Christmas Ambience & Smooth Fireplace Sounds to Reax,Sleep.mp4" target="_blank">Fondo de Navidad</a>></li>
 		
 		
        			    <hr />

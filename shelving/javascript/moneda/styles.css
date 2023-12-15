@@ -15,6 +15,10 @@ body {
     min-height: 70px;
 }
 
+#quantity {
+    width: 200px;
+}
+
 button {color: black;}
 select {color: black;}
 input {color: black;}

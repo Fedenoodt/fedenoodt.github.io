@@ -34,7 +34,8 @@ function launching (event) {
     const donacion = 5;
 
     const ahorros = 30;
-    const ahorrado = 15;
+    const ahorrado = 7;
+    const jubilacion = 8;
     const riesgo = 5;
     const refuerzo = 10;
 
@@ -59,6 +60,7 @@ function launching (event) {
         En el caso de que las deudas necesiten un refuerzo, este ${gastos}% total, está a su dispocisiòn.
         
         ${speacher(ahorrado, 'banca de ahorro estático', 'ahorros', ahorros, number)}
+        ${speacher(jubilacion, 'banca de ahorro jubilatorio', 'ahorros', ahorros, number)}
         ${speacher(riesgo, 'banca de ahorro inversionista', 'ahorros', ahorros, number)}
         ${speacher(refuerzo, 'dirección múltiple', 'ahorros', ahorros, number)}<br />
         En el caso de que las deudas hayan ido a mayores, este ${refuerzo}% del ahorro de "dirección múltiple" está dispuesto a brindar esa 

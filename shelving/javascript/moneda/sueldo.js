@@ -57,13 +57,13 @@ function launching (event) {
         
         ${speacher(gustos, 'gustos variados', 'gastos', gastos, number)}
         ${speacher(donacion, 'donaciones benéficas', 'gastos', gastos, number)}
-        En el caso de que las deudas necesiten un refuerzo, este ${gastos}% total, está a su dispocisiòn.
+        En el caso de que las deudas necesiten un refuerzo, este ${gastos}% (${porcent (gastos, number)}) total, está a su dispocisión.<br /><br />
         
         ${speacher(ahorrado, 'banca de ahorro estático', 'ahorros', ahorros, number)}
         ${speacher(jubilacion, 'banca de ahorro jubilatorio', 'ahorros', ahorros, number)}
         ${speacher(riesgo, 'banca de ahorro inversionista', 'ahorros', ahorros, number)}
         ${speacher(refuerzo, 'dirección múltiple', 'ahorros', ahorros, number)}<br />
-        En el caso de que las deudas hayan ido a mayores, este ${refuerzo}% del ahorro de "dirección múltiple" está dispuesto a brindar esa 
+        En el caso de que las deudas hayan ido a mayores, este ${refuerzo}% (${porcent (refuerzo, number)}) del ahorro de "dirección múltiple" está dispuesto a brindar esa 
         última ayuda limitada (que no debería suceder). Caso contrario, se ingresan en la banca de ahorro estático.`
 
     print(answer, 'area')

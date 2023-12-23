@@ -127,7 +127,7 @@ let cabezal = `
 	            <br />
 	            <h1>Black Hawk Security Informatics Anonymous Incorporation</h1>
 	            <hr />	
-	            <h2> ~ Versión 46.2 ~ </h2>
+	            <h2> ~ Versión 46.3 ~ </h2>
 	            <hr />	
 	                <ul>
 					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "notGood">Receso de urgencia: 1/1 [ 04 - 12 - 2023 ]</p></a></div></li>
@@ -153,7 +153,7 @@ function base () {
 			    <li><a href="https://plataforma.ha.dev/enrollments" target="_blank">Hack Academy</a></li>
 			    <li><a href="https://cursos.utnba.centrodeelearning.com/my/courses.php" target="_blank">UTN - Aula Virtual</a></li>
 			    <li><a href="https://sigead.utnba.centrodeelearning.com//personas/panel" target="_blank">UTN - Centro de e-learning</a></li>
-			    <li><a href="https://github.com/Fedenoodt/learningReact" target="_blank">UTN - learningReact</a></li>
+			    <li><a href="https://github.com/Fedenoodt/learningAngular" target="_blank">UTN - learningAngular</a></li>
 			</ul>
 			<hr />		
 			<ul>

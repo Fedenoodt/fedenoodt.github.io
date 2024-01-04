@@ -246,6 +246,7 @@ function tools () {
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/maintenance.png" target="_blank">Imagen "En mantenimiento..."</a>></li>
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/screenToner.png" target="_blank">Imagen para arreglar color de pantalla</a>></li>
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/imagenPruebaSaturacionBlancos.png" target="_blank">Imagen de tonos de blanco</a>></li>
+				<li><a href="https://www.avast.com/es-ar/random-password-generator#pc" target="_blank">Generador de contraseñas Avast</a>></li>
 				<li><a href="https://www.onlinemictest.com/es/prueba-de-mouse/" target="_blank">Probador de entradas para mouse</a>></li>
 				<li><a href="https://www.onlinemictest.com/es/prueba-de-teclado/" target="_blank">Probador de entradas para teclado</a>></li>
 				<li><a href="http://sps.fibertel.com.ar/speedtest/" target="_blank">Speedtest Fibertel</a>></li>

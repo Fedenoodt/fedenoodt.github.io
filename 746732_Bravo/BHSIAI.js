@@ -127,7 +127,7 @@ let cabezal = `
 	            <br />
 	            <h1>Black Hawk Security Informatics Anonymous Incorporation</h1>
 	            <hr />	
-	            <h2> ~ Versión 46.4 ~ </h2>
+	            <h2> ~ Versión 46.5 ~ </h2>
 	            <hr />	
 	                <ul>
 					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "notGood">Receso de urgencia: 1/1 [ 11 - 01 - 2024 ]</p></a></div></li>
@@ -238,6 +238,7 @@ function tools () {
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/vida/moneda/index.html" target="_blank">Convertidor de Pesos a Dólar automático</a>></li>
 				<h2>Servicios</h2>
 				<li><a href="https://calendar.google.com/calendar/u/1/r?tab=oc" target="_blank">Calendario</a></li>
+				<li><a href="https://www.swissmedical.com.ar/prepagaclientes/dashboard" target="_blank">Swiss Medical Group</a></li>
 				<li><a href="https://translate.google.com.ar/" target="_blank">Traductor de Google</a>></li>
 				<li><a href="https://classroom.google.com/u/1/h" target="_blank">Classroom</a></li>
 				<li><a href="https://www.mercadolibre.com.ar/" target="_blank">Mercado Libre</a>></li>

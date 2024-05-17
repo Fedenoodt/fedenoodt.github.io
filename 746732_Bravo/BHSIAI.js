@@ -127,7 +127,7 @@ let cabezal = `
 	            <br />
 	            <h1>Black Hawk Security Informatics Anonymous Incorporation</h1>
 	            <hr />	
-	            <h2> ~ Versión 46.6 ~ </h2>
+	            <h2> ~ Versión 46.8 ~ </h2>
 	            <hr />	
 	                <ul>
 					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "good">Receso de urgencia: -/- [  -  -  ]</p></a></div></li>
@@ -449,7 +449,9 @@ function twitch () {
 						<li><a href="https://www.twitch.tv/elrichmc" target="_blank">ElRichMC</a>></li>	
 						<li><a href="https://www.twitch.tv/ibai" target="_blank">Ibai</a>></li>	
 						<li><a href="https://www.twitch.tv/nuvia_ouo" target="_blank">Nuvia_OuO</a>></li>	
+						<li><a href="https://www.twitch.tv/perxitaa" target="_blank">perxitaa</a>></li>	
 						<li><a href="https://www.twitch.tv/polispol1" target="_blank">polispol1</a>></li>
+						<li><a href="https://www.twitch.tv/reborn" target="_blank">Reborn</a>></li>
 						<li><a href="https://www.twitch.tv/tanizen" target="_blank">Tanizen</a>></li>		
 						<li></a><a href = "" onclick = pendiente(conversor(${mediosID}))>Volver</a><<</li>
 					</ul>

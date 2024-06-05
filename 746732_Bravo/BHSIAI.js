@@ -131,7 +131,7 @@ let cabezal = `
 	            <hr />	
 	                <ul>
 					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "good">Receso de urgencia: -/- [  -  -  ]</p></a></div></li>
-					<li class="listaHorizontal"><div><a href="https://app.diagrams.net/#G1zpCxzziDJtjfn7NgvhpWNLnBwTFlcvxZ#%7B%22pageId%22%3A%22ckcK2c53pp8Jp9gSL_0J%22%7D" target="_blank"><p class = "good">Mejora técnologica: Atender asuntos de Proyecto TecniBot </p></a></div></li>
+					<li class="listaHorizontal"><div><a href="https://app.diagrams.net/#G1zpCxzziDJtjfn7NgvhpWNLnBwTFlcvxZ#%7B%22pageId%22%3A%22ckcK2c53pp8Jp9gSL_0J%22%7D" target="_blank"><p class = "good">Mejora técnologica: Responder a las demandas de Zonda por Zero. </p></a></div></li>
 					<li class="listaHorizontal"><div><a href="https://github.com/Fedenoodt/ProyectoRayonnage" target="_blank"><p class = "good">Hacer las 20 herramientas del Proyecto Rayonnage: 7/20 </p></a></div></li>
 					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoZero.html" target="_blank"><p class = "good">Estar listo para ir con Marcelo Bivort por el Proyecto Zero, Martes por medio a las 18hs. </p></a></div></li>
 					

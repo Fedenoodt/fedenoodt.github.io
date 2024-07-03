@@ -641,11 +641,6 @@ function redes () {
     document.body.appendChild(cuerpo);
 return imagen
 }
-cuerpo.classList.add("mainBox");
-cuerpo.innerHTML = imagen;
-document.body.appendChild(cuerpo);
-return imagen
-}
 
 function trabajo () {
     let cuerpo = document.createElement("div");
@@ -670,6 +665,11 @@ function trabajo () {
 		
   	</div>
 	`;
+cuerpo.classList.add("mainBox");
+cuerpo.innerHTML = imagen;
+document.body.appendChild(cuerpo);
+return imagen
+}
 
 // (Cabe destacar que todas las imagenes, tienen que borrar lo que sea que haya en pantalla, asi se hacen apoyo sincrónico).
 

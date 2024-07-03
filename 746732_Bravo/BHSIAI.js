@@ -107,6 +107,7 @@ let juegosID = '10';
 let minecraftID = '11';
 let commsID = '12';
 let redesID = '13';
+let trabajoID = '14';
 
 let cabezal = `	
 <div class="container">
@@ -624,7 +625,7 @@ function redes () {
 	    		<div>
 				<h2>Redes Sociales</h2>
 				<ul>
-					<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAI.html"><a href="https://www.linkedin.com/in/federico-noodt-molins-182a30134/" target="_blank">LinkedIn Fedenoodt</a></a>></li>
+					<li><a href = "" onclick = pendiente(conversor(${trabajoID}))>Trabajo</a></li>
 					<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAI.html"><a href="https://www.facebook.com/" target="_blank">Facebook</a></a>></li>
 					<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAI.html"><a href="https://www.instagram.com/?hl=es-la" target="_blank">Instagram</a></a>></li>
 					<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAI.html"><a href="https://twitter.com/home" target="_blank">Twitter</a></a>></li>
@@ -640,6 +641,35 @@ function redes () {
     document.body.appendChild(cuerpo);
 return imagen
 }
+cuerpo.classList.add("mainBox");
+cuerpo.innerHTML = imagen;
+document.body.appendChild(cuerpo);
+return imagen
+}
+
+function trabajo () {
+    let cuerpo = document.createElement("div");
+    const imagen = `
+    ${cabezal}
+	    <div>
+				<h2>Trabajo</h2>
+				<ul>
+			    		<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAI.html"><a href="https://www.linkedin.com/in/federico-noodt-molins-182a30134/" target="_blank">LinkedIn Fedenoodt</a></a>></li>
+					<li><a href="https://djinni.co/jobs/?welcome=" target="_blank">Djinni</a>&gt;</li>
+			    		<li><a href="https://ayuda.glassdoor.com.mx/s/?language=es" target="_blank">Glassdoor</a></li>
+			    		<li><a href="https://ar.indeed.com/?from=gnav-jobseeker-profile--profile-one-frontend" target="_blank">Indeed</a></li>
+			    		<li><a href="https://www.infojobs.net/candidate/cv/view/index.xhtml?dgv=11007951047821014716" target="_blank">InfoJobs</a></li>
+			    		<li><a href="https://www.mynimo.com/resumes/profile" target="_blank>Mynimo</a></li>
+			    		<li><a href="https://www.naukri.com/mnjuser/homepage" target="_blank>Naukri</a></li>
+			    		<li><a href="https://www.seek.com.au/" target="_blank>InfoJobs</a></li>
+					
+					
+					<li><a href = "" onclick = pendiente(conversor(${redesID}))>Volver</a><<</li>
+				</ul>
+			</div>
+		
+  	</div>
+	`;
 
 // (Cabe destacar que todas las imagenes, tienen que borrar lo que sea que haya en pantalla, asi se hacen apoyo sincrónico).
 
@@ -651,7 +681,7 @@ console.log('Ejecutando imagen...')
 
 // 4 ► Y este segmento ejecuta la imagen llamada.
 
-let menu = [base, tools, obsolet, reloj, webs, medios, radio, twitch, youtube, streaming, juegos, minecraft, comms, redes];
+let menu = [base, tools, obsolet, reloj, webs, medios, radio, twitch, youtube, streaming, juegos, minecraft, comms, redes, trabajo];
 try{console.log('Imagen: '+ menu[establecido]())
 } catch { console.log('Atencion. El ID fue reestablecido.')
 	  localStorage.setItem('valor', 0)}

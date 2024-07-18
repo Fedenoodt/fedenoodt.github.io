@@ -1,0 +1,53 @@
+body {
+    margin: 0%;
+}
+
+.mainBox {
+    margin: 0%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    width: 350px;
+}
+
+.miniBox {
+    padding: 5px;
+    margin: 5px;
+}
+
+#ArgFlag {
+    width: 40px;
+}
+
+@media (min-width: 625px) {
+    .container {
+        width: 350px;
+    }
+}
+
+@media (min-width: 783px) {
+    .container {
+        width: 468px;
+    }
+}
+
+@media (min-width: 1007px) {
+    .container {
+        width: 692px;
+    }
+}
+
+@media (min-width: 1225px) {
+    .container {
+        width: 908px;
+    }
+}
+
+@media (min-width: 1425px) {
+    .container {
+        width: 1108px;
+    }
+}

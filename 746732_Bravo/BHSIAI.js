@@ -128,7 +128,7 @@ let cabezal = `
 	            <br />
 	            <h1>Black Hawk Security Informatics Anonymous Incorporation</h1>
 	            <hr />	
-	            <h2> ~ Versión 47.0 ~ </h2>
+	            <h2> ~ Versión 47.1 ~ </h2>
 	            <hr />	
 	                <ul>
 					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "good">Receso de urgencia: 0/2 [  ]</p></a></div></li>
@@ -238,7 +238,7 @@ function tools () {
 				<li><a href="https://convertio.co/es/mkv-mp4/" target="_blank">Convertidor MKV a MP4</a>></li>
 				<h2>Herramientas financieras</h2>
 				<li><a href="https://fedenoodt.github.io/shelving/javascript/moneda/sueldo.html" target="_blank">Política de salario</a>></li>
-				<li><a href="https://fedenoodt.github.io/Pagina_personal/vida/moneda/Monetizer/V2/index.html" target="_blank">Monetizer (Conversor de monedas)</a>></li>
+				<li><a href="https://fedenoodt.github.io/Pagina_personal/vida/moneda/Monetizer/V3/index.html" target="_blank">Monetizer (Conversor de monedas)</a>></li>
 				<h2>Servicios</h2>
 				<li><a href="https://calendar.google.com/calendar/u/1/r?tab=oc" target="_blank">Calendario</a></li>
 				<li><a href="https://www.swissmedical.com.ar/prepagaclientes/dashboard" target="_blank">Swiss Medical Group</a></li>

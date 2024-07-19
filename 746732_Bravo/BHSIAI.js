@@ -338,6 +338,7 @@ function webs () {
 	    <div>
 				<h2>P&aacute;ginas Especiales</h2>
 				<ul>
+					<li><a href="https://fedenoodt.github.io/Pagina_personal/vida/curriculum.html" target="_blank">Currículum Vitae</a>></li>
 					<li><a href="https://fedenoodt.github.io/Pagina_personal/vida/inicio.html" target="_blank">Pagina Oficial de Fedenoodt</a>></li>
 					<li><a href="https://fedenoodt.github.io/Pagina_personal/vida/nexoGrupote.html" target="_blank">Nexo Grupote</a>></li>
 				 	<li><a href = "" onclick = pendiente(conversor(${baseID}))>Volver</a><<</li>

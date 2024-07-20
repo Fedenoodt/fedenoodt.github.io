@@ -131,7 +131,7 @@ let cabezal = `
 	            <h2> ~ Versión 47.2 ~ </h2>
 	            <hr />	
 	                <ul>
-					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "good">Receso de urgencia: 0/2 [  ]</p></a></div></li>
+					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "good">Receso de urgencia: 1/2 [ 19 - 07 - 2024   ]</p></a></div></li>
 					<li class="listaHorizontal"><div><a href="https://app.diagrams.net/#G1zpCxzziDJtjfn7NgvhpWNLnBwTFlcvxZ#%7B%22pageId%22%3A%22ckcK2c53pp8Jp9gSL_0J%22%7D" target="_blank"><p class = "good">Mejora técnologica: Responder a las demandas de Zonda por Zero. </p></a></div></li>
 					<li class="listaHorizontal"><div><a href="https://github.com/Fedenoodt/ProyectoRayonnage" target="_blank"><p class = "good">Hacer las 20 herramientas del Proyecto Rayonnage: 7/20 </p></a></div></li>
 					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoZero.html" target="_blank"><p class = "good">Estar listo para ir con Marcelo Bivort por el Proyecto Zero, Martes por medio a las 18hs. </p></a></div></li>
@@ -157,17 +157,17 @@ function base () {
 			</ul>
 			<hr />		
 			<ul>
-			    <li class="listaHorizontal"><a href="https://mail.google.com/mail/u/1/#inbox" target="_blank">Gmail</a></li>
-			    <li class="listaHorizontal"><a href="https://github.com/" target="_blank">GitHub</a></li>
-			    <li class="listaHorizontal"><a href="https://github.com/Fedenoodt/Trabajo" target="_blank">Trabajo</a></li>
-			    <li class="listaHorizontal"><a href="https://drive.google.com/drive/u/1/my-drive" target="_blank">Drive</a></li>
+			    <li class="listaHorizontal"><a href="https://mail.google.com/mail/u/1/#inbox" target="_blank">Gmail</a>></li>
+			    <li class="listaHorizontal"><a href="https://github.com/" target="_blank">GitHub</a>></li>
+			    <li class="listaHorizontal"><a href="https://github.com/Fedenoodt/Trabajo" target="_blank">Trabajo</a>></li>
+			    <li class="listaHorizontal"><a href="https://drive.google.com/drive/u/1/my-drive" target="_blank">Drive</a>></li>
        			    <li class="listaHorizontal"><a href="https://drive.google.com/drive/u/3/folders/1vRsMZ-DChZi7cc_jRLmK7hVCeihZGUq5" target="_blank">Finanzafe</a>></li>
-			    <li class="listaHorizontal"><a href="https://app.diagrams.net/" target="_blank">Diagramas</a></li>
-			    <li class="listaHorizontal"><a href="https://fedenoodt.github.io/Pagina_personal/Horario_de_Rutina.pdf" target="_blank">Horario</a></li>
-			    <li class="listaHorizontal"><a href="https://fedenoodt.github.io/Pagina_personal/Esquema_Anual.png" target="_blank">Esquema Anual</a></li>
-			    <li class="listaHorizontal"><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+			    <li class="listaHorizontal"><a href="https://app.diagrams.net/" target="_blank">Diagramas</a>></li>
+			    <li class="listaHorizontal"><a href="https://fedenoodt.github.io/Pagina_personal/Horario_de_Rutina.pdf" target="_blank">Horario</a>></li>
+			    <li class="listaHorizontal"><a href="https://fedenoodt.github.io/Pagina_personal/Esquema_Anual.png" target="_blank">Esquema Anual</a>></li>
+			    <li class="listaHorizontal"><a href="https://www.youtube.com/" target="_blank">Youtube</a>></li>
 			    <li class="listaHorizontal"><a href="https://www.smn.gob.ar/" target="_blank">Clima</a>></li>
-			    <li class="listaHorizontal"><a href = "" onclick = pendiente(conversor(${toolsID}))>M&aacutes herramientas...</a></li>
+			    <li class="listaHorizontal"><a href = "" onclick = pendiente(conversor(${toolsID}))>M&aacutes herramientas...</a>></li>
 			</ul>
 			<hr />
 			<h2>Links de acceso</h2>

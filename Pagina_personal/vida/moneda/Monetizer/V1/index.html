@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pesos X Dolar</title>
+		<link rel="stylesheet" type="text/css" href="estiloGeneral.css">
+		<link rel="stylesheet" type="text/css" href="https://fedenoodt.github.io/shelving/CSS/Responsiver/Short/style.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>	
+		<div class="mainBox">
+			<div class="container">
+				<form action="/" method="post" id="calc">
+					<label for="valuePesos">Ingrese el valor en pesos.</label>
+					<input type="text" name="valuePesos" id="valuePesos" placeholder="Ingrese el valor sin puntuaciones.">
+					<br>
+					<div>
+						<label for="coin">Ingrese la moneda para convertir esos pesos.</label>
+						<br>
+						<label for="buy">Compra</label>
+						<select name="buy" id="buy">
+							<option></option>
+							<option value="oficial">oficial</option>
+							<option value="blue">blue</option>
+							<option value="bolsa">bolsa</option>
+							<option value="contadoconliqui">liqui</option>
+							<option value="mayorista">mayorista</option>
+						</select>
+
+							<label for="sale">Venta</label>
+							<select name="sale" id="sale">
+							<option></option>
+							<option value="oficial">oficial</option>
+							<option value="blue">blue</option>
+							<option value="bolsa">bolsa</option>
+							<option value="contadoconliqui">liqui</option>
+							<option value="solidario">solidario</option>
+							<option value="mayorista">mayorista</option>
+						</select>
+						<br>
+						<button type="submit">Calcular</button>
+					</div>
+				</form>
+				<script src="script.js"></script>
+			</div>
+		</div>
+	</body>

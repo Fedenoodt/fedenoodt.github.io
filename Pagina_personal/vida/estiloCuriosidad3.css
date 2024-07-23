@@ -1,0 +1,42 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: Courier New;
+	color: rgb(160, 191, 224);
+}
+
+body {
+	background-repeat: no-repeat;
+	background-color: black;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.home {
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.in-flex {
+	flex: 1;
+	min-width: 225px;
+}
+
+.Volver,
+.Respuesta,
+.in-flex:first-child {
+	flex: 2;
+	padding: 25px;
+	background-color: rgba(12, 70, 204, 0.4);
+	margin: 20px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.in-flex div {
+	padding: 25px;
+	background-color: #fff;
+	margin: 20px;
+
+}
+

@@ -1,0 +1,207 @@
+* {
+	padding:0px;
+	margin:0px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-allign: center;
+}
+
+body {
+	background-repeat: no-repeat;
+	background-color: black;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+#minimalExpand_200 {
+	min-width: 200px;
+	min-height: 200px;
+}
+
+#minimalExpand_400 {
+	min-width: 400px;
+	min-height: 400px;
+}
+
+#minimalExpand_600 {
+	min-width: 600px;
+	min-height: 600px;
+}
+
+#minimalExpand_800 {
+	min-width: 800px;
+	min-height: 800px;
+}
+
+#tooFat_200 {
+	max-width: 200px;
+}
+
+#tooFat_400 {
+	max-width: 400px
+}
+
+#tooFat_600 {
+	max-width: 600px
+}
+
+#tooFat_800 {
+	max-width: 800px
+}
+
+.listaHorizontal {
+	display: inline-block;
+ 	margin: 5 6px;
+}
+
+.logo {
+	float: left;
+	width: 120px;
+	height: 120px;
+}
+
+.imgAtajos {
+	float: right;
+	width: 100px;
+	height: 100px;
+}
+
+.volver {
+	float: left;
+        background-color: rgba(255, 255, 255, 0);
+}
+
+.fortressButton {
+	background-color: rgba(32, 203, 255, 0.5);
+}
+
+.warning {
+	color: crimson;
+}
+
+.sleeping {
+	color: rgb(0, 81, 255)
+}
+
+.bussy {
+	color: rgb(250, 193, 87)
+}
+
+.online {
+	color: white
+}
+
+h1 {
+	font-size: 3rem;
+	max-width: 90%;
+}
+
+h3 {
+	font-size: 2rem;
+	max-width: 90%;
+}
+
+h4 {
+	font-size: 2rem;
+	max-width: 90%;
+}
+
+h5 {
+	font-size: 1.36rem;
+	max-width: 90%;
+}
+
+a {
+	color: black;
+	text-shadow: 2px 2px 2px rgba(147, 182, 145, 1);
+	transition: text-shadow 0.6s ease-in-out;
+}
+
+a:link {
+	text-decoration: none;
+  }
+
+a:hover {
+	color: rgb(77, 145, 74);
+	text-shadow: 2px 2px 2px rgba(147, 182, 145, 0);
+	transition: text-shadow 0.6s ease-in-out;
+}
+
+hr {
+	border: 3px solid rgba(65, 126, 99, 1);
+	border-radius: 5px;
+	margin: 6px;
+}
+
+.buttonContainer {
+        transition: width 2s;
+	padding:26px;
+}
+
+#noOnesLand{
+        background-color: rgba(230, 183, 84, 0.884);
+}
+
+#swerterland{
+	background-color: rgba(107, 107, 107, 0.884);
+}
+
+#default:hover {
+	background-color: rgba(14, 78, 6, 0.65);
+        transition: background 1.0s ease-in-out;
+	box-shadow: 0px 10px 1px rgba(77, 145, 74, 1);
+	transition: box-shadow 0.6s ease-in-out;
+}
+
+#noOnesLand:hover {
+        background-color: rgba(221, 178, 85, 0.884);
+        transition: background 1.0s ease-in-out;
+	box-shadow: 0px 10px 1px rgba(189, 150, 68, 0.884);
+	transition: box-shadow 0.6s ease-in-out;
+	background-attachment: contain;
+	background-size: cover;
+}
+#swerterland:hover {
+	background: url("https://fedenoodt.github.io/Pagina_personal/Swerterland recortada.png");
+        transition: background 1.0s ease-in-out;
+	box-shadow: 0px 10px 1px rgba(114, 114, 114, 0.884);
+	transition: box-shadow 0.6s ease-in-out;
+	background-attachment: contain;
+	background-size: cover;
+}
+#fortress:hover {
+	background: url("https://fedenoodt.github.io/Pagina_personal/Bandera de La Fortaleza recortada.png");
+    	transition: background 1.0s ease-in-out;
+	box-shadow: 0px 10px 1px rgba(114, 114, 114, 0.884);
+	transition: box-shadow 0.6s ease-in-out;
+	background-attachment: contain;
+	background-size: cover;
+}
+
+.firma:hover {
+	background-color: rgba(14, 78, 6, 0.65);
+        transition: background 1.0s ease-in-out;
+	box-shadow: 0px 10px 1px rgba(77, 145, 74, 1);
+	transition: box-shadow 0.6s ease-in-out;
+}
+
+.slFlag, leftFlag {
+	float: left;
+	margin: 25px;
+}
+
+.slWarFlag {
+	float: right;
+	margin: 25px;
+}
+
+.maps {
+	width: 100%;
+}
+
+.container{
+	background-color: rgba(17, 95, 7, 0.5);
+	padding:5px;
+	margin: 20px;
+	margin-bottom: 10px; 
+}

@@ -1,0 +1,165 @@
+.divFantasma {
+	height: 120px; 
+}
+
+.barraAbertura {
+	min-width: 1000px;
+	position: fixed;
+	min-height: 60px; width: 100%;
+	max-height: 120px;
+	background-color: rgb(63, 144, 179);
+	margin-bottom: 10px;
+    	transition: background 1.0s ease-in-out;
+	transition: box-shadow 0.6s ease-in-out;
+}
+
+.barraAbertura:hover {
+	background-color: rgb(47, 138, 177);
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+	transition: background 1.0s ease-in-out;
+	transition: box-shadow 0.6s ease-in-out;
+}
+
+.barra {
+	display: inline-block;
+ 	margin: 0 30px;
+	font-size: 80%;
+}
+
+.listaHorizontal {
+	display: inline-block;
+ 	margin: 0 30px;
+	font-size: 80%;
+}
+
+h1 {}
+
+.barraAbertura p {
+	font-family: sans-serif;
+	font-size: 130%;
+	color: rgb(49, 48, 133);
+
+	margin: 5px;
+	float: left;
+}
+
+.barraAbertura a {
+	float: right;
+}
+
+h2 {font-size: 120%;}
+
+body {
+	background-repeat: no-repeat;
+	background-color: rgb(0, 99, 90);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.home {
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.intro {
+	min-width: 80%;
+	padding: 20px;
+	background-color: rgba(45, 104, 216, 0.5);
+	margin: 20px;
+	margin-bottom: 10px;
+	border-style: ridge;
+	border-width: 1.8px;
+	border-color: rgba(0, 0, 0, 0);
+	display: inline-block;
+}
+
+.contenedor {
+	width: 50%;
+	min-width: 40%;
+	padding: 20px;
+	background-color: rgba(121, 177, 119, 0.836);
+    	transition: background 1.0s ease-in-out;
+	margin: 20px;
+	margin-bottom: 10px;
+	border-radius: 7px;
+	border-style: ridge;
+	border-width: 1.8px;
+	border-color: rgba(0, 0, 0, 0);
+	display: inline-block;
+}
+
+.Blog {
+	min-width: 100px;
+	padding: 0px;
+	margin: 20px;
+	margin-bottom: 10px;
+	border-style: ridge;
+	border-width: 1.8px;
+	border-color: rgba(0, 0, 0, 0);
+	
+	background-repeat: no-repeat;
+	background-color: rgb(0, 36, 33);
+	background-attachment: fixed;
+	background-size: cover; 
+
+	color: rgb(13, 36, 78);
+	text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+}
+
+.in-flex:first-child {
+	flex: 1;
+	min-width: 100px;
+}
+.in-flex {
+	min-width: 100px;
+	max-width: 50%;
+	flex: 2;
+	padding: 20px;
+	background-color: rgba(45, 104, 216, 0.5);
+	margin: 20px;
+}
+.contenedor:hover {
+	background-color: rgba(103, 131, 143, 0.836);
+	transition: background 1.0s ease-in-out;
+}
+
+a:link {
+	text-decoration: none;
+  }
+
+.Perfil {
+	width: 80%;
+	height: auto;
+	border-style: inset;
+	border-width: 1.8px;
+	border-color: rgba(0, 0, 0, 0);
+
+}
+
+.texto {
+
+}
+
+.italica {
+	font-style:italic;
+}
+
+.Boton {
+	background-color: black;
+}
+
+.in-flex div {
+	width: 80%;
+	margin: 20px;
+	padding: 20px;
+	background-color: rgba(45, 104, 216, 0);
+	margin: 20px;
+
+}
+li{
+	margin: 3.5px;
+}
+
+.MTFBWY {
+	color: rgba(233, 230, 181, 1);
+}

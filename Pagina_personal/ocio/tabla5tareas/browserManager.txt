@@ -1,7 +1,0 @@
-EDGE	EDGE	EDGE	EDGE	EDGE	EDGE	EDGE	EDGE	EDGE	EDGE	EDGE	EDGE	
-
-"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-
-CHROME	CHROME	CHROME	CHROME	CHROME	CHROME	CHROME	CHROME	CHROME	CHROME	CHROME	CHROME	
-
-"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"

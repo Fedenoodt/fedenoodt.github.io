@@ -1,3 +1,0 @@
-    -Día #1: 26-10-2022_Miercoles:
-Meses anteriores cuando estaba aprendiendo JavaScript, pensaba estructurar al Nexo, con un solo Javascript, pero leyendo una de las notas mias de la clase #15, 
-me doy cuenta de que debo reconsiderar separar estos, en un diagrama de Javascript's.

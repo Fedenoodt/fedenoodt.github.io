@@ -1,8 +1,0 @@
-	<div class="blogger" id = "notaNUMERO">
-            <div class="date-blogger"><p id= "L">| DIA, # de MES de ANIO |</p><p id= "R">| SUBTITULO |</p></div>
-		    <div class="texto"><p>
-		    TEXTO DE NOTA
-		    </p>
-            </div>
-	</div>
-	

@@ -1,0 +1,55 @@
+Libreta que contiene todo tipo de registro de faltas al horario establecido por el Proyecto Zero. Se reporta la fecha, patrón, y nivel vigente. Además de aclarar que pasó.
+Esta libreta contiene solo a las causas originadas por falta de disiplina, no a los casos marciales, estos tampoco son supervisados.
+
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+  -22/08/2023  Try-Flex  Nivel 8:
+Demoras al dormir.
+Esperables demoras de renimiento a causa anterior.
+
+  -23/08/2023  Try-Flex  Nivel 8:
+Demoras al dormir.
+
+  -06/09/2023  Alpha  Nivel 6:
+Demoras al dormir.
+
+  -07/09/2023  Alpha  Nivel 6:
+Demoras al dormir.
+
+  -08/09/2023  Alpha  Nivel 6:
+Demoras al dormir.
+
+  -09/09/2023  Alpha  Nivel 6:
+Demoras al dormir.
+
+  -10/09/2023  Alpha  Nivel 6:
+Demoras al dormir.
+
+  -16/09/2023  Alpha  Nivel 6:
+Demoras al dormir.
+
+  -17/09/2023  Alpha  Nivel 6:
+Demoras al dormir.
+
+  -18/09/2023  Alpha  Nivel 9:
+Demoras al desayunar.
+
+  -19/09/2023  Alpha  Nivel 9:
+Demoras en Galactic Gym.
+Demoras en Bañarse.
+Demoras en todo el turno tarde.
+
+  -20/09/2023  Alpha  Nivel 9:
+Demoras en el rendimiento durante todo el día.
+
+  -20/09/2023  Alpha  Nivel 9:
+Demoras al dormir.
+
+  -21/09/2023  Alpha  Nivel 9:
+Problemas de sueño.
+Demoras en todo el turno mañana.
+Demoras en todo el turno tarde.
+Demoras al dormir.
+
+  -18/07/2024  Libra  Nivel 8:
+Múltiples fallas durante la semana: Falta de horas de sueño, baja capacidad operativa, dado la presencia al final de la Copa America 2024.

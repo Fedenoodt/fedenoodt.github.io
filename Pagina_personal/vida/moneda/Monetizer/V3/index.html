@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Monetizer</title>
+		<link rel="stylesheet" type="text/css" href="estiloGeneral.css">
+		<link rel="stylesheet" type="text/css" href="./style.css">
+		<link rel="icon" type="image/x-icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>	
+		<div class="mainBox">
+			<div class="container">
+				<h1><img src="../ArgFlag.png" alt="ArgentinaFlag" id="ArgFlag"> Monetizer</h1>
+				<h2>El conversor de monedas.</h2>
+				<h3>Como usar...</h3>
+				<p>A mano izquierda, estan las opciones de cálculo para la compra, y a derecha, las de la venta. <br> Vos ponés el precio, y una cosa importante, es que marques solo la moneda que querès cálcular, las demas, dejalas en blanco. </p>
+				<h3>Convertir de Pesos a Dólares</h3>
+				<form action="/" method="post" id="arsXusd">
+					<label for="arsXusdValue">Ingrese el valor en pesos.</label>
+					<input type="text" name="arsXusdValue" id="arsXusdValue" placeholder="Ingrese el valor sin puntuaciones.">
+					<br>
+					<div>
+						<label for="coin">Ingrese la moneda para convertir esos pesos.</label>
+						<br>
+						<label for="buy">Compra</label>
+						<select name="buy" id="buy">
+							<option></option>
+							<option value="oficial">oficial</option>
+							<option value="blue">blue</option>
+							<option value="bolsa">bolsa</option>
+							<option value="contadoconliqui">liqui</option>
+							<option value="mayorista">mayorista</option>
+							<option value="tarjeta">tarjeta</option>
+							<option value="cripto">cripto</option>
+						</select>
+
+							<label for="sale">Venta</label>
+							<select name="sale" id="sale">
+							<option></option>
+							<option value="oficial">oficial</option>
+							<option value="blue">blue</option>
+							<option value="bolsa">bolsa</option>
+							<option value="contadoconliqui">liqui</option>
+							<option value="solidario">solidario</option>
+							<option value="mayorista">mayorista</option>
+							<option value="tarjeta">tarjeta</option>
+							<option value="cripto">cripto</option>
+						</select>
+						<br>
+						<button class="negative">Calcular</button>
+						<button class="positive">Cálculo exacto</button>
+					</div>
+				</form>
+
+				<br>
+
+				<h3>Convertir de Dólares a Pesos</h3>
+				<form action="/" method="post" id="usdXars">
+					<label for="usdXarsValue">Ingrese el valor en dolares.</label>
+					<input type="text" name="usdXarsValue" id="usdXarsValue" placeholder="Ingrese el valor sin puntuaciones.">
+					<br>
+					<div>
+						<label for="coin">Ingrese la moneda para convertir esos dolares.</label>
+						<br>
+						<label for="toBuy">Compra</label>
+						<select name="toBuy" id="toBuy">
+							<option></option>
+							<option value="oficial">oficial</option>
+							<option value="blue">blue</option>
+							<option value="bolsa">bolsa</option>
+							<option value="contadoconliqui">liqui</option>
+							<option value="mayorista">mayorista</option>
+							<option value="tarjeta">tarjeta</option>
+							<option value="cripto">cripto</option>
+						</select>
+
+							<label for="toSale">Venta</label>
+							<select name="toSale" id="toSale">
+							<option></option>
+							<option value="oficial">oficial</option>
+							<option value="blue">blue</option>
+							<option value="bolsa">bolsa</option>
+							<option value="contadoconliqui">liqui</option>
+							<option value="solidario">solidario</option>
+							<option value="mayorista">mayorista</option>
+							<option value="tarjeta">tarjeta</option>
+							<option value="cripto">cripto</option>
+						</select>
+						<br>
+						<button class="negative">Calcular</button>
+						<button class="positive">Cálculo exacto</button>
+					</div>
+				</form>
+				<h4>(Información proveniente de la API <a href="https://dolarapi.com/" target="_blank">dolarapi.com</a>)</h4>
+				<script src="script.js"></script>
+			</div>
+		</div>
+	</body>

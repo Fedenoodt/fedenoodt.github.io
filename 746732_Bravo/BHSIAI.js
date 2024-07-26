@@ -131,10 +131,10 @@ let cabezal = `
 	            <h2> ~ Versión 47.6 ~ </h2> 
 	            <hr />	
 	                <ul>
-					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "good">Receso de urgencia: 1/2 [ 19 - 07 - 2024   ]</p></a></div></li>
+					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "notGood">Receso de urgencia: 2/2 [ 19 - 07 - 2024  26 - 07 - 2024 ]</p></a></div></li>
 					<li class="listaHorizontal"><div><a href="https://app.diagrams.net/#G109ytHwAWI3js3y8z3QKzk1i1Y7eDIUD6#%7B%22pageId%22%3A%22ueUZChO0UBstpgEd6729%22%7D" target="_blank"><p class = "good">Mejora tecnológica: Responder a las demandas de Zonda por Zero. </p></a></div></li>
-					<li class="listaHorizontal"><div><a href="https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages/Pagina_personal/PyC/Anexat" target="_blank"><p class = "good">Completar Proyecto Anexat </p></a></div></li>
-					<li class="listaHorizontal"><div><a href="https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages/Pagina_personal/vida/moneda/Monetizer" target="_blank"><p class = "good">Completar Proyecto Monetizer </p></a></div></li>
+					<li class="listaHorizontal"><div><a href="https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages/Pagina_personal/PyC/Anexat" target="_blank"><p class = "notGood">Completar Proyecto Anexat </p></a></div></li>
+					<li class="listaHorizontal"><div><a href="https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages/Pagina_personal/vida/moneda/Monetizer" target="_blank"><p class = "notGood">Completar Proyecto Monetizer </p></a></div></li>
 					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoZero.html" target="_blank"><p class = "good">Estar listo para ir con Marcelo Bivort por el Proyecto Zero, Martes por medio a las 18hs. </p></a></div></li>
 					
 	                </ul>

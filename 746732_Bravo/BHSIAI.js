@@ -116,8 +116,7 @@ let cabezal = `
 	            <a href = "" onclick = pendiente(conversor(${baseID}))><img class="Emblema" src="https://fedenoodt.github.io/746732_Bravo/Emblema.png"></a>
 	            <div class = "atajos">
 	                <a href = "" onclick = pendiente(conversor(${relojID}))><div><h2 id = "hora"></h2></div></a>
-	                <a class = "imgAtajos" href="https://chat.openai.com/" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/GPT.jpg"></a>
-	                <a class = "imgAtajos" href="https://github.com/Fedenoodt/serviciosWindows" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/clock.png"></a> <br />
+	                <a class = "imgAtajos" href="https://www.bing.com/chat?form=NTPCHB" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/Copilot_logo.jpg"></a> <br />
 	                <a class = "imgAtajos" href="https://github.com/Fedenoodt/I-Black-Hawk-Security-Informatics-Anonymous-Incorporation" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/Shield-PNG-Photos.png"></a>
 	                <a class = "imgAtajos" href="https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/768px-Settings_(iOS).png"></a>
 		 	<a class = "imgAtajos" href="https://github.com/Fedenoodt/fedenoodt.github.io/blob/gh-pages/Pagina_personal/PyC/Libreta_faltas.txt" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/notas.png"></a>
@@ -128,7 +127,7 @@ let cabezal = `
 	            <br />
 	            <h1>Black Hawk Security Informatics Anonymous Incorporation</h1>
 	            <hr />	
-	            <h2> ~ Versión 47.6 ~ </h2> 
+	            <h2> ~ Versión 48.0 ~ </h2> 
 	            <hr />	
 	                <ul>
 					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "notGood">Receso de urgencia: 2/2 [ 19 - 07 - 2024  26 - 07 - 2024 ]</p></a></div></li>
@@ -256,6 +255,7 @@ function tools () {
 				<li><a href="https://www.onlinemictest.com/es/prueba-de-teclado/" target="_blank">Probador de entradas para teclado</a>></li>
 				<li><a href="http://sps.fibertel.com.ar/speedtest/" target="_blank">Speedtest Fibertel</a>></li>
 				<li><a href="https://www.speedtest.net/es" target="_blank">Speedtest Ookla</a>></li>
+				<li><a href="https://github.com/Fedenoodt/serviciosWindows" target="_blank">Servicios Windows</a>></li>
 				<h2>Transporte</h2>
 				<li><a href="https://www.google.com.ar/maps/@-34.607613,-58.4515826,15z" target="_blank">Google Maps</a>></li>
 				<li><a href="https://www.omnilineas.com.ar/" target="_blank">OmniL&iacute;neas</a>></li>
@@ -303,6 +303,7 @@ function obsolet () {
 			    		<li><a href="https://github.com/Fedenoodt/JavaScript/tree/main" target="_blank">GitHub - JavaScript</a></li>
 			    		<li><a href="https://fedenoodt.github.io/Pagina_personal/javascript-es.7.pdf" target="_blank">Manual-Informatica.com - JavaScript</a></li>
 			    		<li><a href="https://www.youtube.com/watch?v=z95mZVUcJ-E&t=2756s" target="_blank">Soy Dalto - JavaScript</a></li>
+			    		<li><a href="https://chat.openai.com/" target="_blank">ChatGPT</a></li>
 					
 					
 					<li><a href = "" onclick = pendiente(conversor(${baseID}))>Volver</a><<</li>

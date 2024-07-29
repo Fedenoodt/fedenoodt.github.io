@@ -127,7 +127,7 @@ let cabezal = `
 	            <br />
 	            <h1>Black Hawk Security Informatics Anonymous Incorporation</h1>
 	            <hr />	
-	            <h2> ~ Versión 48.0 ~ </h2> 
+	            <h2> ~ Versión 48.1 ~ </h2> 
 	            <hr />	
 	                <ul>
 					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "notGood">Receso de urgencia: 2/2 [ 19 - 07 - 2024  26 - 07 - 2024 ]</p></a></div></li>
@@ -227,7 +227,7 @@ function tools () {
 				<h2>Multimedia</h2>
 				<li><a href="https://www.youtube.com/watch?v=gs_cochwfcY&pp=ygUKcGlwIHNvbmlkbw%3D%3D" target="_blank">Sonido para pruebas</a>></li>
 				<li><a href="https://www.ilovepdf.com/es/html-a-pdf" target="_blank">Convertor HTML a PDF</a>></li>
-				<li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjBh57GgsCCAxUZrJUCHQr9D7YQFnoECBkQAQ&url=https%3A%2F%2Fnotube.site%2Fes%2Fyoutube-app-v103&usg=AOvVaw3zAxVgk6KBu9ZmRovL7B56&opi=89978449" target="_blank">Convertor Youtube a MP3</a>></li>
+				<li><a href="https://www.bing.com/ck/a?!&&p=d2f2664d24f388e9JmltdHM9MTcyMjIxMTIwMCZpZ3VpZD0zNjllYzhlOC1mZjgxLTYyMDMtMjc5YS1kYzIyZmUyNDYzMDAmaW5zaWQ9NTE5Mg&ptn=3&ver=2&hsh=3&fclid=369ec8e8-ff81-6203-279a-dc22fe246300&psq=youtube+mp4&u=a1aHR0cHM6Ly95dDFzcy5wcm8vZXMxNDgveW91dHViZS10by1tcDQ&ntb=1" target="_blank">Convertor Youtube</a>></li>
 				<li><a href="https://imagen.online-convert.com/es/convertir-a-png" target="_blank">Imagen PNG transparente</a>></li>
 				<li><a href="https://www.site24x7.com/es/tools/selector-de-codigo-color.html" target="_blank">Detector RGB de imagen</a>></li>
 				<li><a href="https://rgbacolorpicker.com/" target="_blank">Selector paleta RGB</a>></li>

@@ -127,10 +127,10 @@ let cabezal = `
 	            <br />
 	            <h1>Black Hawk Security Informatics Anonymous Incorporation</h1>
 	            <hr />	
-	            <h2> ~ Versión 48.2 ~ </h2> 
+	            <h2> ~ Versión 48.3 ~ </h2> 
 	            <hr />	
 	                <ul>
-					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "good">Receso de urgencia: 0/1 [  ]</p></a></div></li>
+					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "notGood">Receso de urgencia: 1/1 [ 07 - 08 - 2024 ]</p></a></div></li>
 					<li class="listaHorizontal"><div><a href="https://app.diagrams.net/#G109ytHwAWI3js3y8z3QKzk1i1Y7eDIUD6#%7B%22pageId%22%3A%22ueUZChO0UBstpgEd6729%22%7D" target="_blank"><p class = "good">Mejora tecnológica: Responder a las demandas de Zonda por Zero. </p></a></div></li>
 					<li class="listaHorizontal"><div><a href="https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages/Pagina_personal/PyC/Anexat" target="_blank"><p class = "notGood">Completar Proyecto Anexat </p></a></div></li>
 					<li class="listaHorizontal"><div><a href="https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages/Pagina_personal/vida/moneda/Monetizer" target="_blank"><p class = "notGood">Completar Proyecto Monetizer </p></a></div></li>
@@ -246,6 +246,7 @@ function tools () {
 				<li><a href="https://classroom.google.com/u/1/h" target="_blank">Classroom</a></li>
 				<li><a href="https://www.mercadolibre.com.ar/" target="_blank">Mercado Libre</a>></li>
 				<li><a href="https://workspace.google.com/intl/es-419/products/forms/?utm_source=google&utm_medium=cpc&utm_campaign=latam-AR-all-es-dr-bkws-all-all-trial-e-dr-1011272-LUAC0011853&utm_content=text-ad-none-any-DEV_c-CRE_479426435746-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt%20~%20Forms-KWID_43700057710499709-kwd-10647024857&utm_term=KW_google%20forms-ST_google%20forms&gclid=Cj0KCQjwkruVBhCHARIsACVIiOwoV_-s-dU6S2iarog5B7sprTXCVZSfzhnnItRt9ZoVj11ckd869ywaAk1fEALw_wcB&gclsrc=aw.ds" target="_blank">Google Formularios</a>></li>
+				<li><a href="https://www.charactercountonline.com/" target="_blank">Contador de caracteres</a>></li>
 				<h2>Servicio técnico</h2>
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/maintenance.png" target="_blank">Imagen "En mantenimiento..."</a>></li>
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/screenToner.png" target="_blank">Imagen para arreglar color de pantalla</a>></li>

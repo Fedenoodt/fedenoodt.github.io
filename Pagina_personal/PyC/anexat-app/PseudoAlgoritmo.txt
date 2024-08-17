@@ -1,0 +1,8 @@
+Pasos en la elaboración de Anexat:
+
+ 1 • Creación del esquema Mongoose de usuarios, y sus espacios para links.
+ 2 • Elaboración de la estructura de usuario.
+ 3 • Elaboración de la estructura token de validación de usuario.
+ 4 • Elaboración de la estructura de edición de las colmenas. (Carpetas de guardado de links de los usuarios)
+ 5 • Implementación estructural de Anexat en ReactJS.
+ 6 • Decorar Anexat.

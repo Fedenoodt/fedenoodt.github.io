@@ -117,6 +117,7 @@ let cabezal = `
 	            <div class = "atajos">
 	                <a href = "" onclick = pendiente(conversor(${relojID}))><div><h2 id = "hora"></h2></div></a>
 	                <a class = "imgAtajos" href="https://www.bing.com/chat?form=NTPCHB" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/Copilot_logo.jpg"></a> <br />
+			<a class = "imgAtajos" href="https://chat.openai.com/" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/GPT.jpg"></a> <br />
 	                <a class = "imgAtajos" href="https://github.com/Fedenoodt/I-Black-Hawk-Security-Informatics-Anonymous-Incorporation" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/Shield-PNG-Photos.png"></a>
 	                <a class = "imgAtajos" href="https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/768px-Settings_(iOS).png"></a>
 		 	<a class = "imgAtajos" href="https://github.com/Fedenoodt/fedenoodt.github.io/blob/gh-pages/Pagina_personal/PyC/Libreta_faltas.txt" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/notas.png"></a>
@@ -304,7 +305,7 @@ function obsolet () {
 			    		<li><a href="https://github.com/Fedenoodt/JavaScript/tree/main" target="_blank">GitHub - JavaScript</a></li>
 			    		<li><a href="https://fedenoodt.github.io/Pagina_personal/javascript-es.7.pdf" target="_blank">Manual-Informatica.com - JavaScript</a></li>
 			    		<li><a href="https://www.youtube.com/watch?v=z95mZVUcJ-E&t=2756s" target="_blank">Soy Dalto - JavaScript</a></li>
-			    		<li><a href="https://chat.openai.com/" target="_blank">ChatGPT</a></li>
+	                		<li><a href="https://www.bing.com/chat?form=NTPCHB" target="_blank">Copilot</a></li>
 					
 					
 					<li><a href = "" onclick = pendiente(conversor(${baseID}))>Volver</a><<</li>

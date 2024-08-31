@@ -305,8 +305,6 @@ function obsolet () {
 			    		<li><a href="https://github.com/Fedenoodt/JavaScript/tree/main" target="_blank">GitHub - JavaScript</a></li>
 			    		<li><a href="https://fedenoodt.github.io/Pagina_personal/javascript-es.7.pdf" target="_blank">Manual-Informatica.com - JavaScript</a></li>
 			    		<li><a href="https://www.youtube.com/watch?v=z95mZVUcJ-E&t=2756s" target="_blank">Soy Dalto - JavaScript</a></li>
-	                		<li><a href="https://www.bing.com/chat?form=NTPCHB" target="_blank">Copilot</a></li>
-					
 					
 					<li><a href = "" onclick = pendiente(conversor(${baseID}))>Volver</a><<</li>
 				</ul>

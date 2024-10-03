@@ -621,7 +621,7 @@ function comms () {
 return imagen
 }
 
-function redes () {https://www.reddit.com/user/Unique_Relief_6802/
+function redes () {
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}

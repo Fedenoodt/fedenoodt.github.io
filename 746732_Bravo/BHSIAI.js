@@ -128,10 +128,10 @@ let cabezal = `
 	            <br />
 	            <h1>Black Hawk Security Informatics Anonymous Incorporation</h1>
 	            <hr />	
-	            <h2> ~ Versión 48.4 ~ </h2> 
+	            <h2> ~ Versión 48.6 ~ </h2> 
 	            <hr />	
 	                <ul>
-					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "notGood">Receso de urgencia: 3/3 [ 23-09-2024 24-09-2024 30-09-2024 ]</p></a></div></li>
+					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "good">Receso de urgencia: 0/2 [  ]</p></a></div></li>
 					<li class="listaHorizontal"><div><a href="https://app.diagrams.net/#G109ytHwAWI3js3y8z3QKzk1i1Y7eDIUD6#%7B%22pageId%22%3A%22ueUZChO0UBstpgEd6729%22%7D" target="_blank"><p class = "good">Mejora tecnológica: Responder a las demandas de Zonda por Zero. </p></a></div></li>
 					<li class="listaHorizontal"><div><a href="https://github.com/Fedenoodt/fedenoodt.github.io/blob/gh-pages/Pagina_personal/PyC/anexat-app/PseudoAlgoritmo.txt" target="_blank"><p class = "notGood">Completar Proyecto Anexat </p></a></div></li>
 					<li class="listaHorizontal"><div><a href="https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages/Pagina_personal/vida/moneda/Monetizer" target="_blank"><p class = "notGood">Completar Proyecto Monetizer </p></a></div></li>
@@ -621,7 +621,7 @@ function comms () {
 return imagen
 }
 
-function redes () {
+function redes () {https://www.reddit.com/user/Unique_Relief_6802/
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
@@ -631,8 +631,9 @@ function redes () {
 					<li><a href = "" onclick = pendiente(conversor(${trabajoID}))>Trabajo</a></li>
 					<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAI.html"><a href="https://www.facebook.com/" target="_blank">Facebook</a></a>></li>
 					<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAI.html"><a href="https://www.instagram.com/?hl=es-la" target="_blank">Instagram</a></a>></li>
-					<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAI.html"><a href="https://twitter.com/home" target="_blank">Twitter</a></a>></li>
+					<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAI.html"><a href="https://www.reddit.com/user/Unique_Relief_6802/" target="_blank">Reddit</a></a>></li>
 					<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAI.html"><a href="https://www.tiktok.com/foryou" target="_blank">TikTok</a></a>></li>
+					<li><a href="https://fedenoodt.github.io/798326_Epsilon/BHSIAI.html"><a href="https://twitter.com/home" target="_blank">Twitter</a></a>></li>
 					<li><a href = "" onclick = pendiente(conversor(${baseID}))>Volver</a><<</li>
 				</ul>
 			</div>

@@ -262,6 +262,7 @@ function tools () {
 				<li><a href="https://www.google.com.ar/maps/@-34.607613,-58.4515826,15z" target="_blank">Google Maps</a>></li>
 				<li><a href="https://www.omnilineas.com.ar/" target="_blank">OmniL&iacute;neas</a>></li>
 				<h2>Cine</h2>
+				<li><a href="https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/index.html" target="_blank">RandHomero</a>></li>
 				<li><a href="https://www.doesthedogdie.com/" target="_blank">Does the dog die?</a>></li>
 				<li><a href="https://carto.maps.arcgis.com/apps/CEWebViewer/viewer.html?3dWebScene=e87eb53174ab4ba09026e90e1d7c6557" target="_blank">Galaxia Star Wars</a>></li>
 				<h2>Videojuegos</h2>

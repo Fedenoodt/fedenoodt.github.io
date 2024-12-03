@@ -12,7 +12,11 @@ a:hover {
 	color: green;
 }
 
-ul li {
+ul {
+	margin: 3px;
+}
+
+li {
 	margin: 1.5px;
 }
 

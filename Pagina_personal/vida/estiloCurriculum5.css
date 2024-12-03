@@ -12,6 +12,10 @@ a:hover {
 	color: green;
 }
 
+li {
+	margin: 1.5px;
+}
+
 hr { 
 	border: 1px solid rgba(65, 126, 99, 1);	
 	border-radius: 0px;	

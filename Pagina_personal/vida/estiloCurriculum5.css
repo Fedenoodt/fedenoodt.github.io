@@ -12,10 +12,6 @@ a:hover {
 	color: green;
 }
 
-ul {
-	margin: 3px;
-}
-
 li {
 	margin: 1.5px;
 }
@@ -67,6 +63,10 @@ body {
 	background-color: rgba(220, 233, 212, 1);
 	margin: 20px;
 
+}
+
+.ulSpace {
+	margin: 3px;
 }
 
 .CartaPresentacion,

@@ -6,7 +6,9 @@ header {
   border-width: 2px;
   border-style: solid;
   padding: 0.5px;
-  margin: 0.5px;
+  margin-right: 0.5px;
+  margin-bottom: 0.5px;
+  margin-left: 0.5px;
 }
 
 #results-container {

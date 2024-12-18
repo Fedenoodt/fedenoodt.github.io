@@ -1,3 +1,8 @@
 header {
   margin-top: 25%;
+  max-width: 30%;
+}
+
+#results-container {
+  max-width: 30%;
 }

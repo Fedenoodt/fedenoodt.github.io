@@ -9,9 +9,7 @@ header {
 
 body {
     background-image: url('https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Simpsons_logo.jpg');
-    background-repeat: no-repeat; 
-    background-size: contain;
-    background-position: center;
-    background-size: 100% 100%; 
-    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }

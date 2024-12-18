@@ -31,8 +31,15 @@ function eject () {
     cuerpo.classList.add("results");
     cuerpo.innerHTML = imagen;
     const resultsContainer = document.getElementById("results-container");
-    resultsContainer.prepend(cuerpo);
-    return imagen;
+        if (resultsContainer) {
+            resultsContainer.prepend(cuerpo);
+        } else {
+            console.error("No se encontró el contenedor de resultados.");
+        }
+
+        return imagen;
+    }
+
 }
 
 const llamada = document.getElementById("random");

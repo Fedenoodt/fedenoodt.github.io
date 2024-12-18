@@ -30,7 +30,8 @@ function eject () {
     </div>`;
     cuerpo.classList.add("results");
     cuerpo.innerHTML = imagen;
-    document.body.prepend(cuerpo);
+    const resultsContainer = document.getElementById("results-container");
+    resultsContainer.prepend(cuerpo);
     return imagen;
 }
 

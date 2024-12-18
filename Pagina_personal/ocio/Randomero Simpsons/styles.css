@@ -8,7 +8,7 @@ header {
 };
 
 body {
-    background-image: url('Simpsons_logo.jpg');
+    background-image: url('https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Simpsons_logo.jpg');
     background-repeat: no-repeat; /* No repite la imagen */
     background-size: cover; /* La imagen cubre todo el fondo (puede recortarse) */
     background-position: center; /* Centra la imagen en el fondo */

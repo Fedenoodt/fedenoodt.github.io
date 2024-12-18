@@ -37,8 +37,7 @@ function eject () {
             console.error("No se encontró el contenedor de resultados.");
         }
 
-        return imagen;
-    }
+    return imagen;
 
 }
 

@@ -128,7 +128,7 @@ let cabezal = `
 	            <br />
 	            <h1>Black Hawk Security Informatics Anonymous Incorporation</h1>
 	            <hr />	
-	            <h2> ~ Versión 48.8 ~ </h2> 
+	            <h2> ~ Versión 49.2 ~ </h2> 
 	            <hr />	
 	                <ul>
 					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "notGood">Receso de urgencia: 1/1 [ 4-12-2024 ]</p></a></div></li>
@@ -151,23 +151,22 @@ function base () {
 		<div>
 			<h2>Accesos de emergencia</h2>
 			<ul>
+			    <li><a href="https://github.com/Fedenoodt/Trabajo/tree/main/Proyecto%20Zero/Ritual%20Zero.uno" target="_blank">Ritual Zero.uno</a></li>
 			    <li><a href="https://plataforma.ha.dev/enrollments" target="_blank">Hack Academy</a></li>
-			    <li><a href="https://cursos.utnba.centrodeelearning.com/my/courses.php" target="_blank">UTN - Aula Virtual</a></li>
-			    <li><a href="https://sigead.utnba.centrodeelearning.com//personas/panel" target="_blank">UTN - Centro de e-learning</a></li>
-			    <li><a href="https://github.com/Fedenoodt/learningAngular" target="_blank">UTN - learningAngular</a></li>
 			</ul>
 			<hr />		
 			<ul>
-	                <li class = "listaHorizontal"><a href="https://github.com/Fedenoodt/Trabajo/tree/main/Proyecto%20Zero" target="_blank"><img class="proyectos" src="https://fedenoodt.github.io/746732_Bravo/ProyectoZero-isologo.png"></a></li>
+	                    <li class = "listaHorizontal"><a href="https://github.com/Fedenoodt/Trabajo/tree/main" target="_blank"><img class="proyectos" src="https://fedenoodt.github.io/746732_Bravo/ProyectoZero-isologo.png"></a></li>
+	                    <li class = "listaHorizontal"><a href="https://github.com/Fedenoodt/Trabajo/tree/main/Proyecto%20Zonda" target="_blank"><img class="proyectos" src="https://fedenoodt.github.io/746732_Bravo/Zonda-isologo.png"></a></li>
+	                    <li class = "listaHorizontal"><a href="https://drive.google.com/drive/u/3/folders/1vRsMZ-DChZi7cc_jRLmK7hVCeihZGUq5" target="_blank"><img class="proyectos" src="https://fedenoodt.github.io/746732_Bravo/Finanzafe-isologo.png"></a></li>
+	                    <li class = "listaHorizontal"><a href="https://github.com/Fedenoodt/Trabajo/tree/main/Proyecto%20Zero/Proyecto%20Aeos" target="_blank"><img class="proyectos" src="https://fedenoodt.github.io/746732_Bravo/Aeos-isologo.png"></a></li>
 			</ul>
 			<hr />
 			<hr />		
 			<ul>
 			    <li class="listaHorizontal"><a href="https://mail.google.com/mail/u/1/#inbox" target="_blank">Gmail</a>></li>
 			    <li class="listaHorizontal"><a href="https://github.com/" target="_blank">GitHub</a>></li>
-			    <li class="listaHorizontal"><a href="https://github.com/Fedenoodt/Trabajo/tree/main/Proyecto%20Zonda" target="_blank">Proyecto Zonda</a>></li>
 			    <li class="listaHorizontal"><a href="https://drive.google.com/drive/u/1/my-drive" target="_blank">Drive</a>></li>
-       			    <li class="listaHorizontal"><a href="https://drive.google.com/drive/u/3/folders/1vRsMZ-DChZi7cc_jRLmK7hVCeihZGUq5" target="_blank">Finanzafe</a>></li>
 			    <li class="listaHorizontal"><a href="https://app.diagrams.net/" target="_blank">Diagramas</a>></li>
 			    <li class="listaHorizontal"><a href="https://fedenoodt.github.io/Pagina_personal/Horario_de_Rutina.pdf" target="_blank">Horario</a>></li>
 			    <li class="listaHorizontal"><a href="https://fedenoodt.github.io/Pagina_personal/Esquema_Anual.png" target="_blank">Esquema Anual</a>></li>
@@ -311,6 +310,9 @@ function obsolet () {
 			    		<li><a href="https://github.com/Fedenoodt/JavaScript/tree/main" target="_blank">GitHub - JavaScript</a></li>
 			    		<li><a href="https://fedenoodt.github.io/Pagina_personal/javascript-es.7.pdf" target="_blank">Manual-Informatica.com - JavaScript</a></li>
 			    		<li><a href="https://www.youtube.com/watch?v=z95mZVUcJ-E&t=2756s" target="_blank">Soy Dalto - JavaScript</a></li>
+					<li><a href="https://cursos.utnba.centrodeelearning.com/my/courses.php" target="_blank">UTN - Aula Virtual</a></li>
+			    		<li><a href="https://sigead.utnba.centrodeelearning.com//personas/panel" target="_blank">UTN - Centro de e-learning</a></li>
+			    		<li><a href="https://github.com/Fedenoodt/learningAngular" target="_blank">UTN - learningAngular</a></li>
 					
 					<li><a href = "" onclick = pendiente(conversor(${baseID}))>Volver</a><<</li>
 				</ul>

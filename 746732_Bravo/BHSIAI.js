@@ -158,7 +158,7 @@ function base () {
 			</ul>
 			<hr />		
 			<ul>
-	                <li><a class = "listaHorizontal" href="https://github.com/Fedenoodt/Trabajo/tree/main/Proyecto%20Zero" target="_blank"><img class="proyectos" src="https://fedenoodt.github.io/746732_Bravo/ProyectoZero-isologo.png"></a></li>
+	                <li class = "listaHorizontal"><a href="https://github.com/Fedenoodt/Trabajo/tree/main/Proyecto%20Zero" target="_blank"><img class="proyectos" src="https://fedenoodt.github.io/746732_Bravo/ProyectoZero-isologo.png"></a></li>
 			</ul>
 			<hr />
 			<hr />		

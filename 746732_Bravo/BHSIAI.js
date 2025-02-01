@@ -120,7 +120,6 @@ let cabezal = `
 			<a class = "imgAtajos" href="https://chat.openai.com/" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/GPT.jpg"></a> <br />
 	                <a class = "imgAtajos" href="https://github.com/Fedenoodt/I-Black-Hawk-Security-Informatics-Anonymous-Incorporation" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/Shield-PNG-Photos.png"></a>
 	                <a class = "imgAtajos" href="https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/768px-Settings_(iOS).png"></a>
-	                <a class = "imgAtajos" href="https://github.com/Fedenoodt/Trabajo/tree/main/Proyecto%20Zero" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/ProyectoZero-isologo.png"></a>
 		 	<a class = "imgAtajos" href="https://github.com/Fedenoodt/fedenoodt.github.io/blob/gh-pages/Pagina_personal/PyC/Libreta_faltas.txt" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/notas.png"></a>
 	                <script src = "hora.js"></script>
 	            </div>
@@ -157,6 +156,11 @@ function base () {
 			    <li><a href="https://sigead.utnba.centrodeelearning.com//personas/panel" target="_blank">UTN - Centro de e-learning</a></li>
 			    <li><a href="https://github.com/Fedenoodt/learningAngular" target="_blank">UTN - learningAngular</a></li>
 			</ul>
+			<hr />		
+			<ul>
+	                <li><a class = "proyectos listaHorizontal" href="https://github.com/Fedenoodt/Trabajo/tree/main/Proyecto%20Zero" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/ProyectoZero-isologo.png"></a></li>
+			</ul>
+			<hr />
 			<hr />		
 			<ul>
 			    <li class="listaHorizontal"><a href="https://mail.google.com/mail/u/1/#inbox" target="_blank">Gmail</a>></li>

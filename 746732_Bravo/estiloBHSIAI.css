@@ -40,8 +40,8 @@ width: 2rem;
 }
 
 .proyectos {
-    	/*list-style-type: none;*/
-	max-width: 2rem;
+    	list-style-type: none;
+	max-width: 3rem;
 }
 
 a .notGood {

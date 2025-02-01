@@ -128,7 +128,7 @@ let cabezal = `
 	            <br />
 	            <h1>Black Hawk Security Informatics Anonymous Incorporation</h1>
 	            <hr />	
-	            <h2> ~ Versión 48.6 ~ </h2> 
+	            <h2> ~ Versión 48.8 ~ </h2> 
 	            <hr />	
 	                <ul>
 					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "notGood">Receso de urgencia: 1/1 [ 4-12-2024 ]</p></a></div></li>
@@ -158,7 +158,7 @@ function base () {
 			</ul>
 			<hr />		
 			<ul>
-	                <li><a class = "proyectos listaHorizontal" href="https://github.com/Fedenoodt/Trabajo/tree/main/Proyecto%20Zero" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/ProyectoZero-isologo.png"></a></li>
+	                <li><a class = "listaHorizontal" href="https://github.com/Fedenoodt/Trabajo/tree/main/Proyecto%20Zero" target="_blank"><img class="proyectos" src="https://fedenoodt.github.io/746732_Bravo/ProyectoZero-isologo.png"></a></li>
 			</ul>
 			<hr />
 			<hr />		

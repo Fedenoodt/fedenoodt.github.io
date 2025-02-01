@@ -39,6 +39,10 @@ width: 2rem;
  	margin: 0 30px;
 }
 
+.proyectos {
+	max-width: 3rem;
+}
+
 a .notGood {
         color: red;
 }

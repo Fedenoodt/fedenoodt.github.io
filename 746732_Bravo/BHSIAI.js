@@ -243,6 +243,7 @@ function tools () {
 				<li><a href="https://convertio.co/es/mkv-mp4/" target="_blank">Convertidor MKV a MP4</a>></li>
 				<h2>Herramientas financieras</h2>
 				<li><a href="https://fedenoodt.github.io/shelving/javascript/moneda/sueldo.html" target="_blank">Política de salario</a>></li>
+				<li><a href="https://fedenoodt.github.io/shelving/javascript/moneda/capital.html" target="_blank">Política de capital</a>></li>
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/vida/moneda/Monetizer/V3/index.html" target="_blank">Monetizer (Conversor de monedas)</a>></li>
 				<h2>Servicios</h2>
 				<li><a href="https://calendar.google.com/calendar/u/1/r?tab=oc" target="_blank">Calendario</a></li>

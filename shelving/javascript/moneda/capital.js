@@ -44,7 +44,7 @@ function launching (event) {
 
     balances(['necesidades', 'gastos', 'ahorros'], [porcent(number, necesidades), porcent(number, gastos), porcent(number, ahorros)])
     
-    const answer = `Fedenoodt, según la disposición vigente de la ley, corresponden porcentajes para necesidades, gastos, y ahorros. <br />
+    const answer = `Fedenoodt, según la disposición vigente de la ley, corresponden porcentajes del Capital general, únicamente para el sistema de ahorros. <br />
     Esta sería la cuenta: <br />
     Capital: ${number} <br />
         

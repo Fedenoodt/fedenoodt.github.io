@@ -15,6 +15,10 @@ body {
     min-height: 70px;
 }
 
+.finanzafe {
+    width:5%;
+}
+
 #quantity {
     width: 300px;
 }

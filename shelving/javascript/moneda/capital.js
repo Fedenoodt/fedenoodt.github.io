@@ -53,7 +53,7 @@ function launching (event) {
         ${speacher(riesgo, 'banca de ahorro inversionista', 'ahorros', ahorros, number)}
         ${speacher(refuerzo, 'dirección múltiple', 'ahorros', ahorros, number)}<br />
         En el caso de que las deudas hayan ido a mayores, este ${refuerzo}% (${porcent (refuerzo, number)}) del ahorro de "dirección múltiple" está dispuesto a brindar esa 
-        última ayuda limitada (que no debería suceder). Caso contrario, se ingresan en la banca de ahorro estático.`
+        última ayuda limitada (que no debería suceder). Caso contrario, se divide a crer un "segundo ahorro estático" de emergencia.`
 
     print(answer, 'area')
 }

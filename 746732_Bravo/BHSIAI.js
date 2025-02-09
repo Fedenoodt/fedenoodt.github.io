@@ -156,7 +156,7 @@ function base () {
 			</ul>
 			<hr />		
 			<ul>
-	                    <li class = "listaHorizontal"><a href="https://github.com/Fedenoodt/Trabajo/tree/main" target="_blank"><img class="proyectos" src="https://fedenoodt.github.io/746732_Bravo/ProyectoZero-isologo.png"></a></li>
+	                    <li class = "listaHorizontal"><a href="https://github.com/Fedenoodt/Trabajo/tree/main" target="_blank"><img class="proyectos" src="https://fedenoodt.github.io/746732_Bravo/ProyectoZero-isologo.jpg"></a></li>
 	                    <li class = "listaHorizontal"><a href="https://github.com/Fedenoodt/Trabajo/tree/main/Proyecto%20Zonda" target="_blank"><img class="proyectos" src="https://fedenoodt.github.io/746732_Bravo/Zonda-isologo.png"></a></li>
 	                    <li class = "listaHorizontal"><a href="https://drive.google.com/drive/u/3/folders/1vRsMZ-DChZi7cc_jRLmK7hVCeihZGUq5" target="_blank"><img class="proyectos" src="https://fedenoodt.github.io/746732_Bravo/Finanzafe-isologo.png"></a></li>
 	                    <li class = "listaHorizontal"><a href="https://github.com/Fedenoodt/Trabajo/tree/main/Proyecto%20Zero/Proyecto%20Zocial%C3%ADa" target="_blank"><img class="proyectos" src="https://fedenoodt.github.io/746732_Bravo/ProyectoZocialía-isologo.png"></a></li>

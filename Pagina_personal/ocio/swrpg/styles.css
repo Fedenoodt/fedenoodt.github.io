@@ -1,0 +1,21 @@
+* {color: rgba(0, 45, 81, 1);
+font-family:'Orbitron', sans-serif;
+margin: 10px;
+}
+
+body {background-color: rgba(108, 189, 255, 1);}
+li {display: inline-block;}
+
+#inicio {background-color: rgba(148, 186, 218, 1);
+margin: 10px;
+padding: 1px;}
+#ideas {background-color: rgba(148, 186, 218, 1);
+margin: 10px;
+padding: 1px;}
+#contacto {background-color: rgba(209, 235, 255, 1);
+margin: 10px;
+padding: 1px;}
+
+.miniBox {background-color: rgba(3, 116, 207, 1);
+margin: 10px;
+padding: 1px;}

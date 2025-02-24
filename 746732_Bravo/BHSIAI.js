@@ -128,7 +128,7 @@ let cabezal = `
 	            <br />
 	            <h1>Black Hawk Security Informatics Anonymous Incorporation</h1>
 	            <hr />	
-	            <h2> ~ Versión 49.4 ~ </h2> 
+	            <h2> ~ Versión 49.5 ~ </h2> 
 	            <hr />	
 	                <ul>
 					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "notGood">Receso de urgencia: 1/1 [  19 - 02 - 2025  ]</p></a></div></li>
@@ -150,7 +150,7 @@ function base () {
 			<h2>Accesos de emergencia</h2>
 			<ul>
 			    <li><a href="https://github.com/Fedenoodt/Trabajo/tree/main/Proyecto%20Zero/Ritual%20Zero.uno" target="_blank">Ritual Zero.uno</a></li>
-			    <li><a href="https://plataforma.ha.dev/enrollments" target="_blank">Hack Academy</a></li>
+			    <li><a href="https://github.com/Fedenoodt/Trabajo/blob/main/Proyecto%20Zero/Ritual%20Aura" target="_blank">Ritual Aura</a></li>
 			</ul>
 			<hr />		
 			<ul>
@@ -224,6 +224,7 @@ function tools () {
 				<h2>Generales</h2>
 				<li><a href= "" onclick = pendiente(conversor(${obsoletID}))>Accesos directos obsoletos</a>></li>
 				<h2>Programación</h2>
+			    	<li><a href="https://plataforma.ha.dev/enrollments" target="_blank">Hack Academy</a></li>
 				<li><a href="https://rahuldkjain.github.io/gh-profile-readme-generator/" target="_blank">Github readme generator</a>></li>
 				<li><a href="about:blank" target="_blank">P&aacutegina en blanco</a>></li>
 				<li><a href="https://www.favicon.cc/" target="_blank">Creador de iconos web</a>></li>

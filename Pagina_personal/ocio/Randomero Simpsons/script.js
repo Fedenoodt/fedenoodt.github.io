@@ -12,6 +12,9 @@ function eject () {
             return prop;
         }
     };
+
+    let audio = document.getElementById('clickSound');
+            audio.play()
     
     const cantTemporada = Object.keys(temporadas).length;
     

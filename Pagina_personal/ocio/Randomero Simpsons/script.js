@@ -4,15 +4,6 @@ function eject () {
         23 : 22, 24 : 22, 25 : 22, 26 : 22, 27 : 22, 28 : 21, 29 : 21, 30 : 23, 31 : 22, 32 : 22, 33 : 21, 34 : 22, 
         35 : 18, 36 : 11
     };
-
-    
-document.addEventListener("DOMContentLoaded", function() {
-    var audio = document.getElementById('autoSound');
-
-    // Intenta reproducir el audio cuando la página se carga
-    audio.play().catch(error => {
-    console.error("Reproducción automática bloqueada. Se intentará nuevamente después de una interacción del usuario.");
-});
     
     function notCero (prop) {
         if (prop < 1) {

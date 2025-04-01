@@ -272,6 +272,7 @@ function tools () {
 				<li><a href="https://www.doesthedogdie.com/" target="_blank">Does the dog die?</a>></li>
 				<li><a href="https://carto.maps.arcgis.com/apps/CEWebViewer/viewer.html?3dWebScene=e87eb53174ab4ba09026e90e1d7c6557" target="_blank">Galaxia Star Wars</a>></li>
 				<h2>Videojuegos</h2>
+				<li><a href="https://www.minecraftskins.com/" target="_blank">Skindex: Skins de Minecraft</a>></li>
 				<li><a href="https://www.systemrequirementslab.com/cyri" target="_blank">Can YOU Run It?</a>></li>
 				<li><a href="https://static.wikigta.org/nl/images/8/83/V.png" target="_blank">Mapa de Grand Theft Auto V</a>></li>
 				<li><a href="https://www.youtube.com/watch?v=xPt3oE069Xs&list=PL26y6a0sSX_B-l8ccARWgYP3nw3NKHzSF&pp=iAQB" target="_blank">GTA V ambiente ASMR</a>></li>

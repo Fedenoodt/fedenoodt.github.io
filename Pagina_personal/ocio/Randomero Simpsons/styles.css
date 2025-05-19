@@ -12,12 +12,13 @@ header {
   margin-left: 0.5px;
 }
 .superTitle {
-  font-size: 270%;
+  font-size: 470%;
   min-height: 50%;
 }
 
 #results-container {
   max-width: 100%;
+  font-size: 200%;
   background-color: rgba(255, 234, 114, 0.8);
   border-color: rgba(217, 65, 65, 1);
   border-width: 2px;

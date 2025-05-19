@@ -29,7 +29,7 @@ function eject () {
     console.log("Episodio:", whatEpisode);
     let cuerpo = document.createElement("div");
     const imagen = `<div>
-        <h1>A usted le tocó el capítulo ${whatEpisode} de la temporada ${whatSeaason}.</h1>
+        <h1>A usted le tocó el capítulo ${whatEpisode} <br /> de la temporada ${whatSeaason}.</h1>
     </div>`;
     cuerpo.classList.add("results");
     cuerpo.innerHTML = imagen;
@@ -48,8 +48,8 @@ const llamada = document.getElementById("random");
 llamada.addEventListener("click", eject);
 
 function background () {
-    //const fondos = { "Homero" : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Homero.jpg", "Marge" : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Marge.jpg", "Lisa" : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Lisa.jpg", "Bart" : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Bart.jpg", "Maggie" : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Maggie.jpg", "Ayudante" : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Ayudante.jpg", "Bola" : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Bola.jpg", "Abhram" : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Abram.png", "Selma" : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Selma.png", "Paty" : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Patty.png", "Mona": "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Mona.png" };
-    const fondos = { "Homero" : "/Movil/Homero.jpg", "Marge" : "/Movil/Marge.jpg", "Lisa" : "/Movil/Lisa.jpg", "Bart" : "/Movil/Bart.jpg", "Maggie" : "/Movil/Maggie.jpg", "Ayudante" : "/Movil/Ayudante.jpg", "Bola" : "/Movil/Bola.jpg", "Abhram" : "/Movil/Abram.png", "Selma" : "/Movil/Selma.png", "/Movil/Paty" : "/Patty.png", "Mona": "/Movil/Mona.png" };
+    const fondos = { "Homero" : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Homero.jpg", "Marge" : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Marge.jpg", "Lisa" : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Lisa.jpg", "Bart" : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Bart.jpg", "Maggie" : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Maggie.jpg", "Ayudante" : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Ayudante.jpg", "Bola" : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Bola.jpg", "Abhram" : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Abram.png", "Selma" : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Selma.png", "Paty" : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Patty.png", "Mona": "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Movil/Mona.png" };
+    //const fondos = { "Homero" : "/Movil/Homero.jpg", "Marge" : "/Movil/Marge.jpg", "Lisa" : "/Movil/Lisa.jpg", "Bart" : "/Movil/Bart.jpg", "Maggie" : "/Movil/Maggie.jpg", "Ayudante" : "/Movil/Ayudante.jpg", "Bola" : "/Movil/Bola.jpg", "Abhram" : "/Movil/Abram.png", "Selma" : "/Movil/Selma.png", "/Movil/Paty" : "/Patty.png", "Mona": "/Movil/Mona.png" };
     const nombres = Object.keys(fondos);
     const indice = Math.floor(Math.random() * Object.keys(fondos).length);
     const claves = nombres[indice];
@@ -58,23 +58,17 @@ function background () {
 
 console.log(background())
 
+console.log("Ancho del viewport:", document.documentElement.clientWidth);
+console.log("Ancho interno de la ventana:", window.innerWidth);
+console.log("Ancho exterior de la ventana:", window.outerWidth);
+
+
 function ajustarFondo() {
-    let imageUrl;
+    let imageUrl = window.outerWidth < 600 ? background() : "https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Simpsons_logo.jpg";
 
-    if (window.innerWidth < 600) {
-        imageUrl = `url('${background()}')`; // Verifica el nombre correcto de la función
-        document.body.style.backgroundSize = 'contain';
-        console.log('Operacion movil...')
-    } else {
-        imageUrl = `url('https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/Simpsons_logo.jpg')`;
-        document.body.style.backgroundSize = 'cover';
-        console.log('Operacion TV...')
-    }
-
-    document.body.style.backgroundImage = imageUrl;
-    document.body.style.backgroundPosition = 'center';
-    document.body.style.backgroundRepeat = 'no-repeat';
+    document.body.style.backgroundImage = `url('${imageUrl}')`;
+    console.log("Imagen establecida:", imageUrl);
 }
 
-window.addEventListener('resize', ajustarFondo);
-ajustarFondo(); // Llamarlo al inicio para que funcione desde el principio
+window.addEventListener("resize", ajustarFondo);
+document.addEventListener("DOMContentLoaded", ajustarFondo);

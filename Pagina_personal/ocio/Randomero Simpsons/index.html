@@ -3,19 +3,26 @@
         <head>
             <title>RandHomero</title>
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <!-- "Styles.css" se encarga de dar estilo al programa. -->
             <link rel="stylesheet" type="text/css" href="styles.css">
             <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+            <!-- En reflejo de las subcarpetas a continuación, comento que Centered, es parte del programa Responsiver. -->
+            <!-- Responsiver es un programa modular, que se encarga de presentar las páginas web, con un diseño ya modulado de responsive. -->
             <link rel="stylesheet" type="text/css" href="https://fedenoodt.github.io/shelving/CSS/Responsiver/Centered/style.css">
 
         </head>
         <body>
+            <!-- "mainBox" y "Container" son parte de la estructura de Centered. -->
             <section class="mainBox">
                 <div class="Container">
                     <header>
+                        <!-- <audio> esta para ilustrar con sonido, al abrir la web y/o darle al botón de elegir -->
                         <h1><p class="superTitle">RandHomero</p>    <br /><audio id="clickSound" src="https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/The%20Simpsons%20Movie%20(Soundtrack)%20-%20Lisa%20Saxophone%20Source.mp3" preload="auto" autoplay controls></audio></h1>
                     </header>
+                    <!-- Este botón con su evento, son la parte troncal del programa. Se encarga de devolver en "results-container" el episodio. -->
                     <button event="onclick" id="random">Buscá tu capítulo al azar.</button>
                     <div id="results-container"></div>
+                    <!-- "script.js" alberga toda la estructura necesaria para crear la randomizacion. -->
                     <script src="./script.js"></script>
                 </div>
             </section>

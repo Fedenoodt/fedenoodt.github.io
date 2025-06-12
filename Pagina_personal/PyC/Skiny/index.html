@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="https://fedenoodt.github.io/shelving/CSS/Responsiver/Centered/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <title>Notas</title>
+    </head>
+    <body>
+        <section class="mainBox">
+            <div class="Container">
+                <header>
+                    <h1 class="skiny">Skiny</h1>
+                    <h1>Bienvenido a su gestor de notas...</h1>
+                    <h2>En este programa, usted puede crear notas, editarlas, y eliminarlas.</h2>
+                </header>
+                <div class="main">
+                    <div class="notas">
+                        <p>Esta es la sección que muestra a las notas....</p>
+                        <div id="notes">
+                        </div>
+                    </div>
+                    <div class="tools">
+                        <p>Esta es la sección que muestra a las herramientas....</p>
+                        <div class="create">
+                            <p>Acá creas una nota...</p>
+                            <form id="creador" action="" method="post">
+                                <label class="lCreate" for="titulo">Tìtulo de la nota</label>
+                                <input type="text" id="titulo" name="titulo" required>
+                                <label class="lCreate" for="contenido">Contenido de la nota</label>
+                                <textarea id="contenido" name="contenido" placeholder="Agregue contenido" required></textarea>
+                                <button type="submit">Agregar</button>
+                            </form>
+                        </div>
+                        <div class="warning"><p>Cuidado: Si restauras tu navegador, podrìas perder las notas. Consideralo.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>

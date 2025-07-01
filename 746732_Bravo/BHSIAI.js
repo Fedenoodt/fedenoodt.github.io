@@ -561,13 +561,14 @@ function streaming () {
 return imagen
 }
 
-function juegos () {
+function juegos () {    
     let cuerpo = document.createElement("div");
     const imagen = `
     ${cabezal}
 		    <div>
 				<h2>Juegos</h2>
 					<ul>
+						<li><a href="fedenoodt.github.io/Pagina_personal/ocio/Minecraft/Cardinales/Bosque_Susurros/index.html" target="_blank">Minecraft cardnales: Bosque de los Susurros</a>></li>
 						<li><a href = "" onclick = pendiente(conversor(${minecraftID}))>Minecraft (Webs de informaci&oacute;n)</a>></li>
 						<li><a href="https://flexboxfroggy.com/#es" target="_blank">FLEXBOX FROGGY</a>></li>
 						<li><a href="https://agar.io" target="_blank">Agar.io</a>></li>

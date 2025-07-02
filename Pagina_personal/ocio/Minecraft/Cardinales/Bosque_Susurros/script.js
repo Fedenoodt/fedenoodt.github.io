@@ -69,3 +69,56 @@ puntos.forEach(p => {
 
 // Hover del punto.
 
+function mostrarViñeta(mouseX, mouseZ) {
+  let hovered = null;
+
+  puntos.forEach(p => {
+    const px = centroX + p.x * escala;
+    const pz = centroZ + p.z * escala;
+    const distancia = Math.hypot(mouseX - px, mouseZ - pz);
+
+    if (distancia < 8) {
+      hovered = { px, pz, x: p.x, z: p.z, titulo: p.titulo };
+    }
+  });
+
+  if (hovered) {
+    const { px, pz, x, z, titulo } = hovered;
+
+    const lines = [titulo, `(${x}, ${z})`];
+    const padding = 10;
+    const lineHeight = 18;
+    const width = Math.max(...lines.map(t => ctx.measureText(t).width)) + padding * 2;
+    const height = lines.length * lineHeight + padding * 2;
+    const boxX = px + 16;
+    const boxY = pz - height - 24;
+
+    // Viñeta estilo historieta
+    ctx.beginPath();
+    ctx.moveTo(px + 4, pz - 4);
+    ctx.lineTo(boxX + 12, boxY + height);
+    ctx.lineTo(boxX, boxY + height);
+    ctx.lineTo(boxX, boxY);
+    ctx.lineTo(boxX + width, boxY);
+    ctx.lineTo(boxX + width, boxY + height);
+    ctx.lineTo(boxX + 16, boxY + height);
+    ctx.lineTo(px + 4, pz - 4);
+    ctx.closePath();
+
+    ctx.fillStyle = '#222';
+    ctx.fill();
+    ctx.strokeStyle = '#ffff00';
+    ctx.lineWidth = 2;
+    ctx.stroke();
+
+    ctx.fillStyle = '#ffffff';
+    lines.forEach((t, i) => {
+      ctx.fillText(t, boxX + padding, boxY + padding + lineHeight * (i + 0.5));
+    });
+  }
+}
+
+canvas.addEventListener('mousemove', e => {
+  // Dibujamos la viñeta SIN tocar el render base
+  mostrarViñeta(e.clientX, e.clientY);
+});

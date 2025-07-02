@@ -122,3 +122,38 @@ canvas.addEventListener('mousemove', e => {
   // Dibujamos la viñeta SIN tocar el render base
   mostrarViñeta(e.clientX, e.clientY);
 });
+
+function actualizarCanvas(mouseX, mouseZ) {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = 'black';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  // Ejes
+  ctx.strokeStyle = '#ffffff';
+  ctx.beginPath();
+  ctx.moveTo(0, centroZ);
+  ctx.lineTo(canvas.width, centroZ);
+  ctx.moveTo(centroX, 0);
+  ctx.lineTo(centroX, canvas.height);
+  ctx.stroke();
+
+  // Dibujar puntos y etiquetas
+  puntos.forEach(p => {
+    const px = centroX + p.x * escala;
+    const pz = centroZ + p.z * escala;
+
+    ctx.beginPath();
+    ctx.arc(px, pz, 4, 0, Math.PI * 2);
+    ctx.fillStyle = '#00ff03';
+    ctx.fill();
+
+    ctx.fillStyle = '#ffffff';
+    ctx.fillText(`(${p.x}, ${p.z})`, px + 8, pz - 8);
+    if (p.titulo) {
+      ctx.fillText(p.titulo, px + 8, pz + 12);
+    }
+  });
+
+  // Agregar viñeta
+  mostrarViñeta(mouseX, mouseZ);
+}

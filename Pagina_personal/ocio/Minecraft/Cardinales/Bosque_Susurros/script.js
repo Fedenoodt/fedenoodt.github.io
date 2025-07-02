@@ -89,46 +89,32 @@ function dibujarPuntos(mouseX = null, mouseZ = null) {
     const px = centroX + p.x * escala;
     const pz = centroZ + p.z * escala;
 
-    const hover = mouseX !== null && mouseZ !== null &&
+    const esHover = mouseX !== null && mouseZ !== null &&
       Math.hypot(mouseX - px, mouseZ - pz) < 8;
 
+    // Dibuja todos los puntos normalmente
     ctx.beginPath();
     ctx.arc(px, pz, 4, 0, Math.PI * 2);
-    ctx.fillStyle = hover ? '#ffff00' : '#00ff03';
+    ctx.fillStyle = '#00ff03';
     ctx.fill();
+    
+    // Texto siempre visible
+    ctx.fillStyle = '#ffffff';
+    ctx.fillText(`(${p.x}, ${p.z})`, px + 8, pz - 8);
+    if (p.titulo) {
+      ctx.fillText(p.titulo, px + 8, pz + 12);
+    }
 
-    if (hover) hovered = { px, pz, titulo: p.titulo, x: p.x, z: p.z };
+    // Si es hover, guardar para resaltado posterior
+    if (esHover) hovered = { px, pz };
   });
 
   if (hovered) {
-    const boxX = hovered.px + 12;
-    const boxZ = hovered.pz - 20;
-
-    const textLines = [
-      hovered.titulo,
-      `(${hovered.x}, ${hovered.z})`
-    ];
-
-    const boxWidth = Math.max(...textLines.map(t => ctx.measureText(t).width)) + 16;
-    const boxHeight = textLines.length * 18 + 10;
-
-    ctx.fillStyle = '#222';
-    ctx.fillRect(boxX, boxZ, boxWidth, boxHeight);
-
+    // Círculo extra para resaltar
+    ctx.beginPath();
+    ctx.arc(hovered.px, hovered.pz, 10, 0, Math.PI * 2);
     ctx.strokeStyle = '#ffff00';
     ctx.lineWidth = 2;
-    ctx.strokeRect(boxX, boxZ, boxWidth, boxHeight);
-
-    ctx.fillStyle = '#ffffff';
-    textLines.forEach((t, i) => {
-      ctx.fillText(t, boxX + 8, boxZ + 20 + i * 18);
-    });
+    ctx.stroke();
   }
 }
-
-dibujarPuntos(); // Dibujo inicial
-
-canvas.addEventListener('mousemove', e => {
-  dibujarPuntos(e.clientX, e.clientY);
-});
-

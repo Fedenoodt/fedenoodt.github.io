@@ -74,13 +74,11 @@ function dibujarPuntos(mouseX = null, mouseZ = null) {
   ctx.fillStyle = 'black';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-  // Ejes
+  // Ejes cartesianos
   ctx.strokeStyle = '#ffffff';
   ctx.beginPath();
-  ctx.moveTo(0, centroZ);
-  ctx.lineTo(canvas.width, centroZ);
-  ctx.moveTo(centroX, 0);
-  ctx.lineTo(centroX, canvas.height);
+  ctx.moveTo(0, centroZ); ctx.lineTo(canvas.width, centroZ); // X
+  ctx.moveTo(centroX, 0); ctx.lineTo(centroX, canvas.height); // Z
   ctx.stroke();
 
   let hovered = null;
@@ -92,12 +90,12 @@ function dibujarPuntos(mouseX = null, mouseZ = null) {
     const esHover = mouseX !== null && mouseZ !== null &&
       Math.hypot(mouseX - px, mouseZ - pz) < 8;
 
-    // Dibuja todos los puntos normalmente
+    // Dibuja el punto
     ctx.beginPath();
     ctx.arc(px, pz, 4, 0, Math.PI * 2);
     ctx.fillStyle = '#00ff03';
     ctx.fill();
-    
+
     // Texto siempre visible
     ctx.fillStyle = '#ffffff';
     ctx.fillText(`(${p.x}, ${p.z})`, px + 8, pz - 8);
@@ -105,16 +103,56 @@ function dibujarPuntos(mouseX = null, mouseZ = null) {
       ctx.fillText(p.titulo, px + 8, pz + 12);
     }
 
-    // Si es hover, guardar para resaltado posterior
-    if (esHover) hovered = { px, pz };
+    if (esHover) {
+      hovered = { px, pz, x: p.x, z: p.z, titulo: p.titulo };
+    }
   });
 
+  // Si hay un punto observado, se dibuja la viñeta
   if (hovered) {
-    // Círculo extra para resaltar
+    const { px, pz, x, z, titulo } = hovered;
+
+    const lines = [
+      titulo,
+      `(${x}, ${z})`
+    ];
+
+    const padding = 10;
+    const lineHeight = 18;
+    const boxWidth = Math.max(...lines.map(t => ctx.measureText(t).width)) + padding * 2;
+    const boxHeight = lines.length * lineHeight + padding * 2;
+
+    const boxX = px + 16;
+    const boxZ = pz - boxHeight - 24;
+
+    // Globo tipo historieta
     ctx.beginPath();
-    ctx.arc(hovered.px, hovered.pz, 10, 0, Math.PI * 2);
+    ctx.moveTo(px + 4, pz - 4); // Punta del globo
+    ctx.lineTo(boxX + 12, boxZ + boxHeight); // Pierna izquierda
+    ctx.lineTo(boxX, boxZ + boxHeight);      // Borde inferior
+    ctx.lineTo(boxX, boxZ);                  // Borde izquierdo
+    ctx.lineTo(boxX + boxWidth, boxZ);       // Borde superior
+    ctx.lineTo(boxX + boxWidth, boxZ + boxHeight); // Borde derecho
+    ctx.lineTo(boxX + 12 + 4, boxZ + boxHeight);    // Pierna derecha
+    ctx.lineTo(px + 4, pz - 4);              // Vuelve al punto
+    ctx.closePath();
+
+    ctx.fillStyle = '#222';
+    ctx.fill();
     ctx.strokeStyle = '#ffff00';
     ctx.lineWidth = 2;
     ctx.stroke();
+
+    // Texto dentro de la viñeta
+    ctx.fillStyle = '#ffffff';
+    lines.forEach((t, i) => {
+      ctx.fillText(t, boxX + padding, boxZ + padding + lineHeight * (i + 0.5));
+    });
   }
 }
+
+dibujarPuntos(); // Dibujo inicial
+
+canvas.addEventListener('mousemove', e => {
+  dibujarPuntos(e.clientX, e.clientY);
+});

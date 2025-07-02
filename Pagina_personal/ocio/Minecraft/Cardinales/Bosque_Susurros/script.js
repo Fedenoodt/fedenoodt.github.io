@@ -82,6 +82,8 @@ function mostrarViñeta(mouseX, mouseZ) {
     }
   });
 
+  if (!hovered) return; // Si no estás cerca de ningún punto, no dibujes nada
+
   if (hovered) {
     const { px, pz, x, z, titulo } = hovered;
 
@@ -153,6 +155,7 @@ function actualizarCanvas(mouseX, mouseZ) {
       ctx.fillText(p.titulo, px + 8, pz + 12);
     }
   });
+  
 
   // Agregar viñeta
   mostrarViñeta(mouseX, mouseZ);

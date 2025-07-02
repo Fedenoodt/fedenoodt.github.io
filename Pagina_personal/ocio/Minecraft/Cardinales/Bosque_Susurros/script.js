@@ -66,3 +66,69 @@ puntos.forEach(p => {
     ctx.fillText(p.titulo, px + 8, pz + 12);
   }
 });
+
+// Hover del punto.
+
+function dibujarPuntos(mouseX = null, mouseZ = null) {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = 'black';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  // Ejes
+  ctx.strokeStyle = '#ffffff';
+  ctx.beginPath();
+  ctx.moveTo(0, centroZ);
+  ctx.lineTo(canvas.width, centroZ);
+  ctx.moveTo(centroX, 0);
+  ctx.lineTo(centroX, canvas.height);
+  ctx.stroke();
+
+  let hovered = null;
+
+  puntos.forEach(p => {
+    const px = centroX + p.x * escala;
+    const pz = centroZ + p.z * escala;
+
+    const hover = mouseX !== null && mouseZ !== null &&
+      Math.hypot(mouseX - px, mouseZ - pz) < 8;
+
+    ctx.beginPath();
+    ctx.arc(px, pz, 4, 0, Math.PI * 2);
+    ctx.fillStyle = hover ? '#ffff00' : '#00ff03';
+    ctx.fill();
+
+    if (hover) hovered = { px, pz, titulo: p.titulo, x: p.x, z: p.z };
+  });
+
+  if (hovered) {
+    const boxX = hovered.px + 12;
+    const boxZ = hovered.pz - 20;
+
+    const textLines = [
+      hovered.titulo,
+      `(${hovered.x}, ${hovered.z})`
+    ];
+
+    const boxWidth = Math.max(...textLines.map(t => ctx.measureText(t).width)) + 16;
+    const boxHeight = textLines.length * 18 + 10;
+
+    ctx.fillStyle = '#222';
+    ctx.fillRect(boxX, boxZ, boxWidth, boxHeight);
+
+    ctx.strokeStyle = '#ffff00';
+    ctx.lineWidth = 2;
+    ctx.strokeRect(boxX, boxZ, boxWidth, boxHeight);
+
+    ctx.fillStyle = '#ffffff';
+    textLines.forEach((t, i) => {
+      ctx.fillText(t, boxX + 8, boxZ + 20 + i * 18);
+    });
+  }
+}
+
+dibujarPuntos(); // Dibujo inicial
+
+canvas.addEventListener('mousemove', e => {
+  dibujarPuntos(e.clientX, e.clientY);
+});
+

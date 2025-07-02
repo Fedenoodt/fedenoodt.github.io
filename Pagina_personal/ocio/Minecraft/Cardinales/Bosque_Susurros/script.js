@@ -157,3 +157,7 @@ function actualizarCanvas(mouseX, mouseZ) {
   // Agregar viñeta
   mostrarViñeta(mouseX, mouseZ);
 }
+
+canvas.addEventListener('mousemove', e => {
+  actualizarCanvas(e.clientX, e.clientY);
+});

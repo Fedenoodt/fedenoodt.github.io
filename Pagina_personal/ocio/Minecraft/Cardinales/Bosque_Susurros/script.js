@@ -63,6 +63,7 @@ puntos.forEach(p => {
 
   // Título del lugar debajo o al costado
   if (p.titulo) {
+    ctx.fillStyle = '#b0ffabcc';
     ctx.fillText(p.titulo, px + 8, pz + 12);
   }
 });

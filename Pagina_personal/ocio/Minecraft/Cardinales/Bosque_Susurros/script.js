@@ -150,7 +150,7 @@ function actualizarCanvas(mouseX, mouseZ) {
     ctx.fillStyle = '#00ff03';
     ctx.fill();
 
-    ctx.fillStyle = '#ffffff';
+    ctx.fillStyle = '#b0ffabcc';
     ctx.fillText(`(${p.x}, ${p.z})`, px + 8, pz - 8);
     if (p.titulo) {
       ctx.fillText(p.titulo, px + 8, pz + 12);

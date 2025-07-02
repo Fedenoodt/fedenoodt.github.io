@@ -36,6 +36,16 @@ const puntos = [
   { x: -1589, z: -1418, titulo: "Puesto de Avanzada #6" },
   { x: -1400, z: -842, titulo: "Puesto de Avanzada #7" },
   { x: 707, z: 1311, titulo: "Puesto de Avanzada #8" },
+  { x: -2600, z: -2148, titulo: "Puesto de Avanzada #9" },
+  { x: -2800, z: -1348, titulo: "Puesto de Avanzada #10" },
+  { x: -2750, z: -398, titulo: "Puesto de Avanzada #11" },
+  { x: -1850, z: -298, titulo: "Puesto de Avanzada #12" },
+  { x: -1450, z: 898, titulo: "Puesto de Avanzada #13" },
+  { x: -1450, z: 2039, titulo: "Puesto de Avanzada #14" },
+  { x: -250, z: 2039, titulo: "Puesto de Avanzada #15" },
+  { x: -150, z: 839, titulo: "Puesto de Avanzada #16" },
+  { x: 950, z: 639, titulo: "Puesto de Avanzada #17" },
+  { x: 250, z: -842, titulo: "Puesto de Avanzada #18" }
 ];
 
 

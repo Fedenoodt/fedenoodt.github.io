@@ -25,12 +25,11 @@ ctx.stroke();
 
 // Puntos de muestra (coordenadas en bloques)
 const puntos = [
-  { x: -375, z: -2148, titulo: "Cuartel General" },
+  { x: -375, z: -2148, titulo: "Cuartel General (ex Puesto de Avanzada #2)" },
   { x: -857, z: 1639, titulo: "Ciudad Capital" },
   { x: 255, z: 37, titulo: "Complejo de Minería #0" },
   { x: -347, z: -124, titulo: "Puesto de Avanzada #0" },
   { x: -423, z: -1276, titulo: "Puesto de Avanzada #1" },
-  { x: -376, z: -2153, titulo: "Puesto de Avanzada #2" },
   { x: -472, z: -4058, titulo: "Puesto de Avanzada #3" },
   { x: -1496, z: -4023, titulo: "Puesto de Avanzada #4" },
   { x: -1532, z: -2781, titulo: "Puesto de Avanzada #5" },

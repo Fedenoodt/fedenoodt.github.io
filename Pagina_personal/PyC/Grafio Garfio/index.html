@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="https://fedenoodt.github.io/shelving/CSS/Responsiver/Centered/style.css">
+    <title>Grafio Garfio</title>
+</head>
+<body>
+    <section class="mainBox">
+        <div class="Container">
+            <header>
+                <h1 class="titulo">Grafio Garfio</h1>
+                <p class="intro">Bienvenidos a Grafio Garfio. Aqui pueden jugar a practicar caligrafìa con las plantillas que hay a mano izquierda, y editar el pincel, con las herramientas a mano derecha.</p>
+            </header>
+            <div class="content">
+                <button onclick="toggleSidebar()">
+                 Plantillas
+                </button>
+                <button onclick="toggleSidebarR()">
+                 Pinceles
+                </button>
+                <div id="paintArea" class="sidebarColor"></div>
+
+                <div id="sidebar" class="sidebarColor">
+                    <h2 class="Hplanks sidebarColor" onclick="toggleSidebar()">Plantillas</h2>
+                    <div class="space spaceL sidebarColor">
+                        <p class="sidebarColor">Elija su plantilla.</p>
+                        <button><div class="planks" id="plantilla"><h1>Cursiva en mayúscula y minúscula.</h1></div></button>
+                        <button><div class="planks" id="plantilla2"><h1>Imprenta en mayúscula y minúscula.</h1></div></button>
+                        <button><div class="planks" id="plantilla3"><h1>Imprenta en minúscula.</h1></div></button>
+                        <button><div class="planks" id="plantilla4"><h1>Cursiva a rellenar.</h1></div></button>
+                        <br>
+                        <button id="modoEspejoToggle">Modo Espejo: OFF</button>
+                        <br>
+                        <button id="guardarCanvas">Guardar</button>
+                        <button id="borrarTodo">Borrar todo</button>
+
+                    </div>
+                </div>
+
+                <div id="sidebarR" class="sidebarColor">
+                    <h2 class="Htools sidebarColor" onclick="toggleSidebarR()">Pinceles</h2>
+                    <div class="space spaceR sidebarColor">
+                        <p class="sidebarColor">Elija el color del cursor.</p>
+                        <button><input type="color" id="colorPicker" value="#000000"></button>
+                        <p class="sidebarColor">Elija el grosor del cursor.</p>
+                        <div class="grosorControl sidebarColor">
+                            <br>
+                        <button id="grosorMenos">−</button>
+                        <span id="grosorValor" class="sidebarColor">2</span>
+                        <button id="grosorMas">+</button>
+                        <br>
+
+                        </div>
+                        <p class="sidebarColor">Usar la goma.</p>
+                        <button id="gomaToggle">Goma: OFF</button>
+
+                    </div>
+                </div>
+
+                <script src="script.js"></script>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

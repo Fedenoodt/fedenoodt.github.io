@@ -21,7 +21,7 @@ Esta interfaz es una herramienta práctica para practicar caligrafía digital. P
 
 ## 💾 Guardar trabajo
 
-- Debajo de la plantilla, el usuario dispone de un botón para **guardar el lienzo actual como imagen PNG**.
+- En el desplegable izquierdo, el usuario dispone de un botón para **guardar el lienzo actual como imagen PNG**.
 
 ---
 

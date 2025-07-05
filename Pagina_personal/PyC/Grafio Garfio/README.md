@@ -1,14 +1,30 @@
-# Interfaz UI de caligrafìa.
+# ✍️ Interfaz UI de Caligrafía
 
-Esta interfaz está destinada a ser una interfaz de caligrafía. Va a contar con varias funciones sencillas.
+Esta interfaz es una herramienta práctica para practicar caligrafía digital. Permite al usuario dibujar, cambiar grosores, colores, cargar plantillas y guardar su trabajo como imagen.
 
-# Menú desplegable a la derecha.
+---
 
-Este se va a encargar, de medir el grosor de la pluma, y unos colores bàsicos. Además, le va a permitir al usuario, volver a comenzar su lienzo.
+## 📌 Menú desplegable derecho
 
-# Menú desplegable a la izquierda.
+- Permite ajustar el **grosor de la pluma**.
+- Ofrece una **paleta básica de colores**.
+- Incluye la opción de **borrar todo el lienzo** y empezar de nuevo.
 
-Este menú se va a encargar, solamente de alterar la plantilla elegida por el usuario.
+---
 
+## 📌 Menú desplegable izquierdo
 
-Debajo de la plantilla, el usuario va a contar con un boton, que le va a sugerir, guardar su plantilla, como imagen.
+- Permite **elegir y aplicar diferentes plantillas** de caligrafía.
+- También ofrece la opción de **invertir (modo espejo)** la plantilla para practicar escritura invertida.
+
+---
+
+## 💾 Guardar trabajo
+
+- Debajo de la plantilla, el usuario dispone de un botón para **guardar el lienzo actual como imagen PNG**.
+
+---
+
+## 🎯 Objetivo
+
+Esta interfaz está pensada como una herramienta sencilla y funcional para quienes deseen practicar su caligrafía de forma digital, combinando trazos libres con plantillas de apoyo.

@@ -129,7 +129,7 @@ let cabezal = `
 	            <br />
 	            <h1>Black Hawk Security Informatics Anonymous Incorporation</h1>
 	            <hr />	
-	            <h2> ~ Versión 49.7 ~ </h2> 
+	            <h2> ~ Versión 49.8 ~ </h2> 
 	            <hr />	
 	                <ul>
 					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "notGood">Receso de urgencia: 1/1 [  11 - 07 - 2025  ]</p></a></div></li>
@@ -250,6 +250,7 @@ function tools () {
 				<h2>Servicios</h2>
 				<li><a href="https://calendar.google.com/calendar/u/1/r?tab=oc" target="_blank">Calendario</a></li>
 				<li><a href="https://www.swissmedical.com.ar/prepagaclientes/dashboard" target="_blank">Swiss Medical Group</a></li>
+				<li><a href="https://github.com/Fedenoodt/Trabajo/blob/main/Proyecto%20Zero/M%C3%A9dicos/Anuario%20m%C3%A9dico.png" target="_blank">Anuario Médico</a></li>
 				<li><a href="https://translate.google.com.ar/" target="_blank">Traductor de Google</a>></li>
 				<li><a href="https://classroom.google.com/u/1/h" target="_blank">Classroom</a></li>
 				<li><a href="https://www.mercadolibre.com.ar/" target="_blank">Mercado Libre</a>></li>

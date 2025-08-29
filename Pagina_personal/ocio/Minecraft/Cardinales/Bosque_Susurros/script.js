@@ -28,6 +28,7 @@ const puntos = [
   { x: -375, z: -2148, titulo: "Cuartel General (ex Puesto de Avanzada #2)" },
   { x: -857, z: 1639, titulo: "Ciudad Capital" },
   { x: 255, z: 37, titulo: "Complejo de Minería #0" },
+  { x: -1340, z: 81, titulo: "Stronhold #0" },
   { x: -347, z: -124, titulo: "Puesto de Avanzada #0" },
   { x: -423, z: -1276, titulo: "Puesto de Avanzada #1" },
   { x: -472, z: -4058, titulo: "Puesto de Avanzada #3" },

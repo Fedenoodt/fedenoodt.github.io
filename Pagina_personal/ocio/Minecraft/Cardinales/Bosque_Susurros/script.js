@@ -45,7 +45,8 @@ const puntos = [
   { x: -250, z: 2039, titulo: "Puesto de Avanzada #15" },
   { x: -150, z: 839, titulo: "Puesto de Avanzada #16" },
   { x: 950, z: 639, titulo: "Puesto de Avanzada #17" },
-  { x: 250, z: -842, titulo: "Puesto de Avanzada #18" }
+  { x: 250, z: -842, titulo: "Puesto de Avanzada #18" },
+  { x: -602, z: 1332, titulo: "Puesto de Avanzada #19" }
 ];
 
 

@@ -157,6 +157,7 @@ function base () {
 			<ul>
 	                    <li class = "listaHorizontal"><a href="https://github.com/Fedenoodt/Trabajo/tree/main" target="_blank"><img class="proyectos" src="https://fedenoodt.github.io/746732_Bravo/ProyectoZero-isologo.jpg"></a></li>
 	                    <li class = "listaHorizontal"><a href="https://github.com/Fedenoodt/Trabajo/tree/main/Proyecto%20Zonda" target="_blank"><img class="proyectos" src="https://fedenoodt.github.io/746732_Bravo/Zonda-isologo.png"></a></li>
+	                    <li class = "listaHorizontal"><a href="https://github.com/Fedenoodt/Trabajo/tree/main/Fotos%C3%ADntesis" target="_blank"><img class="proyectos" src="https://fedenoodt.github.io/746732_Bravo/ProyectoFotosíntesis_isologo.png"></a></li>
 	                    <li class = "listaHorizontal"><a href="https://github.com/Fedenoodt/Trabajo/tree/main/Corte%20de%20mando" target="_blank"><img class="proyectos" src="https://fedenoodt.github.io/746732_Bravo/Corte de mando.png"></a></li>
 	                    <li class = "listaHorizontal"><a href="https://drive.google.com/drive/u/3/folders/1vRsMZ-DChZi7cc_jRLmK7hVCeihZGUq5" target="_blank"><img class="proyectos" src="https://fedenoodt.github.io/746732_Bravo/Finanzafe-isologo.png"></a></li>
 	                    <li class = "listaHorizontal"><a href="https://github.com/Fedenoodt/Trabajo/tree/main/Proyecto%20Zero/Proyecto%20Zocial%C3%ADa" target="_blank"><img class="proyectos" src="https://fedenoodt.github.io/746732_Bravo/ProyectoZocialía-isologo.png"></a></li>
@@ -708,4 +709,5 @@ try{console.log('Imagen: '+ menu[establecido]())
 // ================================================================================================================================= //
 
 console.log('Estructura Javascript conectada con éxito.-')
+
 

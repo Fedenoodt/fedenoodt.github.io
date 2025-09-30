@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Pagina_personal/PyC/dashboard/static/css/main.5278f544.css",
+    "main.js": "/Pagina_personal/PyC/dashboard/static/js/main.c08ce28c.js",
+    "index.html": "/Pagina_personal/PyC/dashboard/index.html",
+    "main.5278f544.css.map": "/Pagina_personal/PyC/dashboard/static/css/main.5278f544.css.map",
+    "main.c08ce28c.js.map": "/Pagina_personal/PyC/dashboard/static/js/main.c08ce28c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5278f544.css",
+    "static/js/main.c08ce28c.js"
+  ]
+}

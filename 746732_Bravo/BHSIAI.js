@@ -166,13 +166,13 @@ function base () {
 			<hr />
 			<hr />		
 			<ul>
-			    <li class="listaHorizontal"><a href="https://mail.google.com/mail/u/1/#inbox" target="_blank">Gmail</a>></li>
+			    <li class="listaHorizontal"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Gmail</a>></li>
 			    <li class="listaHorizontal"><a href="https://github.com/" target="_blank">GitHub</a>></li>
-			    <li class="listaHorizontal"><a href="https://drive.google.com/drive/u/1/my-drive" target="_blank">Drive</a>></li>
+			    <li class="listaHorizontal"><a href="https://drive.google.com/?authuser=0" target="_blank">Drive</a>></li>
 			    <li class="listaHorizontal"><a href="https://app.diagrams.net/" target="_blank">Diagramas</a>></li>
 			    <li class="listaHorizontal"><a href="https://fedenoodt.github.io/Pagina_personal/Horario_de_Rutina.pdf" target="_blank">Horario</a>></li>
 			    <li class="listaHorizontal"><a href="https://fedenoodt.github.io/Pagina_personal/Esquema_Anual.png" target="_blank">Esquema Anual</a>></li>
-			    <li class="listaHorizontal"><a href="https://www.youtube.com/" target="_blank">Youtube</a>></li>
+			    <li class="listaHorizontal"><a href="https://www.youtube.com/?authuser=1" target="_blank">Youtube</a>></li>
 			    <li class="listaHorizontal"><a href="https://www.smn.gob.ar/" target="_blank">Clima</a>></li>
 			    <li class="listaHorizontal"><a href = "" onclick = pendiente(conversor(${toolsID}))>M&aacutes herramientas...</a>></li>
 			</ul>
@@ -710,6 +710,7 @@ try{console.log('Imagen: '+ menu[establecido]())
 // ================================================================================================================================= //
 
 console.log('Estructura Javascript conectada con éxito.-')
+
 
 
 

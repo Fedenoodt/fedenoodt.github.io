@@ -269,7 +269,7 @@ function tools () {
 				<li><a href="https://github.com/Fedenoodt/serviciosWindows" target="_blank">Servicios Windows</a>></li>
 				<li><a href="https://github.com/Fedenoodt/I-Black-Hawk-Security-Informatics-Anonymous-Incorporation/tree/main/Protocolo%203/Sistema/Grupote/Registro%20de%20sectores%20del%20castillo/cuidadoPlantas" target="_blank">Cuidado de plantas</a></li>
 				<h2>Transporte</h2>
-				<li><a href="https://www.google.com.ar/maps/@-34.607613,-58.4515826,15z" target="_blank">Google Maps</a>></li>
+				<li><a href="https://www.google.com/maps?authuser=1" target="_blank">Google Maps</a>></li>
 				<li><a href="https://www.omnilineas.com.ar/" target="_blank">OmniL&iacute;neas</a>></li>
 				<h2>Cine</h2>
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/ocio/Randomero%20Simpsons/index.html" target="_blank">RandHomero</a>></li>
@@ -710,6 +710,7 @@ try{console.log('Imagen: '+ menu[establecido]())
 // ================================================================================================================================= //
 
 console.log('Estructura Javascript conectada con éxito.-')
+
 
 
 

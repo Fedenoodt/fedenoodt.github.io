@@ -249,7 +249,7 @@ function tools () {
 				<li><a href="https://fedenoodt.github.io/shelving/javascript/moneda/capital.html" target="_blank">Política de capital</a>></li>
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/vida/moneda/Monetizer/V3/index.html" target="_blank">Monetizer (Conversor de monedas)</a>></li>
 				<h2>Servicios</h2>
-				<li><a href="https://calendar.google.com/calendar/u/1/r?tab=oc" target="_blank">Calendario</a></li>
+				<li><a href="https://calendar.google.com/calendar/u/0/r?tab=oc" target="_blank">Calendario</a></li>
 				<li><a href="https://www.swissmedical.com.ar/prepagaclientes/dashboard" target="_blank">Swiss Medical Group</a></li>
 				<li><a href="https://github.com/Fedenoodt/Trabajo/blob/main/Proyecto%20Zero/M%C3%A9dicos/Anuario%20m%C3%A9dico.png" target="_blank">Anuario Médico</a></li>
 				<li><a href="https://translate.google.com.ar/" target="_blank">Traductor de Google</a>></li>
@@ -710,6 +710,7 @@ try{console.log('Imagen: '+ menu[establecido]())
 // ================================================================================================================================= //
 
 console.log('Estructura Javascript conectada con éxito.-')
+
 
 
 

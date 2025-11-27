@@ -118,7 +118,7 @@ let cabezal = `
 	                <a href = "" onclick = pendiente(conversor(${relojID}))><div><h2 id = "hora"></h2></div></a>
 	                <a class = "imgAtajos" href="https://www.bing.com/chat?form=NTPCHB" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/Copilot_logo.jpg"></a> <br />
 			<a class = "imgAtajos" href="https://chat.openai.com/" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/GPT.jpg"></a> <br />
-	                <a class = "imgAtajos" href="https://venice.ai/es" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/VeniceAIisologo.png"></a> <br />
+	                <a class = "imgAtajos" href="https://gemini.google.com/app?hl=es" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/Gemini.png"></a> <br />
 	                <a class = "imgAtajos" href="https://github.com/Fedenoodt/I-Black-Hawk-Security-Informatics-Anonymous-Incorporation" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/Shield-PNG-Photos.png"></a>
 	                <a class = "imgAtajos" href="https://github.com/Fedenoodt/fedenoodt.github.io/tree/gh-pages" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/746732_Bravo/768px-Settings_(iOS).png"></a>
 		 	<a class = "imgAtajos" href="https://github.com/Fedenoodt/fedenoodt.github.io/blob/gh-pages/Pagina_personal/PyC/Libreta_faltas.txt" target="_blank"><img class="imgAtajos" src="https://fedenoodt.github.io/Pagina_personal/notas.png"></a>
@@ -710,6 +710,7 @@ try{console.log('Imagen: '+ menu[establecido]())
 // ================================================================================================================================= //
 
 console.log('Estructura Javascript conectada con éxito.-')
+
 
 
 

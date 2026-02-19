@@ -249,6 +249,8 @@ function tools () {
 				<li><a href="https://fedenoodt.github.io/shelving/javascript/moneda/capital.html" target="_blank">Política de capital</a>></li>
 				<li><a href="https://docs.google.com/document/d/16zh_mfhbsWydQcC5rhCPnV0BGCyaBL3zH_W5prKaM04/edit?tab=t.0" target="_blank">Hoja de órdenes</a>></li>
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/vida/moneda/Monetizer/V3/index.html" target="_blank">Monetizer (Conversor de monedas)</a>></li>
+				<h2>Trabajo</h2>
+				<li><a href="https://freecash.com/earn" target="_blank">FreeCash</a></li>
 				<h2>Servicios</h2>
 				<li><a href="https://calendar.google.com/calendar/u/0/r?tab=oc" target="_blank">Calendario</a></li>
 				<li><a href="https://www.swissmedical.com.ar/prepagaclientes/dashboard" target="_blank">Swiss Medical Group</a></li>
@@ -712,6 +714,7 @@ try{console.log('Imagen: '+ menu[establecido]())
 // ================================================================================================================================= //
 
 console.log('Estructura Javascript conectada con éxito.-')
+
 
 
 

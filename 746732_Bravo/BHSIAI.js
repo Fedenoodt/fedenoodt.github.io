@@ -129,7 +129,7 @@ let cabezal = `
 	            <br />
 	            <h1>Black Hawk Security Informatics Anonymous Incorporation</h1>
 	            <hr />	
-	            <h2> ~ Versión 49.9 ~ </h2> 
+	            <h2> ~ Versión 50.0 ~ </h2> 
 	            <hr />	
 	                <ul>
 					<li class="listaHorizontal"><div><a href="https://fedenoodt.github.io/Pagina_personal/PyC/proyectoEE.html#nota5" target="_blank"><p class = "good">Receso de urgencia: - / - [  -  ]</p></a></div></li>
@@ -266,6 +266,7 @@ function tools () {
 				<li><a href="https://fedenoodt.github.io/Pagina_personal/imagenPruebaSaturacionBlancos.png" target="_blank">Imagen de tonos de blanco</a>></li>
 				<li><a href="https://github.com/Fedenoodt/fedenoodt.github.io/blob/gh-pages/shelving/bazar/IAs.md" target="_blank">Lista de Inteligencias Artificiales</a>></li>
 				<li><a href="https://www.avast.com/es-ar/random-password-generator#pc" target="_blank">Generador de contraseñas Avast</a>></li>
+				<li><a href="https://bitwarden.com/es-la/password-strength/" target="_blank">Analizador de contraseñas bitwarden</a>></li>
 				<li><a href="https://www.onlinemictest.com/es/prueba-de-mouse/" target="_blank">Probador de entradas para mouse</a>></li>
 				<li><a href="https://www.onlinemictest.com/es/prueba-de-teclado/" target="_blank">Probador de entradas para teclado</a>></li>
 				<li><a href="https://www.tomsguide.com/us/alexa-color-commands-list,review-4988.html" target="_blank">Tonos de luces Domótica Alexa</a>></li>

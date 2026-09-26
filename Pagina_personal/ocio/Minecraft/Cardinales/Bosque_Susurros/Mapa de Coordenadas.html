@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mapa de Coordenadas</title>
+<style>
+  :root{
+    --bg:#0b0f14; --grid:#1c2733; --axis:#3a4b5c; --text:#e8eef3;
+    --panel-bg:rgba(15,20,26,0.85); --panel-border:#2a3947;
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  html,body{height:100%;margin:0;background:var(--bg);overflow:hidden;font-family:'Segoe UI',system-ui,sans-serif;}
+  canvas{display:block;touch-action:none;cursor:grab;}
+  canvas.dragging{cursor:grabbing;}
+
+  #titulo{
+    position:fixed; top:calc(14px + env(safe-area-inset-top,0px)); left:14px;
+    color:var(--text); font-size:15px; font-weight:600; letter-spacing:.3px;
+    background:var(--panel-bg); border:1px solid var(--panel-border);
+    padding:8px 14px; border-radius:10px; pointer-events:none;
+  }
+  #titulo span{display:block;font-weight:400;font-size:11px;color:#8fa3b3;margin-top:2px;}
+
+  #leyenda{
+    position:fixed; bottom:calc(14px + env(safe-area-inset-bottom,0px)); left:14px;
+    background:var(--panel-bg); border:1px solid var(--panel-border);
+    border-radius:10px; padding:10px 14px; color:var(--text); font-size:12px;
+    display:flex; flex-direction:column; gap:6px; pointer-events:none;
+  }
+  #leyenda div{display:flex;align-items:center;gap:8px;}
+  #leyenda i{width:10px;height:10px;border-radius:50%;display:inline-block;flex-shrink:0;}
+
+  #tooltip{
+    position:fixed; pointer-events:none; z-index:10;
+    background:var(--panel-bg); border:1px solid var(--panel-border);
+    border-radius:8px; padding:8px 12px; color:var(--text);
+    font-size:13px; max-width:240px; opacity:0; transition:opacity .1s;
+    box-shadow:0 4px 14px rgba(0,0,0,.4);
+  }
+  #tooltip strong{display:block;margin-bottom:2px;}
+  #tooltip small{color:#8fa3b3;}
+</style>
+</head>
+<body>
+<canvas id="eje"></canvas>
+<div id="titulo">Mapa de Coordenadas<span>Rueda: zoom · Arrastrar: mover</span></div>
+<div id="leyenda">
+  <div><i style="background:#ff5252"></i> Cuartel General</div>
+  <div><i style="background:#ffd700"></i> Ciudad Capital</div>
+  <div><i style="background:#00e5ff"></i> Puntos de interés</div>
+  <div><i style="background:#ffb300"></i> Puestos de Avanzada</div>
+</div>
+<div id="tooltip"></div>
+
+<script>
+const canvas = document.getElementById('eje');
+const ctx = canvas.getContext('2d');
+const tooltip = document.getElementById('tooltip');
+const dpr = window.devicePixelRatio || 1;
+
+const puntos = [
+  { x: -375, z: -2148, titulo: "Cuartel General (ex Puesto de Avanzada #2)", tipo: "hq" },
+  { x: -857, z: 1639, titulo: "Ciudad Capital", tipo: "capital" },
+  { x: 255, z: 37, titulo: "Complejo de Minería #0", tipo: "interes" },
+  { x: 239, z: 1179, titulo: "Granja de Esqueletos", tipo: "interes" },
+  { x: -1340, z: 81, titulo: "Stronhold #0", tipo: "interes" },
+  { x: 5, z: 41, titulo: "Puesto de vigília del Spawn", tipo: "interes" },
+  { x: 124, z: -217, titulo: "Estancia final de Ruta 1", tipo: "interes" },
+  { x: -347, z: -124, titulo: "Puesto de Avanzada #0", tipo: "outpost" },
+  { x: -423, z: -1276, titulo: "Puesto de Avanzada #1", tipo: "outpost" },
+  { x: -472, z: -4058, titulo: "Puesto de Avanzada #3", tipo: "outpost" },
+  { x: -1496, z: -4023, titulo: "Puesto de Avanzada #4", tipo: "outpost" },
+  { x: -1532, z: -2781, titulo: "Puesto de Avanzada #5", tipo: "outpost" },
+  { x: -1589, z: -1418, titulo: "Puesto de Avanzada #6", tipo: "outpost" },
+  { x: -1400, z: -842, titulo: "Puesto de Avanzada #7", tipo: "outpost" },
+  { x: 707, z: 1311, titulo: "Puesto de Avanzada #8", tipo: "outpost" },
+  { x: -2600, z: -2148, titulo: "Puesto de Avanzada #9", tipo: "outpost" },
+  { x: -2800, z: -1348, titulo: "Puesto de Avanzada #10", tipo: "outpost" },
+  { x: -2750, z: -398, titulo: "Puesto de Avanzada #11", tipo: "outpost" },
+  { x: -1850, z: -298, titulo: "Puesto de Avanzada #12", tipo: "outpost" },
+  { x: -1450, z: 898, titulo: "Puesto de Avanzada #13", tipo: "outpost" },
+  { x: -1450, z: 2039, titulo: "Puesto de Avanzada #14", tipo: "outpost" },
+  { x: -250, z: 2039, titulo: "Puesto de Avanzada #15", tipo: "outpost" },
+  { x: -150, z: 839, titulo: "Puesto de Avanzada #16", tipo: "outpost" },
+  { x: 950, z: 639, titulo: "Puesto de Avanzada #17", tipo: "outpost" },
+  { x: 250, z: -842, titulo: "Puesto de Avanzada #18", tipo: "outpost" },
+  { x: -602, z: 1332, titulo: "Puesto de Avanzada #19", tipo: "outpost" },
+  { x: -150, z: 305, titulo: "Puesto de Avanzada #20", tipo: "outpost" }
+];
+
+// Estilo por tipo. Para sumar un punto nuevo, solo hace falta ponerle un "tipo"
+// de esta lista (o "color"/"r" propios si querés algo puntual y único).
+const ESTILOS = {
+  hq:      { color: '#ff5252', r: 7 },
+  capital: { color: '#ffd700', r: 8 },
+  outpost: { color: '#ffb300', r: 5 },
+  interes: { color: '#00e5ff', r: 6 },
+};
+
+function estilo(p){
+  const base = ESTILOS[p.tipo] || ESTILOS.interes;
+  return { ...base, ...(p.color ? { color: p.color } : {}), ...(p.r ? { r: p.r } : {}) };
+}
+
+let scale = 0.12;
+let offX = 0, offY = 0;
+let dragging = false, lastX = 0, lastY = 0, moved = false;
+let hovered = null;
+
+function resize(){
+  canvas.width = window.innerWidth * dpr;
+  canvas.height = window.innerHeight * dpr;
+  canvas.style.width = window.innerWidth + 'px';
+  canvas.style.height = window.innerHeight + 'px';
+  draw();
+}
+
+function worldToScreen(p){
+  return {
+    x: window.innerWidth/2 + offX + p.x * scale,
+    y: window.innerHeight/2 + offY + p.z * scale
+  };
+}
+
+function niceStep(px){
+  const raw = px / scale;
+  const mag = Math.pow(10, Math.floor(Math.log10(raw)));
+  const norm = raw / mag;
+  const step = norm < 2 ? 2 : norm < 5 ? 5 : 10;
+  return step * mag;
+}
+
+function draw(){
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+  ctx.clearRect(0,0,window.innerWidth,window.innerHeight);
+  ctx.fillStyle = '#0b0f14';
+  ctx.fillRect(0,0,window.innerWidth,window.innerHeight);
+
+  const step = niceStep(110);
+  const originX = window.innerWidth/2 + offX;
+  const originY = window.innerHeight/2 + offY;
+
+  ctx.font = '11px monospace';
+  ctx.strokeStyle = '#1c2733';
+  ctx.fillStyle = '#4a5c6d';
+  ctx.lineWidth = 1;
+
+  ctx.beginPath();
+  for (let gx = (originX % (step*scale)); gx < window.innerWidth; gx += step*scale){
+    ctx.moveTo(gx,0); ctx.lineTo(gx, window.innerHeight);
+  }
+  for (let gy = (originY % (step*scale)); gy < window.innerHeight; gy += step*scale){
+    ctx.moveTo(0,gy); ctx.lineTo(window.innerWidth, gy);
+  }
+  ctx.stroke();
+
+  // Ejes principales
+  ctx.strokeStyle = '#3a4b5c';
+  ctx.beginPath();
+  ctx.moveTo(0, originY); ctx.lineTo(window.innerWidth, originY);
+  ctx.moveTo(originX, 0); ctx.lineTo(originX, window.innerHeight);
+  ctx.stroke();
+
+  // Puntos
+  puntos.forEach(p => {
+    const {x, y} = worldToScreen(p);
+    if (x < -20 || x > window.innerWidth+20 || y < -20 || y > window.innerHeight+20) return;
+    const s = estilo(p);
+    const isHover = hovered === p;
+    ctx.beginPath();
+    ctx.arc(x, y, isHover ? s.r + 3 : s.r, 0, Math.PI*2);
+    ctx.fillStyle = s.color;
+    ctx.globalAlpha = isHover ? 1 : 0.9;
+    ctx.fill();
+    if (isHover){
+      ctx.lineWidth = 2;
+      ctx.strokeStyle = '#ffffff';
+      ctx.stroke();
+    }
+    ctx.globalAlpha = 1;
+  });
+}
+
+function encontrarPunto(mx, my){
+  for (const p of puntos){
+    const {x,y} = worldToScreen(p);
+    if (Math.hypot(mx-x, my-y) < 10) return p;
+  }
+  return null;
+}
+
+canvas.addEventListener('mousedown', e => {
+  dragging = true; moved = false;
+  lastX = e.clientX; lastY = e.clientY;
+  canvas.classList.add('dragging');
+});
+
+window.addEventListener('mousemove', e => {
+  if (dragging){
+    const dx = e.clientX - lastX, dy = e.clientY - lastY;
+    if (Math.abs(dx) > 2 || Math.abs(dy) > 2) moved = true;
+    offX += dx; offY += dy;
+    lastX = e.clientX; lastY = e.clientY;
+    tooltip.style.opacity = 0;
+    draw();
+    return;
+  }
+  const rect = canvas.getBoundingClientRect();
+  const mx = e.clientX - rect.left, my = e.clientY - rect.top;
+  const p = encontrarPunto(mx, my);
+  if (p !== hovered){
+    hovered = p;
+    draw();
+  }
+  if (p){
+    tooltip.innerHTML = `<strong>${p.titulo}</strong><small>(${p.x}, ${p.z})</small>`;
+    tooltip.style.left = (e.clientX + 16) + 'px';
+    tooltip.style.top = (e.clientY - 10) + 'px';
+    tooltip.style.opacity = 1;
+  } else {
+    tooltip.style.opacity = 0;
+  }
+});
+
+window.addEventListener('mouseup', () => {
+  dragging = false;
+  canvas.classList.remove('dragging');
+});
+
+canvas.addEventListener('wheel', e => {
+  e.preventDefault();
+  const rect = canvas.getBoundingClientRect();
+  const mx = e.clientX - rect.left, my = e.clientY - rect.top;
+  const before = { x: (mx - window.innerWidth/2 - offX)/scale, y: (my - window.innerHeight/2 - offY)/scale };
+  const factor = e.deltaY < 0 ? 1.1 : 0.9;
+  scale = Math.min(2, Math.max(0.01, scale * factor));
+  offX = mx - window.innerWidth/2 - before.x*scale;
+  offY = my - window.innerHeight/2 - before.y*scale;
+  draw();
+}, {passive:false});
+
+window.addEventListener('resize', resize);
+resize();
+</script>
+</body>
+</html>

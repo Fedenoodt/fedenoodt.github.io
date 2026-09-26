@@ -28,6 +28,7 @@ const puntos = [
   { x: -375, z: -2148, titulo: "Cuartel General (ex Puesto de Avanzada #2)" },
   { x: -857, z: 1639, titulo: "Ciudad Capital" },
   { x: 255, z: 37, titulo: "Complejo de Minería #0" },
+  { x: 239, z: 1179, titulo: "Granja de Esqueletos" },
   { x: -1340, z: 81, titulo: "Stronhold #0" },
   { x: 5, z: 41, titulo: "Puesto de vigília del Spawn" },
   { x: 124, z: -217, titulo: "Estancia final de Ruta 1" },

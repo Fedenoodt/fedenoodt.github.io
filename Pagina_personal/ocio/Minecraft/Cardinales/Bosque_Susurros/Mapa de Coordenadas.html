@@ -123,8 +123,6 @@ const RUTAS = [
     nombre: "Ruta 1",
     color: "#38bdf8",
     puntos: [
-      "Cuartel General (ex Puesto de Avanzada #2)",
-      "Puesto de Avanzada #1",
       "Estancia final de Ruta 1",
       "Complejo de Minería #0",
       "Puesto de vigília del Spawn",
@@ -133,6 +131,13 @@ const RUTAS = [
       "Puesto de Avanzada #19",
       "Ciudad Capital",
       "Puesto de Avanzada #15"
+    ], 
+    nombre: "Ruta Marítima 1",
+    color: "#38bdf8",
+    puntos: [
+      "Cuartel General (ex Puesto de Avanzada #2)",
+      "Puesto de Avanzada #1",
+      "Estancia final de Ruta 1"
     ]
   }
 ].map(r => ({ ...r, nodos: r.puntos.map(t => porTitulo[t]).filter(Boolean) }));

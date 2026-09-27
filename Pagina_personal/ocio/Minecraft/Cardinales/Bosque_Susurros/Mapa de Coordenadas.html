@@ -140,7 +140,7 @@ const RUTAS = [
       "Puesto de Avanzada #1",
       "Estancia final de Ruta 1"
     ]
-  }
+  },
 ].map(r => ({ ...r, nodos: r.puntos.map(t => porTitulo[t]).filter(Boolean) }));
 
 function distSegmento(px, py, x1, y1, x2, y2){

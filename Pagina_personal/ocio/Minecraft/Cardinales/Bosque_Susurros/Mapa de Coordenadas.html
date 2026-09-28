@@ -65,6 +65,7 @@
   <div><i style="background:#9e9e9e"></i> Interés futuro</div>
   <div><i style="background:#b8b8b8"></i> Ciudad futura</div>
   <div><i class="linea" style="background:#737373"></i> Ruta futura</div>
+  <div><i class="linea" style="background:#52110d"></i> Ruta minera</div>
   <div><i class="linea" style="background:#38bdf8"></i> Ruta 1</div>
   <div><i class="linea" style="background:#00008c"></i> Ruta 2</div>
   <div><i class="linea" style="background:#27f5ae"></i> Ruta 3</div>
@@ -124,7 +125,7 @@ const puntos = [
   { x: -3000, z: -2700, titulo: "¿Puesto de Avanzada #33?", tipo: "outpostFuturo" },
   { x: -3500, z: -2800, titulo: "¿Puesto de Avanzada #34?", tipo: "outpostFuturo" },
   { x: 1200, z: -3000, titulo: "¿Puesto de Avanzada #35?", tipo: "outpostFuturo" },
-  { x: 800, z: -1800, titulo: "¿Fábrica de Hierro?", tipo: "interesFuturo" },
+  { x: 700, z: -1800, titulo: "¿Fábrica de Hierro?", tipo: "interesFuturo" },
   { x: 1500, z: -2000, titulo: "¿Puesto de Avanzada #36?", tipo: "outpostFuturo" }
 ];
 
@@ -151,6 +152,14 @@ const porTitulo = Object.fromEntries(puntos.map(p => [p.titulo, p]));
 // Para sumar una ruta nueva: nombre, color, y la lista de títulos en orden.
 // Los títulos tienen que coincidir EXACTO con los del array "puntos" de arriba.
 const RUTAS = [
+  {
+    nombre: "Ruta minera #0",
+    color: "#52110d",
+    puntos: [
+      "Complejo de Minería #0",
+      "Granja de Esqueletos",
+      ]
+}, 
   {
     nombre: "Ruta 1",
     color: "#38bdf8",

@@ -119,7 +119,7 @@ const puntos = [
   { x: -3000, z: 2000, titulo: "¿Puesto de Avanzada #28?", tipo: "outpostFuturo" },
   { x: 2500, z: 1300, titulo: "¿Puesto de Avanzada #29?", tipo: "outpostFuturo" },
   { x: 2700, z: 3500, titulo: "¿Puesto de Avanzada #30?", tipo: "outpostFuturo" },
-  { x: -2500, z: 2500, titulo: "¿Puesto de Avanzada #31?", tipo: "outpostFuturo" },
+  { x: 2700, z: 600, titulo: "¿Puesto de Avanzada #31?", tipo: "outpostFuturo" },
   { x: -2500, z: -3200, titulo: "¿Puesto de Avanzada #32?", tipo: "outpostFuturo" },
   { x: -3000, z: -2700, titulo: "¿Puesto de Avanzada #33?", tipo: "outpostFuturo" },
   { x: -3500, z: -2800, titulo: "¿Puesto de Avanzada #34?", tipo: "outpostFuturo" },
@@ -212,6 +212,19 @@ const RUTAS = [
       "¿Puesto de Avanzada #22?",
       "¿Puesto de Avanzada #29?",
       "¿Puesto de Avanzada #31?",
+      ]
+},
+  {
+    nombre: "Ruta futura 5",
+    color: "#737373",
+    puntos: [
+      "Puesto de Avanzada #13",
+      "Stronhold #0",
+      "Puesto de Avanzada #12",
+      "Puesto de Avanzada #7",
+      "Puesto de Avanzada #6",
+      "Puesto de Avanzada #5",
+      "Puesto de Avanzada #4",
       ]
 }
 ].map(r => ({ ...r, nodos: r.puntos.map(t => porTitulo[t]).filter(Boolean) }));

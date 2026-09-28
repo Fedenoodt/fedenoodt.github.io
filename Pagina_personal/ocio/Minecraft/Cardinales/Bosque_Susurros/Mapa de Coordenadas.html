@@ -173,7 +173,20 @@ const RUTAS = [
       "Puesto de Avanzada #0",
       "Estancia final de Ruta 1"
     ]
-  }
+  },
+  {
+    nombre: "Ruta futura 2",
+    color: "#737373",
+    puntos: [
+      "¿Puesto de Avanzada #30?",
+      "¿Puesto de Avanzada #22?",
+      "¿Puesto de Avanzada #21?",
+      "Ciudad Capital",
+      "Puesto de Avanzada #13",
+      "¿Puesto de Avanzada #23?",
+      "¿Puesto de Avanzada #24?",
+      ]
+}
 ].map(r => ({ ...r, nodos: r.puntos.map(t => porTitulo[t]).filter(Boolean) }));
 
 function distSegmento(px, py, x1, y1, x2, y2){

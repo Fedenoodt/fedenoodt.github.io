@@ -279,6 +279,8 @@ const RUTAS = [
       "Complejo de Minería #0",
       "Stronhold #0",
       "¿Puesto de Avanzada #24?",
+      ]
+}
 ].map(r => ({ ...r, nodos: r.puntos.map(t => porTitulo[t]).filter(Boolean) }));
 
 function distSegmento(px, py, x1, y1, x2, y2){

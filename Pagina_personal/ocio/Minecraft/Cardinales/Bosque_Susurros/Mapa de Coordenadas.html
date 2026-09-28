@@ -129,7 +129,9 @@ const puntos = [
   { x: -3500, z: -2800, titulo: "¿Puesto de Avanzada #34?", tipo: "outpostFuturo" },
   { x: 1200, z: -3000, titulo: "¿Puesto de Avanzada #35?", tipo: "outpostFuturo" },
   { x: 700, z: -1800, titulo: "¿Fábrica de Hierro?", tipo: "interesFuturo" },
-  { x: 1500, z: -2000, titulo: "¿Puesto de Avanzada #36?", tipo: "outpostFuturo" }
+  { x: 1500, z: -2000, titulo: "¿Puesto de Avanzada #36?", tipo: "outpostFuturo" },
+  { x: 2000, z: -1000, titulo: "¿Puesto de Avanzada #37?", tipo: "outpostFuturo" },
+  { x: 1000, z: -500, titulo: "¿Puesto de Avanzada #38?", tipo: "outpostFuturo" },
 ];
 
 // Estilo por tipo. Para sumar un punto nuevo, solo hace falta ponerle un "tipo"
@@ -263,10 +265,20 @@ const RUTAS = [
       "¿Fábrica de Hierro?",
       "¿Puesto de Avanzada #35?",
       "¿Puesto de Avanzada #36?",
-      "Granja de Slimes y Mobs",
+      "¿Puesto de Avanzada #37?",
       "¿Puesto de Avanzada #31?",
       ]
-}
+},
+  {
+    nombre: "Ruta futura 8",
+    color: "#737373",
+    puntos: [
+      "Granja de Slimes y Mobs",
+      "¿Puesto de Avanzada #37?",
+      "¿Puesto de Avanzada #38?",
+      "Complejo de Minería #0",
+      "Stronhold #0",
+      "¿Puesto de Avanzada #24?",
 ].map(r => ({ ...r, nodos: r.puntos.map(t => porTitulo[t]).filter(Boolean) }));
 
 function distSegmento(px, py, x1, y1, x2, y2){

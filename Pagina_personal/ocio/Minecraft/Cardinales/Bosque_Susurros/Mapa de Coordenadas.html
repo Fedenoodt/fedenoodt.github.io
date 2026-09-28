@@ -226,6 +226,17 @@ const RUTAS = [
       "Puesto de Avanzada #5",
       "Puesto de Avanzada #4",
       ]
+},
+  {
+    nombre: "Ruta futura 6",
+    color: "#737373",
+    puntos: [
+      "¿Puesto de Avanzada #34?",
+      "¿Puesto de Avanzada #33?",
+      "¿Puesto de Avanzada #32?",
+      "Puesto de Avanzada #4",
+      "Puesto de Avanzada #3",
+      ]
 }
 ].map(r => ({ ...r, nodos: r.puntos.map(t => porTitulo[t]).filter(Boolean) }));
 
